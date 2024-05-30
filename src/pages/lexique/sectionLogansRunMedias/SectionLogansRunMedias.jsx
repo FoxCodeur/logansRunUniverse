@@ -21,7 +21,6 @@ const SectionLogansRunMedias = () => {
           alt="Seuls deux romans ainsi que le film ont été traduits en français, Logan's run et Logan's World."
         />
       </div>
-      coucou
     </>
   );
 };

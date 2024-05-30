@@ -1,0 +1,22 @@
+.parallax-container {
+  position: relative;
+  border-radius: 10px;
+  height: 390px; /* Ajustez la hauteur en fonction de vos besoins */
+  overflow: hidden;
+
+  .afficheBarillet,
+  .coverBarillet {
+    position: absolute;
+    margin-top: 7rem;
+    top: -28%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+  }
+  .afficheBarillet {
+    width: 30%;
+  }
+  .coverBarillet {
+    width: 20%;
+  }
+}

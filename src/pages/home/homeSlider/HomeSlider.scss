@@ -1,0 +1,39 @@
+@use "src/styles/variables";
+.slider {
+  width: 940px;
+  overflow: hidden;
+  margin: auto;
+  .slides {
+    width: calc(940px * 2);
+    animation: glisse 14s infinite;
+    .slide {
+      float: left;
+    }
+  }
+}
+@keyframes glisse {
+  0% {
+    transform: translate(0);
+  }
+  10% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-940px);
+  }
+  80% {
+    transform: translate(-940px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+/*Maquette tablettes et écrans
+  (media=screen and max-width: 768px)*/
+
+@media screen and (max-width: 768px) {
+  .slider {
+    display: none;
+  }
+}

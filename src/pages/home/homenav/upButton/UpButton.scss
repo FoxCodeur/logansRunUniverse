@@ -1,0 +1,26 @@
+.btn_basis {
+  .faArrowUp {
+    font-size: 2rem;
+  }
+  height: 50px;
+  width: 50px;
+  background: rgba(0, 0, 139, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  cursor: pointer;
+  bottom: 20px;
+  right: 10px;
+  //   opacity: 60%;
+
+  //   visibility: hidden;
+  //   opacity: 0;
+  transition: 0.4s ease-in;
+}
+.btn-appear {
+  visibility: visible;
+  opacity: 1;
+}

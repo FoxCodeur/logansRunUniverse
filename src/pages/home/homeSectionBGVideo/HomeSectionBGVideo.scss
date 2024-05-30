@@ -1,0 +1,65 @@
+@use "src/styles/variables";
+.starring {
+  width: 20rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.shadowBallContainer {
+  position: relative;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.shadowBallContainer .ball {
+  position: absolute;
+  z-index: -10;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  background: radial-gradient(circle at 100px 100px, #5c9bff, #000000);
+  border-radius: 46%;
+  height: 32rem;
+  width: 52rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  animation: blinkingPalmFlower 3s linear infinite;
+}
+@keyframes blinkingPalmFlower {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.shadowBallContainer .ball2 {
+  position: absolute;
+  z-index: -11;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  background: radial-gradient(circle at 100px 100px, #000000, #5c9bff);
+  border-radius: 46%;
+  height: 32rem;
+  width: 52rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.accueilVideoBG {
+  height: 100%;
+}
+.accueilVideoBG .hollyBG {
+  width: 40%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 139, 0.7),
+    rgba(139, 0, 0, 0.7)
+  );
+  padding: 4px;
+}

@@ -1,0 +1,59 @@
+@use "src/styles/variables";
+
+.searchbarContainer {
+  width: 17rem;
+  border-radius: 40px;
+  background: white;
+  // animation sur la bordure avec gradient sur les trois couleurs bleu-rouge-noir.
+  &::after {
+    position: absolute;
+    content: "";
+    top: -4px;
+    left: -4px;
+    z-index: -1;
+    width: calc(100% + 4px * 2);
+    height: calc(100% + 4px * 2);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 139, 0.7),
+      rgba(139, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    );
+    background-size: 300% 100%;
+    background-position: 0% 50%;
+    border-radius: 40px;
+    animation: moveGradient 5s ease-in-out infinite;
+  }
+  .inputSearch {
+    width: 16rem;
+    display: flex;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    & input {
+      border: none;
+      font-size: 1rem;
+    }
+    .inputSearchIcon_Container {
+      padding-left: 1.3rem;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 33.33% 50%; /* Déplacer le gradient vers le milieu */
+  }
+  50% {
+    background-position: 66.67% 50%; /* Déplacer le gradient vers la droite */
+  }
+  75% {
+    background-position: 100% 50%; /* Ramener le gradient à gauche */
+  }
+  100% {
+    background-position: 0% 50%; /* Revenir à la position initiale */
+  }
+}

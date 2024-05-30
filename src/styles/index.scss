@@ -1,0 +1,199 @@
+@use "reset";
+@use "variables" as v;
+
+/* Styles de base pour la scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Largeur de la scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkred; /* Couleur du fond de la scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: white; /* Couleur de la piste de la scrollbar */
+}
+*::selection {
+  background: #000101;
+  color: #fefeff;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  overflow-x: hidden; /* Empêche le défilement horizontal */
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Revalia", sans-serif;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-family: "Orbitron", sans-serif;
+}
+
+img {
+  height: auto;
+}
+a {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+// fin du style général
+//les composants personnalisés
+.marginUpDownContainer {
+  position: relative;
+  margin: 2rem 0 2rem 0;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5rem;
+}
+.section_Container_Wihout_Padding {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+//style pour la liste de définitions du composant LEXIQUE
+.grid-list-search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.center_horizontally {
+  margin: 0 auto;
+}
+
+.box_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_center_with_Margin {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+.Icon_box_center {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+// les effet sur titres H2
+.fancy-undeline {
+  background-image: linear-gradient(120deg, #ed4264, #ffedbc 100%);
+  background-repeat: no-repeat;
+  background-size: 50% 0.2em;
+  background-position: 0 80%;
+  transition: background-size 0.25s ease-in;
+  border-radius: 15%;
+}
+
+.fancy-undeline:hover {
+  background-size: 100% 88% !important;
+}
+
+.tiret {
+  border: 4px solid green;
+  margin-top: 4rem;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 4rem;
+  opacity: 30%;
+  border-radius: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .tiret {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+.moreMargintiret {
+  border: 4px solid green;
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 70px;
+  opacity: 30%;
+  border-radius: 30%;
+}
+.grasParagraphe {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-right: 3px;
+}
+.firstLetter {
+  p::first-letter {
+    float: left;
+    font-size: 2.2rem;
+    padding-right: 0.2rem;
+  }
+}
+.badge {
+  margin-right: 0.3rem;
+  font-weight: 700;
+  font-size: medium;
+  line-height: 2;
+  color: #fff;
+  background-color: #6c757d;
+  border-radius: 0.25rem;
+  border: 2px solid black;
+}
+// class qui permet de faire apparaitre du texte à mesure que l'on scrolle
+.scroll-reveal span {
+  margin: 0;
+  color: hsla(0, 0%, 0%, 0);
+  background-clip: text;
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(90deg, rgb(0, 0, 0), black);
+  animation: scroll-reveal linear forwards;
+  animation-timeline: view();
+  animation-range-start: contain 9vh;
+  animation-range-end: contain 40vh;
+}
+@keyframes scroll-reveal {
+  to {
+    background-size: 100% 100%;
+  }
+}

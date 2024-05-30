@@ -1,0 +1,241 @@
+@use "src/styles/variables";
+.section-zero-flower {
+  background-color: variables.$backgroundSectionWhiteFlower;
+}
+.section-one-flower {
+  background-color: variables.$backgroundSectionyellowFlower;
+}
+.section-two-flower {
+  background-color: variables.$backgroundSectionBlueFlower;
+}
+.section-three-flower {
+  background-color: variables.$backgroundSectionRedFlower;
+}
+.section-four-flower {
+  background-color: variables.$backgroundSectionBlinkingRedFlower;
+}
+.section-five-flower {
+  background-color: variables.$backgroundSectionBlacklower;
+}
+.section-zero-flower,
+.section-one-flower,
+.section-two-flower,
+.section-three-flower,
+.section-four-flower,
+.section-five-flower {
+  height: 60vh;
+  transition: all 1s;
+}
+.section-zero-flower:hover,
+.section-one-flower:hover,
+.section-two-flower:hover,
+.section-three-flower:hover,
+.section-four-flower:hover,
+.section-five-flower:hover {
+  transform: scale(0.95);
+  background: radial-gradient(
+        circle at 100% 100%,
+        #ffffff 0,
+        #ffffff 6px,
+        transparent 6px
+      )
+      0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px)
+      100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px)
+      0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100%
+      100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 4px)
+      calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 16px)
+      calc(100% - 4px) no-repeat,
+    linear-gradient(0deg, transparent 0%, #000000 100%);
+  border-radius: 8px;
+  padding: 6px;
+}
+.flower-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  .left-flower-column {
+    padding: 0rem 2rem;
+    & h1 {
+      font-size: 3rem;
+    }
+    .text-flower {
+      //   font-family: "Orbitron", sans-serif;
+    }
+    .text-flower-effect {
+      animation: lights 5s 750ms linear infinite;
+    }
+    .text-flower-effect2 {
+      animation: lights2 5s 750ms linear infinite;
+    }
+    .text-flower-effect3 {
+      animation: lights3 5s 750ms linear infinite;
+    }
+    & p {
+      font-size: 1rem;
+      line-height: 1.1;
+      text-transform: uppercase;
+    }
+  }
+  .right-flower-column {
+    position: relative;
+    .organic-flower {
+      width: 100%;
+      height: 100%;
+      max-width: 250px;
+    }
+    .blinking-flower {
+      position: absolute;
+      left: 0;
+      animation: blink 1.5s infinite;
+    }
+  }
+  @keyframes blink {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+  @keyframes lights {
+    0% {
+      color: hsl(0, 0%, 0%);
+      text-shadow: 0 0 1em hsla(117, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+
+    30% {
+      color: hsl(0, 0%, 0%);
+      text-shadow: 0 0 1em hsla(240, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    40% {
+      color: hsl(0, 0%, 0%);
+      text-shadow: 0 0 1em hsla(240, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+
+    70% {
+      color: hsl(0, 0%, 0%);
+      text-shadow: 0 0 1em hsla(240, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    100% {
+      color: hsl(0, 0%, 0%);
+      text-shadow: 0 0 1em hsla(240, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+  }
+  /* --------------------------------------------------------------------- */
+  .text-flower-effect2 {
+    animation: lights2 5s 750ms linear infinite;
+  }
+
+  @keyframes lights2 {
+    0% {
+      color: black;
+      text-shadow: 0 0 1em hsla(120, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+
+    30% {
+      color: black;
+      text-shadow: 0 0 1em hsla(120, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    40% {
+      color: black;
+      text-shadow: 0 0 1em hsla(120, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+
+    70% {
+      color: black;
+      text-shadow: 0 0 1em hsla(120, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    100% {
+      color: black;
+      text-shadow: 0 0 1em hsla(120, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+  }
+  /* -------------------------------------------------------------------- */
+  .text-flower-effect3 {
+    animation: lights3 5s 750ms linear infinite;
+  }
+  @keyframes lights {
+    0% {
+      color: black;
+      text-shadow: 0 0 1em hsla(300, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+
+    30% {
+      color: black;
+      text-shadow: 0 0 1em hsla(300, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    40% {
+      color: black;
+      text-shadow: 0 0 1em hsla(300, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+
+    70% {
+      color: black;
+      text-shadow: 0 0 1em hsla(300, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    100% {
+      color: black;
+      text-shadow: 0 0 1em hsla(300, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+  }
+}

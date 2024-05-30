@@ -1,0 +1,22 @@
+@use "src/styles/variables";
+.section_Container_Wihout_Padding {
+  .lexique_Circle_width {
+    width: 8rem;
+    padding-bottom: 5rem;
+  }
+  @media screen and (max-width: 749px) {
+    .lexique_Circle_width {
+      display: none;
+    }
+  }
+  .bandeau_lg {
+    width: 15%;
+    height: 15%;
+  }
+  @media screen and (max-width: 749px) {
+    .bandeau_lg {
+      width: 80%;
+      height: 80%;
+    }
+  }
+}

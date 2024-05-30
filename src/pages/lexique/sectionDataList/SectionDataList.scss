@@ -1,0 +1,12 @@
+@use "src/styles/variables";
+.list-search-style {
+  transition: 0.9s all;
+  text-decoration: none;
+  color: steelblue;
+  font-weight: bolder;
+  line-height: 1.2;
+  margin: 0 10px;
+}
+.list-search-style:hover {
+  color: #b40d0d;
+}

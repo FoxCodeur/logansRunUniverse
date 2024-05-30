@@ -1,0 +1,84 @@
+@use "src/styles/variables";
+.sectionContainer {
+  display: flex;
+  flex-wrap: wrap;
+
+  .dbMoviesHome_sectionGauche {
+    width: 30%;
+    & img {
+      // bordure dégradée rouge vers bleu
+      background: radial-gradient(
+            circle at 100% 100%,
+            #ffffff 0,
+            #ffffff 3px,
+            transparent 3px
+          )
+          0% 0%/8px 8px no-repeat,
+        radial-gradient(
+            circle at 0 100%,
+            #ffffff 0,
+            #ffffff 3px,
+            transparent 3px
+          )
+          100% 0%/8px 8px no-repeat,
+        radial-gradient(
+            circle at 100% 0,
+            #ffffff 0,
+            #ffffff 3px,
+            transparent 3px
+          )
+          0% 100%/8px 8px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px)
+          100% 100%/8px 8px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 10px)
+          calc(100% - 16px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 16px)
+          calc(100% - 10px) no-repeat,
+        linear-gradient(29deg, transparent 0%, #8b1e1e 100%),
+        linear-gradient(#ffffff 0%, #48abe0 100%);
+      // End bordure dégradée rouge vers bleu
+      border-radius: 8px;
+      padding: 9px;
+      border-radius: 8px;
+      float: right;
+      width: 70%;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .dbMoviesHome_sectionDroite {
+    background-color: rgba(7, 139, 0, 0.2);
+    border-left: 4px solid rgba(139, 0, 0, 0.504);
+    box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+    padding: 1rem;
+    border-radius: 10px 250px 70px 10px;
+    width: calc(70% - 20px); // Prend 70% de largeur moins la marge
+    margin-left: 20px; // Ajoutez un espace entre les deux sections sur grand écran
+    // width: 30%;
+    margin-bottom: 1rem;
+    & P {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .tagline {
+      font-weight: 700;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .dbMoviesHome_sectionDroite {
+      width: 100%; // Occupe toute la largeur en mode colonne
+      margin-left: 0; // Retirez la marge pour la disposition en colonne
+      margin-top: 20px; // Ajoutez un espace entre les sections en mode colonne
+    }
+    .dbMoviesHome_sectionGauche {
+      width: 30%;
+      & img {
+        border: 1px solid black;
+        float: none;
+        width: 400px;
+        max-width: 400px;
+      }
+    }
+  }
+}

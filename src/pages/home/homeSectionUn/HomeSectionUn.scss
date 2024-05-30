@@ -1,0 +1,62 @@
+@use "src/styles/variables";
+
+.sectionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+
+  .sectionUnGauche {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .sectionUnDroite {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .afficheAgeDeCristal {
+      padding: 5px;
+      border-radius: 5px;
+      background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0.7) 25%,
+        rgba(139, 0, 0, 0.7) 75%
+      );
+      background-size: 200% 200%;
+      animation: pulseGradient 2s ease-in-out infinite;
+
+      .nouvelleEdition {
+        width: 25rem;
+        margin: 2px;
+      }
+    }
+  }
+
+  @keyframes pulseGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    .sectionUnGauche {
+      width: 95%;
+    }
+
+    .sectionUnDroite {
+      width: 95%;
+      margin: 20px auto;
+    }
+  }
+}

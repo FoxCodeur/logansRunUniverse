@@ -1,0 +1,26 @@
+@use "src/styles/variables";
+.sectionQuatreContainer {
+  position: relative;
+  padding-top: 7.5rem;
+
+  @media only screen and (max-width: 767px) {
+    padding-top: 0;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .conceptart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .conceptartWidth {
+      margin-top: 2rem;
+      width: 22rem;
+      z-index: -1; /* Assure que les images soient au-dessus de la vidéo */
+    }
+  }
+}

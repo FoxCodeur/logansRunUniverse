@@ -1,0 +1,21 @@
+@use "src/styles/variables";
+.cityMaquetContainer {
+  display: flex;
+  flex-direction: column;
+  .cityMaquetBorder {
+    margin-top: 1rem;
+    border-radius: 10px; /* Bordure arrondie */
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 139, 0.7),
+      rgba(139, 0, 0, 0.7)
+    );
+    padding: 4px; /* Ajustement du remplissage pour que le contenu ne soit pas coupé */
+    .cityMaquet {
+      width: 450px;
+      padding-top: 2px;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+  }
+}

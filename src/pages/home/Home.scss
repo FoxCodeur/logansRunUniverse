@@ -1,0 +1,13 @@
+// styles.scss
+
+@use "src/styles/variables";
+
+.homeContainer {
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+  @media screen and (max-width: 768px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

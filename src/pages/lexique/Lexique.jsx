@@ -6,6 +6,7 @@ import SectionDataList from "./sectionDataList/SectionDataList";
 // importation du tableau data qui contient toutes les définitions de l'application.
 import data from "../../data.json";
 import SectionLogansRunMedias from "./sectionLogansRunMedias/SectionLogansRunMedias";
+import SectionLexique from "./sectionLexique/SectionLexique";
 
 const Lexique = () => {
   return (
@@ -14,6 +15,7 @@ const Lexique = () => {
       <SectionTitreResume />
       <SectionDataList data={data} />
       <SectionLogansRunMedias />
+      <SectionLexique />
     </div>
   );
 };

@@ -4,6 +4,7 @@
         "id": 1,
         "titre": "Les acteurs du film",
         "image": "./assets/images/images-générales/logans_run_actors.png",
+        "imageMedia":["./assets/images/icones/film_logans_run.png"],
         "rubriques": {
           "autres_identites": "",
           "categories": "acteurs de cinéma",
@@ -15,6 +16,7 @@
         "id": 2,
         "titre": "Adam-1",
         "image": "./assets/images/images-générales/title_logans_run.png",
+        "imageMedia":["./assets/images/icones/bluewater.png"],
         "rubriques": {
           "autres_identites": "le premier enfant",
           "categories": "transhumain",
@@ -26,6 +28,7 @@
         "id": 3,
         "titre": "Adventure Comics",
         "image": "./assets/images/images-générales/logans_run_adventure_comics.png",
+        "imageMedia":["./assets/images/icones/adventure_comics.png"],
         "rubriques": {
           "autres_identites": "comic book",
           "categories": "transhumain",
@@ -37,6 +40,10 @@
         "id": 4,
         "titre": "Mecha-Eagle",
         "image": "./assets/images/images-générales/mecha_eagle.png",
+        "imageMedia":[
+        "./assets/images/icones/adventure_comics.png",
+        "./assets/images/icones/roman_logans_run.png"
+      ],
         "rubriques": {
           "autres_identites": "robotic Eagle",
           "categories": "Machine",
@@ -48,6 +55,10 @@
         "id": 5,
         "titre": "Albert 6",
         "image": "./assets/images/images-générales/albert.png",
+        "imageMedia":[
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png"
+        ],
         "rubriques": {
           "autres_identites": "doudou espion",
           "categories": "Machine empathique",
@@ -59,6 +70,10 @@
         "id": 6,
         "titre": "Andar",
         "image": "./assets/images/images-générales/andar.png",
+        "imageMedia":[
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_world.png"
+        ],
         "rubriques": {
           "autres_identites": "l'initié",
           "categories": "transhumain, mutant",
@@ -70,6 +85,13 @@
         "id": 7,
         "titre": "Ankh",
         "image": "./assets/images/images-générales/Ankh.png",
+        "imageMedia":[
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/marvel.png",
+          "./assets/images/icones/film_logans_run.png",
+          "./assets/images/icones/roman_logans_world.png"
+        ],
         "rubriques": {
           "autres_identites": "la croix de vie, la clé du passage",
           "categories": "objet",
@@ -81,6 +103,13 @@
         "id": 8,
         "titre": "Arcade",
         "image": "./assets/images/images-générales/arcade.png",
+        "imageMedia":[
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/marvel.png",
+          "./assets/images/icones/film_logans_run.png",
+          "./assets/images/icones/roman_logans_world.png"
+        ],
         "rubriques": {
           "autres_identites": "secteur Arcade",
           "categories": "lieu",
@@ -92,6 +121,12 @@
         "id": 9,
         "titre": "Argos",
         "image": "./assets/images/images-générales/argos.png",
+        "imageMedia":[
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png",
+          "./assets/images/icones/roman_logans_world.png"
+        ],
         "rubriques": {
           "autres_identites": "Argos, colonie de l'espace, station spatiale martienne ",
           "categories": "lieu",

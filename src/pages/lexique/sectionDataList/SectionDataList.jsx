@@ -56,6 +56,7 @@ const SectionDataList = ({ data }) => {
           </li>
         ))}
       </ul>
+      <div className="tiret"></div>
     </>
   );
 };

@@ -7,6 +7,7 @@ import SectionDataList from "./sectionDataList/SectionDataList";
 import data from "../../data.json";
 import SectionLogansRunMedias from "./sectionLogansRunMedias/SectionLogansRunMedias";
 import SectionLexique from "./sectionLexique/SectionLexique";
+import SectionAnimatedCardLexique from "./sectionAnimatedCardLexique/SectionAnimatedCardLexique";
 
 const Lexique = () => {
   return (
@@ -16,6 +17,7 @@ const Lexique = () => {
       <SectionDataList data={data} />
       <SectionLogansRunMedias />
       <SectionLexique />
+      <SectionAnimatedCardLexique />
     </div>
   );
 };

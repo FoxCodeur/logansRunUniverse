@@ -154,3 +154,10 @@ easing : Pour spécifier une fonction d'assouplissement (easing function) pour l
 startScroll : Pour définir le point de départ du scroll pour l'effet de parallaxe.
 endScroll : Pour définir le point de fin du scroll pour l'effet de parallaxe.
 disabled : Pour désactiver l'effet de parallaxe.
+--------------------------------------------------------------------------------------
+Mise en place du LEXIQUE
+Le lexique comprend trois composants:
+    1. LexiqueSearchBar (la barre de recherche qui va nous permettre d'effectuer des recherches de définitions spécifiques dans le composant SectionDatalist.)
+    2. SectionDatalist, qui comprend la liste des définition avec le routage approprié lorsqu'on clique sur l'un de ses mots.
+    3. SectionLexique. Ce lexique classé par ordre alphabétique contient l'ensemble des définitions toutes basées sur l'univers de Logan's run.
+                                -------

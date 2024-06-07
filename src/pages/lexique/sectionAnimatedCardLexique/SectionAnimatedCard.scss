@@ -1,0 +1,91 @@
+@use "src/styles/variables";
+
+.wrapperAnimatedCard {
+  width: 75%;
+  margin: auto;
+  border-radius: 25%;
+  background: rgba(0, 100, 0, 0.2);
+  box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  .AnimatedCardContainer {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+
+    input {
+      display: none;
+    }
+
+    input:checked + label {
+      width: 600px;
+    }
+
+    input:checked + label .description {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+    }
+
+    /* Sélecteur corrigé */
+    label[for="c1"] {
+      background-image: url("../../../assets/images/plaquette-lexique/phaseBlanche.png");
+    }
+    label[for="c2"] {
+      background-image: url("../../../assets/images/plaquette-lexique/phaseJaune.png");
+    }
+    label[for="c3"] {
+      background-image: url("../../../assets/images/plaquette-lexique/phaseBleu.png");
+    }
+    label[for="c4"] {
+      background-image: url("../../../assets/images/plaquette-lexique/phaseRouge.png");
+    }
+    label[for="c5"] {
+      background-image: url("../../../assets/images/plaquette-lexique/phaseRougeClignotant.png");
+    }
+    label[for="c6"] {
+      background-image: url("../../../assets/images/plaquette-lexique/phaseNoir.png");
+    }
+
+    .LexiqueCard {
+      width: 80px;
+      border-radius: 0.75rem;
+      background-size: cover;
+      cursor: pointer;
+      overflow: hidden;
+      border-radius: 2rem;
+      margin: 0 10px;
+      display: flex;
+      align-items: flex-end;
+      transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
+      box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+
+      .row {
+        color: white;
+        display: flex;
+        flex-wrap: nowrap;
+
+        .icon {
+          background-color: #223;
+          color: white;
+          border-radius: 50%;
+          width: 50px;
+          margin: 15px;
+        }
+
+        .description {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          overflow: hidden;
+          height: 80px;
+          width: 520px;
+          opacity: 0;
+          transform: translateY(30px);
+          transition-delay: 0.3s;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}

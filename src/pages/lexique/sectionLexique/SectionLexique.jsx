@@ -1,6 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./SectionLexique.scss";
+import bluewaterComics from "../../../assets/images/icones/bluewater.png";
+import adventureComics from "../../../assets/images/icones/adventure_comics.png";
+import marvelComics from "../../../assets/images/icones/marvel.png";
+import logansrunNovel from "../../../assets/images/icones/roman_logans_run.png";
+import logansrunSequel from "../../../assets/images/icones/roman_logans_world.png";
+import logansrunMovie from "../../../assets/images/icones/film_logans_run.png";
 import data from "../../../data.json";
 
 const SectionLexique = () => {
@@ -29,7 +35,7 @@ const SectionLexique = () => {
   const sectionWData = data.W;
   return (
     <div className="lexique">
-      {/* -------------------------------------------------------------------------- */}
+      {/* ------------------------------------------------------------------------ */}
       <div className="set">
         <h2 id="A" className="letter">
           A
@@ -56,7 +62,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* ---------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionAData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -71,13 +77,15 @@ const SectionLexique = () => {
               >
                 {sectionAData[key].titre}
               </NavLink>
+              <div className="les_medias_logans_run"></div>
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* -------------------------------------------------------------- */}
+          {/* -------------------------------------------------------------- */}
         </ul>
-        {/* -------------------------------------------------------------------------- */}
       </div>
-      {/* -------------------------------------------------------------------------- */}
+      {/* ------------------------------------------------------------------------------ */}
       <div className="set">
         <h2 id="B" className="letter">
           B
@@ -104,7 +112,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ------------------------------------------------------------------------ */}
+        {/* --------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionBData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -119,13 +127,14 @@ const SectionLexique = () => {
               >
                 {sectionBData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run"></div>
             </div>
           ))}
+          {/* ---------------------------------------------------------------- */}
+          {/* ---------------------------------------------------------------- */}
         </ul>
-        {/* ------------------------------------------------------------------------ */}
       </div>
-      {/* -------------------------------------------------------------------------- */}
+      {/* ------------------------------------------------------------------------------ */}
       <div className="set">
         <h2 id="C" className="letter">
           C{/* emplacement de l'initiale */}
@@ -167,13 +176,15 @@ const SectionLexique = () => {
               >
                 {sectionCData[key].titre}
               </NavLink>
+              <div className="les_medias_logans_run"></div>
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* -------------------------------------------------------------------------- */}
+      {/* ------------------------------------------------------------------------------ */}
       <div className="set">
         <h2 id="D" className="letter">
           D{/* emplacement de l'initiale */}
@@ -215,13 +226,15 @@ const SectionLexique = () => {
               >
                 {sectionDData[key].titre}
               </NavLink>
+              <div className="les_medias_logans_run"></div>
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* --------------------------------------------------------------- */}
+          {/* --------------------------------------------------------------- */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* --------------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="E" className="letter">
           E{/* emplacement de l'initiale */}
@@ -263,13 +276,15 @@ const SectionLexique = () => {
               >
                 {sectionEData[key].titre}
               </NavLink>
+              <div className="les_medias_logans_run"></div>
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* -------------------------------------------------------------- */}
+          {/* -------------------------------------------------------------- */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ------------------------------------------------------------------------------ */}
       <div className="set">
         <h2 id="F" className="letter">
           F{/* emplacement de l'initiale */}
@@ -296,7 +311,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* ---------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -314,10 +329,14 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ---------------------------------------------------------------- */}
+          <div className="spoiler">
+            <div className="les_medias_logans_run"></div>
+          </div>
+          {/* ---------------------------------------------------------------- */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ------------------------------------------------------------------------------ */}
       <div className="set">
         <h2 id="G" className="letter">
           G{/* emplacement de l'initiale */}
@@ -344,7 +363,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* ---------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -362,10 +381,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ------------------------------------------------------------------------------ */}
       <div className="set">
         <h2 id="H" className="letter">
           H{/* emplacement de l'initiale */}
@@ -392,7 +412,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* ---------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -410,10 +430,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ------------------------------------------------------------------------------ */}
       <div className="set">
         <h2 id="I" className="letter">
           I{/* emplacement de l'initiale */}
@@ -440,7 +461,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* ---------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -458,10 +479,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ------------------------------------------------------------------------------ */}
       <div className="set">
         <h2 id="J" className="letter">
           J{/* emplacement de l'initiale */}
@@ -488,7 +510,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* ---------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -506,10 +528,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ------------------------------------------------------------------------------ */}
       <div className="set">
         <h2 id="K" className="letter">
           K{/* emplacement de l'initiale */}
@@ -536,7 +559,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -554,10 +577,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="L" className="letter">
           L{/* emplacement de l'initiale */}
@@ -584,7 +608,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -602,10 +626,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="M" className="letter">
           M{/* emplacement de l'initiale */}
@@ -632,7 +657,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -650,10 +675,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="N" className="letter">
           N{/* emplacement de l'initiale */}
@@ -680,7 +706,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -698,10 +724,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="O" className="letter">
           O{/* emplacement de l'initiale */}
@@ -728,7 +755,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -746,10 +773,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="P" className="letter">
           P{/* emplacement de l'initiale */}
@@ -776,7 +804,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -794,10 +822,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="Q" className="letter">
           Q{/* emplacement de l'initiale */}
@@ -824,7 +853,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -842,10 +871,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="R" className="letter">
           R{/* emplacement de l'initiale */}
@@ -872,7 +902,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -890,10 +920,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="S" className="letter">
           S{/* emplacement de l'initiale */}
@@ -920,7 +951,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -938,10 +969,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="T" className="letter">
           T{/* emplacement de l'initiale */}
@@ -968,7 +1000,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -986,10 +1018,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="U" className="letter">
           U{/* emplacement de l'initiale */}
@@ -1016,7 +1049,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -1034,10 +1067,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="V" className="letter">
           V{/* emplacement de l'initiale */}
@@ -1064,7 +1098,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -1082,10 +1116,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="W" className="letter">
           W{/* emplacement de l'initiale */}
@@ -1112,7 +1147,7 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
         <ul className="spoilerContainer">
           {/* Object.keys(sectionCData) récupère les clés de l'objet sectionAData. */}
           {/* .map((key, index) => { ... }) applique une fonction à chaque clé de l'objet,
@@ -1130,10 +1165,11 @@ const SectionLexique = () => {
               {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
             </div>
           ))}
+          {/* ------------------------------------------------------------------ */}
+          {/* ------------------------------------------------------------------ */}
         </ul>
-        {/* ----------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="X" className="letter">
           X{/* emplacement de l'initiale */}
@@ -1160,11 +1196,9 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
-
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="Y" className="letter">
           Y{/* emplacement de l'initiale */}
@@ -1191,10 +1225,10 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
       </div>
-      {/* ------------------------------------------------------------------------ */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="set">
         <h2 id="Z" className="letter">
           Z{/* emplacement de l'initiale */}
@@ -1221,8 +1255,8 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* ----------------------------------------------------------------------- */}
-        {/* ----------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------------- */}
       </div>
     </div>
   );

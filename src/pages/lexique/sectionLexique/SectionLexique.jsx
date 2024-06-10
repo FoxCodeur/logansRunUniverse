@@ -33,6 +33,7 @@ const SectionLexique = () => {
   const sectionUData = data.U;
   const sectionVData = data.V;
   const sectionWData = data.W;
+
   return (
     <div className="lexique">
       {/* ------------------------------------------------------------------------ */}
@@ -78,7 +79,19 @@ const SectionLexique = () => {
                 {sectionAData[key].titre}
               </NavLink>
               <div className="les_medias_logans_run"></div>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionAData[key].imageMedia.map((image, idx) => (
+                  <img
+                    key={idx}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                    onError={(e) =>
+                      console.error("Erreur de chargement de l'image", e)
+                    }
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* -------------------------------------------------------------- */}
@@ -127,7 +140,19 @@ const SectionLexique = () => {
               >
                 {sectionBData[key].titre}
               </NavLink>
-              <div className="les_medias_logans_run"></div>
+              <div className="les_medias_logans_run">
+                {sectionBData[key].imageMedia.map((image, idx) => (
+                  <img
+                    key={idx}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                    onError={(e) =>
+                      console.error("Erreur de chargement de l'image", e)
+                    }
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ---------------------------------------------------------------- */}

@@ -6,8 +6,9 @@ const SectionAnimatedCardLexique = () => {
   return (
     <>
       <div className="moreMargintiret"></div>
+
       <div className="box_center">
-        <img src={traitvertical} alt="trait vert vertical" />
+        <h2 className="reliefTitle">La loi du sommeil</h2>
       </div>
       <div className="wrapperAnimatedCard box_center">
         <div className="AnimatedCardContainer">

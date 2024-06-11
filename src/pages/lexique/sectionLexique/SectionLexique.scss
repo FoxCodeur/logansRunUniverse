@@ -4,16 +4,15 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   margin: 0 7rem 4rem 7rem;
-  padding: 0 5px 0 5px;
   .set {
     .les_medias_logans_run {
       .icon-image {
-        width: 2.5rem;
+        width: 2rem;
       }
     }
     display: inline-block;
-    border-left: 1px solid rgba(0, 128, 0, 0.7);
-    border-right: 1px solid rgba(0, 128, 0, 0.7);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     width: 100%;
     .chevron-up-down {
       float: right;
@@ -24,9 +23,11 @@
       top: 0;
       color: darkgreen;
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 1.6rem;
+      font-weight: 500;
+      padding: 0.5rem;
       background-color: lightblue;
-      border: 1px dotted blue;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     }
     .spoilerContainer {
       padding-left: 2.5rem;
@@ -36,7 +37,13 @@
 
         .teaser {
           font-family: raleway;
-          font-size: 1.3em;
+          font-size: 1.7em;
+          font-weight: 400;
+          text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc,
+            1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee,
+            4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc,
+            4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee,
+            7px 6px 1px #ccc;
         }
       }
       .spoiler:hover {

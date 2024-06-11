@@ -1,12 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./SectionLexique.scss";
-import bluewaterComics from "../../../assets/images/icones/bluewater.png";
-import adventureComics from "../../../assets/images/icones/adventure_comics.png";
-import marvelComics from "../../../assets/images/icones/marvel.png";
-import logansrunNovel from "../../../assets/images/icones/roman_logans_run.png";
-import logansrunSequel from "../../../assets/images/icones/roman_logans_world.png";
-import logansrunMovie from "../../../assets/images/icones/film_logans_run.png";
 import data from "../../../data.json";
 
 const SectionLexique = () => {
@@ -80,9 +74,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run"></div>
               <div className="les_medias_logans_run">
-                {sectionAData[key].imageMedia.map((image, idx) => (
+                {sectionAData[key].imageMedia.map((image, imageIndex) => (
                   <img
-                    key={idx}
+                    key={imageIndex}
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -141,9 +135,9 @@ const SectionLexique = () => {
                 {sectionBData[key].titre}
               </NavLink>
               <div className="les_medias_logans_run">
-                {sectionBData[key].imageMedia.map((image, idx) => (
+                {sectionBData[key].imageMedia.map((image, imageIndex) => (
                   <img
-                    key={idx}
+                    key={imageIndex}
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -201,8 +195,16 @@ const SectionLexique = () => {
               >
                 {sectionCData[key].titre}
               </NavLink>
-              <div className="les_medias_logans_run"></div>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionCData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -251,8 +253,16 @@ const SectionLexique = () => {
               >
                 {sectionDData[key].titre}
               </NavLink>
-              <div className="les_medias_logans_run"></div>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionDData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* --------------------------------------------------------------- */}
@@ -301,8 +311,16 @@ const SectionLexique = () => {
               >
                 {sectionEData[key].titre}
               </NavLink>
-              <div className="les_medias_logans_run"></div>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionEData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* -------------------------------------------------------------- */}
@@ -351,7 +369,16 @@ const SectionLexique = () => {
               >
                 {sectionFData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionFData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ---------------------------------------------------------------- */}
@@ -403,7 +430,16 @@ const SectionLexique = () => {
               >
                 {sectionGData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionGData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -452,7 +488,16 @@ const SectionLexique = () => {
               >
                 {sectionHData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionHData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -501,7 +546,16 @@ const SectionLexique = () => {
               >
                 {sectionIData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionIData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -550,7 +604,16 @@ const SectionLexique = () => {
               >
                 {sectionJData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionJData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -599,7 +662,16 @@ const SectionLexique = () => {
               >
                 {sectionKData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionKData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -648,7 +720,16 @@ const SectionLexique = () => {
               >
                 {sectionLData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionLData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -697,7 +778,16 @@ const SectionLexique = () => {
               >
                 {sectionMData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionMData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -746,7 +836,16 @@ const SectionLexique = () => {
               >
                 {sectionNData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionNData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -795,7 +894,16 @@ const SectionLexique = () => {
               >
                 {sectionOData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionOData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -844,7 +952,16 @@ const SectionLexique = () => {
               >
                 {sectionPData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionPData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -893,7 +1010,16 @@ const SectionLexique = () => {
               >
                 {sectionQData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionQData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -942,7 +1068,16 @@ const SectionLexique = () => {
               >
                 {sectionRData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionRData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -991,7 +1126,16 @@ const SectionLexique = () => {
               >
                 {sectionSData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionSData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -1040,7 +1184,16 @@ const SectionLexique = () => {
               >
                 {sectionTData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionTData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -1089,7 +1242,16 @@ const SectionLexique = () => {
               >
                 {sectionUData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionUData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -1138,7 +1300,16 @@ const SectionLexique = () => {
               >
                 {sectionVData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionVData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -1187,7 +1358,16 @@ const SectionLexique = () => {
               >
                 {sectionWData[key].titre}
               </NavLink>
-              {/* <div className="contenu">{sectionAData[key].rubriques.contenu}</div> */}
+              <div className="les_medias_logans_run">
+                {sectionWData[key].imageMedia.map((image, imageIndex) => (
+                  <img
+                    key={imageIndex}
+                    src={image}
+                    alt="icon"
+                    className="icon-image"
+                  />
+                ))}
+              </div>
             </div>
           ))}
           {/* ------------------------------------------------------------------ */}
@@ -1221,66 +1401,6 @@ const SectionLexique = () => {
             </a>
           </span>
         </h2>
-        {/* -------------------------------------------------------------------- */}
-      </div>
-      {/* ---------------------------------------------------------------------- */}
-      <div className="set">
-        <h2 id="Y" className="letter">
-          Y{/* emplacement de l'initiale */}
-          <span className="chevron-up-down">
-            <a href="#Z">
-              <svg
-                width="21px"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 448 512"
-              >
-                <path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z" />
-              </svg>
-            </a>
-          </span>
-          <span className="chevron-up-down">
-            <a href="#X">
-              <svg
-                width="21px"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 448 512"
-              >
-                <path d="M416 352c-8.188 0-16.38-3.125-22.62-9.375L224 173.3l-169.4 169.4c-12.5-12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l192-192c12.5-12.5 32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25C432.4 348.9 424.2 352 416 352z" />
-              </svg>
-            </a>
-          </span>
-        </h2>
-        {/* -------------------------------------------------------------------- */}
-        {/* -------------------------------------------------------------------- */}
-      </div>
-      {/* ---------------------------------------------------------------------- */}
-      <div className="set">
-        <h2 id="Z" className="letter">
-          Z{/* emplacement de l'initiale */}
-          <span className="chevron-up-down">
-            <a href="#Z">
-              <svg
-                width="21px"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 448 512"
-              >
-                <path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z" />
-              </svg>
-            </a>
-          </span>
-          <span className="chevron-up-down">
-            <a href="#W">
-              <svg
-                width="21px"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 448 512"
-              >
-                <path d="M416 352c-8.188 0-16.38-3.125-22.62-9.375L224 173.3l-169.4 169.4c-12.5-12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l192-192c12.5-12.5 32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25C432.4 348.9 424.2 352 416 352z" />
-              </svg>
-            </a>
-          </span>
-        </h2>
-        {/* -------------------------------------------------------------------- */}
         {/* -------------------------------------------------------------------- */}
       </div>
     </div>

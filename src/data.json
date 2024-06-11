@@ -50,7 +50,7 @@
       },
       "Mecha Eagle": {
         "id": 5,
-        "titre": "Mecha-Eagle",
+        "titre": "aigle-mécanique",
         "image": "./src/assets/images/images-générales/mecha_eagle.png",
         "imageMedia":[
         "./src/assets/images/icones/adventure_comics.png",

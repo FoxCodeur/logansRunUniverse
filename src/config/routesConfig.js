@@ -7,12 +7,14 @@ import Home from "../pages/home/Home";
 import Lexique from "../pages/lexique/Lexique";
 import Timeline from "../pages/timeline/Timeline";
 import Games from "../pages/games/Games";
+import Acteurs from "../pages/articles/A/acteurs/Acteurs";
 
 const routesConfig = [
   { path: "/", element: Home, exact: true },
   { path: "/lexique", element: Lexique },
   { path: "/timelines", element: Timeline },
   { path: "games", element: Games },
+  { path: "les-acteurs-du-film", element: Acteurs },
 ];
 
 export default routesConfig;

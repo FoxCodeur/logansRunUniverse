@@ -178,16 +178,6 @@ a {
     padding-right: 0.2rem;
   }
 }
-.badge {
-  margin-right: 0.3rem;
-  font-weight: 700;
-  font-size: medium;
-  line-height: 2;
-  color: #fff;
-  background-color: #6c757d;
-  border-radius: 0.25rem;
-  border: 2px solid black;
-}
 // class qui permet de faire apparaitre du texte à mesure que l'on scrolle
 .scroll-reveal span {
   margin: 0;
@@ -205,4 +195,16 @@ a {
   to {
     background-size: 100% 100%;
   }
+}
+.borderAffiches {
+  margin-right: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0.7) 45%,
+    rgba(0, 23, 139, 0.7) 75%
+  );
+  background-size: 200% 200%;
+  animation: pulseGradient 2s ease-in-out infinite;
 }

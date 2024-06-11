@@ -1,0 +1,74 @@
+@use "src/styles/variables";
+.acteurs {
+  padding: 2rem 0 2rem 0;
+  #mise_en_forme_retour_sommaire {
+    display: flex;
+  }
+  .mise_en_forme_retour_sommaire_margin_left {
+    margin-left: 15rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    .retour_sommaire {
+      .separator {
+        padding-right: 0.3rem;
+      }
+    }
+  }
+  .personnage {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .glossaire {
+    .illustration {
+      .gallery {
+        padding: 5px;
+        border-radius: 5px;
+        background: linear-gradient(
+          270deg,
+          rgba(0, 0, 0, 0.7) 25%,
+          rgba(139, 0, 0, 0.7) 75%
+        );
+        background-size: 200% 200%;
+        animation: pulseGradient 2s ease-in-out infinite;
+      }
+    }
+    .definition {
+      background-color: rgba(0, 21, 139, 0.2);
+      border-left: 4px solid rgba(139, 0, 0, 0.504);
+      box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+      padding: 1rem;
+      border-radius: 10px 250px 70px 10px;
+      width: calc(60% - 50px); // Prend 70% de largeur moins la marge
+      margin: 1rem 0 1rem 1rem;
+      font-size: 1.2rem;
+
+      @media (max-width: 768px) {
+        margin-top: 2rem;
+        width: 95%;
+        border-radius: 0;
+      }
+      .badge {
+        padding: 0.15rem;
+        background-color: rgba(139, 0, 0, 0.7);
+        font-weight: 700;
+        font-size: 1.15rem;
+        line-height: 2;
+        color: #fff;
+        border-radius: 0.25rem;
+        border: 2px solid black;
+      }
+      .badge_def {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+    }
+    // Glossaire style
+    column-count: 2;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8rem;
+    @media (max-width: 768px) {
+      padding-left: 1rem;
+    }
+  }
+}

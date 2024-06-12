@@ -2,8 +2,11 @@ import React from "react";
 import "./Acteurs.scss";
 import { NavLink } from "react-router-dom";
 import acteurs from "../../../../assets/images/images-générales/logans_run_actors.png";
+import data from "../../../../data.json";
+import { formatTextWithLineBreaks } from "../../../../utils";
 
 const Acteurs = () => {
+  const acteursData = data.A["acteurs du film"];
   return (
     <div className="acteurs">
       <ol
@@ -14,48 +17,36 @@ const Acteurs = () => {
           <NavLink to="/lexique">Sommaire</NavLink>
           <span className="separator"> /</span>
         </li>
-        <li>Les acteurs du film</li>
+        <li>{acteursData.titre}</li>
       </ol>
-
-      <h1 className="personnage">Les acteurs du film</h1>
-
+      <h1 className="personnage">{acteursData.titre}</h1>
       <section className="glossaire">
         <div className="illustration">
           <img
-            alt="les acteurs du film"
-            src={acteurs}
+            alt={acteursData.titre}
+            src={acteursData.image}
             className="borderAffiches"
           />
         </div>
 
         <div className="definition">
-          <span className="badge">Autres identités</span>{" "}
-          <span className="badge_def"></span>
-          <br />
-          <span className="badge">Catégorie</span>{" "}
-          <span className="badge_def">acteurs de cinéma</span>
-          <br />
-          <span className="badge">Apparitions</span>{" "}
-          <span className="badge_def">film l'Âge de cristal, Logan's run</span>
-          <br />
-          <br />
-          Jenny Agutter (VF : Pascale Brouillard) : Jessica 6
-          <br />
-          Michael York (VF : Philippe Étesse) : Logan 5<br />
-          Richard Jordan (VF : Bernard Alane) : Francis 7<br />
-          Michael Anderson Jr. (VF : François Leccia) : Doc
-          <br />
-          Gary Morgan : Billy Charming
-          <br />
-          Farrah Fawcett (VF : Jeanine Forney) : Holly
-          <br />
-          Peter Ustinov (VF : Roger Carel) : Ballard, le vieil homme
-          <br />
-          Roscoe Lee Browne : Box
-          <br />
-          Michelle Stacy : Mary 2<br />
-          Camilla Carr (VF : Béatrice Delfe) : la femme du sanctuaire
-          <br />
+          <div>
+            <span className="badge">Autres identités</span>{" "}
+            <span className="badge_def"></span>
+          </div>
+          <div>
+            <span className="badge">Catégorie</span>{" "}
+            <span className="badge_def">
+              {acteursData.rubriques.categories}
+            </span>
+          </div>
+          <div>
+            <span className="badge">Apparitions</span>{" "}
+            <span className="badge_def">
+              {acteursData.rubriques.apparition}
+            </span>
+          </div>
+          <div>{formatTextWithLineBreaks(acteursData.rubriques.contenu)}</div>
         </div>
       </section>
     </div>

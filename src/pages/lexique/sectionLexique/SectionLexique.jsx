@@ -72,7 +72,6 @@ const SectionLexique = () => {
               >
                 {sectionAData[key].titre}
               </NavLink>
-              <div className="les_medias_logans_run"></div>
               <div className="les_medias_logans_run">
                 {sectionAData[key].imageMedia.map((image, imageIndex) => (
                   <img

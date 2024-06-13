@@ -1,0 +1,1 @@
+étape deux : Utiliser le composant Article dans votre composant de page.

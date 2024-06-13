@@ -1,0 +1,3 @@
+Résultat :
+
+Vous aurez maintenant un composant générique Article qui peut être utilisé pour afficher n'importe quel article en fonction des données passées. Vous pouvez créer de nouvelles pages d'articles en utilisant simplement ce composant avec les données appropriées.

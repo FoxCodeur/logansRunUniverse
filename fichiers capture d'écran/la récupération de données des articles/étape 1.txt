@@ -1,0 +1,3 @@
+Pour éviter de créer un fichier JSX distinct pour chaque article, vous pouvez créer un composant générique qui rendra les articles en fonction des données passées en tant que propriétés. Voici comment procéder :
+
+    Créer un composant Article.js

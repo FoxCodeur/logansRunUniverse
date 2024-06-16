@@ -13,11 +13,13 @@ import UpButton from "./homenav/upButton/UpButton";
 import HomeSectionBGVideo from "./homeSectionBGVideo/HomeSectionBGVideo";
 import HomeSectionDbMovies from "./homeSectionDbMovies/HomeSectionDbMovies";
 import HomeSectionParallax from "./homeSectionParallax/HomeSectionParallax";
+import HomeWaveNav from "./homeWaveNav/HomeWaveNav";
 
 const Home = () => {
   return (
     <div className="homeContainer">
       <UpButton />
+      <HomeWaveNav />
       <HomeSectionUn />
       <HomeSectionDeux />
       <HomeSlider />

@@ -1,5 +1,6 @@
 @use "src/styles/variables";
 .image-container {
+  position: relative;
   figure {
     figcaption {
       text-align: center;

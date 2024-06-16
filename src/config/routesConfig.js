@@ -11,16 +11,182 @@ import Acteurs from "../pages/articles/A/acteurs/Acteurs";
 import Adam from "../pages/articles/A/Adam/Adam";
 import AdventureComics from "../pages/articles/A/Adventure_Comics/AdventureComics";
 import Aitken from "../pages/articles/A/Aitken/Aitken";
+import AigleMecha from "../pages/articles/A/Aigle_Mecha/AigleMecha";
+import Albert from "../pages/articles/A/Albert/Albert";
+import Andar from "../pages/articles/A/Andar/Andar";
+import Ankh from "../pages/articles/A/Ankh/Ankh";
+import Arcade from "../pages/articles/A/Arcade/Arcade";
+import Argos from "../pages/articles/A/Argos/Argos";
+import Baleine from "../pages/articles/B/Baleine/Baleine";
+import Ballard from "../pages/articles/B/Ballard/Ballard";
+import Baxter from "../pages/articles/B/Baxter/Baxter";
+import BluewaterComics from "../pages/articles/B/Bluewater_Comics/BluewaterComics";
+import BorgiaRiders from "../pages/articles/B/Borgia_Riders/BorgiaRiders";
+import BoutiqueDuSommeil from "../pages/articles/B/boutique_du_sommeil/BoutiqueDuSommeil";
+import Box from "../pages/articles/B/Box/Box";
+import Bradley from "../pages/articles/B/Bradley/Bradley";
+import CaissonDeRememoration from "../pages/articles/C/caisson_de_remémoration/CaissonDeRememoration";
+import CapeSteinbeck from "../pages/articles/C/Cape_Steinbeck/CapeSteinbeck";
+import Cathedrale from "../pages/articles/C/Cathedrale/Cathedrale";
+import Carrousel from "../pages/articles/C/Carrousel/Carrousel";
+import CharmingBilly from "../pages/articles/C/Charming_Billy/CharmingBilly";
+import ChirurgienMarkJ from "../pages/articles/C/Chirurgien_Mark_J/ChirurgienMarkJ";
+import LesCharognards from "../pages/articles/C/les_Charognards/LesCharognards";
+import LeCircuit from "../pages/articles/C/le_Circuit/LeCircuit";
+import ComplexeCity from "../pages/articles/C/Complexe_City/ComplexeCity";
+import CrazyHorse from "../pages/articles/C/Crazy_Horse/CrazyHorse";
+import CrecheIndustrielle from "../pages/articles/C/Creche_Industrielle/CrecheIndustrielle";
+import TheCubs from "../pages/articles/C/the_Cubs/TheCubs";
+import Dakk from "../pages/articles/D/Dakk/Dakk";
+import Detoxique from "../pages/articles/D/Detoxique/Detoxique";
+import LeDedale from "../pages/articles/D/le_Dedale/LeDedale";
+import LeDernierHommeVivant from "../pages/articles/D/le_Dernier_Homme_Vivant/LeDernierHommeVivant";
+import Dia from "../pages/articles/D/Dia/Dia";
+import LaCiteeDesDomes from "../pages/articles/D/la_Citee_Des_Domes/LaCiteeDesDomes";
+import LeDoc from "../pages/articles/D/le_Doc/LeDoc";
+import Doyle from "../pages/articles/D/Doyle/Doyle";
+import Evans from "../pages/articles/E/Evans/Evans";
+import Fennister from "../pages/articles/F/Fennister/Fennister";
+import Flamegun from "../pages/articles/F/Flamegun/Flamegun";
+import FleurDeVie from "../pages/articles/F/Fleur_De_Vie/FleurDeVie";
+import Francis from "../pages/articles/F/Francis/Francis";
+import Fugitif from "../pages/articles/F/Fugitif/Fugitif";
+import Gant from "../pages/articles/G/Gant/Gant";
+import LesGitansLibres from "../pages/articles/G/Les_Gitans_Libres/LesGitansLibres";
+import LeGrandSommeil from "../pages/articles/G/le_Grand_Sommeil/LeGrandSommeil";
+import Hallucinusine from "../pages/articles/H/Hallucinusine/Hallucinusine";
+import Harry from "../pages/articles/H/Harry_7/Harry";
+import Hologramme from "../pages/articles/H/Hologramme/Hologramme";
+import Homer from "../pages/articles/H/Homer/Homer";
+import Holly from "../pages/articles/H/Holly/Holly";
+import Hoverstick from "../pages/articles/H/Hoverstick/Hoverstick";
+import HypnoProfesseur from "../pages/articles/H/Hypno_Professeur/HypnoProfesseur";
+import Illustrateurs from "../pages/articles/I/les_Illustrateurs/Illustrateurs";
+import Illustration from "../pages/articles/I/Illustration/Illustration";
+import Jaq from "../pages/articles/J/Jaq/Jaq";
+import Jessica from "../pages/articles/J/Jessica/Jessica";
+import JohnsonGeorgeClayton from "../pages/articles/J/Johnson_George_Clayton/JohnsonGeorgeClayton";
+import Jonath from "../pages/articles/J/Jonath/Jonath";
+import Judee from "../pages/articles/J/Judee/Judee";
+import Kelly from "../pages/articles/K/Kelly/Kelly";
+import Karenya from "../pages/articles/K/Karenya/Karenya";
+import Lacy from "../pages/articles/L/Lacy/Lacy";
+import Lilith from "../pages/articles/L/Lilith/Lilith";
+import Logan from "../pages/articles/L/Logan/Logan";
+import LogansRunRoman from "../pages/articles/L/Logans_run_roman/LogansRunRoman";
+import LogansWorld from "../pages/articles/L/Logans_World/LogansWorld";
+import Louveteau from "../pages/articles/L/louveteau/Louveteau";
+import Lucrece from "../pages/articles/L/Lucrece/Lucrece";
+import Machines from "../pages/articles/M/Machines/Machines";
+import MarvelComics from "../pages/articles/M/Marvel_Comics/MarvelComics";
+import Mary from "../pages/articles/M/Mary/Mary";
+import Madison from "../pages/articles/M/Madison/Madison";
+import MaisonDeVerre from "../pages/articles/M/maison_de_verre/MaisonDeVerre";
+import MazeCar from "../pages/articles/M/Maze_Car/MazeCar";
+import Modar from "../pages/articles/M/Modar/Modar";
+import Molly from "../pages/articles/M/Molly/Molly";
+import MotorCycle from "../pages/articles/M/motorcycle/MotorCycle";
 
 const routesConfig = [
   { path: "/", element: Home, exact: true },
   { path: "/lexique", element: Lexique },
   { path: "/timelines", element: Timeline },
   { path: "games", element: Games },
+  // ------------------------------A----------------------------------------------
   { path: "les-acteurs-du-film", element: Acteurs },
   { path: "adam-1", element: Adam },
   { path: "adventure-comics", element: AdventureComics },
   { path: "aitken", element: Aitken },
+  { path: "aigle-mécanique", element: AigleMecha },
+  { path: "albert-6", element: Albert },
+  { path: "andar", element: Andar },
+  { path: "ankh", element: Ankh },
+  { path: "arcade", element: Arcade },
+  { path: "argos", element: Argos },
+  // ----------------------------------B-----------------------------------------
+  { path: "baleine", element: Baleine },
+  { path: "ballard", element: Ballard },
+  { path: "baxter", element: Baxter },
+  { path: "bluewater-comics", element: BluewaterComics },
+  { path: "borgia-riders", element: BorgiaRiders },
+  { path: "boutique-du-sommeil", element: BoutiqueDuSommeil },
+  { path: "box", element: Box },
+  { path: "bradley", element: Bradley },
+  // ----------------------------------C-----------------------------------------
+  { path: "caisson-de-remémoration", element: CaissonDeRememoration },
+  { path: "cape-steinbeck", element: CapeSteinbeck },
+  { path: "cathedrale", element: Cathedrale },
+  { path: "carrousel", element: Carrousel },
+  { path: "charming-billy", element: CharmingBilly },
+  { path: "chirurgien-mark.j", element: ChirurgienMarkJ },
+  { path: "les-charognards", element: LesCharognards },
+  { path: "le-circuit", element: LeCircuit },
+  { path: "complexe-city", element: ComplexeCity },
+  { path: "crazy-horse", element: CrazyHorse },
+  { path: "crèche", element: CrecheIndustrielle },
+  { path: "the-cubs", element: TheCubs },
+  // ----------------------------------D---------------------------------------
+  { path: "dakk", element: Dakk },
+  { path: "détoxique", element: Detoxique },
+  { path: "le-dédale", element: LeDedale },
+  { path: "le-dernier-homme-vivant-sur-terre", element: LeDernierHommeVivant },
+  { path: "dia", element: Dia },
+  { path: "dômes", element: LaCiteeDesDomes },
+  { path: "le-doc", element: LeDoc },
+  { path: "doyle", element: Doyle },
+  // ----------------------------------E---------------------------------------
+  { path: "evans", element: Evans },
+  // ----------------------------------F---------------------------------------
+  { path: "fennister", element: Fennister },
+  { path: "film-logan's-run", element: Fennister },
+  { path: "flamegun", element: Flamegun },
+  { path: "fleur-de-vie", element: FleurDeVie },
+  { path: "francis", element: Francis },
+  { path: "francis", element: Francis },
+  { path: "fugitif", element: Fugitif },
+  // ----------------------------------G---------------------------------------
+  { path: "gant", element: Gant },
+  { path: "les-gitans-libres", element: LesGitansLibres },
+  { path: "deep-sleep", element: LeGrandSommeil },
+  // ----------------------------------H--------------------------------------
+  { path: "hallucinusine", element: Hallucinusine },
+  { path: "harry-7", element: Harry },
+  { path: "hologramme", element: Hologramme },
+  { path: "homer", element: Homer },
+  { path: "holly", element: Holly },
+  { path: "the-hoverstick", element: Hoverstick },
+  { path: "hypno-professeur", element: HypnoProfesseur },
+  // ----------------------------------I---------------------------------------
+  { path: "les-illustrateurs", element: Illustrateurs },
+  { path: "illustration", element: Illustration },
+  // ----------------------------------J---------------------------------------
+  { path: "jaq", element: Jaq },
+  { path: "jessica", element: Jessica },
+  { path: "george-clayton-johnson", element: JohnsonGeorgeClayton },
+  { path: "jonath", element: Jonath },
+  { path: "judee-3", element: Judee },
+  // ----------------------------------K---------------------------------------
+  { path: "kelly-4", element: Kelly },
+  { path: "karenya", element: Karenya },
+  // ----------------------------------L---------------------------------------
+  { path: "lacy-14", element: Lacy },
+  { path: "lilith-14", element: Lilith },
+  { path: "logan", element: Logan },
+  { path: "logan's-run-roman", element: LogansRunRoman },
+  { path: "logan's-world", element: LogansWorld },
+  { path: "louveteau", element: Louveteau },
+  { path: "lucrèce", element: Lucrece },
+  // ----------------------------------M---------------------------------------
+  { path: "les-machines", element: Machines },
+  { path: "marvel-comics", element: MarvelComics },
+  { path: "mary", element: Mary },
+  { path: "madison", element: Madison },
+  { path: "maison-de-verre", element: MaisonDeVerre },
+  { path: "maze-car", element: MazeCar },
+  { path: "modar", element: Modar },
+  { path: "molly", element: Molly },
+  { path: "motorcycle", element: MotorCycle },
+  // ----------------------------------N---------------------------------------
 ];
 
 export default routesConfig;

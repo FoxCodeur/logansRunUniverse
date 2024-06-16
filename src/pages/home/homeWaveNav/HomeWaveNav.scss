@@ -1,0 +1,33 @@
+.logansphere_container {
+  position: relative;
+  .logansphere {
+    padding-top: 0.3rem;
+    position: absolute;
+    width: 15rem;
+    left: 45%;
+  }
+}
+.home-wave-nav {
+  box-shadow: 0 -4px 10px -2px rgba(0, 0, 0, 0.5); // Ombrage en haut
+  overflow: hidden;
+  position: relative;
+  height: 120px; /* Exemple de hauteur pour le conteneur */
+  background-color: transparent; /* Couleur de fond du conteneur */
+  //   annuler le padding du composant parent
+  width: calc(100% + 10rem);
+  margin-left: -5rem;
+  margin-right: -5rem;
+  //   ------------------------------------------------------------
+}
+
+.wave-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.shape-fill {
+  fill: url(#grad1); /* Applique le gradient */
+}

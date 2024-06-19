@@ -155,9 +155,47 @@ startScroll : Pour définir le point de départ du scroll pour l'effet de parall
 endScroll : Pour définir le point de fin du scroll pour l'effet de parallaxe.
 disabled : Pour désactiver l'effet de parallaxe.
 --------------------------------------------------------------------------------------
-Mise en place du LEXIQUE
-Le lexique comprend trois composants:
-    1. LexiqueSearchBar (la barre de recherche qui va nous permettre d'effectuer des recherches de définitions spécifiques dans le composant SectionDatalist.)
-    2. SectionDatalist, qui comprend la liste des définition avec le routage approprié lorsqu'on clique sur l'un de ses mots.
-    3. SectionLexique. Ce lexique classé par ordre alphabétique contient l'ensemble des définitions toutes basées sur l'univers de Logan's run.
+La mise en place du LEXIQUE
+Le lexique comprend un composant qui se subdivise en cinq composants:
+    1. SectionTitreResume (résumé du lexique)
+    2. LexiqueSearchBar (la barre de recherche qui va nous permettre d'effectuer des recherches de définitions spécifiques dans le composant SectionDatalist.)
+    3. SectionDatalist, qui comprend la liste des définition avec le routage approprié lorsqu'on clique sur l'un de ses mots.
+    4. SectionLogansRunMedia. (présentation graphique de la page)
+    5. SectionLexique. Ce lexique classé par ordre alphabétique contient l'ensemble des définitions toutes basées sur l'univers de Logan's run.
                                 -------
+
+-------------------------------------------------------------------------------------
+Ajouter des images vectorielles à une page web
+<!-- lien internet https://www.com-to-code.com/news/utiliser-le-format-svg-sur-un-site-web -->
+<!-- https://www.ambient-it.net/images-reactjs/ -->
+Il existe plusieurs méthodes mais je ne vais pas rentrer dans le détail.
+Méthode sélectionné pour ce projet: inclure le code SVG en direct dans le document JSX.
+En effet inclure directement le code SVG dans le composant React permet de manipuler les propriétés et styles du SVG de manière plus flexible. C'est ainsi que j'ai procédé.
+<svg width="100" height="100" viewBox="0 0 100 100">
+<circle cx="50" cy="50" r="40" stroke="black" strokeWidth="3" fill="red" />
+</svg>
+-------------------------------------------------------------------------------------
+Création d'un composant Definition.jsx qui va servir de référence à la centaine de composants définitions triés par ordre alphabétique. 
+  Étapes de création et utilisation du composant Definition
+  1. Création de Définition.jsx avec l'importation de toutes les dépendances nécessaires au projet. Utilisation du destructuring dans les arguments de la fonction afin d'extraire les props. Ce composant, qui sert de base à tous les autres composants tels Acteurs.jsx etc... retourne du JSX qui définit la structure et le contenu visuel de la définition.
+Acteurs par exemple est un composant fonctionnel qui importe Definition.jsx.
+Passage des données spécifiques nécessaires (titre, image, rubriques) comme props au composant Definition à partir de data.json.
+
+De la sorte, si l'on souhaite changer le style ou contenu, il suffira de le faire en modifiant le composant générique. Cela évite de modifier sur chaque composants concernés du code qui seraitalors dupliqué inutilement.
+-------------------------------------------------------------------------------------
+
+
+
+    Bien référencer une application REACT
+    Tout d'abord il faut savoir avant de l'implémenter que REACTJS est une librairie au contraire de NextJS qui lui est un framework de REACTJS. 
+      React se décompose en composants réutilisables. (ceux-ci peuvent changer, se mettre à jour automatiquement en fonction des actions utilisateurs) et ceci il le fait sans recharger la page.
+
+      NextJs est une boite à outil de REACT, il simplifit le process du développement mais aussi l'optimisation d'une application web.
+
+      différence du rendu:
+      Nextjs -> côté client (navigateur de l'utilisateur)
+      React -> côté client ou serveur (requête au serveur -> traite de la demande -> rendu de la page web -> renvoie de la page déjà générée ce qui permet un affichage immédiat).
+
+      Pourquoi utiliser Nextjs? à cause du SEO! (pour la visibilité du site bien entendu). D'ou l'interet d'envoyer du code prégénéré au client.
+
+      avec nextjs on peut aussi utiliser le code splitting qui permet 

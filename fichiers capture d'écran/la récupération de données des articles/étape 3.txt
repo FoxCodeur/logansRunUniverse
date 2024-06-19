@@ -1,1 +1,1 @@
-étape 3: Créer d'autres composants de pages qui utilisent le composant générique Article.
+étape 3: Créer l'ensemble des composants de pages qui utilisent le composant générique Definition.

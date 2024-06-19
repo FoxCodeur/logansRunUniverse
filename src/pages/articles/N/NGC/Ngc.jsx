@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../../../../data.json";
-const TheCubs = () => {
+const Ngc = () => {
   return <div></div>;
 };
 
-export default TheCubs;
+export default Ngc;

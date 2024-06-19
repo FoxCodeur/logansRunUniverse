@@ -86,6 +86,48 @@ import MazeCar from "../pages/articles/M/Maze_Car/MazeCar";
 import Modar from "../pages/articles/M/Modar/Modar";
 import Molly from "../pages/articles/M/Molly/Molly";
 import MotorCycle from "../pages/articles/M/motorcycle/MotorCycle";
+import Needler from "../pages/articles/N/Needler/Needler";
+import Ngc from "../pages/articles/N/NGC/Ngc";
+import Nitro from "../pages/articles/N/Nitro/Nitro";
+import NolanWilliamF from "../pages/articles/N/Nolan_William_F/NolanWilliamF";
+import OldWashington from "../pages/articles/O/Old_Washington/OldWashington";
+import Omnite from "../pages/articles/O/Omnite/Omnite";
+import Paralax from "../pages/articles/P/Paralax/Paralax";
+import Paravane from "../pages/articles/P/Paravane/Paravane";
+import PeauNeuve from "../pages/articles/P/Peau_Neuve/PeauNeuve";
+import Protagonistes from "../pages/articles/P/Les_Protagonistes/Protagonistes";
+import PetiteGuerre from "../pages/articles/P/petite_Guerre/PetiteGuerre";
+import Pisteur from "../pages/articles/P/Pisteur/Pisteur";
+import PoupeeParlante from "../pages/articles/P/poupée_parlante/PoupeeParlante";
+import Prince from "../pages/articles/P/Prince/Prince";
+import QuartierGeneral from "../pages/articles/Q/Quartier_general_du_G.S/QuartierGeneral";
+import ROnze from "../pages/articles/R/R11/ROnze";
+import Regulateur from "../pages/articles/R/Régulateur/Regulateur";
+import RevolverLimier from "../pages/articles/R/revolver_Limier/RevolverLimier";
+import Ripper from "../pages/articles/R/Ripper/Ripper";
+import Ritter from "../pages/articles/R/Ritter/Ritter";
+import Rawls from "../pages/articles/R/Rawls/Rawls";
+import Roebler from "../pages/articles/R/Roebler/Roebler";
+import Rutago from "../pages/articles/R/Rutago/Rutago";
+import Sanctuaire from "../pages/articles/S/Sanctuaire/Sanctuaire";
+import Sandman from "../pages/articles/S/Sandman/Sandman";
+import Sanson from "../pages/articles/S/Sanson/Sanson";
+import Sawyer from "../pages/articles/S/Sawyer/Sawyer";
+import Stanhope from "../pages/articles/S/Stanhope/Stanhope";
+import Sterozine from "../pages/articles/S/Sterozine/Sterozine";
+import Tangler from "../pages/articles/T/Tangler/Tangler";
+import Tara from "../pages/articles/T/Tara/Tara";
+import Thinker from "../pages/articles/T/Thinker/Thinker";
+import TrottoirMecanique from "../pages/articles/T/Trottoir mécanique/TrottoirMecanique";
+import TriDi from "../pages/articles/T/TriDi/TriDi";
+import Titan from "../pages/articles/T/Titan/Titan";
+import UniteDeVie from "../pages/articles/U/Unite de vie/UniteDeVie";
+import Vapor from "../pages/articles/V/Vapor/Vapor";
+import Vibrolame from "../pages/articles/V/Vibrolame/Vibrolame";
+import Warden from "../pages/articles/W/Warden/Warden";
+import Watchman from "../pages/articles/W/Watchman/Watchman";
+import Webster from "../pages/articles/W/Webster/Webster";
+import Wilson from "../pages/articles/W/Wilson/Wilson";
 
 const routesConfig = [
   { path: "/", element: Home, exact: true },
@@ -187,6 +229,58 @@ const routesConfig = [
   { path: "molly", element: Molly },
   { path: "motorcycle", element: MotorCycle },
   // ----------------------------------N---------------------------------------
+  { path: "needler", element: Needler },
+  { path: "ngc", element: Ngc },
+  { path: "nitro", element: Nitro },
+  { path: "william-f-nolan", element: NolanWilliamF },
+  // ----------------------------------O---------------------------------------
+  { path: "old-washington", element: OldWashington },
+  { path: "omnite", element: Omnite },
+  // ----------------------------------P---------------------------------------
+  { path: "paralax", element: Paralax },
+  { path: "paravane-de-police", element: Paravane },
+  { path: "peau-neuve", element: PeauNeuve },
+  { path: "(les)-protagonistes", element: Protagonistes },
+  { path: "(les)-protagonistes", element: Protagonistes },
+  { path: "la-petite-guerre", element: PetiteGuerre },
+  { path: "pisteur", element: Pisteur },
+  { path: "poupée-parlante", element: PoupeeParlante },
+  { path: "prince", element: Prince },
+  // ----------------------------------Q---------------------------------------
+  { path: "quartier-général-du-g.s", element: QuartierGeneral },
+  //-----------------------------------R---------------------------------------
+  { path: "r-11", element: ROnze },
+  { path: "régulateur", element: Regulateur },
+  { path: "revolver-limier", element: RevolverLimier },
+  { path: "ripper", element: Ripper },
+  { path: "ritter", element: Ritter },
+  { path: "rawls", element: Rawls },
+  { path: "roebler", element: Roebler },
+  { path: "rutago", element: Rutago },
+  //-----------------------------------S---------------------------------------
+  { path: "sanctuaire", element: Sanctuaire },
+  { path: "sandman", element: Sandman },
+  { path: "sanson", element: Sanson },
+  { path: "sawyer", element: Sawyer },
+  { path: "stanhope", element: Stanhope },
+  { path: "sterozine", element: Sterozine },
+  //-----------------------------------T---------------------------------------
+  { path: "tangler", element: Tangler },
+  { path: "tara", element: Tara },
+  { path: "the-thinker", element: Thinker },
+  { path: "trottoir-mécanique", element: TrottoirMecanique },
+  { path: "tri-di", element: TriDi },
+  { path: "spacecraft-titan", element: Titan },
+  //-----------------------------------U---------------------------------------
+  { path: "unité-de-vie", element: UniteDeVie },
+  //-----------------------------------V---------------------------------------
+  { path: "vapor", element: Vapor },
+  { path: "vibrolame", element: Vibrolame },
+  //-----------------------------------W---------------------------------------
+  { path: "warden", element: Warden },
+  { path: "watchman", element: Watchman },
+  { path: "webster", element: Webster },
+  { path: "wilson", element: Wilson },
 ];
 
 export default routesConfig;

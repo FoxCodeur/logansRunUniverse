@@ -39,7 +39,7 @@
       "Aitken": {
         "id": 4,
         "titre": "Aitken",
-        "image": "./src/assets/images/images-générales/title_logans_run.png",
+        "image": "./src/assets/images/images-générales/moonBase.png",
         "imageMedia":["./src/assets/images/icones/roman_logans_world.png"],
         "rubriques": {
           "autres_identites": "base lunaire",

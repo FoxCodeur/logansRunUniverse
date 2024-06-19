@@ -1,7 +1,22 @@
 import React from "react";
 import data from "../../../../data.json";
+import Definition from "../../Definition";
 const Arcade = () => {
-  return <div></div>;
+  const arcadeData = data.A["Arcade"];
+
+  if (!arcadeData) {
+    return <div>Les données pour Arcade ne sont pas disponibles.</div>;
+  }
+
+  return (
+    <div>
+      <Definition
+        titre={arcadeData.titre}
+        image={arcadeData.image}
+        rubriques={arcadeData.rubriques}
+      />
+    </div>
+  );
 };
 
 export default Arcade;

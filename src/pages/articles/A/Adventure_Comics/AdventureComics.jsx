@@ -1,7 +1,27 @@
 import React from "react";
 import data from "../../../../data.json";
+import Definition from "../../Definition";
+
 const AdventureComics = () => {
-  return <div></div>;
+  // console.log("Data: ", data); // Pour vérifier les données importées
+  const adventureData = data.A["Adventure comics"];
+  // console.log("Adventure Data: ", adventureData); // Pour vérifier les données de Adventure comics
+
+  if (!adventureData) {
+    return (
+      <div>Les données pour Adventure comics ne sont pas disponibles.</div>
+    );
+  }
+
+  return (
+    <div>
+      <Definition
+        titre={adventureData.titre}
+        image={adventureData.image}
+        rubriques={adventureData.rubriques}
+      />
+    </div>
+  );
 };
 
 export default AdventureComics;

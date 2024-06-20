@@ -5,6 +5,7 @@ import data from "../../../../data.json";
 const Acteurs = () => {
   // Vérification si data.A existe avant d'accéder à "acteurs du film"
   // ternaire
+  //clé d'objet acteurs du film
   const acteursData = data.A ? data.A["acteurs du film"] : null;
   // Si les données ne sont pas disponibles, affiche un message d'erreur
   if (!acteursData) {

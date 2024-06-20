@@ -354,7 +354,7 @@
         "Chirurgien Mark J": {
           "id": 24,
           "titre": "Chirurgien Mark.J",
-          "image": "./src/assets/images/images-générales/table_operatoire.png",
+          "image": "./src/assets/images/images-générales/table_opératoire.png",
           "imageMedia":[
             "./src/assets/images/icones/bluewater.png",
             "./src/assets/images/icones/adventure_comics.png",
@@ -396,10 +396,10 @@
           ],
           
           "rubriques": {
-            "autres_identites": " le réseau de rencontre",
+            "autres_identites": "le réseau de rencontre",
             "categories": "réseau social",
             "apparition": "film",
-            "contenu": "Après une journée de travail, Logan-6 rentre chez lui dans son appartement et souhaite se détendre en ajoutant une touche de sexe à sa soirée. Il enfile un peignoir, saisit une télécommande et commence à la régler. On entend alors des fréquences semblables à une radio AM en train d'être syntonisée, mais sans jamais trouver une station clairement. Soudain, une alcôve située dans un coin du salon s'illumine d'une texture vaporeuse et clignotante de lumière multicolore. C'est alors qu'un homme en tenue SM apparaît, puis disparait, et après plusieurs tentatives infructueuses du limier, Jessica se matérialise. Logan, satisfait de son choix, invite la jeune femme à le rejoindre. Le Circuit est en réalité un système sophistiqué de téléportation qui permet aux citoyens de la cité de se rencontrer instantanément. Pour satisfaire ses envies sexuelles, il suffit de se connecter au réseau et de choisir son partenaire. "
+            "contenu": "Après une journée de travail, Logan-6 rentre chez lui dans son appartement et souhaite se détendre en ajoutant une touche de sexe à sa soirée. Il enfile un peignoir, saisit une télécommande et commence à la régler. On entend alors des fréquences semblables à une radio AM en train d'être syntonisée, mais sans jamais trouver une station clairement. Soudain, une alcôve située dans un coin du salon s'illumine d'une texture vaporeuse et clignotante de lumière multicolore. C'est alors qu'un homme en tenue SM apparaît, puis disparait, et après plusieurs tentatives infructueuses du limier, Jessica se matérialise. Logan, satisfait de son choix, invite la jeune femme à le rejoindre. Le Circuit est en réalité un système sophistiqué de téléportation qui permet aux citoyens de la cité de se rencontrer instantanément. Pour satisfaire ses envies sexuelles, il suffit de se connecter au réseau et de choisir son partenaire."
           }
         },
         "Complexe City": {
@@ -413,7 +413,7 @@
               "./src/assets/images/icones/roman_logans_run.png"
             ],
             "rubriques": {
-              "autres_identites": "la citée des dômes",
+              "autres_identites": "la citée des dômes, Géants verts",
               "categories": "lieu",
               "apparition": "roman Logans'run, Logans'World, comics",
               "contenu": "Suite à la petite guerre de gigantesques cités buiding de plus de 1000 mètres de haut ont été érigées. La grande majorité des citoyens y vivent, tous contraints de se conformer aux lois du THINKER. A l'extèrieur ne sévissent que les pillards, mais même eux ne peuvent se soustraire à la loi de l'âge \n \n complexe Tokyo basé sur la photo de David Underland sur Pexels \n \n Complexe Londres basé sur Photo de Adam Borkowski"

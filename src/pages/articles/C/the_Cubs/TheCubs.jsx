@@ -2,7 +2,21 @@ import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
 const TheCubs = () => {
-  return <div></div>;
+  const cubsData = data.C ? data.C["The Cubs"] : null;
+
+  if (!cubsData) {
+    return <div>Les données pour The Cubs ne sont pas disponibles.</div>;
+  }
+
+  return (
+    <div>
+      <Definition
+        titre={cubsData.titre}
+        image={cubsData.image}
+        rubriques={cubsData.rubriques}
+      />
+    </div>
+  );
 };
 
 export default TheCubs;

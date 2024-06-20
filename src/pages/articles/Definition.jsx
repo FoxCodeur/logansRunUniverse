@@ -41,7 +41,9 @@ const Definition = ({ titre, image, rubriques }) => {
             <span className="badge">Apparitions</span>{" "}
             <span className="badge_def">{rubriques.apparition}</span>
           </div>
-          <div>{formatTextWithLineBreaks(rubriques.contenu)}</div>
+          <div className="paddingContent">
+            {formatTextWithLineBreaks(rubriques.contenu)}
+          </div>
         </div>
       </section>
     </div>

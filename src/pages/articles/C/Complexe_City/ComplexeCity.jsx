@@ -1,7 +1,22 @@
 import React from "react";
 import data from "../../../../data.json";
+import Definition from "../../Definition";
 const ComplexeCity = () => {
-  return <div></div>;
+  const complexeCityData = data.C ? data.C["Complexe City"] : null;
+
+  if (!complexeCityData) {
+    return <div>Les données pour Complexe city ne sont pas disponibles.</div>;
+  }
+
+  return (
+    <div>
+      <Definition
+        titre={complexeCityData.titre}
+        image={complexeCityData.image}
+        rubriques={complexeCityData.rubriques}
+      />
+    </div>
+  );
 };
 
 export default ComplexeCity;

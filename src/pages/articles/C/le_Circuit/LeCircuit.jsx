@@ -1,8 +1,24 @@
 import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
+
 const LeCircuit = () => {
-  return <div></div>;
+  // clé dans l'objet Le Circuit
+  const leCircuitData = data.C ? data.C["Le Circuit"] : null;
+
+  if (!leCircuitData) {
+    return <div>Les données pour le circuit ne sont pas disponibles.</div>;
+  }
+
+  return (
+    <div>
+      <Definition
+        titre={leCircuitData.titre}
+        image={leCircuitData.image}
+        rubriques={leCircuitData.rubriques}
+      />
+    </div>
+  );
 };
 
 export default LeCircuit;

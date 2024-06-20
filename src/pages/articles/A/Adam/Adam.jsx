@@ -4,7 +4,7 @@ import Definition from "../../Definition";
 
 const Adam = () => {
   // console.log("Data: ", data); // Pour vérifier les données importées
-  const adamData = data.A["Adam 1"];
+  const adamData = data.A ? data.A["Adam 1"] : null;
   // console.log("Adam Data: ", adamData); // Pour vérifier les données de Adam 1
 
   if (!adamData) {

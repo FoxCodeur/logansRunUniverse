@@ -65,7 +65,7 @@
       },
       "Albert": {
         "id": 6,
-        "titre": "Albert 6",
+        "titre": "Albert",
         "image": "./src/assets/images/images-générales/albert.png",
         "imageMedia":[
           "./src/assets/images/icones/adventure_comics.png",
@@ -273,7 +273,7 @@
       "Caisson De Remémoration": {
         "id": 19,
         "titre": "Caisson de remémoration",
-        "image": "./src/assets/images/images-générales/title_logans_run.png",
+        "image": "./src/assets/images/images-générales/memoryBox.png",
         "imageMedia":[   
           "./src/assets/images/icones/roman_logans_run.png"
         ],
@@ -287,7 +287,7 @@
         "Cape Steinbeck": {
           "id": 20,
           "titre": "Cape-Steinbeck",
-          "image": "./src/assets/images/images-générales/title_logans_run.png",
+          "image": "./src/assets/images/images-générales/adAstra.png",
           "imageMedia":[
             "./src/assets/images/icones/bluewater.png",
             "./src/assets/images/icones/adventure_comics.png",

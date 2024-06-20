@@ -3,7 +3,7 @@ import Definition from "../../Definition";
 import data from "../../../../data.json";
 
 const AigleMecha = () => {
-  const aigleMechaData = data.A["Mecha Eagle"];
+  const aigleMechaData = data.A ? data.A["Mecha Eagle"] : null;
 
   if (!aigleMechaData) {
     return <div>Les données pour Aigle Mécha ne sont pas disponibles.</div>;

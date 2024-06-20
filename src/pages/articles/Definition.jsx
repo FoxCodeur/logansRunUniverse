@@ -27,17 +27,17 @@ const Definition = ({ titre, image, rubriques }) => {
           <img alt={titre} src={image} className="borderAffiches" />
         </div>
         <div className="definition">
-          <div>
+          <div className="badgeContainer">
             <span className="badge">Autres identités</span>{" "}
             <span className="badge_def">
               {rubriques.autres_identites || "N/A"}
             </span>
           </div>
-          <div>
+          <div className="badgeContainer">
             <span className="badge">Catégorie</span>{" "}
             <span className="badge_def">{rubriques.categories}</span>
           </div>
-          <div>
+          <div className="badgeContainer">
             <span className="badge">Apparitions</span>{" "}
             <span className="badge_def">{rubriques.apparition}</span>
           </div>

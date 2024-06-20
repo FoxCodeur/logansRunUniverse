@@ -140,7 +140,7 @@ const routesConfig = [
   { path: "adventure-comics", element: AdventureComics },
   { path: "aitken", element: Aitken },
   { path: "aigle-mécanique", element: AigleMecha },
-  { path: "albert-6", element: Albert },
+  { path: "albert", element: Albert },
   { path: "andar", element: Andar },
   { path: "ankh", element: Ankh },
   { path: "arcade", element: Arcade },

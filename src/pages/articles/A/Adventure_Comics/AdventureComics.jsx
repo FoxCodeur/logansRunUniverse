@@ -4,7 +4,7 @@ import Definition from "../../Definition";
 
 const AdventureComics = () => {
   // console.log("Data: ", data); // Pour vérifier les données importées
-  const adventureData = data.A["Adventure comics"];
+  const adventureData = data.A ? data.A["Adventure comics"] : null;
   // console.log("Adventure Data: ", adventureData); // Pour vérifier les données de Adventure comics
 
   if (!adventureData) {

@@ -53,19 +53,22 @@
         width: 95%;
         border-radius: 0;
       }
-      .badge {
-        padding: 0.15rem;
-        background-color: rgba(139, 0, 0, 0.7);
-        font-weight: 700;
-        font-size: 1.15rem;
-        line-height: 2;
-        color: #fff;
-        border-radius: 0.25rem;
-        border: 2px solid black;
-      }
-      .badge_def {
-        font-size: 1.2rem;
-        font-weight: bold;
+      .badgeContainer {
+        padding-bottom: 0.15rem;
+        .badge {
+          padding: 0.15rem;
+          background-color: rgba(139, 0, 0, 0.7);
+          font-weight: 700;
+          font-size: 1.15rem;
+          line-height: 2;
+          color: #fff;
+          border-radius: 0.25rem;
+          border: 2px solid black;
+        }
+        .badge_def {
+          font-size: 1.2rem;
+          font-weight: bold;
+        }
       }
     }
     // Glossaire style

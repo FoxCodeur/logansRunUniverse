@@ -539,7 +539,7 @@
         "Dia": {
           "id": 35,
           "titre": "Dia",
-          "image": "./src/assets/images/images-générales/title_logans_run.png",
+          "image": "./src/assets/images/images-générales/dia.png",
           "imageMedia":[
             "./src/assets/images/icones/adventure_comics.png",
             "./src/assets/images/icones/roman_logans_world.png"

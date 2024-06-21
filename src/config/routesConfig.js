@@ -47,6 +47,7 @@ import LeDoc from "../pages/articles/D/le_Doc/LeDoc";
 import Doyle from "../pages/articles/D/Doyle/Doyle";
 import Evans from "../pages/articles/E/Evans/Evans";
 import Fennister from "../pages/articles/F/Fennister/Fennister";
+import LeFilmLogansRun from "../pages/articles/F/le_Film_Logans_run/LeFilmLogansRun";
 import Flamegun from "../pages/articles/F/Flamegun/Flamegun";
 import FleurDeVie from "../pages/articles/F/Fleur_De_Vie/FleurDeVie";
 import Francis from "../pages/articles/F/Francis/Francis";
@@ -180,7 +181,7 @@ const routesConfig = [
   { path: "evans", element: Evans },
   // ----------------------------------F---------------------------------------
   { path: "fennister", element: Fennister },
-  { path: "film-logan's-run", element: Fennister },
+  { path: "film-logan's-run", element: LeFilmLogansRun },
   { path: "flamegun", element: Flamegun },
   { path: "fleur-de-vie", element: FleurDeVie },
   { path: "francis", element: Francis },

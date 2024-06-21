@@ -2,7 +2,23 @@ import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
 const HypnoProfesseur = () => {
-  return <div></div>;
+  const hypnoprofesseurData = data.H ? data.H["Hypno professeur"] : null;
+
+  if (!hypnoprofesseurData) {
+    return (
+      <div>Les données pour Hypno professeur ne sont pas disponibles.</div>
+    );
+  }
+
+  return (
+    <div>
+      <Definition
+        titre={hypnoprofesseurData.titre}
+        image={hypnoprofesseurData.image}
+        rubriques={hypnoprofesseurData.rubriques}
+      />
+    </div>
+  );
 };
 
 export default HypnoProfesseur;

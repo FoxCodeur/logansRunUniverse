@@ -650,7 +650,7 @@
         "Flamegun": {
           "id": 42,
           "titre": "Flamegun",
-          "image": "./src/assets/images/images-générales/title_logans_run.png",
+          "image": "./src/assets/images/images-générales/flamegun.png",
           "imageMedia":[
             "./src/assets/images/icones/marvel.png",
             "./src/assets/images/icones/film_logans_run.png"
@@ -854,7 +854,7 @@
         "Hoverstick": {
           "id": 54,
           "titre": "the Hoverstick",
-          "image": "./src/assets/images/images-générales/title_logans_run.png",
+          "image": "./src/assets/images/images-générales/hoverstick.png",
           "imageMedia":[
             "./src/assets/images/icones/adventure_comics.png",
             "./src/assets/images/icones/roman_logans_run.png"
@@ -903,7 +903,7 @@
         "Illustration": {
           "id": 57,
           "titre": "Illustration",
-          "image": "./assets/images/images-générales/title_logans_run.png",
+          "image": "./src/assets/images/images-générales/helmetLogan2.png",
           "imageMedia":[
             "./src/assets/images/icones/bluewater.png",
             "./src/assets/images/icones/adventure_comics.png",
@@ -956,7 +956,7 @@
         "George Clayton Johnson": {
           "id": 60,
           "titre": "George Clayton Johnson",
-          "image": "./assets/images/images-générales/title_logans_run.png",
+          "image": "./src/assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
             "./src/assets/images/icones/bluewater.png",
             "./src/assets/images/icones/adventure_comics.png",
@@ -989,7 +989,7 @@
         "Judee": {
           "id": 62,
           "titre": "judee 3",
-          "image": "./src/assets/images/images-générales/title_logans_run.png",
+          "image": "./src/assets/images/images-générales/judee.png",
           "imageMedia":[
             "./src/assets/images/icones/adventure_comics.png",
             "./src/assets/images/icones/roman_logans_world.png"

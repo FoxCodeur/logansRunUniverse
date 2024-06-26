@@ -2,7 +2,23 @@ import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
 const TrottoirMecanique = () => {
-  return <div></div>;
+  const trottoirMecaniqueData = data.T ? data.T["Trottoir mécanique"] : null;
+
+  if (!trottoirMecaniqueData) {
+    return (
+      <div>Les données pour Trottoir mécanique ne sont pas disponibles.</div>
+    );
+  }
+
+  return (
+    <div>
+      <Definition
+        titre={trottoirMecaniqueData.titre}
+        image={trottoirMecaniqueData.image}
+        rubriques={trottoirMecaniqueData.rubriques}
+      />
+    </div>
+  );
 };
 
 export default TrottoirMecanique;

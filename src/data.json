@@ -42,7 +42,7 @@
         "image": "./src/assets/images/images-générales/moonBase.png",
         "imageMedia":["./src/assets/images/icones/roman_logans_world.png"],
         "rubriques": {
-          "autres_identites": "base lunaire",
+          "autres_identites": "base lunaire, cratère Aitken",
           "categories": "lieu",
           "apparition": "roman Logan's World",
           "contenu": "le site d'Aitken est situé sur la face cachée de la Lune. Ancienne colonie habitée, cette base désaffectée sert désormais de point relais pour la résistance. Les fugitifs y sont d'abord transportés avant que la fusée Titan ne calcule une trajectoire leur permettant de rejoindre Mars dans les plus brefs délais. "
@@ -1052,7 +1052,7 @@
         "Lilith": {
           "id": 66,
           "titre": "Lilith 14",
-          "image": "./src/assets/images/images-générales/title_logans_run.png",
+          "image": "./src/assets/images/images-générales/lilith.png",
           "imageMedia":[
             "./src/assets/images/icones/adventure_comics.png",
             "./src/assets/images/icones/roman_logans_run.png"
@@ -1132,7 +1132,7 @@
         "Lucrèce": {
           "id": 71,
           "titre": "Lucrèce",
-          "image": "./src/assets/images/images-générales/title_logans_run.png",
+          "image": "./src/assets/images/images-générales/lucrèce.png",
           "imageMedia":[
             "./src/assets/images/icones/bluewater.png",
             "./src/assets/images/icones/adventure_comics.png",
@@ -1235,7 +1235,7 @@
           "Maze Car": {
             "id": 77,
             "titre": "Maze-Car",
-            "image": "./src/assets/images/images-générales/title_logans_run.png",
+            "image": "./src/assets/images/images-générales/mazeCar.png",
             "imageMedia":[
               "./src/assets/images/icones/bluewater.png",
               "./src/assets/images/icones/adventure_comics.png",
@@ -1387,7 +1387,7 @@
           "Omnite": {
                 "id": 86,
                 "titre": "Omnite",
-                "image": "./src/assets/images/images-générales/NGC.png",
+                "image": "./src/assets/images/images-générales/omnite.png",
                 "imageMedia":[
                   "./src/assets/images/icones/bluewater.png",
                   "./src/assets/images/icones/adventure_comics.png",
@@ -1457,7 +1457,7 @@
                   "Protagonistes": {
                       "id": 90,
                       "titre": "(les) protagonistes",
-                      "image": "./src/assets/images/images-générales/title_logans_run.png",
+                      "image": "./src/assets/images/images-générales/protagonistes.png",
                       "imageMedia":[
                         "./src/assets/images/icones/bluewater.png",
                         "./src/assets/images/icones/adventure_comics.png",
@@ -1525,7 +1525,7 @@
                   "Prince": {
                       "id": 94,
                       "titre": "Prince",
-                      "image": "./src/assets/images/images-générales/title_logans_run.png",
+                      "image": "./src/assets/images/images-générales/prince.png",
                       "imageMedia":[
                         "./src/assets/images/icones/bluewater.png",
                         "./src/assets/images/icones/adventure_comics.png",
@@ -1577,7 +1577,7 @@
           "Regulateur": {
                 "id": 97,
                 "titre": "Régulateur",
-                "image": "./src/assets/images/images-générales/title_logans_run.png",
+                "image": "./src/assets/images/images-générales/regulateur.png",
                 "imageMedia":[
                   "./src/assets/images/icones/bluewater.png",
                   "./src/assets/images/icones/adventure_comics.png",
@@ -1629,7 +1629,7 @@
           "Ritter": {
                 "id": 100,
                 "titre": "Ritter",
-                "image": "./src/assets/images/images-générales/title_logans_run.png",
+                "image": "./src/assets/images/images-générales/Ritter.png",
                 "imageMedia":[
                           "./src/assets/images/icones/roman_logans_world.png"
                         ],
@@ -1673,7 +1673,7 @@
           "Rutago": {
                 "id": 103,
                 "titre": "Rutago",
-                "image": "./src/assets/images/images-générales/title_logans_run.png",
+                "image": "./src/assets/images/images-générales/rutago.png",
                 "imageMedia":[  
                   "./src/assets/images/icones/adventure_comics.png",
                   "./src/assets/images/icones/roman_logans_run.png"
@@ -1698,7 +1698,7 @@
                   "./src/assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
-                        "autres_identites": "Argos, station spatiale martienne, Mont Rsushmore",
+                        "autres_identites": "Argos, station spatiale martienne, Mont Rushmore",
                         "categories": "lieu",
                         "apparition": "roman Logans'run, comics",
                         "contenu": "Le sanctuaire est cet endroit secret où les fugitifs veulent se rendre pour échapper à l'euthanasie imposée par le Penseur. Là, libres de vivre la vie qu'ils ont choisis hommes et femmes sont censés pouvoir vieillir et mourir de vieillesse. Dans le roman, le Sanctuaire est une station spatiale Argos qui gravite autour de Mars. Dans le film, Logan 5 doit infiltrer et détruire le Sanctuaire mais celui-ci découvre qu'un tel endroit n'existe pas. Dans les nouveaux comics le Sanctuaire est une sorte de zone blanche, lieu non répertorié situé dans la Dakota du sud, au Mont Rushmore."
@@ -1707,7 +1707,7 @@
           "Sandman": {
                 "id": 105,
                 "titre": "Sandman",
-                "image": "./src/assets/images/images-générales/limier_affiche.png",
+                "image": "./src/assets/images/images-générales/limier_affiche2.png",
                 "imageMedia":[
                   "./src/assets/images/icones/bluewater.png",
                   "./src/assets/images/icones/adventure_comics.png",
@@ -1756,7 +1756,7 @@
           "Stanhope": {
                 "id": 108,
                 "titre": "Stanhope",
-                "image": "./assets/images/images-générales/title_logans_run.png",
+                "image": "./src/assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
                   "./src/assets/images/icones/adventure_comics.png",
                   "./src/assets/images/icones/roman_logans_run.png"

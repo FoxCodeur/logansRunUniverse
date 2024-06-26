@@ -2,7 +2,21 @@ import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
 const Sterozine = () => {
-  return <div></div>;
+  const sterozineData = data.S ? data.S["Sterozine"] : null;
+
+  if (!sterozineData) {
+    return <div>Les données pour Sterozine ne sont pas disponibles.</div>;
+  }
+
+  return (
+    <div>
+      <Definition
+        titre={sterozineData.titre}
+        image={sterozineData.image}
+        rubriques={sterozineData.rubriques}
+      />
+    </div>
+  );
 };
 
 export default Sterozine;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./SectionLogansRunMedias.scss";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import fleurDeVieBlanche from "../../../assets/images/images-générales/fleur_de_vie_blanche.png";
 import fleurDeVieJaune from "../../../assets/images/images-générales/fleur_de_vie_jaune.png";
 import fleurDeVieBleue from "../../../assets/images/images-générales/fleur_de_vie_bleue.png";
@@ -19,39 +20,65 @@ const SectionLogansRunMedias = () => {
   return (
     <>
       <div className="box_center">
-        <img src={traitvertical} alt="trait vert vertical" />
+        <LazyLoadImage
+          src={traitvertical}
+          alt="trait vert vertical"
+          loading="lazy"
+        />
       </div>
       <div className="section_Container_Wihout_Padding">
-        <img
+        <LazyLoadImage
           className="bandeau_lg"
           src={adventurecomicsBluewater}
           alt="les maisons d'éditions qui ont publié des comics sur Logans's run sont, Bluewater comics, Adventure comics, Marvel comics. "
+          loading="lazy"
         />
-        <img className="redLine" src={redLine} alt="ligne rouge" />
+        <LazyLoadImage className="redLine" src={redLine} alt="ligne rouge" />
 
         <div className="Lexique_gallery_Container">
-          <img src={revolverLexique} className="squareImagesLexique" />
-          <img src={phaserLexique} className="squareImagesLexique" />
+          <LazyLoadImage
+            src={revolverLexique}
+            className="squareImagesLexique"
+            loading="lazy"
+          />
+          <LazyLoadImage
+            src={phaserLexique}
+            className="squareImagesLexique"
+            loading="lazy"
+          />
           <div className="flowers_container box_center">
             {/* <img src={fleurDeVieBlanche} className="lexique_flowers wf" />
             <img src={fleurDeVieJaune} className="lexique_flowers yf" />
             <img src={fleurDeVieBleue} className="lexique_flowers bf" /> */}
-            <img src={fleurDeVieNoire} className="lexique_flowers bf" />
-            <img src={fleurDeVieRouge} className="lexique_flowers rf" />
+            <LazyLoadImage
+              src={fleurDeVieNoire}
+              className="lexique_flowers bf"
+              loading="lazy"
+            />
+            <LazyLoadImage
+              src={fleurDeVieRouge}
+              className="lexique_flowers rf"
+              loading="lazy"
+            />
           </div>
-          <img src={jessicaLexique} className="squareImagesLexique" />
+          <LazyLoadImage src={jessicaLexique} className="squareImagesLexique" />
           <img src={LoganLexique} className="squareImagesLexique" />
         </div>
-        <img className="redLine" src={redLine} alt="ligne rouge" />
-        <img
+        <LazyLoadImage className="redLine" src={redLine} alt="ligne rouge" />
+        <LazyLoadImage
           className="bandeau_lg"
           src={logansRunWorldNovel}
           alt="Seuls deux romans ainsi que le film ont été traduits en français, Logan's run et Logan's World."
+          loading="lazy"
         />
       </div>
 
       <div className="box_center">
-        <img src={traitvertical} alt="trait vert vertical" />
+        <LazyLoadImage
+          src={traitvertical}
+          alt="trait vert vertical"
+          loading="lazy"
+        />
       </div>
     </>
   );

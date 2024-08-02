@@ -4,6 +4,7 @@ import "../homeSectionUn/HomeSectionUn.scss";
 import "../Home.scss";
 import maquetteUn from "../../../assets/images/images-générales/maquetteCityOne.png";
 import maquetteDeux from "../../../assets/images/images-générales/maquetteCityTwo.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionSix = () => {
   return (
     <div className="sectionContainer">
@@ -65,10 +66,20 @@ const HomeSectionSix = () => {
       <div className="sectionUnDroite">
         <div className="cityMaquetContainer">
           <div className="cityMaquetBorder">
-            <img className="cityMaquet" src={maquetteUn} alt="" />
+            <LazyLoadImage
+              className="cityMaquet"
+              src={maquetteUn}
+              alt="c'est l'une des maquettes du dôme qui a été créé pour les besoins du film Logan's run"
+              loading="lazy"
+            />
           </div>
           <div className="cityMaquetBorder">
-            <img className="cityMaquet" src={maquetteDeux} alt="" />
+            <LazyLoadImage
+              className="cityMaquet"
+              src={maquetteDeux}
+              alt="c'est l'une des maquettes du dôme qui a été créé pour les besoins du film Logan's run"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>

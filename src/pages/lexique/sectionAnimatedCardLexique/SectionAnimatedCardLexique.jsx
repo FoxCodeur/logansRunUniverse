@@ -2,6 +2,7 @@ import React from "react";
 import "./SectionAnimatedCard.scss";
 import traitvertical from "../../../assets/images/images-générales/trait-vert-vertical.png";
 import redLine from "../../../assets/images/images-générales/redLine.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const SectionAnimatedCardLexique = () => {
   return (
     <>
@@ -62,7 +63,11 @@ const SectionAnimatedCardLexique = () => {
         </div>
       </div>
       <div className="box_center">
-        <img src={traitvertical} alt="trait vert vertical" />
+        <LazyLoadImage
+          src={traitvertical}
+          alt="trait vert vertical"
+          loading="lazy"
+        />
       </div>
     </>
   );

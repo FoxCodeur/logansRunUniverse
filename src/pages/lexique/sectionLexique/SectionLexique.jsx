@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./SectionLexique.scss";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import data from "../../../data.json";
 
 const SectionLexique = () => {
@@ -74,9 +75,10 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionAData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
                     src={image}
+                    loading="lazy"
                     alt="icon"
                     className="icon-image"
                     onError={(e) =>
@@ -135,8 +137,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionBData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -196,8 +199,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionCData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -254,8 +258,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionDData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -312,8 +317,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionEData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -370,8 +376,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionFData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -431,8 +438,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionGData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -489,8 +497,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionHData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -547,8 +556,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionIData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -605,8 +615,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionJData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -663,8 +674,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionKData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -721,8 +733,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionLData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -779,8 +792,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionMData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -837,9 +851,10 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionNData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
                     src={image}
+                    loading="lazy"
                     alt="icon"
                     className="icon-image"
                   />
@@ -895,8 +910,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionOData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -953,8 +969,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionPData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -1011,8 +1028,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionQData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -1069,8 +1087,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionRData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -1127,8 +1146,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionSData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -1185,8 +1205,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionTData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -1243,8 +1264,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionUData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -1301,8 +1323,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionVData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"
@@ -1359,8 +1382,9 @@ const SectionLexique = () => {
               </NavLink>
               <div className="les_medias_logans_run">
                 {sectionWData[key].imageMedia.map((image, imageIndex) => (
-                  <img
+                  <LazyLoadImage
                     key={imageIndex}
+                    loading="lazy"
                     src={image}
                     alt="icon"
                     className="icon-image"

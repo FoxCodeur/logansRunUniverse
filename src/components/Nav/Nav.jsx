@@ -1,6 +1,5 @@
 import HamburgerButton from "../HamburgerButton/HamburgerButton";
 import "./Nav.scss";
-
 import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import Logo from "./logo/Logo";

@@ -1,14 +1,19 @@
 import React from "react";
 import "./HomeWaveNav.scss";
 import loganSphere from "../../../assets/images/images-générales/logans_run sphere.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeWaveNav = () => {
   return (
     <>
       <div className="logansphere_container">
-        <img
+        {/* En utilisant LazyLoadImage avec l'effet opacity, vos images
+       l'image est chargées de manière différée et s'affiche à mesure que
+      l'on scrolle. */}
+        <LazyLoadImage
           className="logansphere"
           src={loganSphere}
           alt="sphere avec inscription Logan run"
+          loading="lazy" // Cet attribut est utilisé pour activer le chargement paresseux (lazy loading) des images dans les navigateurs qui le prennent en charge. L'idée est de différer le chargement des images jusqu'à ce qu'elles soient visibles à l'écran, améliorant ainsi les performances en réduisant le temps de chargement initial de la page.
         />
       </div>
 

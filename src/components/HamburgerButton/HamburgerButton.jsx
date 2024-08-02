@@ -1,16 +1,12 @@
 import PropTypes from "prop-types";
 import "../Nav/Nav.scss";
 
-const HamburgerButton = () => {
-  return <span className="burger-bar"></span>;
+const HamburgerButton = ({ opened }) => {
+  return <span className={`burger-bar ${opened ? "opened" : ""}`}></span>;
 };
 
 HamburgerButton.propTypes = {
-  opened: PropTypes.bool,
-};
-
-HamburgerButton.defaultProps = {
-  opened: false,
+  opened: PropTypes.bool.isRequired,
 };
 
 export default HamburgerButton;

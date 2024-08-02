@@ -1,10 +1,17 @@
 import React from "react";
 import "./Timeline.scss";
+import PartTimeline from "./partTimeline/PartTimeline";
+import PartTitleTimeline from "./partTitleTimeline/PartTitleTimeline";
+import ResumeTimeline from "./resumeTimeline/ResumeTimeline";
+import ThinkerBox from "./thinkerBox/ThinkerBox";
 
 const Timeline = () => {
   return (
     <div>
-      <h2>Timeline</h2>
+      <PartTitleTimeline />
+      <ResumeTimeline />
+      <PartTimeline />
+      <ThinkerBox />
     </div>
   );
 };

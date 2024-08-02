@@ -1,13 +1,14 @@
 .logansphere_container {
   position: relative;
   .logansphere {
-    padding-top: 0.8rem;
+    padding-top: 1rem;
     position: absolute;
     width: 12rem;
     left: 45%;
   }
 }
 .home-wave-nav {
+  margin-top: -0.1rem;
   box-shadow: 0 -4px 10px -2px rgba(0, 0, 0, 0.5); // Ombrage en haut
   overflow: hidden;
   position: relative;

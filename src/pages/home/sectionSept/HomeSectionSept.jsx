@@ -6,6 +6,7 @@ import yellowCristal from "../../../assets/images/flowers-index/yellow-flower.pn
 import blueCristal from "../../../assets/images/flowers-index/blue-flower.png";
 import redCristal from "../../../assets/images/flowers-index/red-flower.png";
 import blackCristal from "../../../assets/images/flowers-index/black-flower.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionSept = () => {
   return (
     <div className="marginUpDownContainer">
@@ -20,10 +21,11 @@ const HomeSectionSept = () => {
             <p className="text-flower">naissance</p>
           </div>
           <div className="right-flower-column">
-            <img
+            <LazyLoadImage
               className="organic-flower"
               src={whiteCristal}
               alt="cristal de vie incolore"
+              loading="lazy" // Cet attribut est utilisé pour activer le chargement paresseux (lazy loading) des images dans les navigateurs qui le prennent en charge. L'idée est de différer le chargement des images jusqu'à ce qu'elles soient visibles à l'écran, améliorant ainsi les performances en réduisant le temps de chargement initial de la page.
             />
           </div>
         </div>
@@ -40,10 +42,11 @@ const HomeSectionSept = () => {
             </p>
           </div>
           <div className="right-flower-column">
-            <img
+            <LazyLoadImage
               className="organic-flower"
               src={yellowCristal}
               alt="cristal de vie phase jaune"
+              loading="lazy"
             />
           </div>
         </div>
@@ -58,10 +61,11 @@ const HomeSectionSept = () => {
             <p className="text-flower">de 7 à 13 ans</p>
           </div>
           <div className="right-flower-column">
-            <img
+            <LazyLoadImage
               className="organic-flower"
               src={blueCristal}
               alt="cristal de vie phase bleue"
+              loading="lazy"
             />
           </div>
         </div>
@@ -76,10 +80,11 @@ const HomeSectionSept = () => {
             <p className="text-flower">de 14 à 20 ans</p>
           </div>
           <div className="right-flower-column">
-            <img
+            <LazyLoadImage
               className="organic-flower"
               src={redCristal}
               alt="cristal de vie phase rouge"
+              loading="lazy"
             />
           </div>
         </div>
@@ -94,15 +99,17 @@ const HomeSectionSept = () => {
             <p className="text-flower">dernier jour</p>
           </div>
           <div className="right-flower-column">
-            <img
+            <LazyLoadImage
               className="organic-flower blinking-flower"
               src={redCristal}
               alt="cristal de vie rougle clignotant"
+              loading="lazy"
             />
-            <img
+            <LazyLoadImage
               className="organic-flower "
               src={blackCristal}
               alt="cristal de vie rougle clignotant"
+              loading="lazy"
             />
           </div>
         </div>
@@ -117,10 +124,11 @@ const HomeSectionSept = () => {
             <p className="text-flower">citoyen renégat</p>
           </div>
           <div className="right-flower-column">
-            <img
+            <LazyLoadImage
               className="organic-flower"
               src={blackCristal}
               alt="cristal de vie rougle clignotant"
+              loading="lazy"
             />
           </div>
         </div>

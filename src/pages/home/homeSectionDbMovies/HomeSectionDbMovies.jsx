@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./HomeSectionDbMovies.scss";
 import "../Home.scss";
 import axios from "axios";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HomeSectionDbMovies = () => {
   const [data, setData] = useState(null);
@@ -25,10 +26,11 @@ const HomeSectionDbMovies = () => {
         <div className="sectionContainer">
           <div className="dbMoviesHome_sectionGauche">
             {data.poster_path && (
-              <img
+              <LazyLoadImage
                 className="posterLogansRun"
                 src={`https://image.tmdb.org/t/p/w500${data.poster_path}`}
                 alt={data.title}
+                loading="lazy"
               />
             )}
           </div>

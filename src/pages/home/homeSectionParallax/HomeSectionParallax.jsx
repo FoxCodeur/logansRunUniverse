@@ -3,6 +3,7 @@ import { Parallax } from "react-scroll-parallax";
 import "./HomeSectionParallax.scss";
 import afficheBarillet from "../../../assets/images/images-générales/barillet-affiche.png";
 import afficheBarilletcover from "../../../assets/images/images-générales/six-way-to-die.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HomeSectionParallax = () => {
   return (
@@ -22,12 +23,15 @@ const HomeSectionParallax = () => {
         src={afficheBarillet}
         alt="barillet de revolver avec munitions"
       />
-
+      {/* En utilisant LazyLoadImage avec l'effet opacity, vos images
+       l'image est chargées de manière différée et s'affiche à mesure que
+      l'on scrolle. */}
       <Parallax speed={70} opacity={[1, 1]}>
-        <img
+        <LazyLoadImage
           className="coverBarillet"
           src={afficheBarilletcover}
           alt="six way to die cover"
+          loading="lazy"
         />
       </Parallax>
     </div>

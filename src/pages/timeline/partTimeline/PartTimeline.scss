@@ -1,0 +1,33 @@
+/* PartTimeline.scss */
+
+.timeline-container {
+  .vertical-timeline-element {
+    .timelineBoxContent {
+      background-color: #f1f1f1;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+      padding: 1.5rem;
+      border-radius: 20px;
+      .paragrapheStyleTimeline {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1;
+      }
+    }
+
+    /* Style pour les dates dans les éléments de la timeline */
+    .vertical-timeline-element-date {
+      font-size: 1.5rem !important;
+      font-weight: bold;
+      color: rgb(163, 36, 36);
+      // &::after {
+      //   content: "";
+      //   position: absolute;
+      //   left: 0;
+      //   right: 0;
+      //   bottom: 0;
+      //   height: 2px;
+      //   background-color: rgb(163, 36, 36);
+      // }
+    }
+  }
+}

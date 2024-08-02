@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import "./HomeSectionDeux.scss";
 import "../Home.scss";
 import ceremonieCarousel from "../../../assets/images/images-générales/carousel.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionDeux = () => {
   const newsletterRef = useRef();
   // console.log(newsletterRef);
@@ -33,7 +34,13 @@ const HomeSectionDeux = () => {
     et attache newsletterRef à ce div pour l'observation. */}
       <div ref={newsletterRef} className="image-container appearImage">
         <figure>
-          <img className="ceremonieCarousel" src={ceremonieCarousel} alt="" />
+          {/* Utilisation de LazyLoadImage à la place de <img> */}
+          <LazyLoadImage
+            className="ceremonieCarousel"
+            src={ceremonieCarousel}
+            alt="on voit ici le déroulement d'une cérémonie du Carousel. Les participants qui portent le costume avec masque lévitent, d'ici quelques intants ils vont être euthanasiés par des lasers"
+            loading="lazy"
+          />
           <figcaption>La cérémonie du Carousel</figcaption>
         </figure>
       </div>

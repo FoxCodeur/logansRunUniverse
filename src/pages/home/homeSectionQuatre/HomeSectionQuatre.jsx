@@ -3,7 +3,7 @@ import "./HomeSectionQuatre.scss";
 import "../Home.scss";
 import concept1 from "../../../assets/images/images-générales/titre1.png";
 import concept2 from "../../../assets/images/images-générales/titre2.png";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionQuatre = () => {
   return (
     <div className="sectionQuatreContainer">
@@ -50,15 +50,17 @@ const HomeSectionQuatre = () => {
         </p>
       </div>
       <div className="conceptart">
-        <img
+        <LazyLoadImage
           className="conceptartWidth"
           src={concept1}
           alt="concept de logo titre francisé l'age de cristal version cercle rouge"
+          loading="lazy"
         />
-        <img
+        <LazyLoadImage
           className="conceptartWidth"
           src={concept2}
           alt="concept de logo titre francisé l'age de cristal version cristal rouge"
+          loading="lazy"
         />
       </div>
     </div>

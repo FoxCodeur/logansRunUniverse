@@ -4,7 +4,7 @@ import "../Home.scss";
 import loganVersionUn from "../../../assets/images/images-générales/logan1.png";
 import loganVersionDeux from "../../../assets/images/images-générales/logan2.png";
 import loganVersionTrois from "../../../assets/images/images-générales/logan3.png";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionTrois = () => {
   return (
     <div className="marginUpDownContainer">
@@ -34,11 +34,19 @@ const HomeSectionTrois = () => {
       <div className="tiret"></div>
       <div className="versions-logan grid">
         <div className="versions radiusVersionLogan">
-          <img src={loganVersionUn} alt="logan brandit son arme de service" />
+          <LazyLoadImage
+            src={loganVersionUn}
+            alt="logan brandit son arme de service"
+            loading="lazy"
+          />
         </div>
         <div className="shadowBallContainer">
           <div className="versions radiusVersionLoganDeux">
-            <img src={loganVersionDeux} alt="logan est à genoux" />
+            <LazyLoadImage
+              src={loganVersionDeux}
+              alt="logan est à genoux"
+              loading="lazy"
+            />
           </div>
 
           <section className="stage">
@@ -49,9 +57,10 @@ const HomeSectionTrois = () => {
           </section>
         </div>
         <div className="versions radiusVersionLogan">
-          <img
+          <LazyLoadImage
             src={loganVersionTrois}
             alt="logan porte sa tenue de service avec le casque de limier"
+            loading="lazy"
           />
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { NavLink } from "react-router-dom";
 import "./Definition.scss";
 import PropTypes from "prop-types";
@@ -11,6 +12,17 @@ const Definition = ({ titre, image, rubriques }) => {
   // rubriques: objet contenant différentes rubriques liées à la définition
   return (
     <div className="definitions">
+      <Helmet>
+        <title>{`${titre} - Logan's Run`}</title>
+        <meta
+          name="description"
+          content={`Découvrez tout ce qu'il faut connaitre sur ${titre}, à savoir son descriptif, degré d'importance dans l'univers de Logan's run, son apparitions mais aussi les différences qui peuvent exister selon les médias utilisés et plus encore.`}
+        />
+        <meta
+          name="keywords"
+          content={`${titre}, Logan's Run, Logan 5, Francis 7, Jessica 6, Carousel, City of Domes, The Sanctuary, Sandmen, Runners, dystopie, science-fiction, anticipation, univers futuriste, film de science-fiction`}
+        />
+      </Helmet>
       <ol
         id="mise_en_forme_retour_sommaire"
         className="mise_en_forme_retour_sommaire_margin_left"

@@ -6,24 +6,31 @@ import starring from "../../../assets/images/images-générales/starring.png";
 import starring2 from "../../../assets/images/images-générales/starring2.png";
 import starring3 from "../../../assets/images/images-générales/starring3.png";
 import starring4 from "../../../assets/images/images-générales/starring4.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionBGVideo = () => {
   return (
     <>
       <div className="d-flex">
-        <img
+        {/* En utilisant LazyLoadImage avec l'effet opacity, vos images
+       l'image est chargées de manière différée et s'affiche à mesure que
+      l'on scrolle. */}
+        <LazyLoadImage
           className="starring"
           src={starring}
           alt="le nom de l'acteur Michael York"
+          loading="lazy"
         />
-        <img
+        <LazyLoadImage
           className="starring"
           src={starring2}
           alt="le nom de l'actrice Jenny Agutter"
+          loading="lazy"
         />
-        <img
+        <LazyLoadImage
           className="starring"
           src={starring3}
           alt="le nom de l'actrice Farraw Fawcett"
+          loading="lazy"
         />
       </div>
       <div className="shadowBallContainer">
@@ -38,10 +45,11 @@ const HomeSectionBGVideo = () => {
         </div>
       </div>
       <div className="image-container">
-        <img
+        <LazyLoadImage
           className="starring"
           src={starring4}
           alt="le nom de l'actrice Farraw Fawcett"
+          loading="lazy"
         />
       </div>
       <div className="moreMargintiret"></div>

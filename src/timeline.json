@@ -1,0 +1,69 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "date": "6 mars 2078",
+      "description": "La cité sous-marine Molly est engloutie sous les eaux."
+    },
+    {
+      "id": 2,
+      "date": "7 dec 2095",
+      "description": "3ème guerre mondiale"
+    },
+    {
+      "id": 3,
+      "date": "31 jan 2096",
+      "description": "Hiver nucléaire : les gens meurent par centaine de milliers à cause des radiations et du manque de nourriture."
+    },
+    {
+      "id": 4,
+      "date": "2112",
+      "description": "Création de la N.G.C"
+    },
+    {
+      "id": 5,
+      "date": "2115",
+      "description": "Naissance du quorum des penseurs"
+    },
+    {
+      "id": 6,
+      "date": "2120",
+      "description": "L'avènement des complexes: les penseurs élaborent des plans puis créent une main d'œuvre robotique qui va ériger pour eux plusieurs cités hautes de mille mètres."
+    },
+    {
+      "id": 7,
+      "date": "2129",
+      "description": "En l'espace de cinq ans les cités complexes du monde entier ouvrent enfin leurs portes. Il n'y a pas assez de place pour tous et ceux qui y sont admis sous certaines conditions doivent se faire une raison car désormais ils deviennent la propriété exclusive des penseurs. Les survivants à l'agonie qui préfèrent rester dehors ne survivront pas longtemps car le monde contaminé n'est plus viable."
+    },
+    {
+      "id": 8,
+      "date": "2142",
+      "description": "La fin de l'humanité. Les premières générations qui ont subi la guerre ont toutes péri."
+    },
+    {
+      "id": 9,
+      "date": "2154",
+      "description": "Le dernier homme sur Terre. Dans le complexe de Londres le dernier humain vient de succomber des suites du mal radioactif. Les Penseurs ont eux aussi succombé, remplacés par le superordinateur, THINKER."
+    },
+    {
+      "id": 10,
+      "date": "2230",
+      "description": "La nouvelle ère se concrétise. La Terre panse peu à peu ses blessures, bien qu'une grande partie des continents soit encore dévastée... Les machines sont désormais prêtes, il est plus que temps de recréer la race humaine. Ces dernières années il y a eu de nombreuses avancées en génie génétique/clonage/cellules souches mais aussi dans le domaine de la nanotechnologie."
+    },
+    {
+      "id": 11,
+      "date": "19 juillet 2231",
+      "description": "Un ovule fertile est prélevé de la réserve cryo puis placé dans la chambre d'incubation. Neuf mois plus tard le premier transhumain naît de ce système sans faille: Adam-1. Son numéro d'identification, 31597. Il est le premier fils du THINKER."
+    },
+    {
+      "id": 12,
+      "date": "24XX",
+      "description": "Naissance de Logan 6"
+    },
+    {
+      "id": 13,
+      "date": "XXXX",
+      "description": "Aujourd'hui, le règne des machines"
+    }
+  ]
+}

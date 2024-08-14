@@ -62,15 +62,21 @@
 @keyframes thinkerAnimation {
   0%,
   100% {
-    opacity: 0;
+    opacity: 0; // Les images sont invisibles au début et à la fin de l'animation
   }
   20%,
-  25%,
+  25% {
+    opacity: 1; // Les images deviennent complètement visibles entre 20% et 25% du cycle de l'animation
+  }
   45%,
-  50%,
+  50% {
+    opacity: 1; // Les images restent visibles entre 45% et 50% du cycle de l'animation
+  }
   70%,
-  75%,
+  75% {
+    opacity: 1; // Les images restent visibles entre 70% et 75% du cycle de l'animation
+  }
   95% {
-    opacity: 1;
+    opacity: 1; // Les images restent visibles jusqu'à 95% du cycle de l'animation
   }
 }

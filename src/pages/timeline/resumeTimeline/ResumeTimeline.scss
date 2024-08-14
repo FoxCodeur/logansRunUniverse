@@ -1,23 +1,22 @@
-/* ResumeTimeline.scss */
-
 /* Style pour le titre de la timeline */
 .timelineTitleResume {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
+
 /* Style pour la modale */
 .modalStyle {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 500px;
   background-color: #fff;
   border: 2px solid #000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 50px;
-  padding: 1rem;
+  border-radius: 80px 80px 100px 100px;
+  padding: 2rem;
   outline: none;
   display: flex;
   flex-direction: column; /* Permet de placer le titre et le contenu verticalement */
@@ -25,14 +24,21 @@
 
 /* Style pour l'en-tête de la modale et l'icône de fermeture */
 .modalHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem; /* Ajoute de l'espace entre l'en-tête et le contenu */
+  position: relative;
 }
 
 .closeIcon {
+  position: absolute;
+  top: 0.5rem; /* Ajuste la position de l'icône vers le bas */
+  right: 0.5rem; /* Ajuste la position de l'icône vers la droite */
   cursor: pointer;
-  font-size: 2rem; /* Taille de l'icône */
   color: #000;
+  font-size: 3rem;
+}
+
+/* Media query pour les écrans de taille mobile */
+@media (max-width: 768px) {
+  .modalStyle {
+    width: 400px; /* Largeur en mode mobile */
+  }
 }

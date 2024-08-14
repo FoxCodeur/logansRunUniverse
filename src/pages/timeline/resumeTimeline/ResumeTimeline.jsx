@@ -59,7 +59,17 @@ const ResumeTimeline = () => {
       >
         <Box className="modalStyle">
           <div className="modalHeader">
-            <Typography id="modal-title" variant="h6" component="h2">
+            <Typography
+              id="modal-title"
+              variant="h6"
+              component="h2"
+              sx={{
+                color: "#1976d2",
+                fontWeight: "700",
+                marginLeft: "2rem",
+                marginBottom: "5px",
+              }}
+            >
               La dictature des Machines
             </Typography>
             <CloseIcon className="closeIcon" onClick={handleClose} />

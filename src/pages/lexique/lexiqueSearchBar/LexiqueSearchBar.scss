@@ -1,6 +1,7 @@
 @use "src/styles/variables";
 
 .searchbarContainer {
+  position: relative; /* Nécessaire pour positionner la liste des suggestions correctement */
   width: 17rem;
   border-radius: 40px;
   background: white;
@@ -24,18 +25,56 @@
     border-radius: 40px;
     animation: moveGradient 5s ease-in-out infinite;
   }
+
   .inputSearch {
+    position: relative; /* Nécessaire pour que la liste des suggestions soit positionnée correctement */
     width: 16rem;
     display: flex;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+
     & input {
       border: none;
       font-size: 1rem;
+      width: 100%; /* Assure que le champ de saisie prend toute la largeur disponible */
+      box-sizing: border-box; /* Inclut le padding dans la largeur totale */
     }
+
     .inputSearchIcon_Container {
       padding-left: 1.3rem;
       font-size: 1.2rem;
+    }
+
+    button {
+      border: none; /* Enlever la bordure */
+      background: none; /* Enlever l'arrière-plan par défaut */
+      padding: 0; /* Enlever le padding par défaut */
+      margin: 0; /* Enlever la marge par défaut */
+      cursor: pointer; /* Changer le curseur pour indiquer qu'il est cliquable */
+    }
+  }
+
+  .suggestionsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background: white;
+    width: 100%; /* Assure que la liste des suggestions fait la même largeur que le champ de recherche */
+    top: 100%; /* Positionne la liste directement sous le champ de recherche */
+    left: 0;
+    z-index: 1000; /* Assure que la liste des suggestions est au-dessus d'autres éléments */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optionnel : Ajoute une ombre pour plus de visibilité */
+  }
+
+  .suggestionItem {
+    padding: 8px;
+    cursor: pointer;
+    &:hover {
+      background-color: #f0f0f0; /* Couleur de survol pour les éléments */
     }
   }
 }

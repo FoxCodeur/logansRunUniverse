@@ -6,6 +6,7 @@ import React from "react";
 import Home from "../pages/home/Home";
 import Lexique from "../pages/lexique/Lexique";
 import Timeline from "../pages/timeline/Timeline";
+import Portfolio from "../pages/portfolio/Portfolio";
 import Games from "../pages/games/Games";
 import Acteurs from "../pages/articles/A/acteurs/Acteurs";
 import Adam from "../pages/articles/A/Adam/Adam";
@@ -135,6 +136,7 @@ const routesConfig = [
   { path: "/lexique", element: Lexique },
   { path: "/timelines", element: Timeline },
   { path: "games", element: Games },
+  { path: "portfolio", element: Portfolio },
   // ------------------------------A----------------------------------------------
   { path: "les-acteurs-du-film", element: Acteurs },
   { path: "adam-1", element: Adam },

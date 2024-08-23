@@ -1,0 +1,17 @@
+.navbarPortfolio {
+  height: 100px;
+  .navbarPortfolio_wrapper {
+    max-width: 1366px;
+    margin: auto;
+    span {
+      font-weight: bold;
+    }
+    .navbarPortfolio_socials {
+      display: flex;
+      gap: 20px;
+      .navbarPortfolio_socials_Style {
+        font-size: 2rem;
+      }
+    }
+  }
+}

@@ -17,7 +17,11 @@
   background: #000101;
   color: #fefeff;
 }
-
+html {
+  scroll-snap-type: y mandatory;
+  //En appliquant scroll-behavior: smooth; à l'élément html, vous indiquez que tout le document doit avoir un défilement fluide.
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;

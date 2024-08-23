@@ -58,6 +58,13 @@ const Nav = () => {
             >
               Games
             </NavLink>
+            <NavLink
+              to="/portfolio"
+              className="navbar_link slideInDown-4"
+              onClick={handleLinkClick}
+            >
+              Portfolio
+            </NavLink>
           </li>
         </ul>
       </div>

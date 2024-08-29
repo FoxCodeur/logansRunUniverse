@@ -3,27 +3,29 @@ import { motion } from "framer-motion";
 import "./SidebarPortfolio.scss";
 import ToggleButton from "../toggleButton/ToggleButton";
 import Links from "../links/Links";
-// Si variants doit être utilisé par d'autres composants ou fonctions dans le même
-// fichier, il est logique de le définir en dehors du composant pour le rendre
-// accessible.
+
+// Définition des variantes pour le composant SidebarPortfolio
 const variants = {
   open: {
-    clipPath: "circle(1200px at 50px 50px)", // Corrected clipPath with proper syntax
+    clipPath: "circle(1200px at 50px 50px)",
+    zIndex: 20, // Ajout du z-index pour l'état ouvert
     transition: {
       type: "spring",
-      stiffness: 20, // Fixed typo in 'stiffness'
+      stiffness: 20,
     },
   },
   closed: {
-    clipPath: "circle(30px at 50px 50px)", // Corrected clipPath with proper syntax
+    clipPath: "circle(30px at 50px 50px)",
+    zIndex: 0, // Valeur par défaut pour l'état fermé
     transition: {
       delay: 0.5,
       type: "spring",
-      stiffness: 400, // Fixed typo in 'stiffness'
+      stiffness: 400,
       damping: 40,
     },
   },
 };
+
 const SidebarPortfolio = () => {
   const [open, setOpen] = useState(false);
 

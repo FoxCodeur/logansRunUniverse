@@ -120,6 +120,11 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+.boxCenterColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .image-container {
   display: flex;

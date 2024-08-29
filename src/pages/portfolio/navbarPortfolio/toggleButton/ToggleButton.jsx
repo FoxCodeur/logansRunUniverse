@@ -18,7 +18,7 @@ const ToggleButton = ({ setOpen }) => {
   };
 
   return (
-    <button onClick={handleToggle}>
+    <button className="ToggleButtonPortfolio" onClick={handleToggle}>
       <svg width="23" height="23" viewBox="0 0 23 23">
         {/* Top line */}
         <motion.path

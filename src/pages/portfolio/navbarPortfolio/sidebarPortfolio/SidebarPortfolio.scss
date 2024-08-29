@@ -5,9 +5,11 @@
   align-items: center;
   background-color: white;
   color: black;
+  position: relative; // Assure que le conteneur a une position définie pour l'empilement
+
   .bg {
-    position: fixed;
-    top: 1;
+    position: fixed; // Gardez la position fixe pour la sidebar
+    top: 10; // Ajustez top à 0 pour qu'il soit collé en haut
     left: 0;
     width: 300px;
     height: 61%;
@@ -16,8 +18,10 @@
     border: 2px inset darkred;
     border-left: 5px inset darkred;
     background-color: rgb(169, 169, 255);
+    z-index: 10; // Valeur par défaut pour la sidebar
+
     .links {
-      position: absolute;
+      position: absolute; // Position absolue pour les liens à l'intérieur de la sidebar
       width: 100%;
       height: 100%;
       display: flex;
@@ -27,15 +31,17 @@
       gap: 20px;
     }
   }
+
   button {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    position: fixed;
+    position: fixed; // Position fixe pour le bouton toggle
     top: 165px;
     left: 25px;
-    background-color: transparent;
+    background-color: white;
     border: none;
     cursor: pointer;
+    z-index: 20; // Assurez-vous que le bouton est au-dessus de la sidebar
   }
 }

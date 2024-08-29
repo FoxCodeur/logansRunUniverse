@@ -1,0 +1,124 @@
+.hero {
+  position: relative;
+  height: calc(100vh - 200px);
+  overflow: hidden;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  // z-index: -10; // Garder le z-index négatif pour l'arrière-plan uniquement
+
+  .wrapperHero {
+    max-width: 1366px;
+    margin: auto;
+    height: 400px;
+    position: relative; // Assure que les éléments enfants utilisent ce conteneur pour leur positionnement
+    z-index: 1; // Réactive le z-index normal pour les enfants
+
+    .textHeroContainer {
+      color: #ffffff;
+      height: 100%;
+      gap: 40px;
+      position: relative; // Pour contrôler le z-index des enfants
+
+      h2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.4rem;
+      }
+
+      h1 {
+        font-size: 3.2rem;
+      }
+
+      .buttonHeroContainer {
+        width: 110px;
+        box-shadow: inset 0px 39px 0px -24px #e67a73;
+        background-color: #e4685d;
+        border-radius: 4px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 15px;
+        padding: 6px 15px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #b23e35;
+        position: relative; // Positionnement normal pour interagir correctement
+        z-index: 100; // Assure que le bouton reste au-dessus de tous les éléments négatifs
+      }
+    }
+  }
+
+  .imageHeroContainer {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0; // Position normale pour ne pas interférer avec le bouton
+
+    img {
+      max-width: 50%;
+      height: auto;
+      padding-bottom: 1rem;
+    }
+
+    .progress-circle {
+      position: absolute;
+      width: 52%;
+      height: 52%;
+      top: 23%;
+      left: 24.8%;
+      transform: translate(-50%, -50%);
+
+      .CircularProgressbar-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(1%, 33%);
+      }
+    }
+  }
+
+  // Media query pour les écrans plus petits
+  @media (max-width: 768px) {
+    height: auto;
+
+    .imageHeroContainer {
+      position: static;
+      margin: auto;
+      left: auto;
+      top: auto;
+      width: 53%;
+      transform: none;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .progress-circle {
+        display: none;
+      }
+    }
+
+    .wrapperHero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .textHeroContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        gap: 20px;
+        height: 100vh;
+
+        .buttonHeroContainer {
+          width: 100%;
+          max-width: 250px;
+        }
+      }
+    }
+  }
+}

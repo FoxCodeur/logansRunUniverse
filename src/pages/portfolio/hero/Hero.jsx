@@ -35,7 +35,35 @@ const Hero = () => {
           >
             Contact Me
           </a>
-          <div className="scroll-icon">{/* SVG du scroll, inchangé */}</div>
+          <div className="scroll-icon">
+            <svg
+              width="30"
+              height="70" // Augmenté pour inclure le chevron
+              viewBox="0 0 30 70"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+            >
+              <rect
+                x="1.5"
+                y="1.5"
+                width="27"
+                height="47"
+                rx="13.5"
+                stroke="#fff"
+                strokeWidth="3"
+              />
+              <circle cx="15" cy="12" r="3.5" fill="#fff" />{" "}
+              {/* Molette agrandie */}
+              {/* Chevron orienté vers le bas */}
+              <path
+                d="M10 55 L15 60 L20 55" // Définition du chevron
+                stroke="#fff"
+                strokeWidth="3"
+                strokeLinecap="round"
+                fill="none"
+              />
+            </svg>
+          </div>
         </div>
       </div>
       <div className="imageHeroContainer">

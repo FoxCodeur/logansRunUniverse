@@ -3,20 +3,19 @@
   height: calc(100vh - 200px);
   overflow: hidden;
   background: linear-gradient(180deg, #0c0c1d, #111132);
-  // z-index: -10; // Garder le z-index négatif pour l'arrière-plan uniquement
 
   .wrapperHero {
     max-width: 1366px;
     margin: auto;
     height: 400px;
-    position: relative; // Assure que les éléments enfants utilisent ce conteneur pour leur positionnement
-    z-index: 1; // Réactive le z-index normal pour les enfants
+    position: relative;
+    z-index: 1;
 
     .textHeroContainer {
       color: #ffffff;
       height: 100%;
       gap: 40px;
-      position: relative; // Pour contrôler le z-index des enfants
+      position: relative;
 
       h2 {
         font-size: 1.5rem;
@@ -41,8 +40,32 @@
         padding: 6px 15px;
         text-decoration: none;
         text-shadow: 0px 1px 0px #b23e35;
-        position: relative; // Positionnement normal pour interagir correctement
-        z-index: 100; // Assure que le bouton reste au-dessus de tous les éléments négatifs
+        position: relative;
+        z-index: 100;
+      }
+
+      // Conteneur de l'icône de défilement avec l'animation
+      .scroll-icon {
+        margin-top: 20px;
+        display: flex;
+        animation: fadeMove 2s infinite; // Appliquer les animations combinées
+
+        @keyframes fadeMove {
+          0% {
+            opacity: 0; // Début avec l'opacité 0
+            transform: translateY(
+              10px
+            ); // Position de départ décalée de 10px vers le bas
+          }
+          50% {
+            opacity: 1; // Opacité pleine au milieu de l'animation
+            transform: translateY(0); // Retourne à la position d'origine
+          }
+          100% {
+            opacity: 0; // Retourne à l'opacité 0 à la fin de l'animation
+            transform: translateY(10px); // Redescend de 10px
+          }
+        }
       }
     }
   }
@@ -52,7 +75,7 @@
     left: 60%;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 0; // Position normale pour ne pas interférer avec le bouton
+    z-index: 0;
 
     img {
       max-width: 50%;

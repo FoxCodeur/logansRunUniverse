@@ -52,7 +52,14 @@ h2 {
 }
 
 img {
-  height: auto;
+  width: 100%; // Par défaut, occupe toute la largeur du conteneur
+  height: auto; // Conserve les proportions de l'image
+}
+@media (max-width: 600px) {
+  img {
+    max-width: 100%; // Sur les écrans de 600px ou moins, occupe 90% de la largeur du conteneur
+    height: auto; // Conserve les proportions de l'image
+  }
 }
 a {
   font-size: 1.1rem;

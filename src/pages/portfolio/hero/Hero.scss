@@ -46,10 +46,8 @@
 
       // Conteneur de l'icône de défilement avec l'animation
       .scroll-icon {
-        margin-top: 20px;
-        display: flex;
         animation: fadeMove 2s infinite; // Appliquer les animations combinées
-
+        margin-top: -10px;
         @keyframes fadeMove {
           0% {
             opacity: 0; // Début avec l'opacité 0

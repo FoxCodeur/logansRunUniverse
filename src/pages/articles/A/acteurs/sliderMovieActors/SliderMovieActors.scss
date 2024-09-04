@@ -1,0 +1,63 @@
+.swiper-slide {
+  display: flex; /* Utiliser flexbox pour centrer le contenu */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  padding-bottom: 3rem;
+  height: 320px; /* Ajuste la hauteur du conteneur du slide selon tes besoins */
+  overflow: hidden; /* Cache les parties des images qui débordent */
+  position: relative; /* Nécessaire pour positionner les boutons relativement au conteneur */
+}
+
+.image_slider {
+  margin-top: 1rem;
+  max-width: 100%; /* Limite la largeur maximale à 100% du conteneur */
+  max-height: 100%; /* Limite la hauteur maximale à 100% du conteneur */
+  object-fit: contain; /* Ajuste l'image pour être entièrement visible sans déformation */
+  border-radius: 10px; /* Ajoute des coins arrondis si nécessaire */
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre portée si nécessaire */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: flex; /* Flexbox pour centrer le contenu */
+  align-items: center; /* Centrer verticalement */
+  justify-content: center; /* Centrer horizontalement */
+  color: black; /* Couleur des icônes par défaut */
+  border-radius: 50%; /* Forme ronde */
+  z-index: 10; /* Assurez-vous que les boutons sont au-dessus des autres éléments */
+  cursor: pointer; /* Curseur main pour une meilleure interactivité */
+  transform: scale(1.5); /* Taille des boutons par défaut */
+  transition:
+    color 0.5s,
+    transform 0.5s; /* Transition pour la couleur et la transformation */
+}
+
+// Styles spécifiques pour chaque bouton
+.swiper-button-prev {
+  padding-left: 2rem;
+  left: 10px; /* Positionnement à 10px du côté gauche */
+}
+
+.swiper-button-next {
+  padding-right: 2rem;
+  right: 10px; /* Positionnement à 10px du côté droit */
+}
+
+// Styles de survol
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: darkred; /* Couleur des icônes au survol */
+  transform: scale(1.2); /* Agrandir de 20% au survol */
+}
+.swiper-pagination-bullet {
+  background: blue; /* Couleur des cercles de pagination */
+  width: 10px; /* Largeur des cercles de pagination */
+  height: 10px; /* Hauteur des cercles de pagination */
+  border-radius: 50%; /* Forme ronde des cercles */
+  margin: 0 4px; /* Espacement entre les cercles */
+  transition: background 0.3s; /* Transition pour la couleur de fond */
+}
+
+.swiper-pagination-bullet-active {
+  background: darkred; /* Couleur des cercles actifs de pagination */
+}

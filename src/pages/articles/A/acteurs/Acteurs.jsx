@@ -2,6 +2,7 @@ import React from "react";
 import Definition from "../../Definition";
 import data from "../../../../data.json";
 import SliderMovieActors from "./sliderMovieActors/SliderMovieActors";
+import "./Acteurs.scss";
 
 // On crée un composant générique vers lequel toutes les définitions vont se rediriger
 const Acteurs = () => {
@@ -17,14 +18,14 @@ const Acteurs = () => {
 
   // Sinon, affiche le composant Definition avec les données disponibles
   return (
-    <>
+    <div className="acteurs-wrapper">
       <Definition
         titre={acteursData.titre}
         image={acteursData.image}
         rubriques={acteursData.rubriques}
       />
       <SliderMovieActors />
-    </>
+    </div>
   );
 };
 

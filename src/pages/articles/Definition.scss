@@ -14,12 +14,31 @@
       }
     }
   }
+  /* Style spécifique pour les petits écrans */
+  @media (max-width: 768px) {
+    .mise_en_forme_retour_sommaire_margin_left {
+      margin: 0 auto; // Centrer horizontalement
+      text-align: center; // Centrer le texte
+      font-size: 1rem; // Ajuster la taille de la police si nécessaire
+      width: 90%; // Ajuster la largeur pour les petits écrans
+    }
+  }
   .personnage {
     color: #8d0000;
-    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc,
-      1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc,
-      3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc,
-      5px 6px 1px #eee, 7px 6px 1px #ccc;
+    text-shadow:
+      1px 0px 1px #ccc,
+      0px 1px 1px #eee,
+      2px 1px 1px #ccc,
+      1px 2px 1px #eee,
+      3px 2px 1px #ccc,
+      2px 3px 1px #eee,
+      4px 3px 1px #ccc,
+      3px 4px 1px #eee,
+      5px 4px 1px #ccc,
+      4px 5px 1px #eee,
+      6px 5px 1px #ccc,
+      5px 6px 1px #eee,
+      7px 6px 1px #ccc;
     text-align: center;
     padding-bottom: 3rem;
   }
@@ -41,7 +60,9 @@
     .definition {
       background-color: rgba(0, 21, 139, 0.15);
       border-left: 4px solid rgba(139, 0, 0, 0.504);
-      box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+      box-shadow:
+        6px 6px 12px #bebebe,
+        -6px -6px 12px #ffffff;
       padding: 1rem;
       border-radius: 10px 250px 70px 10px;
       width: calc(60% - 50px); // Prend 70% de largeur moins la marge

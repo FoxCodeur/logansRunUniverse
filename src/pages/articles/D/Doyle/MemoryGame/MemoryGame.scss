@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
 .memoryGameContainer {
   display: flex;
   flex-direction: column;
@@ -41,16 +43,46 @@
       }
     }
   }
+  .movesCounter {
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: orbitron;
+  }
 
   .endMessage {
     font-size: 1.5rem;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 1rem;
+    font-family: orbitron;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.5rem;
     border-radius: 8px;
     margin: 1rem 0;
     text-align: center;
-    animation: fadeInOut 3s ease-in-out;
+    animation: fadeInOut 1s ease-in-out;
+  }
+
+  .MemoryGameButton {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgba(0, 0, 139, 0.8);
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 8px;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      background-color: rgba(0, 0, 139, 0.5);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    &:active {
+      transform: translateY(1px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
   }
 
   @keyframes changeColor {
@@ -67,13 +99,13 @@
       opacity: 0;
     }
     20% {
-      opacity: 1;
+      opacity: 0.3;
     }
     80% {
-      opacity: 1;
+      opacity: 0.6;
     }
     100% {
-      opacity: 0;
+      opacity: 1;
     }
   }
 

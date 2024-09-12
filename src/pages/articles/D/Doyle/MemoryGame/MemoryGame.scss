@@ -1,93 +1,86 @@
 .memoryGameContainer {
+  display: flex;
+  flex-direction: column;
   padding: 1rem 0 2rem;
 
   .cardsContainer {
     padding: 0.3rem;
     width: 630px;
-    display: grid; // Utilisation du système de grille CSS pour aligner les éléments.
-    grid-template-columns: repeat(
-      4,
-      1fr
-    ); // Crée une grille de 4 colonnes, chaque colonne prenant une fraction égale de l'espace disponible.
-    justify-items: center; // Centre chaque carte horizontalement dans sa colonne.
-    align-items: center; // Centre chaque carte verticalement dans sa ligne.
-    gap: 5px; // Espacement entre les cartes.
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
     margin: 1em 0;
     animation: changeColor 5s ease-in-out infinite;
 
     .cards {
-      background-color: rgba(
-        3,
-        29,
-        48,
-        0.714
-      ); // Couleur de fond de la carte avec une certaine opacité.
+      background-color: rgba(3, 29, 48, 0.714);
+      cursor: pointer;
       border: 1px solid black;
       width: 150px;
       height: 150px;
-      transition: all linear 0.3s; // Définit une transition douce pour toutes les propriétés CSS changées, sur 0,3 seconde.
-      transform: rotate3d(
-        0,
-        1,
-        0,
-        180deg
-      ); // Applique une rotation 3D de 180 degrés autour de l'axe Y (effet "flip").
+      transition: all linear 0.3s;
       position: relative;
-      overflow: hidden; // Cache tout le contenu qui dépasse les limites de la carte.
+      overflow: hidden;
 
-      .backside {
-        background-color: rgb(
-          3,
-          29,
-          48
-        ); // Couleur de fond de l'arrière de la carte.
-        position: absolute; // Positionnement absolu pour recouvrir entièrement la face avant.
-        width: 100%; // Prend toute la largeur du conteneur parent.
-        height: 100%; // Prend toute la hauteur du conteneur parent.
-        backface-visibility: hidden; // Cache l'élément lorsque sa face arrière est visible (utile pour les rotations 3D).
-        display: flex; // Utilisation de flexbox pour centrer le contenu.
-        justify-content: center; // Centre horizontalement le contenu de la carte.
-        align-items: center; // Centre verticalement le contenu de la carte.
+      &.flipped {
+        transform: rotate3d(0, 1, 0, 180deg);
+        transform-style: preserve-3d;
 
-        img {
-          width: 100%; // Assure que l'image prend toute la largeur du conteneur.
-          height: 100%; // Assure que l'image prend toute la hauteur du conteneur.
-          object-fit: cover; // Ajuste l'image pour couvrir toute la surface sans déformation.
+        .backside {
+          background-color: rgb(3, 29, 48);
+          backface-visibility: hidden;
+          transform: rotate3d(0, 1, 0, 180deg);
         }
       }
 
-      &.flipped {
-        transform: unset; // Réinitialise la transformation (annule la rotation).
-        transform-style: preserve-3d; // Préserve l'effet 3D lors des transformations.
-
-        .backside {
-          transform: rotate3d(
-            0,
-            1,
-            0,
-            180deg
-          ); // Applique une rotation pour montrer la face arrière.
-        }
+      .backside {
+        background-color: rgb(3, 29, 48);
+        backface-visibility: hidden;
       }
     }
   }
 
+  .endMessage {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    text-align: center;
+    animation: fadeInOut 3s ease-in-out;
+  }
+
   @keyframes changeColor {
     0% {
-      background-color: darkred; // Couleur de fond initiale.
+      background-color: darkred;
     }
     100% {
-      background-color: rgba(139, 0, 0, 0.121); // Couleur de fond finale.
+      background-color: rgba(139, 0, 0, 0.121);
+    }
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
     }
   }
 
   @media only screen and (max-width: 768px) {
     .cardsContainer {
-      width: 320px; // Largeur du conteneur ajustée.
-      grid-template-columns: repeat(
-        2,
-        1fr
-      ); // Réduit à 2 colonnes pour s'adapter aux écrans plus petits.
+      width: 320px;
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 }

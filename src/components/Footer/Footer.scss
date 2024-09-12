@@ -1,16 +1,36 @@
 @use "src/styles/variables";
+
 .footer {
+  width: 100vw;
+  min-height: 12rem;
+  padding: 1rem 5rem;
+  background-image: url("../../assets/images/images-générales/futur.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 2px solid rgba(0, 0, 0, 0.672);
+  color: variables.$navbarTextColor;
+
   .footer_inside {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap; // Ajouté pour permettre à l'intérieur de se réorganiser en cas de réduction de la largeur
+    width: 100%; // Assure que le conteneur prend toute la largeur disponible
+
     .footer_inside_part {
       width: 33.33%;
       margin-left: 2rem;
+
+      &:last-child {
+        margin-left: 0; // Retire la marge du dernier élément pour éviter un espacement excessif
+      }
     }
+
     .foxCodeurLogo {
       width: 10rem;
     }
+
     .socials-container {
       display: flex;
       width: 10rem;
@@ -24,9 +44,10 @@
         box-shadow: 0 10px 15px rgba(83, 83, 83, 0.3);
         background: linear-gradient(0deg, #ddd, #fff);
         transition: color 0.5s;
-      }
-      .socialsStyle:hover {
-        color: darkred;
+
+        &:hover {
+          color: darkred;
+        }
       }
 
       .github,
@@ -39,12 +60,12 @@
       .socialFox {
         display: flex;
         align-items: center;
+
         .fox {
-          // aspect-ratio: 1/1; /* Ratio de 1:1 pour maintenir la forme carrée */
-          // max-height: 1rem; /* Hauteur maximale pour éviter le débordement */
           width: 2.8rem;
         }
       }
+
       .github,
       .linkedin,
       .socialFox {
@@ -52,27 +73,21 @@
       }
     }
   }
-  width: 100vw;
-  min-height: 12rem;
-  padding: 1rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  background-image: url("../../assets/images/images-générales/futur.jpg");
-  border: 2px solid rgba(0, 0, 0, 0.672);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  color: variables.$navbarTextColor;
-}
-@media screen and (max-width: 768px) {
-  .footer_inside {
-    border: 1px solid black;
-    border-radius: 5px;
-    flex-direction: column;
-    .footer_inside_part {
-      margin: auto;
-      margin-bottom: 2rem;
-      margin-top: 2rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 1rem; // Réduit le padding pour les écrans plus petits
+
+    .footer_inside {
+      border: 1px solid black;
+      border-radius: 5px;
+      flex-direction: column;
+      align-items: center; // Centre les éléments dans la colonne
+
+      .footer_inside_part {
+        width: 100%; // Assure que chaque partie occupe la largeur complète
+        margin: 0; // Retire la marge pour une meilleure mise en page en colonne
+        margin-bottom: 2rem;
+      }
     }
   }
 }

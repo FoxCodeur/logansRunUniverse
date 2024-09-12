@@ -1,7 +1,4 @@
 .btn_basis {
-  .faArrowUp {
-    font-size: 2rem;
-  }
   height: 50px;
   width: 50px;
   background: rgba(0, 0, 139, 0.5);
@@ -14,12 +11,20 @@
   cursor: pointer;
   bottom: 20px;
   right: 10px;
-  //   opacity: 60%;
+  transition: opacity 0.4s ease-in, visibility 0.4s ease-in;
 
-  //   visibility: hidden;
-  //   opacity: 0;
-  transition: 0.4s ease-in;
+  .faArrowUp {
+    font-size: 2rem;
+  }
+
+  // Initial state for hidden button
+  &.btn-hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
 }
+
+// State to show button
 .btn-appear {
   visibility: visible;
   opacity: 1;

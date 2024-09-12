@@ -31,48 +31,51 @@
   display: flex;
   justify-content: flex-end; /* Align links to the right */
   width: 100%;
+
+  &.show-nav {
+    right: 0; /* Slide in from the right on click */
+  }
+
+  .navbar_link {
+    position: relative;
+    padding: 0.5rem;
+    color: inherit;
+    font-family: revalia;
+    font-size: 1.15rem;
+    text-align: center;
+
+    &::before,
+    &::after {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 10px;
+      height: 100%;
+      width: 100%;
+      transform-origin: center;
+      transition: transform 900ms;
+    }
+
+    &::before {
+      border-top: 1px solid rgba(139, 0, 0, 0.5);
+      border-bottom: 1px solid rgba(139, 0, 0, 0.5);
+      transform: scale3d(0, 1, 1);
+    }
+
+    &::after {
+      border-left: 3px solid rgba(0, 0, 139, 0.5);
+      border-right: 3px solid rgba(0, 0, 139, 0.5);
+      transform: scale3d(1, 0, 1);
+    }
+
+    &:hover::before,
+    &:hover::after {
+      transform: scale3d(1, 1, 1);
+    }
+  }
 }
-// animation sur hover des liens de la Navbar
-.navbar_link {
-  position: relative;
-  padding: 0.5rem;
-  color: inherit;
-  font-family: revalia;
-  font-size: 1.15rem;
-  text-align: center;
-
-  &::before,
-  &::after {
-    content: "";
-    box-sizing: border-box;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 10px;
-    height: 100%;
-    width: 100%;
-    transform-origin: center;
-    transition: transform 900ms;
-  }
-
-  &::before {
-    border-top: 1px solid rgba(139, 0, 0, 0.5);
-    border-bottom: 1px solid rgba(139, 0, 0, 0.5);
-    transform: scale3d(0, 1, 1);
-  }
-
-  &::after {
-    border-left: 3px solid rgba(0, 0, 139, 0.5);
-    border-right: 3px solid rgba(0, 0, 139, 0.5);
-    transform: scale3d(1, 0, 1);
-  }
-
-  &:hover::before,
-  &:hover::after {
-    transform: scale3d(1, 1, 1);
-  }
-}
-// fin animation sur hover des liens de la Navbar
 
 .navbar_burger {
   z-index: 2;
@@ -85,50 +88,50 @@
   border: none;
   color: inherit;
   display: none; /* Hide by default */
-}
 
-.navbar_burger:hover {
-  cursor: pointer;
-}
+  &:hover {
+    cursor: pointer;
+  }
 
-.burger-bar,
-.burger-bar::before,
-.burger-bar::after {
-  display: block;
-  width: 40px;
-  height: 3px;
-  position: relative;
-  border-radius: 3px;
-  background: darkred;
-  transition: all 0.5s ease-in-out;
-}
+  .burger-bar,
+  .burger-bar::before,
+  .burger-bar::after {
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    border-radius: 3px;
+    background: darkred;
+    transition: all 0.5s ease-in-out;
+  }
 
-.burger-bar::before,
-.burger-bar::after {
-  content: "";
-  position: absolute;
-  left: 0;
-}
+  .burger-bar::before,
+  .burger-bar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+  }
 
-.burger-bar::before {
-  transform: translateY(-12px);
-}
+  .burger-bar::before {
+    transform: translateY(-12px);
+  }
 
-.burger-bar::after {
-  transform: translateY(12px);
-}
+  .burger-bar::after {
+    transform: translateY(12px);
+  }
 
-.show-nav .burger-bar {
-  width: 0;
-  background-color: transparent;
-}
+  &.show-nav .burger-bar {
+    width: 0;
+    background-color: transparent;
+  }
 
-.show-nav .burger-bar::before {
-  transform: rotate(45deg);
-}
+  &.show-nav .burger-bar::before {
+    transform: rotate(45deg);
+  }
 
-.show-nav .burger-bar::after {
-  transform: rotate(-45deg);
+  &.show-nav .burger-bar::after {
+    transform: rotate(-45deg);
+  }
 }
 
 .navbar_link {
@@ -157,23 +160,6 @@
 
 @media screen and (max-width: 767px) {
   .navbar_links {
-    .navbar_link::after {
-      content: "";
-      display: block;
-      margin: 1vw auto;
-      margin-top: 2rem;
-      width: 4vw;
-      height: 2px;
-      background-color: #fff;
-    }
-    .navbar_item {
-      display: flex;
-      flex-direction: column;
-      .navbar_link {
-        padding: 1.5rem;
-        font-size: 5vw;
-      }
-    }
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,6 +175,26 @@
     z-index: 1;
     overflow-y: auto;
     overscroll-behavior: none;
+
+    .navbar_link::after {
+      content: "";
+      display: block;
+      margin: 1vw auto;
+      margin-top: 2rem;
+      width: 4vw;
+      height: 2px;
+      background-color: #fff;
+    }
+
+    .navbar_item {
+      display: flex;
+      flex-direction: column;
+
+      .navbar_link {
+        padding: 1.5rem;
+        font-size: 5vw;
+      }
+    }
   }
 
   .navbar.show-nav .navbar_links {

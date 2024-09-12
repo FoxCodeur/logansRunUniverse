@@ -2,16 +2,15 @@
   display: flex; /* Utiliser flexbox pour centrer le contenu */
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
-  padding-bottom: 3rem;
+  margin-bottom: 4rem;
   height: 320px; /* Ajuste la hauteur du conteneur du slide selon tes besoins */
   overflow: hidden; /* Cache les parties des images qui débordent */
   position: relative; /* Nécessaire pour positionner les boutons relativement au conteneur */
 }
 
 .image_slider {
-  margin-top: 1rem;
-  max-width: 100%; /* Limite la largeur maximale à 100% du conteneur */
-  max-height: 100%; /* Limite la hauteur maximale à 100% du conteneur */
+  max-width: 90%; /* Limite la largeur maximale à 100% du conteneur */
+  max-height: 90%; /* Limite la hauteur maximale à 100% du conteneur */
   object-fit: contain; /* Ajuste l'image pour être entièrement visible sans déformation */
   border-radius: 10px; /* Ajoute des coins arrondis si nécessaire */
   // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre portée si nécessaire */

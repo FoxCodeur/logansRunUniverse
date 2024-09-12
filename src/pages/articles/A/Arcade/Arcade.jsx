@@ -1,6 +1,9 @@
 import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
+import "./Arcade.scss";
+import BandeauArcade from "./bandeauArcade/BandeauArcade";
+
 const Arcade = () => {
   const arcadeData = data.A ? data.A["Arcade"] : null;
 
@@ -15,6 +18,8 @@ const Arcade = () => {
         image={arcadeData.image}
         rubriques={arcadeData.rubriques}
       />
+      {/* sous composant */}
+      <BandeauArcade />
     </div>
   );
 };

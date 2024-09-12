@@ -236,3 +236,12 @@ a {
   background-size: 200% 200%;
   animation: pulseGradient 2s ease-in-out infinite;
 }
+
+// Composants des articles
+//TypeWriter
+.typewriter-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

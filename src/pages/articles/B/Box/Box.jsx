@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
+import TypeWriterBox from "./TypeWriterBox";
 const Box = () => {
   const boxData = data.B ? data.B["Box"] : null;
 
@@ -15,6 +16,7 @@ const Box = () => {
         image={boxData.image}
         rubriques={boxData.rubriques}
       />
+      <TypeWriterBox />
     </div>
   );
 };

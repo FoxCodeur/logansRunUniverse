@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
+import BandeauCarrousel from "./BandeauCarrousel";
 const Carrousel = () => {
   const carrouselData = data.C ? data.C["Carrousel"] : null;
 
@@ -15,6 +16,7 @@ const Carrousel = () => {
         image={carrouselData.image}
         rubriques={carrouselData.rubriques}
       />
+      <BandeauCarrousel />
     </div>
   );
 };

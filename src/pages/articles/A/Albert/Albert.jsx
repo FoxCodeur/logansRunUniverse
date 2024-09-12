@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
+import TypeWriterAlbert from "./TypeWritterAlbert/TypeWriterAlbert";
 
 const Albert = () => {
   // Vérifiez la structure des données importées
@@ -23,6 +24,7 @@ const Albert = () => {
         image={albertData.image}
         rubriques={albertData.rubriques}
       />
+      <TypeWriterAlbert />
     </div>
   );
 };

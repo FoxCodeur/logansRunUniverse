@@ -5,6 +5,7 @@ import loganVersionUn from "../../../assets/images/images-générales/logan1.png
 import loganVersionDeux from "../../../assets/images/images-générales/logan2.png";
 import loganVersionTrois from "../../../assets/images/images-générales/logan3.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css"; // Importer les styles d'effet si nécessaire
 const HomeSectionTrois = () => {
   return (
     <div className="marginUpDownContainer">
@@ -37,7 +38,7 @@ const HomeSectionTrois = () => {
           <LazyLoadImage
             src={loganVersionUn}
             alt="logan brandit son arme de service"
-            loading="lazy"
+            effect="blur" // Effet de flou ou autre effet supporté
           />
         </div>
         <div className="shadowBallContainer">
@@ -45,7 +46,7 @@ const HomeSectionTrois = () => {
             <LazyLoadImage
               src={loganVersionDeux}
               alt="logan est à genoux"
-              loading="lazy"
+              effect="blur" // Effet de flou ou autre effet supporté
             />
           </div>
 
@@ -60,7 +61,7 @@ const HomeSectionTrois = () => {
           <LazyLoadImage
             src={loganVersionTrois}
             alt="logan porte sa tenue de service avec le casque de limier"
-            loading="lazy"
+            effect="blur" // Effet de flou
           />
         </div>
       </div>

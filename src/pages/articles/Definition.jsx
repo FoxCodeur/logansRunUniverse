@@ -12,6 +12,7 @@ const Definition = ({ titre, image, rubriques }) => {
   // rubriques: objet contenant différentes rubriques liées à la définition
   return (
     <div className="definitions">
+      {/* Helmet permet de modifier le titre de la page et les méta-informations pour le référencement. */}
       <Helmet>
         <title>{`${titre} - Logan's Run`}</title>
         <meta

@@ -3,6 +3,7 @@ import Definition from "../../Definition";
 import data from "../../../../data.json";
 import SliderMovieActors from "./sliderMovieActors/SliderMovieActors";
 import "./Acteurs.scss";
+import TypeWritterActors from "./TypeWritterActors/TypeWritterActors";
 
 // On crée un composant générique vers lequel toutes les définitions vont se rediriger
 const Acteurs = () => {
@@ -25,6 +26,7 @@ const Acteurs = () => {
         rubriques={acteursData.rubriques}
       />
       <SliderMovieActors />
+      <TypeWritterActors />
     </div>
   );
 };

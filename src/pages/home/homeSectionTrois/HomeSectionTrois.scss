@@ -72,11 +72,19 @@
     }
     img {
       border-radius: 6px;
-      width: 310px;
-      height: 446px;
+      width: 310px; /* Largeur par défaut */
+      height: 446px; /* Hauteur par défaut */
       padding-top: 2px;
       padding-left: 2px;
       padding-right: 2px;
+
+      /* Adaptation pour les écrans mobiles */
+      @media (max-width: 768px) {
+        /* Pour les tablettes et les mobiles */
+        width: 100%;
+        height: auto;
+        max-width: 100%; /* S'assure que l'image ne dépasse pas le conteneur */
+      }
     }
   }
   .radiusVersionLogan {

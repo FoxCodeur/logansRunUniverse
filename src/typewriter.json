@@ -1,0 +1,1179 @@
+[
+  {
+    "A": {
+      "acteurs du film": {
+        "id": 1,
+        "titre": "Les acteurs du film",
+        "typewriter": {
+          "phrases": [
+              "Starring, Logans's run",
+              "Michael York as Logan 5",
+              "Jenny Agutter as Jessica 6",
+              "Richard Jordan as Francis 7",
+              ""
+          ]
+      } 
+      },
+      "Adam 1": {
+        "id": 2,
+        "titre": "Adam-1",
+        "typewriter": {
+          "phrases": [
+              "le 19 juillet 2231",
+              "Naissance du premier transhumain",
+              "au complexe de Tokyo",
+              "son nom: Adam 1",
+              "identification, 31597"
+          ]
+      } 
+      },
+      "Adventure comics": {
+        "id": 3,
+        "titre": "Adventure Comics"
+      },
+      "Aitken": {
+        "id": 4,
+        "titre": "Aitken",
+        "typewriter": {
+          "phrases": [
+              "sur la face cachée de la lune",
+              "se trouve une ancienne colonie",
+              "aujourd'hui cette base",
+              "sert de point relais",
+              "aux fugitifs"
+          ]
+      } 
+      },
+      "Mecha Eagle": {
+        "id": 5,
+        "titre": "aigle-mécanique",
+        "typewriter": {
+          "phrases": [
+              "les aigles méchas n'ont pas d'empathie",
+              "ce sont des machines",
+              "Ils sont programmés pour tuer"
+          ]
+      } 
+      },
+      "Albert": {
+        "id": 6,
+        "titre": "Albert",
+        "typewriter": {
+          "phrases": [
+              "De quoi allons nous parler",
+              "aujourd'hui ?",
+              "Des limiers !",
+              "Le visage d'Albert se referma.",
+              "Oh, encore !",
+              "Moi, je ne pourrais jamais",
+              "en devenir un.",
+              "Logan ! je ne suis,",
+              "qu'une marionnette !",
+              ""
+          ]
+      } 
+      },
+      "Andar": {
+        "id": 7,
+        "titre": "Andar",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Ankh": {
+        "id": 8,
+        "titre": "Ankh",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Arcade": {
+        "id": 9,
+        "titre": "Arcade",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Argos": {
+        "id": 10,
+        "titre": "Argos",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    },
+    "B": {
+      "Baleine": {
+        "id": 11,
+        "titre": "Baleine",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Ballard": {
+        "id": 12,
+        "titre": "Ballard",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Baxter": {
+        "id": 13,
+        "titre": "Baxter",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Bluewater Comics": {
+        "id": 14,
+        "titre": "Bluewater Comics",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Borgia riders": {
+        "id": 15,
+        "titre": "Borgia riders",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Boutique du sommeil": {
+        "id": 16,
+        "titre": "Boutique du sommeil",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Box": {
+        "id": 17,
+        "titre": "Box",
+        "typewriter": {
+          "phrases": [
+              "Vous nous donnerez à manger",
+              "si on accepte de poser ?",
+              "Il n'y a rien à manger, ici !",
+              "Jessica se renfrogna.",
+              "Alors,",
+              "pourquoi le ferions-nous ?",
+              ""
+          ]
+      } 
+      },
+      "Bradley": {
+        "id": 18,
+        "titre": "Bradley",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    },
+    "C": {
+      "Caisson De Remémoration": {
+        "id": 19,
+        "titre": "Caisson de remémoration",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Cape Steinbeck": {
+        "id": 20,
+        "titre": "Cape-Steinbeck",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Cathedrale": {
+        "id": 21,
+        "titre": "Cathedrale",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Carrousel": {
+        "id": 22,
+        "titre": "Carrousel",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Charming Billy": {
+        "id": 23,
+        "titre": "Charming Billy",
+        "typewriter": {
+          "phrases": [
+              "Billy, quel âge as-tu?",
+              "14 ans, 15 peut-être !",
+              "Le temps passe vite, ici !",
+              "tu sais Billy",
+              "aucun louveteau,",
+              "ne devient loup"
+          ]
+      } 
+      },
+      "Chirurgien Mark J": {
+        "id": 24,
+        "titre": "Chirurgien Mark.J",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Les Charognards": {
+        "id": 25,
+        "titre": "Les Charognards",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Le Circuit": {
+        "id": 26,
+        "titre": "le circuit",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Complexe City": {
+        "id": 27,
+        "titre": "Complexe-City",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Crazy Horse": {
+        "id": 28,
+        "titre": "Crazy-Horse",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Crèche industrielle": {
+        "id": 29,
+        "titre": "Crèche",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "The Cubs": {
+        "id": 30,
+        "titre": "The Cubs",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    },
+    "D": {
+      "Dakk": {
+        "id": 31,
+        "titre": "Dakk",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Detoxique": {
+        "id": 32,
+        "titre": "Détoxique",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Dédale": {
+        "id": 33,
+        "titre": "Le dédale",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Dernier Homme Vivant": {
+        "id": 34,
+        "titre": "Le dernier homme vivant sur Terre",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Dia": {
+        "id": 35,
+        "titre": "Dia",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Domes": {
+        "id": 36,
+        "titre": "Dômes",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Doc": {
+        "id": 37,
+        "titre": "le Doc",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Doyle": {
+        "id": 38,
+        "titre": "Doyle",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    },
+    "E": {
+      "Evans": {
+        "id": 39,
+        "titre": "Evans",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    },
+    "F": {
+      "Fennister": {
+        "id": 40,
+        "titre": "Fennister",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Film Logans run": {
+        "id": 41,
+        "titre": "Film Logan's run",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Flamegun": {
+        "id": 42,
+        "titre": "Flamegun",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Fleur de Vie": {
+        "id": 43,
+        "titre": "Fleur de vie",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Francis": {
+        "id": 44,
+        "titre": "Francis",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "fugitif": {
+        "id": 45,
+        "titre": "Fugitif",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    },
+    "G": {
+      "Gant": {
+        "id": 46,
+        "titre": "Gant",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Les Gitans Libres": {
+        "id": 47,
+        "titre": "les Gitans Libres",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Le Grand Sommeil": {
+        "id": 48,
+        "titre": "Deep Sleep",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    },
+    "H": {
+      "Hallucinusine": {
+        "id": 49,
+        "titre": "Hallucinusine",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Harry": {
+        "id": 50,
+        "titre": "Harry 7",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Hologramme": {
+        "id": 51,
+        "titre": "Hologramme",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Homer": {
+        "id": 52,
+        "titre": "Homer",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Holly": {
+        "id": 53,
+        "titre": "Holly",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Hoverstick": {
+        "id": 54,
+        "titre": "the Hoverstick",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Hypno professeur": {
+        "id": 55,
+        "titre": "Hypno professeur",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    },
+    "I": {
+      "Les Illustrateurs": {
+        "id": 56,
+        "titre": "Les illustrateurs",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Illustration": {
+        "id": 57,
+        "titre": "Illustration",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    },
+    "J": {
+      "Jaq": {
+        "id": 58,
+        "titre": "Jaq",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Jessica": {
+        "id": 59,
+        "titre": "Jessica",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "George Clayton Johnson": {
+        "id": 60,
+        "titre": "George Clayton Johnson",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Jonath": {
+        "id": 61,
+        "titre": "Jonath",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Judee": {
+        "id": 62,
+        "titre": "judee 3",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    },
+    "K": {
+      "Kelly": {
+        "id": 63,
+        "titre": "Kelly 4",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Karenya": {
+        "id": 64,
+        "titre": "Karenya",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    },
+    "L": {
+      "Lacy": {
+        "id": 65,
+        "titre": "Lacy 14",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Lilith": {
+        "id": 66,
+        "titre": "Lilith 14",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Logan": {
+        "id": 67,
+        "titre": "Logan",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Logans run roman": {
+        "id": 68,
+        "titre": "Logan's run roman",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Logans World roman": {
+        "id": 69,
+        "titre": "Logan's World",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Louveteau": {
+        "id": 70,
+        "titre": "Louveteau",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "Lucrèce": {
+        "id": 71,
+        "titre": "Lucrèce",
+        "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      }
+    }},
+    {
+      "M": {
+        "Machines": {
+          "id": 72,
+          "titre": "les machines",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Marvel Comics": {
+          "id": 73,
+          "titre": "Marvel Comics",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Mary": {
+          "id": 74,
+          "titre": "Mary",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Madison": {
+          "id": 75,
+          "titre": "Madison",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Maison de verre": {
+          "id": 76,
+          "titre": "maison de verre",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Maze Car": {
+          "id": 77,
+          "titre": "Maze-Car",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Modar": {
+          "id": 78,
+          "titre": "Modar",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Molly": {
+          "id": 79,
+          "titre": "Molly",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Motorcycle": {
+          "id": 80,
+          "titre": "Motorcycle",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        }
+      },
+      "N": {
+        "Needler": {
+          "id": 81,
+          "titre": "Needler",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "NGC": {
+          "id": 82,
+          "titre": "NGC",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Nitro": {
+          "id": 83,
+          "titre": "Nitro",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "William F Nolan": {
+          "id": 84,
+          "titre": "William F Nolan",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        }
+      },
+      "O": {
+        "Old Washington": {
+          "id": 85,
+          "titre": "Old Washington",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Omnite": {
+          "id": 86,
+          "titre": "Omnite",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        }
+      },
+      "P": {
+        "Paralax": {
+          "id": 87,
+          "titre": "Paralax",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Paravane": {
+          "id": 88,
+          "titre": "Paravane de police",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Peau Neuve": {
+          "id": 89,
+          "titre": "Peau Neuve",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Protagonistes": {
+          "id": 90,
+          "titre": "(les) protagonistes",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Petite guerre": {
+          "id": 91,
+          "titre": "la petite guerre",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Pisteur": {
+          "id": 92,
+          "titre": "Pisteur",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Poupée parlante": {
+          "id": 93,
+          "titre": "Poupée parlante",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Prince": {
+          "id": 94,
+          "titre": "Prince",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        }
+      },
+      "Q": {
+        "Quartier general du GS": {
+          "id": 95,
+          "titre": "Quartier Général du G.S",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        }
+      },
+      "R": {
+        "R 11": {
+          "id": 96,
+          "titre": "R-11",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Regulateur": {
+          "id": 97,
+          "titre": "Régulateur",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Revolver limier": {
+          "id": 98,
+          "titre": "revolver-limier",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Ripper": {
+          "id": 99,
+          "titre": "Ripper",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Ritter": {
+          "id": 100,
+          "titre": "Ritter",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Rawls": {
+          "id": 101,
+          "titre": "Rawls",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Roebler": {
+          "id": 102,
+          "titre": "Roebler",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Rutago": {
+          "id": 103,
+          "titre": "Rutago",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+      },
+      "S": {
+        "Sanctuaire": {
+          "id": 104,
+          "titre": "Sanctuaire",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Sandman": {
+          "id": 105,
+          "titre": "Sandman",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Sanson": {
+          "id": 106,
+          "titre": "Sanson",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Sawyer": {
+          "id": 107,
+          "titre": "Sawyer",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Stanhope": {
+          "id": 108,
+          "titre": "Stanhope",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Sterozine": {
+          "id": 109,
+          "titre": "Sterozine",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        }
+      },
+      "T": {
+        "Tangler": {
+          "id": 110,
+          "titre": "Tangler",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Tara": {
+          "id": 111,
+          "titre": "Tara",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "THINKER": {
+          "id": 112,
+          "titre": "the Thinker",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Trottoir mécanique": {
+          "id": 113,
+          "titre": "Trottoir mécanique",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Tri Di": {
+          "id": 114,
+          "titre": "Tri-Di",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Titan": {
+          "id": 115,
+          "titre": "spacecraft-titan",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        }
+      },
+      "U": {
+        "Unité de vie": {
+          "id": 116,
+          "titre": "Unité de vie",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        }
+      },
+      "V": {
+        "Vapor": {
+          "id": 117,
+          "titre": "Vapor",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "vibrolame": {
+          "id": 118,
+          "titre": "vibrolame",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        }
+      },
+      "W": {
+        "Warden": {
+          "id": 119,
+          "titre": "Warden",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Watchman": {
+          "id": 120,
+          "titre": "Watchman",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Webster": {
+          "id": 121,
+          "titre": "Webster",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        },
+        "Wilson": {
+          "id": 122,
+          "titre": "Wilson",
+          "typewriter": {
+          "phrases": [
+              
+          ]
+      } 
+        }
+      }
+    }}
+    
+  
+]

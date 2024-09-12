@@ -2,6 +2,8 @@ import "./HomeSectionUn.scss";
 import "../Home.scss";
 import nouvelleEdition from "../../../assets/images/images-générales/logans_run_edition_mars_2019.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css"; // Importer les styles d'effet si nécessaire
+
 const HomeSectionUn = () => {
   return (
     <div className="sectionContainer">
@@ -41,14 +43,12 @@ const HomeSectionUn = () => {
       </div>
       <div className="sectionUnDroite">
         <div className="afficheAgeDeCristal">
-          {/* En utilisant LazyLoadImage avec l'effet opacity, vos images
-       l'image est chargées de manière différée et s'affiche à mesure que
-      l'on scrolle. */}
+          {/* Utilisation de LazyLoadImage avec l'effet blur */}
           <LazyLoadImage
             className="nouvelleEdition"
             src={nouvelleEdition}
             alt="nouvelle édition du roman Logan's run"
-            loading="lazy" // Ajout de l'attribut loading="lazy"
+            effect="blur" // Effet de flou lors du chargement
           />
         </div>
       </div>

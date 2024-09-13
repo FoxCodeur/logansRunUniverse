@@ -1,4 +1,5 @@
 @use "reset";
+@use "audioplayer";
 @use "variables" as v;
 
 /* Styles de base pour la scrollbar */
@@ -101,6 +102,13 @@ a {
 
 .center_horizontally {
   margin: 0 auto;
+}
+.audio-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
 }
 
 .box_center {

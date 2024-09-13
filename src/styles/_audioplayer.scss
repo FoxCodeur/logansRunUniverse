@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.audio-player-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrer les éléments horizontalement */
+  margin: 2rem auto; /* Marges verticales pour aérer le conteneur */
+  width: 500px;
+  padding: 1.5rem; /* Ajouter du padding pour plus d'espace intérieur */
+
+  .cubs-logo {
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-bottom: 1.5rem; /* Espacement sous le logo */
+  }
+
+  .react-h5-audio-player {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 1rem; /* Augmenter le padding pour aérer le lecteur audio */
+    margin-bottom: 1.5rem; /* Espacement sous le lecteur audio */
+    width: 100%; /* Assurer que le lecteur prend toute la largeur disponible */
+  }
+
+  button {
+    background-color: #007bff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    border: none;
+    color: white;
+    padding: 0.8rem 1.5rem; /* Espacement intérieur des boutons */
+    font-size: 1rem; /* Ajuster la taille de la police pour plus de clarté */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 0.5rem; /* Ajouter un espace entre les boutons */
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}

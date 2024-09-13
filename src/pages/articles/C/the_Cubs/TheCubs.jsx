@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
+import CubsAudioPlayer from "./CubsAudioPlayer/CubsAudioPlayer";
 const TheCubs = () => {
   const cubsData = data.C ? data.C["The Cubs"] : null;
 
@@ -15,6 +16,7 @@ const TheCubs = () => {
         image={cubsData.image}
         rubriques={cubsData.rubriques}
       />
+      <CubsAudioPlayer />
     </div>
   );
 };

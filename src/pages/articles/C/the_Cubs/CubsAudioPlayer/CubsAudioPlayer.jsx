@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactAudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css"; // Importer les styles CSS de la bibliothèque ReactAudioPlayer
-
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import cubs from "../../../../../assets/images/images-générales/cubs_player.png";

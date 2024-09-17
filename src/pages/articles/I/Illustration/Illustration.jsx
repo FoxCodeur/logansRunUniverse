@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
+import PursuitAnimation from "./PursuitAnimation/PursuitAnimation";
 const Illustration = () => {
   const illustrationsData = data.I ? data.I["Illustration"] : null;
 
@@ -15,6 +16,7 @@ const Illustration = () => {
         image={illustrationsData.image}
         rubriques={illustrationsData.rubriques}
       />
+      <PursuitAnimation />
     </div>
   );
 };

@@ -41,7 +41,7 @@ const HomeSectionUn = () => {
         </div>
         {/* --------------------------------------------------------------- */}
       </div>
-      <div className="sectionUnDroite">
+      <div className="sectionUnDroite box_center">
         <div className="afficheAgeDeCristal">
           {/* Utilisation de LazyLoadImage avec l'effet blur */}
           <LazyLoadImage

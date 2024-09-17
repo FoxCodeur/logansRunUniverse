@@ -1,111 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-.react-h5-audio-player {
-  border: 2px solid #007bff;
-  border-radius: 10px;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  width: 100%;
-
-  .rhap_controls-section {
-    display: flex;
-    justify-content: space-between; /* Répartir les boutons de manière égale */
-    align-items: center;
-    margin-top: 1rem;
-  }
-
-  .rhap_button-clear {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0.5rem;
-    border-radius: 50%; /* Boutons arrondis */
-    transition:
-      background-color 0.3s ease,
-      transform 0.3s ease;
-
-    &:hover {
-      background-color: rgba(0, 123, 255, 0.2); /* Couleur au survol */
-      transform: scale(1.1); /* Légère augmentation de la taille au survol */
-    }
-
-    &:focus {
-      outline: none; /* Supprimer le contour par défaut */
-    }
-
-    svg {
-      fill: #007bff; /* Couleur de l'icône SVG */
-      width: 24px; /* Taille des icônes */
-      height: 24px;
-    }
-  }
-
-  .rhap_play-pause-button {
-    background-color: #007bff; /* Couleur de fond du bouton Play/Pause */
-    color: white;
-    border-radius: 50%; /* Forme circulaire */
-    width: 50px;
-    height: 50px;
-
-    &:hover {
-      background-color: #0056b3; /* Changer de couleur au survol */
-    }
-
-    svg {
-      fill: white; /* Couleur des icônes */
-      width: 28px;
-      height: 28px;
-    }
-  }
-
-  .rhap_rewind-button,
-  .rhap_forward-button {
-    background-color: #f8f9fa; /* Fond des boutons rewind/forward */
-    border: 1px solid #ced4da;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-
-    &:hover {
-      background-color: #e2e6ea; /* Fond plus sombre au survol */
-    }
-
-    svg {
-      fill: #007bff; /* Couleur des icônes */
-    }
-  }
-
-  .rhap_volume-container,
-  .rhap_progress-section {
-    margin-top: 1rem;
-  }
-
-  .rhap_volume-bar {
-    background-color: #ced4da; /* Couleur de la barre de volume */
-    height: 5px;
-  }
-
-  .rhap_volume-indicator {
-    background-color: #007bff; /* Couleur de l'indicateur du volume */
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-  }
-
-  .rhap_progress-bar {
-    background-color: #ced4da; /* Couleur de la barre de progression */
-    height: 5px;
-  }
-
-  .rhap_progress-indicator {
-    background-color: #007bff; /* Couleur de l'indicateur de progression */
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-  }
-}
-
-/* Styles pour les boutons "Terminated in Cathedral" et "Cubs" */
 .audio-player-container {
   display: flex;
   flex-direction: column;
@@ -121,11 +15,110 @@
   }
 
   .react-h5-audio-player {
-    border: 2px solid #007bff;
-    border-radius: 10px;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
+    border-radius: 20px; /* Bordures arrondies */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Bordure subtile */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); /* Ombre floue pour donner de la profondeur */
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
     width: 100%;
+    max-width: 500px; /* Taille maximale pour une apparence compacte */
+
+    .rhap_controls-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    .rhap_button-clear {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem;
+      border-radius: 50%;
+      transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+
+      &:hover {
+        background-color: rgba(0, 123, 255, 0.2);
+        transform: scale(1.1);
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      svg {
+        fill: #007bff;
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    .rhap_play-pause-button {
+      background-color: #007bff;
+      color: white;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+
+      svg {
+        fill: white;
+        width: 28px;
+        height: 28px;
+      }
+    }
+
+    .rhap_rewind-button,
+    .rhap_forward-button {
+      background-color: #f8f9fa;
+      border: 1px solid #ced4da;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+
+      &:hover {
+        background-color: #e2e6ea;
+      }
+
+      svg {
+        fill: #007bff;
+      }
+    }
+
+    .rhap_volume-container,
+    .rhap_progress-section {
+      margin-top: 1rem;
+    }
+
+    .rhap_volume-bar {
+      background-color: #ced4da;
+      height: 5px;
+    }
+
+    .rhap_volume-indicator {
+      background-color: #007bff;
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+    }
+
+    .rhap_progress-bar {
+      background-color: #ced4da;
+      height: 5px;
+    }
+
+    .rhap_progress-indicator {
+      background-color: #007bff;
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+    }
   }
 
   button {
@@ -139,10 +132,10 @@
     cursor: pointer;
     border-radius: 1rem;
     transition: background-color 0.3s ease;
-    margin: 0.5rem; /* Espacement entre les boutons */
+    margin: 0.5rem;
 
     &:hover {
-      background-color: #0056b3; /* Changer la couleur au survol */
+      background-color: #0056b3;
     }
   }
 }

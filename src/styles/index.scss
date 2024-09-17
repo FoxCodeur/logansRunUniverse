@@ -53,12 +53,12 @@ h2 {
 }
 
 img {
+  width: auto;
   height: auto;
 }
 @media (max-width: 600px) {
   img {
-    max-width: 270px;
-    height: auto; // Conserve les proportions de l'image
+    max-width: 300px;
   }
 }
 a {
@@ -102,13 +102,6 @@ a {
 
 .center_horizontally {
   margin: 0 auto;
-}
-.audio-player {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  padding: 20px;
 }
 
 .box_center {

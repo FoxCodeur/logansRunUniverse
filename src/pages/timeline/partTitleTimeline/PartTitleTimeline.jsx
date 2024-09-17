@@ -4,7 +4,7 @@ import "./PartTitleTimeline.scss";
 const PartTitleTimeline = () => {
   return (
     <>
-      <div className="titre_timeline">
+      <div className="titre_timeline box_center">
         <ul className="">
           <li>
             <h2>Timeline_Comics</h2>

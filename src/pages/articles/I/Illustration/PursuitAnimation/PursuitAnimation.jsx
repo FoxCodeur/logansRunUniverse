@@ -20,6 +20,13 @@ import pursuit14 from "../../../../../assets/images/images-générales/06_pursui
 import pursuit15 from "../../../../../assets/images/images-générales/07_pursuit.png";
 import pursuit16 from "../../../../../assets/images/images-générales/08_pursuit.png";
 import pursuit17 from "../../../../../assets/images/images-générales/09_pursuit.png";
+import pursuit18 from "../../../../../assets/images/images-générales/10_pursuit.png";
+import pursuit19 from "../../../../../assets/images/images-générales/11_pursuit.png";
+import pursuit20 from "../../../../../assets/images/images-générales/12_pursuit.png";
+import pursuit21 from "../../../../../assets/images/images-générales/13_pursuit.png";
+import pursuit22 from "../../../../../assets/images/images-générales/14_pursuit.png";
+import pursuit23 from "../../../../../assets/images/images-générales/15_pursuit.png";
+import pursuit24 from "../../../../../assets/images/images-générales/16_pursuit.png";
 
 const PursuitAnimation = () => {
   return (
@@ -135,6 +142,60 @@ const PursuitAnimation = () => {
       <LazyLoadImage
         className="pursuit pursuit_18 pursuitContainerImg"
         src={pursuit17}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_19 pursuitContainerImg"
+        src={pursuit0}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_20 pursuitContainerImg"
+        src={pursuit18}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_21 pursuitContainerImg"
+        src={pursuit19}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_22 pursuitContainerImg"
+        src={pursuit20}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_23 pursuitContainerImg"
+        src={pursuit21}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_24 pursuitContainerImg"
+        src={pursuit08}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_25 pursuitContainerImg"
+        src={pursuit22}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_26 pursuitContainerImg"
+        src={pursuit23}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_27 pursuitContainerImg"
+        src={pursuit24}
         alt=""
         effect="blur"
       />

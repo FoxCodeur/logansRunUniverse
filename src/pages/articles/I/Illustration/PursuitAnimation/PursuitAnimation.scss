@@ -348,7 +348,14 @@
   animation-name: fondu-in-out;
   animation-timing-function: linear;
   animation-iteration-count: 1;
-  animation-duration: 97s;
+  animation-duration: 96s;
+  animation-direction: normal;
+}
+.pursuit_45 {
+  animation-name: fondu-in-out;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-duration: 105s;
   animation-direction: normal;
 }
 @keyframes fondu-in-out {

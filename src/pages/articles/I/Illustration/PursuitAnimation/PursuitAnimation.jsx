@@ -41,6 +41,7 @@ import pursuit35 from "../../../../../assets/images/images-générales/27_pursui
 import pursuit36 from "../../../../../assets/images/images-générales/28_pursuit.png";
 import pursuit37 from "../../../../../assets/images/images-générales/29_pursuit.png";
 import pursuit38 from "../../../../../assets/images/images-générales/30_pursuit.png";
+import pursuit39 from "../../../../../assets/images/images-générales/31_pursuit.png";
 
 const PursuitAnimation = () => {
   return (
@@ -312,6 +313,12 @@ const PursuitAnimation = () => {
       <LazyLoadImage
         className="pursuit pursuit_44 pursuitContainerImg"
         src={pursuit0}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_45 pursuitContainerImg"
+        src={pursuit39}
         alt=""
         effect="blur"
       />

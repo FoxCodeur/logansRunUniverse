@@ -27,6 +27,20 @@ import pursuit21 from "../../../../../assets/images/images-générales/13_pursui
 import pursuit22 from "../../../../../assets/images/images-générales/14_pursuit.png";
 import pursuit23 from "../../../../../assets/images/images-générales/15_pursuit.png";
 import pursuit24 from "../../../../../assets/images/images-générales/16_pursuit.png";
+import pursuit25 from "../../../../../assets/images/images-générales/17_pursuit.png";
+import pursuit26 from "../../../../../assets/images/images-générales/18_pursuit.png";
+import pursuit27 from "../../../../../assets/images/images-générales/19_pursuit.png";
+import pursuit28 from "../../../../../assets/images/images-générales/20_pursuit.png";
+import pursuit29 from "../../../../../assets/images/images-générales/21_pursuit.png";
+import pursuit30 from "../../../../../assets/images/images-générales/22_pursuit.png";
+import pursuit31 from "../../../../../assets/images/images-générales/23_pursuit.png";
+import pursuit32 from "../../../../../assets/images/images-générales/24_pursuit.png";
+import pursuit33 from "../../../../../assets/images/images-générales/25_pursuit.png";
+import pursuit34 from "../../../../../assets/images/images-générales/26_pursuit.png";
+import pursuit35 from "../../../../../assets/images/images-générales/27_pursuit.png";
+import pursuit36 from "../../../../../assets/images/images-générales/28_pursuit.png";
+import pursuit37 from "../../../../../assets/images/images-générales/29_pursuit.png";
+import pursuit38 from "../../../../../assets/images/images-générales/30_pursuit.png";
 
 const PursuitAnimation = () => {
   return (
@@ -196,6 +210,108 @@ const PursuitAnimation = () => {
       <LazyLoadImage
         className="pursuit pursuit_27 pursuitContainerImg"
         src={pursuit24}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_28 pursuitContainerImg"
+        src={pursuit0}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_29 pursuitContainerImg"
+        src={pursuit25}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_30 pursuitContainerImg"
+        src={pursuit26}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_31 pursuitContainerImg"
+        src={pursuit08}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_32 pursuitContainerImg"
+        src={pursuit27}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_33 pursuitContainerImg"
+        src={pursuit28}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_34 pursuitContainerImg"
+        src={pursuit29}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_35 pursuitContainerImg"
+        src={pursuit30}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_36 pursuitContainerImg"
+        src={pursuit31}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_37 pursuitContainerImg"
+        src={pursuit32}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_38 pursuitContainerImg"
+        src={pursuit33}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_39 pursuitContainerImg"
+        src={pursuit34}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_40 pursuitContainerImg"
+        src={pursuit35}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_41 pursuitContainerImg"
+        src={pursuit36}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_42 pursuitContainerImg"
+        src={pursuit37}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_43 pursuitContainerImg"
+        src={pursuit38}
+        alt=""
+        effect="blur"
+      />
+      <LazyLoadImage
+        className="pursuit pursuit_44 pursuitContainerImg"
+        src={pursuit0}
         alt=""
         effect="blur"
       />

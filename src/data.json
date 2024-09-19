@@ -4,7 +4,7 @@
         "id": 1,
         "titre": "Les acteurs du film",
         "image": "./assets/images/images-générales/logans_run_actors.png",
-        "imageMedia":["./src/assets/images/icones/film_logans_run.png"],
+        "imageMedia":["./assets/images/icones/film_logans_run.png"],
         "rubriques": {
           "autres_identites": "",
           "categories": "acteurs de cinéma",
@@ -16,7 +16,7 @@
         "id": 2,
         "titre": "Adam-1",
         "image": "./assets/images/images-générales/title_logans_run.png",
-        "imageMedia":["./src/assets/images/icones/bluewater.png"],
+        "imageMedia":["./assets/images/icones/bluewater.png"],
         "rubriques": {
           "autres_identites": "le premier enfant",
           "categories": "transhumain",
@@ -28,7 +28,7 @@
         "id": 3,
         "titre": "Adventure Comics",
         "image": "./assets/images/images-générales/logans_run_adventure_comics.png",
-        "imageMedia":["./src/assets/images/icones/adventure_comics.png"],
+        "imageMedia":["./assets/images/icones/adventure_comics.png"],
         "rubriques": {
           "autres_identites": "comic book",
           "categories": "transhumain",
@@ -40,7 +40,7 @@
         "id": 4,
         "titre": "Aitken",
         "image": "./assets/images/images-générales/moonBase.png",
-        "imageMedia":["./src/assets/images/icones/roman_logans_world.png"],
+        "imageMedia":["./assets/images/icones/roman_logans_world.png"],
         "rubriques": {
           "autres_identites": "base lunaire, cratère Aitken",
           "categories": "lieu",
@@ -53,8 +53,8 @@
         "titre": "aigle-mécanique",
         "image": "./assets/images/images-générales/mecha_eagle.png",
         "imageMedia":[
-        "./src/assets/images/icones/adventure_comics.png",
-        "./src/assets/images/icones/roman_logans_run.png"
+        "./assets/images/icones/adventure_comics.png",
+        "./assets/images/icones/roman_logans_run.png"
       ],
         "rubriques": {
           "autres_identites": "robotic Eagle",
@@ -68,8 +68,8 @@
         "titre": "Albert",
         "image": "./assets/images/images-générales/albert.png",
         "imageMedia":[
-          "./src/assets/images/icones/adventure_comics.png",
-          "./src/assets/images/icones/roman_logans_run.png"
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png"
         ],
         "rubriques": {
           "autres_identites": "doudou espion",
@@ -83,8 +83,8 @@
         "titre": "Andar",
         "image": "./assets/images/images-générales/andar.png",
         "imageMedia":[
-          "./src/assets/images/icones/adventure_comics.png",
-          "./src/assets/images/icones/roman_logans_world.png"
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_world.png"
         ],
         "rubriques": {
           "autres_identites": "l'initié",
@@ -98,11 +98,11 @@
         "titre": "Ankh",
         "image": "./assets/images/images-générales/Ankh.png",
         "imageMedia":[
-          "./src/assets/images/icones/bluewater.png",
-          "./src/assets/images/icones/adventure_comics.png",
-          "./src/assets/images/icones/marvel.png",
-          "./src/assets/images/icones/film_logans_run.png",
-          "./src/assets/images/icones/roman_logans_world.png"
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/marvel.png",
+          "./assets/images/icones/film_logans_run.png",
+          "./assets/images/icones/roman_logans_world.png"
         ],
         "rubriques": {
           "autres_identites": "la croix de vie, la clé du passage",
@@ -116,11 +116,11 @@
         "titre": "Arcade",
         "image": "./assets/images/images-générales/arcade.png",
         "imageMedia":[
-          "./src/assets/images/icones/bluewater.png",
-          "./src/assets/images/icones/adventure_comics.png",
-          "./src/assets/images/icones/marvel.png",
-          "./src/assets/images/icones/film_logans_run.png",
-          "./src/assets/images/icones/roman_logans_world.png"
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/marvel.png",
+          "./assets/images/icones/film_logans_run.png",
+          "./assets/images/icones/roman_logans_world.png"
         ],
         "rubriques": {
           "autres_identites": "secteur Arcade",
@@ -134,10 +134,10 @@
         "titre": "Argos",
         "image": "./assets/images/images-générales/argos.png",
         "imageMedia":[
-          "./src/assets/images/icones/bluewater.png",
-          "./src/assets/images/icones/adventure_comics.png",
-          "./src/assets/images/icones/roman_logans_run.png",
-          "./src/assets/images/icones/roman_logans_world.png"
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png",
+          "./assets/images/icones/roman_logans_world.png"
         ],
         "rubriques": {
           "autres_identites": "Argos, colonie de l'espace, station spatiale martienne ",
@@ -153,9 +153,9 @@
         "titre": "Baleine",
         "image": "./assets/images/images-générales/baleine.png",
         "imageMedia":[
-          "./src/assets/images/icones/bluewater.png",
-          "./src/assets/images/icones/adventure_comics.png",
-          "./src/assets/images/icones/roman_logans_run.png"
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png"
         ],
         "rubriques": {
           "autres_identites": "the whale",
@@ -169,9 +169,9 @@
         "titre": "Ballard",
         "image": "./assets/images/images-générales/ballard.png",
         "imageMedia":[
-          "./src/assets/images/icones/bluewater.png",
-          "./src/assets/images/icones/adventure_comics.png",
-          "./src/assets/images/icones/roman_logans_run.png"
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png"
         ],
         "rubriques": {
           "autres_identites": "Francis",
@@ -185,8 +185,8 @@
         "titre": "Baxter",
         "image": "./assets/images/images-générales/title_logans_run.png",
         "imageMedia":[
-          "./src/assets/images/icones/adventure_comics.png",
-          "./src/assets/images/icones/roman_logans_run.png"
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png"
         ],
         "rubriques": {
           "autres_identites": "Baxter 2",
@@ -212,8 +212,8 @@
         "titre": "Borgia riders",
         "image": "./assets/images/images-générales/title_logans_run.png",
         "imageMedia":[
-          "./src/assets/images/icones/adventure_comics.png",
-          "./src/assets/images/icones/roman_logans_world.png"
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_world.png"
         ],
         "rubriques": {
           "autres_identites": "TidalWave Productions",
@@ -227,8 +227,8 @@
         "titre": "Boutique du sommeil",
         "image": "./assets/images/images-générales/sleep-shop.png",
         "imageMedia":[
-          "./src/assets/images/icones/adventure_comics.png",
-          "./src/assets/images/icones/roman_logans_run.png"
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png"
         ],
         "rubriques": {
           "autres_identites": "Sleep Shop",
@@ -242,10 +242,10 @@
         "titre": "Box",
         "image": "./assets/images/images-générales/Box.png",
         "imageMedia":[
-          "./src/assets/images/icones/bluewater.png",
-          "./src/assets/images/icones/adventure_comics.png",
-          "./src/assets/images/icones/roman_logans_run.png",
-          "./src/assets/images/icones/film_logans_run.png"
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png",
+          "./assets/images/icones/film_logans_run.png"
         ],
         "rubriques": {
           "autres_identites": "Coffre",
@@ -259,7 +259,7 @@
         "titre": "Bradley",
         "image": "./assets/images/images-générales/title_logans_run.png",
         "imageMedia":[   
-          "./src/assets/images/icones/roman_logans_run.png"
+          "./assets/images/icones/roman_logans_run.png"
         ],
         "rubriques": {
           "autres_identites": "Bradley",
@@ -275,7 +275,7 @@
         "titre": "Caisson de remémoration",
         "image": "./assets/images/images-générales/memoryBox.png",
         "imageMedia":[   
-          "./src/assets/images/icones/roman_logans_run.png"
+          "./assets/images/icones/roman_logans_run.png"
         ],
         "rubriques": {
           "autres_identites": "rebirth Chamber",
@@ -289,9 +289,9 @@
           "titre": "Cape-Steinbeck",
           "image": "./assets/images/images-générales/adAstra.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "rampe de lancement des fusées",
@@ -305,11 +305,11 @@
           "titre": "Cathedrale",
           "image": "./assets/images/images-générales/cathedrale.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "secteur Cathedrale",
@@ -323,8 +323,8 @@
           "titre": "Carrousel",
           "image": "./assets/images/images-générales/le_carrousel.png",
           "imageMedia":[
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png"
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "boutique du sommeil",
@@ -338,11 +338,11 @@
           "titre": "Charming Billy",
           "image": "./assets/images/images-générales/charming_billy.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "le chef des louveteau",
@@ -356,11 +356,11 @@
           "titre": "Chirurgien Mark.J",
           "image": "./assets/images/images-générales/table_opératoire.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "bloc opératoire",
@@ -374,10 +374,10 @@
           "titre": "Les Charognards",
           "image": "./assets/images/images-générales/charognards.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_world.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "pilleurs",
@@ -391,8 +391,8 @@
           "titre": "le circuit",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png"
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png"
           ],
           
           "rubriques": {
@@ -407,10 +407,10 @@
             "titre": "Complexe-City",
             "image": "./assets/images/images-générales/complexe-city.png",
             "imageMedia":[
-              "./src/assets/images/icones/bluewater.png",
-              "./src/assets/images/icones/adventure_comics.png",
-              "./src/assets/images/icones/roman_logans_world.png",
-              "./src/assets/images/icones/roman_logans_run.png"
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/roman_logans_world.png",
+              "./assets/images/icones/roman_logans_run.png"
             ],
             "rubriques": {
               "autres_identites": "la citée des dômes, Géants verts",
@@ -422,12 +422,12 @@
         "Crazy Horse": {
             "id": 28,
             "titre": "Crazy-Horse",
-            "image": "./src/assets/images/images-générales/crazy_horse.png",
+            "image": "./assets/images/images-générales/crazy_horse.png",
             "imageMedia":[
-              "./src/images/icones/bluewater.png",
-              "./src/assets/images/icones/adventure_comics.png",
-              "./src/assets/images/icones/roman_logans_world.png",
-              "./src/assets/images/icones/roman_logans_run.png"
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/roman_logans_world.png",
+              "./assets/images/icones/roman_logans_run.png"
             ],
             "rubriques": {
               "autres_identites": "le chef indien",
@@ -441,12 +441,12 @@
             "titre": "Crèche",
             "image": "./assets/images/images-générales/creche.png",
             "imageMedia":[
-              "./src/assets/images/icones/bluewater.png",
-              "./src/assets/images/icones/adventure_comics.png",
-              "./src/assets/images/icones/marvel.png",
-              "./src/assets/images/icones/film_logans_run.png",
-              "./src/assets/images/icones/roman_logans_world.png",
-              "./src/assets/images/icones/roman_logans_run.png"
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_world.png",
+              "./assets/images/icones/roman_logans_run.png"
             ],
             "rubriques": {
               "autres_identites": "Nursery",
@@ -460,11 +460,11 @@
             "titre": "The Cubs",
             "image": "./assets/images/images-générales/cubs.png",
             "imageMedia":[
-              "./src/assets/images/icones/bluewater.png",
-              "./src/assets/images/icones/adventure_comics.png",
-              "./src/assets/images/icones/marvel.png",
-              "./src/assets/images/icones/film_logans_run.png",
-              "./src/assets/images/icones/roman_logans_run.png"
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_run.png"
             ],
             "rubriques": {
               "autres_identites": "louveteaux",
@@ -480,10 +480,10 @@
           "titre": "Dakk",
           "image": "./assets/images/images-générales/scavengers.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_world.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "ancien lieutenant de charming Billy",
@@ -497,7 +497,7 @@
           "titre": "Détoxique",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "",
@@ -511,9 +511,9 @@
           "titre": "Le dédale",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "autoroute",
@@ -527,7 +527,7 @@
           "titre": "Le dernier homme vivant sur Terre",
           "image": "./assets/images/images-générales/last_man.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png"
+            "./assets/images/icones/bluewater.png"
           ],
           "rubriques": {
             "autres_identites": "last man",
@@ -541,8 +541,8 @@
           "titre": "Dia",
           "image": "./assets/images/images-générales/dia.png",
           "imageMedia":[
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_world.png"
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
           ],
           "rubriques": {
             "autres_identites": "",
@@ -556,8 +556,8 @@
           "titre": "Dômes",
           "image": "./assets/images/images-générales/cite_des_domes.png",
           "imageMedia":[
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png"
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "Complexe A-NY.S",
@@ -571,11 +571,11 @@
           "titre": "le Doc",
           "image": "./assets/images/images-générales/doc.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": " Doc",
@@ -587,11 +587,11 @@
         "Doyle": {
             "id": 38,
             "titre": "Doyle",
-            "image": "./src/assets/images/images-générales/doyle.png",
+            "image": "./assets/images/images-générales/doyle.png",
             "imageMedia":[
               "./assets/images/icones/bluewater.png",
-              "./src/assets/images/icones/adventure_comics.png",
-              "./src/assets/images/icones/roman_logans_run.png"
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/roman_logans_run.png"
             ],
             "rubriques": {
               "autres_identites": "Doyle",
@@ -607,7 +607,7 @@
           "titre": "Evans",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/roman_logans_run.png"
           ],
 
           "rubriques": {
@@ -624,7 +624,7 @@
           "titre": "Fennister",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/roman_logans_world.png"
+            "./assets/images/icones/roman_logans_world.png"
           ],
           "rubriques": {
             "autres_identites": "",
@@ -638,7 +638,7 @@
           "titre": "Film Logan's run",
           "image": "./assets/images/images-générales/410476.1020.A.jpg",
           "imageMedia":[
-            "./src/assets/images/icones/film_logans_run.png"
+            "./assets/images/icones/film_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "l'âge de cristal",
@@ -652,8 +652,8 @@
           "titre": "Flamegun",
           "image": "./assets/images/images-générales/flamegun.png",
           "imageMedia":[
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png"
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "flamegun",
@@ -667,11 +667,11 @@
           "titre": "Fleur de vie",
           "image": "./assets/images/images-générales/phase_life.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "palm flower",
@@ -685,11 +685,11 @@
           "titre": "Francis",
           "image": "./assets/images/images-générales/francis.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "Ballard",
@@ -703,11 +703,11 @@
           "titre": "Fugitif",
           "image": "./assets/images/images-générales/fugitif.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "runner",
@@ -723,9 +723,9 @@
           "titre": "Gant",
           "image": "./assets/images/images-générales/gant.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "Gant",
@@ -739,8 +739,8 @@
           "titre": "les Gitans Libres",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "gitans",
@@ -754,11 +754,11 @@
           "titre": "Deep Sleep",
           "image": "./assets/images/images-générales/deep_sleep.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "euthanasie industrielle",
@@ -774,10 +774,10 @@
           "titre": "Hallucinusine",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "",
@@ -791,9 +791,9 @@
           "titre": "Harry 7",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "Harry 7",
@@ -807,8 +807,8 @@
           "titre": "Hologramme",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "tridi",
@@ -822,9 +822,9 @@
           "titre": "Homer",
           "image": "./assets/images/images-générales/logans_run_first-novel.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "balle chatieuse",
@@ -838,11 +838,11 @@
           "titre": "Holly",
           "image": "./assets/images/images-générales/holly.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "l'assistante du doc",
@@ -856,8 +856,8 @@
           "titre": "the Hoverstick",
           "image": "./assets/images/images-générales/hoverstick.png",
           "imageMedia":[
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "devil stick, baton du diable",
@@ -871,9 +871,9 @@
             "titre": "Hypno professeur",
             "image": "./assets/images/images-générales/title_logans_run.png",
             "imageMedia":[
-              "./src/assets/images/icones/bluewater.png",
-              "./src/assets/images/icones/adventure_comics.png",
-              "./src/assets/images/icones/roman_logans_run.png"
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/roman_logans_run.png"
             ],
             "rubriques": {
               "autres_identites": "Hypno droide",
@@ -889,9 +889,9 @@
           "titre": "Les illustrateurs",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png"
           ],
           "rubriques": {
             "autres_identites": "",
@@ -905,9 +905,9 @@
           "titre": "Illustration",
           "image": "./assets/images/images-générales/helmetLogan2.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png"
           ],
           "rubriques": {
             "autres_identites": "",
@@ -923,9 +923,9 @@
           "titre": "Jaq",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_world.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
           ],
           "rubriques": {
             "autres_identites": "Jaq",
@@ -939,12 +939,12 @@
           "titre": "Jessica",
           "image": "./assets/images/images-générales/jessica.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png",
-            "./src/assets/images/icones/roman_logans_world.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png",
+            "./assets/images/icones/roman_logans_world.png"
           ],
           "rubriques": {
             "autres_identites": "Jessica",
@@ -958,11 +958,11 @@
           "titre": "George Clayton Johnson",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "",
@@ -976,8 +976,8 @@
           "titre": "Jonath",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_world.png"
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
           ],
           "rubriques": {
             "autres_identites": "doyen du peuple errant",
@@ -991,8 +991,8 @@
           "titre": "judee 3",
           "image": "./assets/images/images-générales/judee.png",
           "imageMedia":[
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_world.png"
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
           ],
           "rubriques": {
             "autres_identites": "",
@@ -1008,7 +1008,7 @@
           "titre": "Kelly 4",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "",
@@ -1022,8 +1022,8 @@
           "titre": "Karenya",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "",
@@ -1039,8 +1039,8 @@
           "titre": "Lacy 14",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_world.png"
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
           ],
           "rubriques": {
             "autres_identites": "",
@@ -1054,8 +1054,8 @@
           "titre": "Lilith 14",
           "image": "./assets/images/images-générales/lilith.png",
           "imageMedia":[
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "Lilith",
@@ -1069,12 +1069,12 @@
           "titre": "Logan",
           "image": "./assets/images/images-générales/logan_5.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png",
-            "./src/assets/images/icones/roman_logans_world.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png",
+            "./assets/images/icones/roman_logans_world.png"
           ],
           "rubriques": {
             "autres_identites": "Logan 3 (roman), Logan 5 (film), Logan 6 (comics)",
@@ -1088,7 +1088,7 @@
           "titre": "Logan's run roman",
           "image": "./assets/images/images-générales/logans_run_first-novel.png",
           "imageMedia":[
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "l'âge de cristal",
@@ -1102,7 +1102,7 @@
           "titre": "Logan's World",
           "image": "./assets/images/images-générales/title_logans_run.png",
           "imageMedia":[
-            "./src/assets/images/icones/roman_logans_world.png"
+            "./assets/images/icones/roman_logans_world.png"
           ],
           "rubriques": {
             "autres_identites": "retour à l'âge de cristal",
@@ -1116,11 +1116,11 @@
           "titre": "Louveteau",
           "image": "./assets/images/images-générales/louveteaux.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/marvel.png",
-            "./src/assets/images/icones/film_logans_run.png",
-            "./src/assets/images/icones/roman_logans_run.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
           ],
           "rubriques": {
             "autres_identites": "CUBS",
@@ -1134,9 +1134,9 @@
           "titre": "Lucrèce",
           "image": "./assets/images/images-générales/lucrèce.png",
           "imageMedia":[
-            "./src/assets/images/icones/bluewater.png",
-            "./src/assets/images/icones/adventure_comics.png",
-            "./src/assets/images/icones/roman_logans_world.png"
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
           ],
           "rubriques": {
             "autres_identites": "Lucrezia",
@@ -1152,12 +1152,12 @@
             "titre": "les machines",
             "image": "./assets/images/images-générales/robots.png",
             "imageMedia":[
-              "./src/assets/images/icones/bluewater.png",
-              "./src/assets/images/icones/adventure_comics.png",
-              "./src/assets/images/icones/marvel.png",
-              "./src/assets/images/icones/film_logans_run.png",
-              "./src/assets/images/icones/roman_logans_run.png",
-              "./src/assets/images/icones/roman_logans_world.png"
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_run.png",
+              "./assets/images/icones/roman_logans_world.png"
             ],
             "rubriques": {
               "autres_identites": "autogouvernantes, drones, aigle mécanique, Gardien",
@@ -1171,7 +1171,7 @@
             "titre": "Marvel Comics",
             "image": "./assets/images/images-générales/marvel_comics.png",
             "imageMedia":[
-              "./src/assets/images/icones/marvel.png"
+              "./assets/images/icones/marvel.png"
             ],
             "rubriques": {
               "autres_identites": "subdivision de Marvel Entertainment",
@@ -1185,12 +1185,12 @@
             "titre": "Mary",
             "image": "./assets/images/images-générales/mary.png",
             "imageMedia":[
-              "./src/assets/images/icones/bluewater.png",
-              "./src/assets/images/icones/adventure_comics.png",
-              "./src/assets/images/icones/marvel.png",
-              "./src/assets/images/icones/film_logans_run.png",
-              "./src/assets/images/icones/roman_logans_run.png",
-              "./src/assets/images/icones/roman_logans_world.png"
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_run.png",
+              "./assets/images/icones/roman_logans_world.png"
             ],
             "rubriques": {
               "autres_identites": "Mary-Mary 2",
@@ -1204,8 +1204,8 @@
             "titre": "Madison",
             "image": "./assets/images/images-générales/title_logans_run.png",
             "imageMedia":[
-              "./src/assets/images/icones/adventure_comics.png",
-              "./src/assets/images/icones/roman_logans_run.png"
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/roman_logans_run.png"
             ],
             "rubriques": {
               "autres_identites": "Madison 4",
@@ -1219,11 +1219,11 @@
             "titre": "maison de verre",
             "image": "./assets/images/images-générales/maison-de-verre.png",
             "imageMedia":[
-              "./src/assets/images/icones/bluewater.png",
-              "./src/assets/images/icones/adventure_comics.png",
-              "./src/assets/images/icones/marvel.png",
-              "./src/assets/images/icones/film_logans_run.png",
-              "./src/assets/images/icones/roman_logans_run.png"
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_run.png"
             ],
             "rubriques": {
               "autres_identites": "Glasshouse",
@@ -1237,12 +1237,12 @@
             "titre": "Maze-Car",
             "image": "./assets/images/images-générales/mazeCar.png",
             "imageMedia":[
-              "./src/assets/images/icones/bluewater.png",
-              "./src/assets/images/icones/adventure_comics.png",
-              "./src/assets/images/icones/marvel.png",
-              "./src/assets/images/icones/film_logans_run.png",
-              "./src/assets/images/icones/roman_logans_run.png",
-              "./src/assets/images/icones/roman_logans_world.png"
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_run.png",
+              "./assets/images/icones/roman_logans_world.png"
             ],
             "rubriques": {
               "autres_identites": "Lucane",
@@ -1256,7 +1256,7 @@
             "titre": "Modar",
             "image": "./assets/images/images-générales/modar.png",
             "imageMedia":[
-              "./src/assets/images/icones/marvel.png"
+              "./assets/images/icones/marvel.png"
             ],
             "rubriques": {
               "autres_identites": "Modar 9",
@@ -1270,11 +1270,11 @@
                 "titre": "Molly",
                 "image": "./assets/images/images-générales/molly.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/marvel.png",
-                  "./src/assets/images/icones/film_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                 "rubriques": {
                   "autres_identites": "citée sous marine, CORA",
@@ -1288,7 +1288,7 @@
                 "titre": "Motorcycle",
                 "image": "./assets/images/images-générales/motorcycle.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png"
+                  "./assets/images/icones/bluewater.png"
                 ],
                 "rubriques": {
                   "autres_identites": "",
@@ -1304,9 +1304,9 @@
                 "titre": "Needler",
                 "image": "./assets/images/images-générales/logans_run_first-novel.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                     "autres_identites": "balle anesthésique",
@@ -1320,7 +1320,7 @@
                 "titre": "NGC",
                 "image": "./assets/images/images-générales/NGC.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png"
+                  "./assets/images/icones/bluewater.png"
                 ],
                   "rubriques": {
                     "autres_identites": "Nouvelle Confédération Globale ",
@@ -1334,10 +1334,10 @@
                 "titre": "Nitro",
                 "image": "./assets/images/images-générales/logans_run_first-novel.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                     "autres_identites": "nitro",
@@ -1351,12 +1351,12 @@
                 "titre": "William F Nolan",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/marvel.png",
-                  "./src/assets/images/icones/film_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                     "autres_identites": "",
@@ -1372,10 +1372,10 @@
                 "titre": "Old Washington",
                 "image": "./assets/images/images-générales/old-washington.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/marvel.png",
-                  "./src/assets/images/icones/film_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                       "autres_identites": "ancien site du gouvernement des Etats Unis d'Amérique",
@@ -1389,10 +1389,10 @@
                 "titre": "Omnite",
                 "image": "./assets/images/images-générales/omnite.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                       "autres_identites": "",
@@ -1408,9 +1408,9 @@
                       "titre": "Paralax",
                       "image": "./assets/images/images-générales/title_logans_run.png",
                       "imageMedia":[
-                        "./src/assets/images/icones/bluewater.png",
-                        "./src/assets/images/icones/adventure_comics.png",
-                        "./src/assets/images/icones/roman_logans_run.png"
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/roman_logans_run.png"
                       ],
                       "rubriques": {
                           "autres_identites": "gaz paralysant",
@@ -1424,10 +1424,10 @@
                       "titre": "Paravane de police",
                       "image": "./assets/images/images-générales/paravane.jpg",
                       "imageMedia":[
-                        "./src/assets/images/icones/bluewater.png",
-                        "./src/assets/images/icones/adventure_comics.png",
-                        "./src/assets/images/icones/roman_logans_run.png",
-                        "./src/assets/images/icones/roman_logans_world.png"
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/roman_logans_run.png",
+                        "./assets/images/icones/roman_logans_world.png"
                       ],
                       "rubriques": {
                           "autres_identites": "véhicule d'intervention de police",
@@ -1441,11 +1441,11 @@
                       "titre": "Peau Neuve",
                       "image": "./assets/images/images-générales/New_you.png",
                       "imageMedia":[
-                        "./src/assets/images/icones/bluewater.png",
-                        "./src/assets/images/icones/adventure_comics.png",
-                        "./src/assets/images/icones/marvel.png",
-                        "./src/assets/images/icones/film_logans_run.png",
-                        "./src/assets/images/icones/roman_logans_run.png"
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/marvel.png",
+                        "./assets/images/icones/film_logans_run.png",
+                        "./assets/images/icones/roman_logans_run.png"
                       ],
                       "rubriques": {
                           "autres_identites": "NEW-YOU",
@@ -1459,12 +1459,12 @@
                       "titre": "(les) protagonistes",
                       "image": "./assets/images/images-générales/protagonistes.png",
                       "imageMedia":[
-                        "./src/assets/images/icones/bluewater.png",
-                        "./src/assets/images/icones/adventure_comics.png",
-                        "./src/assets/images/icones/marvel.png",
-                        "./src/assets/images/icones/film_logans_run.png",
-                        "./src/assets/images/icones/roman_logans_run.png",
-                        "./src/assets/images/icones/roman_logans_world.png"
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/marvel.png",
+                        "./assets/images/icones/film_logans_run.png",
+                        "./assets/images/icones/roman_logans_run.png",
+                        "./assets/images/icones/roman_logans_world.png"
                       ],
                       "rubriques": {
                           "autres_identites": "",
@@ -1478,9 +1478,9 @@
                       "titre": "la petite guerre",
                       "image": "./assets/images/images-générales/la_petite_guerre.png",
                       "imageMedia":[
-                        "./src/assets/images/icones/bluewater.png",
-                        "./src/assets/images/icones/adventure_comics.png",
-                        "./src/assets/images/icones/roman_logans_run.png"
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/roman_logans_run.png"
                       ],
                       "rubriques": {
                           "autres_identites": "Little War",
@@ -1494,9 +1494,9 @@
                       "titre": "Pisteur",
                       "image": "./assets/images/images-générales/pisteur.png",
                       "imageMedia":[
-                        "./src/assets/images/icones/bluewater.png",
-                        "./src/assets/images/icones/marvel.png",
-                        "./src/assets/images/icones/film_logans_run.png"
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/marvel.png",
+                        "./assets/images/icones/film_logans_run.png"
                       ],
                       "rubriques": {
                           "autres_identites": "tracker",
@@ -1510,10 +1510,10 @@
                       "titre": "Poupée parlante",
                       "image": "./assets/images/images-générales/poupee_parlante.png",
                       "imageMedia":[
-                        "./src/assets/images/icones/bluewater.png",
-                        "./src/assets/images/icones/adventure_comics.png",
-                        "./src/assets/images/icones/roman_logans_run.png",
-                        "./src/assets/images/icones/roman_logans_world.png"
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/roman_logans_run.png",
+                        "./assets/images/icones/roman_logans_world.png"
                       ],
                       "rubriques": {
                           "autres_identites": "Judee the doll",
@@ -1527,9 +1527,9 @@
                       "titre": "Prince",
                       "image": "./assets/images/images-générales/prince.png",
                       "imageMedia":[
-                        "./src/assets/images/icones/bluewater.png",
-                        "./src/assets/images/icones/adventure_comics.png",
-                        "./src/assets/images/icones/roman_logans_world.png"
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/roman_logans_world.png"
                       ],
                       "rubriques": {
                           "autres_identites": "",
@@ -1545,11 +1545,11 @@
                 "titre": "Quartier Général du G.S",
                 "image": "./assets/images/images-générales/qg_limier.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/marvel.png",
-                  "./src/assets/images/icones/film_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                       "autres_identites": "ancien site du gouvernement des Etats Unis d'Amérique",
@@ -1565,7 +1565,7 @@
                 "titre": "R-11",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                       "autres_identites": "",
@@ -1579,11 +1579,11 @@
                 "titre": "Régulateur",
                 "image": "./assets/images/images-générales/regulateur.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/marvel.png",
-                  "./src/assets/images/icones/film_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                       "autres_identites": "responsable de quart QG DS",
@@ -1597,10 +1597,10 @@
                 "titre": "revolver-limier",
                 "image": "./assets/images/images-générales/revolver-sandman.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                         "autres_identites": "pistolet 6 coups",
@@ -1614,10 +1614,10 @@
                 "titre": "Ripper",
                 "image": "./assets/images/images-générales/logans_run_first-novel.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                         "autres_identites": "balle éventreuse",
@@ -1631,7 +1631,7 @@
                 "titre": "Ritter",
                 "image": "./assets/images/images-générales/Ritter.png",
                 "imageMedia":[
-                          "./src/assets/images/icones/roman_logans_world.png"
+                          "./assets/images/icones/roman_logans_world.png"
                         ],
                   "rubriques": {
                     "autres_identites": "charognard",
@@ -1645,8 +1645,8 @@
                 "titre": "Rawls",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                         "autres_identites": "Rawls",
@@ -1660,8 +1660,8 @@
                     "titre": "Roebler",
                     "image": "./assets/images/images-générales/title_logans_run.png",
                     "imageMedia":[
-                      "./src/assets/images/icones/adventure_comics.png",
-                      "./src/assets/images/icones/roman_logans_run.png"
+                      "./assets/images/icones/adventure_comics.png",
+                      "./assets/images/icones/roman_logans_run.png"
                     ],
                     "rubriques": {
                         "autres_identites": "",
@@ -1675,8 +1675,8 @@
                 "titre": "Rutago",
                 "image": "./assets/images/images-générales/rutago.png",
                 "imageMedia":[  
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                         "autres_identites": "",
@@ -1692,10 +1692,10 @@
                 "titre": "Sanctuaire",
                 "image": "./assets/images/images-générales/sanctuary.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                         "autres_identites": "Argos, station spatiale martienne, Mont Rushmore",
@@ -1709,12 +1709,12 @@
                 "titre": "Sandman",
                 "image": "./assets/images/images-générales/limier_affiche2.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/marvel.png",
-                  "./src/assets/images/icones/film_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                         "autres_identites": "limier",
@@ -1728,8 +1728,8 @@
                 "titre": "Sanson",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                         "autres_identites": "Sanson",
@@ -1743,8 +1743,8 @@
                 "titre": "Sawyer",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                         "autres_identites": "",
@@ -1758,8 +1758,8 @@
                 "titre": "Stanhope",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                         "autres_identites": "Stanhope",
@@ -1773,9 +1773,9 @@
                 "titre": "Sterozine",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                         "autres_identites": "antibiotique",
@@ -1791,10 +1791,10 @@
                 "titre": "Tangler",
                 "image": "./assets/images/images-générales/logans_run_first-novel.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                         "autres_identites": "fileuse",
@@ -1808,7 +1808,7 @@
                 "titre": "Tara",
                 "image": "./assets/images/images-générales/tara.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png"
+                  "./assets/images/icones/bluewater.png"
                 ],
                   "rubriques": {
                         "autres_identites": "Tara 8",
@@ -1822,12 +1822,12 @@
                 "titre": "the Thinker",
                 "image": "./assets/images/images-générales/thinker.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/marvel.png",
-                  "./src/assets/images/icones/film_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                         "autres_identites": "le penseur",
@@ -1841,9 +1841,9 @@
                 "titre": "Trottoir mécanique",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                         "autres_identites": "trottoir roulant",
@@ -1857,9 +1857,9 @@
                 "titre": "Tri-Di",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                         "autres_identites": "",
@@ -1873,10 +1873,10 @@
                 "titre": "spacecraft-titan",
                 "image": "./assets/images/images-générales/titan.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                         "autres_identites": "",
@@ -1892,11 +1892,11 @@
                 "titre": "Unité de vie",
                 "image": "./assets/images/images-générales/unite_de_vie.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/marvel.png",
-                  "./src/assets/images/icones/film_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                           "autres_identites": "quartier résidentiel",
@@ -1912,10 +1912,10 @@
                 "titre": "Vapor",
                 "image": "./assets/images/images-générales/logans_run_first-novel.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png",
-                  "./src/assets/images/icones/roman_logans_world.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
                 ],
                   "rubriques": {
                           "autres_identites": "gaz",
@@ -1929,9 +1929,9 @@
                 "titre": "vibrolame",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/marvel.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                           "autres_identites": "",
@@ -1947,9 +1947,9 @@
                 "titre": "Warden",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                           "autres_identites": "",
@@ -1963,9 +1963,9 @@
                 "titre": "Watchman",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/bluewater.png",
-                  "./src/assets/images/icones/adventure_comics.png",
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                           "autres_identites": "Watchman",
@@ -1979,7 +1979,7 @@
                 "titre": "Webster",
                 "image": "./assets/images/images-générales/title_logans_run.png",
                 "imageMedia":[
-                  "./src/assets/images/icones/roman_logans_run.png"
+                  "./assets/images/icones/roman_logans_run.png"
                 ],
                   "rubriques": {
                           "autres_identites": "",
@@ -1993,7 +1993,7 @@
                   "titre": "Wilson",
                   "image": "./assets/images/images-générales/title_logans_run.png",
                   "imageMedia":[
-                    "./src/assets/images/icones/roman_logans_run.png"
+                    "./assets/images/icones/roman_logans_run.png"
                   ],
                     "rubriques": {
                             "autres_identites": "",

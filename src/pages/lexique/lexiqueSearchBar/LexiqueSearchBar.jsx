@@ -8,7 +8,7 @@ import "./LexiqueSearchBar.scss";
 import data from "../../../data.json"; // Importation des données JSON
 
 const LexiqueSearchBar = () => {
-  // value gère la valeur de ce qui est tapté dans la barre de recherche.
+  // value gère la valeur de ce qui est tapté dans la barre de recherche..
   //setValue est la fonction utilisée pour mettre à jour cette valeur.
   const [value, setValue] = useState("");
   //Détermine si la liste de suggestions doit être affichée. setIsActive

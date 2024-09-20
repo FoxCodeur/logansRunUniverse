@@ -30,11 +30,21 @@
   }
 
   .personnage {
-    color: #8d0000;
-    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc,
-      1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc,
-      3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc,
-      5px 6px 1px #eee, 7px 6px 1px #ccc;
+    color: #8d0000; // Couleur par défaut
+    text-shadow:
+      1px 0px 1px #ccc,
+      0px 1px 1px #eee,
+      2px 1px 1px #ccc,
+      1px 2px 1px #eee,
+      3px 2px 1px #ccc,
+      2px 3px 1px #eee,
+      4px 3px 1px #ccc,
+      3px 4px 1px #eee,
+      5px 4px 1px #ccc,
+      4px 5px 1px #eee,
+      6px 5px 1px #ccc,
+      5px 6px 1px #eee,
+      7px 6px 1px #ccc;
     text-align: center;
     padding-bottom: 3rem;
   }
@@ -67,10 +77,12 @@
     .definition {
       background-color: rgba(0, 21, 139, 0.15);
       border-left: 4px solid rgba(139, 0, 0, 0.504);
-      box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+      box-shadow:
+        6px 6px 12px #bebebe,
+        -6px -6px 12px #ffffff;
       padding: 1rem;
       border-radius: 10px 250px 70px 10px;
-      width: calc(60% - 50px); // Prend 70% de largeur moins la marge
+      width: calc(60% - 50px); // Prend 60% de largeur moins la marge
       margin: 1rem 0 1rem 1rem;
       font-size: 1.2rem;
 
@@ -103,6 +115,36 @@
       .paddingContent {
         padding: 1rem;
       }
+    }
+  }
+
+  // Styles pour le mode sombre
+  &.dark {
+    background-color: #121212; // Couleur de fond sombre
+    color: #ffffff; // Couleur du texte en mode sombre
+
+    .personnage {
+      color: #ff4c4c; // Couleur plus claire pour la visibilité en mode sombre
+      text-shadow: none; // Enlever l'ombre de texte en mode sombre
+    }
+
+    .definition {
+      background-color: rgba(
+        255,
+        255,
+        255,
+        0.1
+      ); // Couleur de fond pour les définitions
+      border-left: 4px solid rgba(255, 0, 0, 0.5); // Bordure rouge pour les définitions
+    }
+
+    .badge {
+      background-color: rgba(
+        255,
+        0,
+        0,
+        0.7
+      ); // Couleur pour les badges en mode sombre
     }
   }
 }

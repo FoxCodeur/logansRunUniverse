@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+// importation de la bibliothèque react-helmet-async pour gérer les méta-informations
 import { Helmet } from "react-helmet-async";
+// importation du composant NavLink de la bibliothèque react-router-dom, utilisé
+// pour créer des liens de navigation.
 import { NavLink } from "react-router-dom";
 import "./Definition.scss";
 import PropTypes from "prop-types";
@@ -10,8 +13,12 @@ const Definition = ({ titre, image, rubriques }) => {
   // titre: titre de la définition
   // image: URL de l'image associée à la définition
   // rubriques: objet contenant différentes rubriques liées à la définition
+
+  // État pour le mode sombre
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
   return (
-    <div className="definitions">
+    <div className={`definitions ${isDarkMode ? "dark" : ""}`}>
       {/* Helmet permet de modifier le titre de la page et les méta-informations pour le référencement. */}
       <Helmet>
         <title>{`${titre} - Logan's Run`}</title>
@@ -24,6 +31,9 @@ const Definition = ({ titre, image, rubriques }) => {
           content={`${titre}, Logan's Run, Logan 5, Francis 7, Jessica 6, Carousel, City of Domes, The Sanctuary, Sandmen, Runners, dystopie, science-fiction, anticipation, univers futuriste, film de science-fiction`}
         />
       </Helmet>
+      <button onClick={() => setIsDarkMode(!isDarkMode)}>
+        {isDarkMode ? "Passer au mode clair" : "Passer au mode sombre"}
+      </button>
       <ol
         id="mise_en_forme_retour_sommaire"
         className="mise_en_forme_retour_sommaire_margin_left"

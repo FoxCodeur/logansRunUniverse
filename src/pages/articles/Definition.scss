@@ -1,6 +1,36 @@
 @use "src/styles/variables";
 
 .definitions {
+  .toggle-theme {
+    margin-left: 1rem;
+    background: linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+    background-color: #fc8d83;
+    border-radius: 6px;
+    border: 1px solid #d83526;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #b23e35;
+
+    &:hover {
+      background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+      background-color: #e4685d;
+    }
+
+    &.dark {
+      background-color: #ffffff; // Couleur de fond en mode sombre
+      color: #121212; // Couleur du texte en mode sombre
+
+      &:hover {
+        background-color: #ccc; // Couleur de fond au survol en mode sombre
+      }
+    }
+  }
   padding: 2rem 0;
 
   #mise_en_forme_retour_sommaire {

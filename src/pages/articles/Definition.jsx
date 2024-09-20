@@ -1,25 +1,25 @@
 import React, { useState } from "react";
-// importation de la bibliothèque react-helmet-async pour gérer les méta-informations
+// Importation de la bibliothèque react-helmet-async pour gérer les méta-informations de la page,
+// ce qui est important pour le référencement.
 import { Helmet } from "react-helmet-async";
-// importation du composant NavLink de la bibliothèque react-router-dom, utilisé
-// pour créer des liens de navigation.
+// Importation de NavLink depuis react-router-dom pour permettre la navigation entre les pages de l'application.
 import { NavLink } from "react-router-dom";
-import "./Definition.scss";
-import PropTypes from "prop-types";
-import { formatTextWithLineBreaks } from "../../utils";
+import "./Definition.scss"; // Importation du fichier de styles SCSS spécifique au composant.
+import PropTypes from "prop-types"; // Importation de PropTypes pour valider les types de props.
+import { formatTextWithLineBreaks } from "../../utils"; // Importation d'une fonction utilitaire pour formater le texte.
 
 const Definition = ({ titre, image, rubriques }) => {
-  // Destructuring des props passées au composant
+  // Destructuration des props passées au composant
   // titre: titre de la définition
   // image: URL de l'image associée à la définition
   // rubriques: objet contenant différentes rubriques liées à la définition
 
-  // État pour le mode sombre
+  // État pour gérer le mode sombre avec useState, initialisé à false (mode clair).
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   return (
     <div className={`definitions ${isDarkMode ? "dark" : ""}`}>
-      {/* Helmet permet de modifier le titre de la page et les méta-informations pour le référencement. */}
+      {/* Utilisation de Helmet pour définir le titre et les méta-informations de la page */}
       <Helmet>
         <title>{`${titre} - Logan's Run`}</title>
         <meta
@@ -31,41 +31,55 @@ const Definition = ({ titre, image, rubriques }) => {
           content={`${titre}, Logan's Run, Logan 5, Francis 7, Jessica 6, Carousel, City of Domes, The Sanctuary, Sandmen, Runners, dystopie, science-fiction, anticipation, univers futuriste, film de science-fiction`}
         />
       </Helmet>
-      <button onClick={() => setIsDarkMode(!isDarkMode)}>
-        {isDarkMode ? "Passer au mode clair" : "Passer au mode sombre"}
+      {/* Bouton pour basculer entre le mode sombre et le mode clair */}
+      <button
+        className="toggle-theme"
+        onClick={() => setIsDarkMode(!isDarkMode)} // Inverse l'état du mode sombre
+      >
+        {isDarkMode ? "light mode" : "Dark mode"}{" "}
+        {/* Texte du bouton en fonction du mode actuel */}
       </button>
+      {/* Liste ordonnée pour afficher le sommaire et le titre de la définition */}
       <ol
         id="mise_en_forme_retour_sommaire"
         className="mise_en_forme_retour_sommaire_margin_left"
       >
         <li className="retour_sommaire">
-          <NavLink to="/lexique">Sommaire</NavLink>
+          <NavLink to="/lexique">Sommaire</NavLink>{" "}
+          {/* Lien de retour au sommaire */}
           <span className="separator"> /</span>
         </li>
-        <li>{titre}</li>
+        <li>{titre}</li> {/* Affichage du titre de la définition */}
       </ol>
-      <h1 className="personnage">{titre}</h1>
+      <h1 className="personnage">{titre}</h1>{" "}
+      {/* Titre principal de la définition */}
       <section className="glossaire">
         <div className="illustration">
-          <img alt={titre} src={image} className="borderAffiches" />
+          <img alt={titre} src={image} className="borderAffiches" />{" "}
+          {/* Image associée à la définition */}
         </div>
         <div className="definition">
+          {/* Affichage des différentes rubriques liées à la définition */}
           <div className="badgeContainer">
             <span className="badge">Autres identités</span>{" "}
             <span className="badge_def">
-              {rubriques.autres_identites || "N/A"}
+              {rubriques.autres_identites || "N/A"}{" "}
+              {/* Affiche "N/A" si aucune identité n'est fournie */}
             </span>
           </div>
           <div className="badgeContainer">
             <span className="badge">Catégorie</span>{" "}
-            <span className="badge_def">{rubriques.categories}</span>
+            <span className="badge_def">{rubriques.categories}</span>{" "}
+            {/* Affichage de la catégorie */}
           </div>
           <div className="badgeContainer">
             <span className="badge">Apparitions</span>{" "}
-            <span className="badge_def">{rubriques.apparition}</span>
+            <span className="badge_def">{rubriques.apparition}</span>{" "}
+            {/* Affichage des apparitions */}
           </div>
           <div className="paddingContent">
-            {formatTextWithLineBreaks(rubriques.contenu)}
+            {formatTextWithLineBreaks(rubriques.contenu)}{" "}
+            {/* Formattage du contenu avec des sauts de ligne */}
           </div>
         </div>
       </section>
@@ -73,7 +87,7 @@ const Definition = ({ titre, image, rubriques }) => {
   );
 };
 
-// Définition des PropTypes
+// Définition des PropTypes pour assurer que les props reçues sont du bon type.
 Definition.propTypes = {
   titre: PropTypes.string.isRequired, // titre est une chaîne de caractères requise
   image: PropTypes.string.isRequired, // image est une chaîne de caractères requise
@@ -85,4 +99,4 @@ Definition.propTypes = {
   }).isRequired, // rubriques est un objet avec les propriétés spécifiées ci-dessus, et il est requis
 };
 
-export default Definition;
+export default Definition; // Exportation du composant pour qu'il soit utilisé dans d'autres fichiers.

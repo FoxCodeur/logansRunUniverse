@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
+import AnimeGant from "./animeGant/AnimeGant";
 const Gant = () => {
   const gantData = data.G ? data.G["Gant"] : null;
 
@@ -15,6 +16,7 @@ const Gant = () => {
         image={gantData.image}
         rubriques={gantData.rubriques}
       />
+      <AnimeGant />
     </div>
   );
 };

@@ -1,10 +1,14 @@
 @use "src/styles/variables";
+.paragrapheSectionSix {
+  padding-right: 1rem;
+}
 .cityMaquetContainer {
   display: flex;
   flex-direction: column;
   .cityMaquetBorder {
     margin-top: 1rem;
-    border-radius: 10px; /* Bordure arrondie */
+    border-radius: 10px;
+    width: 460px;
     background: linear-gradient(
       to right,
       rgba(0, 0, 139, 0.7),

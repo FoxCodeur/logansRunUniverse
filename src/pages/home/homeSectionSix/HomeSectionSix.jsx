@@ -10,7 +10,7 @@ const HomeSectionSix = () => {
     <div className="sectionContainer">
       <div className="sectionUnGauche">
         <h2 className="fancy-undeline">De somptueux décors</h2>
-        <p>
+        <p className="paragrapheSectionSix">
           Le tournage va durer trois mois. La maquette de la Cité des Dômes fut
           à son époque l’une des plus imposantes jamais construites. En ce qui
           concerne les séquences intérieures de la Cité, les prises de vue ont

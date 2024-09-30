@@ -35,7 +35,6 @@ const SlotMachine = () => {
   const [reel3, setReel3] = useState(icone1); // État pour le troisième rouleau, initialisé avec icone1.
   const [points, setPoints] = useState(0); // État pour le score du joueur, initialisé à 0.
   const [message, setMessage] = useState(""); // État pour le message affiché au joueur.
-
   // Fonction pour faire tourner les rouleaux
   const spinReels = () => {
     // Sélection de trois symboles aléatoires pour les rouleaux

@@ -1,9 +1,10 @@
 import React from "react";
 import "./Games.scss";
+import SlotMachine from "./SlotMachine/SlotMachine";
 const Games = () => {
   return (
     <div>
-      <h2>Games</h2>
+      <SlotMachine />
     </div>
   );
 };

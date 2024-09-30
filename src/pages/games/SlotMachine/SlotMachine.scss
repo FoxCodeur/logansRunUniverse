@@ -1,0 +1,102 @@
+.slotMachineContainer {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.boxAndButton {
+  margin-top: 20px;
+  position: relative;
+
+  .boxMachine_img {
+    width: 500px;
+  }
+
+  .reels {
+    position: absolute;
+    top: 29%; /* Ajuste la position verticale des rouleaux */
+    left: 48%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 59%; /* Largeur des rouleaux pour les aligner correctement */
+
+    .reel {
+      width: 60px; /* Ajuste la largeur des images des rouleaux */
+      height: auto;
+    }
+  }
+}
+
+/* Bouton de machine à sous avec effet de pression et transition de couleur */
+.casino-button {
+  margin: 1rem;
+  width: 90px;
+  height: 60px;
+  background: radial-gradient(circle at top left, #ff0000, #b30000);
+  border: 4px solid #660000;
+  border-radius: 40%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease,
+    color 0.4s ease;
+  user-select: none;
+
+  &:active {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+    transform: translateY(4px);
+    color: black;
+  }
+
+  &:hover {
+    background: radial-gradient(circle at top left, #ff3333, #990000);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Compteur de la machine à sous */
+.game-counter {
+  font-family: "Orbitron", sans-serif;
+  font-size: 4rem;
+  color: #ffae42;
+  text-shadow:
+    0 0 8px rgba(255, 174, 66, 0.8),
+    0 0 15px rgba(255, 174, 66, 0.5);
+  background: linear-gradient(145deg, #1a1a1a, #333);
+  padding: 15px 30px;
+  border-radius: 12px;
+  box-shadow:
+    0px 0px 15px rgba(255, 174, 66, 0.5),
+    inset 0px 0px 5px rgba(255, 174, 66, 0.2);
+  width: fit-content;
+  border: 3px solid rgba(255, 174, 66, 0.8);
+
+  .digit {
+    margin: 0 8px;
+    display: inline-block;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    line-height: 80px;
+    background: #1a1a1a;
+    border-radius: 6px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.6);
+    animation: flicker 0.2s infinite alternate;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.9;
+  }
+}

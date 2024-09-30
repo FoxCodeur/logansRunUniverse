@@ -103,7 +103,12 @@ a {
 .center_horizontally {
   margin: 0 auto;
 }
-
+.boxesColumnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .box_center {
   display: flex;
   justify-content: center;

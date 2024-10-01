@@ -22,4 +22,13 @@
       padding-right: 2px;
     }
   }
+  @media (max-width: 768px) {
+    .cityMaquetBorder {
+      width: 100%; /* Utiliser toute la largeur disponible */
+    }
+
+    .cityMaquet {
+      width: 100%; /* L'image s'adapte à la largeur du conteneur */
+    }
+  }
 }

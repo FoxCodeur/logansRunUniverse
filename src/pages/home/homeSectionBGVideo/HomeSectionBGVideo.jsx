@@ -10,7 +10,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionBGVideo = () => {
   return (
     <>
-      <div className="d-flex">
+      <div className="d-flex starrings">
         {/* En utilisant LazyLoadImage avec l'effet opacity, vos images
        l'image est chargées de manière différée et s'affiche à mesure que
       l'on scrolle. */}

@@ -52,6 +52,23 @@ h2 {
   font-size: 1.8rem;
   font-family: "Orbitron", sans-serif;
 }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem; // Diminution des titres H1
+  }
+
+  h2 {
+    font-size: 1.4rem; // Diminution des titres H2
+  }
+
+  p {
+    font-size: 1rem; // Diminution des paragraphes
+  }
+
+  a {
+    font-size: 1rem; // Diminution de la taille des liens
+  }
+}
 
 img {
   width: auto;

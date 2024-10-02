@@ -1,13 +1,12 @@
 @use "src/styles/variables";
 
 .navbar {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 100vw;
   min-height: 75px;
-  padding: 1rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding: 1rem 5rem;
   background-image: url("/src/assets/images/images-générales/futur.jpg");
   border: 2px solid black;
   background-position: center;
@@ -78,9 +77,10 @@
 }
 
 .navbar_burger {
-  z-index: 2;
-  top: 2vh; /* Met le bouton à 2% de la hauteur de la fenêtre */
-  right: 2vw; /* Met le bouton à 2% de la largeur de la fenêtre */
+  z-index: 12;
+  position: absolute;
+  top: 5vh; /* Met le bouton à 2% de la hauteur de la fenêtre */
+  right: 5vw; /* Met le bouton à 2% de la largeur de la fenêtre */
   position: fixed;
   width: 40px;
   height: 40px;

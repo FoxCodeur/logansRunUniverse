@@ -13,6 +13,8 @@
   background-size: cover;
   background-attachment: fixed;
   color: variables.$navbarTextColor;
+  // Ajoutez cette ligne pour désactiver le défilement horizontal
+  overflow-x: hidden;
 
   .navbar_content {
     display: flex;

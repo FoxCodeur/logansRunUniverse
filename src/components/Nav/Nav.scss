@@ -1,24 +1,24 @@
 @use "src/styles/variables";
 
 .navbar {
-  position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
   min-height: 75px;
-  padding: 1rem 5rem;
+  padding: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   background-image: url("/src/assets/images/images-générales/futur.jpg");
   border: 2px solid black;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   color: variables.$navbarTextColor;
-  // Ajoutez cette ligne pour désactiver le défilement horizontal
-  overflow-x: hidden;
 
   .navbar_content {
     display: flex;
     align-items: center;
+    width: 100%;
   }
 
   @media screen and (max-width: 767px) {
@@ -79,11 +79,10 @@
 }
 
 .navbar_burger {
-  z-index: 12;
+  z-index: 2;
+  top: 1rem;
+  right: 1rem;
   position: absolute;
-  top: 5vh; /* Met le bouton à 2% de la hauteur de la fenêtre */
-  right: 5vw; /* Met le bouton à 2% de la largeur de la fenêtre */
-  position: fixed;
   width: 40px;
   height: 40px;
   background: transparent;
@@ -166,7 +165,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: -100vw;
     bottom: 0;

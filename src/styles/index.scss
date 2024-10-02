@@ -31,6 +31,7 @@ body {
   font-size: 16px;
   text-align: justify;
   overflow-x: hidden; /* Empêche le défilement horizontal */
+  overflow-y: auto; /* Assure que le défilement vertical est activé */
   margin: 0;
 }
 

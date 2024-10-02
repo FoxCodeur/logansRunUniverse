@@ -79,8 +79,8 @@
 
 .navbar_burger {
   z-index: 2;
-  top: 1rem;
-  right: 1rem;
+  top: 2vh; /* Met le bouton à 2% de la hauteur de la fenêtre */
+  right: 2vw; /* Met le bouton à 2% de la largeur de la fenêtre */
   position: fixed;
   width: 40px;
   height: 40px;

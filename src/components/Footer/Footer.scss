@@ -15,20 +15,21 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap; // Ajouté pour permettre à l'intérieur de se réorganiser en cas de réduction de la largeur
+    flex-wrap: wrap; // Permet à l'intérieur de se réorganiser en cas de réduction de la largeur
     width: 100%; // Assure que le conteneur prend toute la largeur disponible
+    padding-left: 2rem; // Ajouté pour les écrans plus petits
 
     .footer_inside_part {
       width: 33.33%;
       margin-left: 2rem;
 
       &:last-child {
-        margin-left: 0; // Retire la marge du dernier élément pour éviter un espacement excessif
+        margin-left: 0; // Retire la marge du dernier élément
       }
-    }
 
-    .foxCodeurLogo {
-      width: 10rem;
+      .foxCodeurLogo {
+        width: 10rem;
+      }
     }
 
     .socials-container {
@@ -52,24 +53,26 @@
 
       .github,
       .linkedin {
-        display: flex;
-        align-items: center;
-        font-size: 1.9rem;
-      }
+        font-size: 1.9rem; // Taille par défaut
+        margin-bottom: 1rem; // Margin pour tous les éléments
 
-      .socialFox {
-        display: flex;
-        align-items: center;
-
-        .fox {
-          width: 2.8rem;
+        @media screen and (max-width: 768px) {
+          font-size: 1.4rem; // Ajustement de la taille de la police en mode mobile
         }
       }
 
-      .github,
-      .linkedin,
       .socialFox {
+        display: flex;
+        align-items: center;
         margin-bottom: 1rem;
+
+        .fox {
+          width: 2.8rem; // Taille par défaut
+
+          @media screen and (max-width: 768px) {
+            width: 2.4rem; // Taille réduite en mode mobile
+          }
+        }
       }
     }
   }
@@ -77,12 +80,17 @@
   @media screen and (max-width: 768px) {
     padding-left: 1rem;
     padding-right: 1rem;
+
     .footer_inside {
       padding-left: 2rem;
       border: 1px solid black;
       border-radius: 5px;
+
       .footer_inside_part {
-        width: 100%; // Assure que chaque partie occupe la largeur complète
+        .foxCodeurLogo {
+          display: none; // Cache le logo en mode mobile
+        }
+        width: 100%; // Chaque partie occupe la largeur complète
       }
     }
   }

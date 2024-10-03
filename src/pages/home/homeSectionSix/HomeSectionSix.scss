@@ -1,10 +1,17 @@
 @use "src/styles/variables";
+
 .paragrapheSectionSix {
   padding-right: 1rem;
+
+  @media (max-width: 768px) {
+    padding-right: 0;
+  }
 }
+
 .cityMaquetContainer {
   display: flex;
   flex-direction: column;
+
   .cityMaquetBorder {
     margin-top: 1rem;
     border-radius: 10px;
@@ -15,13 +22,14 @@
       rgba(139, 0, 0, 0.7)
     );
     padding: 4px; /* Ajustement du remplissage pour que le contenu ne soit pas coupé */
+
     .cityMaquet {
-      width: 450px;
       padding-top: 2px;
       padding-left: 2px;
       padding-right: 2px;
     }
   }
+
   @media (max-width: 768px) {
     .cityMaquetBorder {
       width: 100%; /* Utiliser toute la largeur disponible */

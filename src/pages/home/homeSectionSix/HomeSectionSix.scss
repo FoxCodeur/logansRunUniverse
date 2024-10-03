@@ -2,10 +2,6 @@
 
 .paragrapheSectionSix {
   padding-right: 1rem;
-
-  @media (max-width: 768px) {
-    padding-right: 0;
-  }
 }
 
 .cityMaquetContainer {
@@ -15,28 +11,22 @@
   .cityMaquetBorder {
     margin-top: 1rem;
     border-radius: 10px;
-    width: 460px;
+    width: 460px; // Largeur par défaut pour les écrans larges
     background: linear-gradient(
       to right,
       rgba(0, 0, 139, 0.7),
       rgba(139, 0, 0, 0.7)
     );
-    padding: 4px; /* Ajustement du remplissage pour que le contenu ne soit pas coupé */
+    padding: 4px; // Ajustement du remplissage pour le contenu
 
     .cityMaquet {
-      padding-top: 2px;
-      padding-left: 2px;
-      padding-right: 2px;
+      width: 100%; // S'adapte à la largeur du conteneur parent
     }
   }
 
   @media (max-width: 768px) {
     .cityMaquetBorder {
-      width: 100%; /* Utiliser toute la largeur disponible */
-    }
-
-    .cityMaquet {
-      width: 100%; /* L'image s'adapte à la largeur du conteneur */
+      width: 100%; // Adapte la largeur pour les petits écrans
     }
   }
 }

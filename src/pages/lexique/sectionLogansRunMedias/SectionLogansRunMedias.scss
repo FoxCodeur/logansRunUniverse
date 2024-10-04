@@ -25,6 +25,11 @@
   .squareImagesLexique {
     width: 12rem;
     border-radius: 10px;
+    // Ajout des styles pour le mode mobile
+    @media screen and (max-width: 749px) {
+      width: 80%; // Ajustez cette valeur selon vos besoins, par exemple 80% de la largeur du conteneur
+      max-width: 10rem; // Vous pouvez également définir une largeur maximale si nécessaire
+    }
   }
 
   .flowers_container {

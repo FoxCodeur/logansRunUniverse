@@ -24,7 +24,7 @@ const HomeSectionDbMovies = () => {
     <div>
       {data ? (
         <div className="sectionContainer">
-          <div className="dbMoviesHome_sectionGauche">
+          <div className="dbMoviesHome_sectionGauche box_center">
             {data.poster_path && (
               <LazyLoadImage
                 className="posterLogansRun"

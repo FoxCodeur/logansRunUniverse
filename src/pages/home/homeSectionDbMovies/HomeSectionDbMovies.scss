@@ -7,7 +7,8 @@
     width: 30%;
     & img {
       // bordure dégradée rouge vers bleu
-      background: radial-gradient(
+      background:
+        radial-gradient(
             circle at 100% 100%,
             #ffffff 0,
             #ffffff 3px,
@@ -49,7 +50,9 @@
   .dbMoviesHome_sectionDroite {
     background-color: rgba(7, 139, 0, 0.2);
     border-left: 4px solid rgba(139, 0, 0, 0.504);
-    box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+    box-shadow:
+      6px 6px 12px #bebebe,
+      -6px -6px 12px #ffffff;
     padding: 1rem;
     border-radius: 10px 250px 70px 10px;
     width: calc(70% - 20px); // Prend 70% de largeur moins la marge
@@ -72,12 +75,11 @@
       margin-top: 20px; // Ajoutez un espace entre les sections en mode colonne
     }
     .dbMoviesHome_sectionGauche {
-      width: 30%;
       & img {
         border: 1px solid black;
         float: none;
-        width: 400px;
-        max-width: 400px;
+        width: 380px;
+        max-width: 350px;
       }
     }
   }

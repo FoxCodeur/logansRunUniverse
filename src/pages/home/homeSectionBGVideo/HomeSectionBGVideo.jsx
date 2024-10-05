@@ -48,7 +48,7 @@ const HomeSectionBGVideo = () => {
         <LazyLoadImage
           className="starring"
           src={starring4}
-          alt="le nom de l'actrice Farraw Fawcett"
+          alt="date de sortie du films"
           loading="lazy"
         />
       </div>

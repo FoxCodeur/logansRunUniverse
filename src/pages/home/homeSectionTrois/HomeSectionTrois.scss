@@ -1,10 +1,13 @@
 @use "src/styles/variables";
+
 .versions-logan {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
   .shadowBallContainer {
     position: relative;
+
     .ball {
       position: absolute;
       z-index: -10;
@@ -20,6 +23,7 @@
       background: radial-gradient(circle at 100px 100px, #ff5c5c, #000000);
       animation: blinkingPalmFlower 3s linear infinite;
     }
+
     @keyframes blinkingPalmFlower {
       0% {
         opacity: 0;
@@ -31,6 +35,7 @@
         opacity: 0;
       }
     }
+
     .ball2 {
       position: absolute;
       z-index: -11;
@@ -45,19 +50,22 @@
       background: radial-gradient(circle at 100px 100px, #000000, #ff5c5c);
     }
   }
+
   .versions {
     position: relative;
     height: 28rem;
-
     margin-bottom: 2rem;
     background: white;
+
     &::before {
       z-index: -1;
     }
+
     &::after {
       z-index: -2;
       filter: blur(10px);
     }
+
     &::before,
     &::after {
       content: "";
@@ -70,26 +78,33 @@
       background: linear-gradient(0deg, #2196f3, #060c21, #f00000);
       border-radius: 5px;
     }
+
     img {
       border-radius: 6px;
-      width: 310px; /* Largeur par défaut */
-      height: 446px; /* Hauteur par défaut */
+      width: 310px;
+      height: 446px;
       padding-top: 2px;
       padding-left: 2px;
       padding-right: 2px;
+    }
 
-      /* Adaptation pour les écrans mobiles */
-      @media (max-width: 768px) {
-        /* Pour les tablettes et les mobiles */
-        width: 100%;
+    /* Ajout du media query directement dans .versions */
+    @media (max-width: 768px) {
+      height: auto;
+      margin-bottom: 1rem;
+
+      img {
+        width: 260px; /* Assure que l'image correspond à la largeur de .versions */
         height: auto;
-        max-width: 100%; /* S'assure que l'image ne dépasse pas le conteneur */
+        max-width: 100%;
       }
     }
   }
+
   .radiusVersionLogan {
     border-radius: 10px;
   }
+
   .radiusVersionLoganDeux {
     border-radius: 6px;
   }

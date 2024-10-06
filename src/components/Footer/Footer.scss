@@ -2,7 +2,7 @@
 
 .footer {
   width: 100vw;
-  min-height: 12rem;
+  min-height: 12rem; // Hauteur par défaut
   padding: 1rem 5rem;
   background-image: url("../../assets/images/images-générales/futur.jpg");
   background-position: center;
@@ -15,16 +15,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap; // Permet à l'intérieur de se réorganiser en cas de réduction de la largeur
-    width: 100%; // Assure que le conteneur prend toute la largeur disponible
-    padding-left: 2rem; // Ajouté pour les écrans plus petits
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 2rem;
 
     .footer_inside_part {
       width: 33.33%;
       margin-left: 2rem;
 
       &:last-child {
-        margin-left: 0; // Retire la marge du dernier élément
+        margin-left: 0;
       }
 
       .foxCodeurLogo {
@@ -53,11 +53,11 @@
 
       .github,
       .linkedin {
-        font-size: 1.9rem; // Taille par défaut
-        margin-bottom: 1rem; // Margin pour tous les éléments
+        font-size: 1.9rem;
+        margin-bottom: 1rem;
 
         @media screen and (max-width: 768px) {
-          font-size: 1.4rem; // Ajustement de la taille de la police en mode mobile
+          font-size: 1.4rem;
         }
       }
 
@@ -67,10 +67,10 @@
         margin-bottom: 1rem;
 
         .fox {
-          width: 2.8rem; // Taille par défaut
+          width: 2.8rem;
 
           @media screen and (max-width: 768px) {
-            width: 2.4rem; // Taille réduite en mode mobile
+            width: 2.4rem;
           }
         }
       }
@@ -78,6 +78,7 @@
   }
 
   @media screen and (max-width: 768px) {
+    min-height: 8rem; // Diminuer la hauteur minimale en mode mobile
     padding-left: 1rem;
     padding-right: 1rem;
 
@@ -88,9 +89,9 @@
 
       .footer_inside_part {
         .foxCodeurLogo {
-          display: none; // Cache le logo en mode mobile
+          display: none;
         }
-        width: 100%; // Chaque partie occupe la largeur complète
+        width: 100%;
       }
     }
   }

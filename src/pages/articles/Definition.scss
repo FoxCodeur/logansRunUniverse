@@ -1,6 +1,7 @@
 @use "src/styles/variables";
 
 .definitions {
+  min-height: 100vh;
   .toggle-theme {
     margin-left: 1rem;
     background: linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);

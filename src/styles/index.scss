@@ -19,6 +19,7 @@
   color: #fefeff;
 }
 html {
+  height: 100%; // Pour garantir que le contenu s'étire sur toute la hauteur
   scroll-snap-type: y mandatory;
   //En appliquant scroll-behavior: smooth; à l'élément html, vous indiquez que tout le document doit avoir un défilement fluide.
   scroll-behavior: smooth;

@@ -10,11 +10,7 @@ const Sandman = () => {
 
   return (
     <div>
-      <Definition
-        titre={sandmanData.titre}
-        image={sandmanData.image}
-        rubriques={sandmanData.rubriques}
-      />
+      <Definition section="S" keyName="Sandman" />
     </div>
   );
 };

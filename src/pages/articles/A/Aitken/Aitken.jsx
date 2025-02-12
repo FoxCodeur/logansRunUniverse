@@ -6,12 +6,6 @@ const Aitken = () => {
   if (!aikenData) {
     return <div>Les données pour Aitken ne sont pas disponibles.</div>;
   }
-  return (
-    <Definition
-      titre={aikenData.titre}
-      image={aikenData.image}
-      rubriques={aikenData.rubriques}
-    />
-  );
+  return <Definition section="A" keyName="Aitken" />;
 };
 export default Aitken;

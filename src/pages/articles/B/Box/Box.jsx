@@ -11,11 +11,7 @@ const Box = () => {
 
   return (
     <div>
-      <Definition
-        titre={boxData.titre}
-        image={boxData.image}
-        rubriques={boxData.rubriques}
-      />
+      <Definition section="B" keyName="Box" />
       <TypeWriterBox />
     </div>
   );

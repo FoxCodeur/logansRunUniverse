@@ -10,11 +10,7 @@ const BluewaterComics = () => {
 
   return (
     <div>
-      <Definition
-        titre={bluewatercomicsData.titre}
-        image={bluewatercomicsData.image}
-        rubriques={bluewatercomicsData.rubriques}
-      />
+      <Definition section="B" keyName="Bluewater Comics" />
     </div>
   );
 };

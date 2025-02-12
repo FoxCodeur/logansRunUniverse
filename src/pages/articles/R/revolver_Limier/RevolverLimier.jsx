@@ -10,11 +10,7 @@ const RevolverLimier = () => {
 
   return (
     <div>
-      <Definition
-        titre={revolverLimierData.titre}
-        image={revolverLimierData.image}
-        rubriques={revolverLimierData.rubriques}
-      />
+      <Definition section="R" keyName="Revolver limier" />
     </div>
   );
 };

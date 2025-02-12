@@ -10,11 +10,7 @@ const Nitro = () => {
 
   return (
     <div>
-      <Definition
-        titre={nitroData.titre}
-        image={nitroData.image}
-        rubriques={nitroData.rubriques}
-      />
+      <Definition section="N" keyName="Nitro" />
     </div>
   );
 };

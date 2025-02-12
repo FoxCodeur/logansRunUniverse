@@ -12,11 +12,7 @@ const ChirurgienMarkJ = () => {
 
   return (
     <div>
-      <Definition
-        titre={chirurgienData.titre}
-        image={chirurgienData.image}
-        rubriques={chirurgienData.rubriques}
-      />
+      <Definition section="C" keyName="Chirurgien Mark J" />
     </div>
   );
 };

@@ -10,11 +10,7 @@ const Prince = () => {
 
   return (
     <div>
-      <Definition
-        titre={princeData.titre}
-        image={princeData.image}
-        rubriques={princeData.rubriques}
-      />
+      <Definition section="P" keyName="Prince" />
     </div>
   );
 };

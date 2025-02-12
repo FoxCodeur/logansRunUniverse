@@ -11,11 +11,7 @@ const TheCubs = () => {
 
   return (
     <div>
-      <Definition
-        titre={cubsData.titre}
-        image={cubsData.image}
-        rubriques={cubsData.rubriques}
-      />
+      <Definition section="C" keyName="The Cubs" />
       <CubsAudioPlayer />
     </div>
   );

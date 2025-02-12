@@ -12,11 +12,7 @@ const Illustrateurs = () => {
 
   return (
     <div>
-      <Definition
-        titre={illustrateursData.titre}
-        image={illustrateursData.image}
-        rubriques={illustrateursData.rubriques}
-      />
+      <Definition section="I" keyName="Les Illustrateurs" />
     </div>
   );
 };

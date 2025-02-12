@@ -10,11 +10,7 @@ const Hallucinusine = () => {
 
   return (
     <div>
-      <Definition
-        titre={hallucinusineData.titre}
-        image={hallucinusineData.image}
-        rubriques={hallucinusineData.rubriques}
-      />
+      <Definition section="H" keyName="Hallucinusine" />
     </div>
   );
 };

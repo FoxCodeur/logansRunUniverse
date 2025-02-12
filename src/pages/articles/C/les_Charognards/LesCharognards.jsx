@@ -10,11 +10,7 @@ const LesCharognards = () => {
 
   return (
     <div>
-      <Definition
-        titre={charognardsData.titre}
-        image={charognardsData.image}
-        rubriques={charognardsData.rubriques}
-      />
+      <Definition section="C" keyName="Les Charognards" />
     </div>
   );
 };

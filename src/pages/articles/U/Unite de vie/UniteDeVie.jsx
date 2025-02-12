@@ -10,11 +10,7 @@ const UniteDeVie = () => {
 
   return (
     <div>
-      <Definition
-        titre={uniteDeVieData.titre}
-        image={uniteDeVieData.image}
-        rubriques={uniteDeVieData.rubriques}
-      />
+      <Definition section="U" keyName="Unité de vie" />
     </div>
   );
 };

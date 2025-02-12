@@ -10,11 +10,7 @@ const Watchman = () => {
 
   return (
     <div>
-      <Definition
-        titre={watchmanData.titre}
-        image={watchmanData.image}
-        rubriques={watchmanData.rubriques}
-      />
+      <Definition section="W" keyName="Watchman" />
     </div>
   );
 };

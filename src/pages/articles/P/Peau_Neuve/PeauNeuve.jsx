@@ -10,11 +10,7 @@ const PeauNeuve = () => {
 
   return (
     <div>
-      <Definition
-        titre={peauNeuveData.titre}
-        image={peauNeuveData.image}
-        rubriques={peauNeuveData.rubriques}
-      />
+      <Definition section="P" keyName="Peau Neuve" />
     </div>
   );
 };

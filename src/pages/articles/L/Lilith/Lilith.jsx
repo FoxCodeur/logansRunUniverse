@@ -10,11 +10,7 @@ const Lilith = () => {
 
   return (
     <div>
-      <Definition
-        titre={lilithData.titre}
-        image={lilithData.image}
-        rubriques={lilithData.rubriques}
-      />
+      <Definition section="L" keyName="Lilith" />
     </div>
   );
 };

@@ -10,11 +10,7 @@ const Ngc = () => {
 
   return (
     <div>
-      <Definition
-        titre={ngcData.titre}
-        image={ngcData.image}
-        rubriques={ngcData.rubriques}
-      />
+      <Definition section="N" keyName="NGC" />
     </div>
   );
 };

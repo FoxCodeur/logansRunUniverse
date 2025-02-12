@@ -10,11 +10,7 @@ const Paralax = () => {
 
   return (
     <div>
-      <Definition
-        titre={paralaxData.titre}
-        image={paralaxData.image}
-        rubriques={paralaxData.rubriques}
-      />
+      <Definition section="P" keyName="Paralax" />
     </div>
   );
 };

@@ -17,11 +17,7 @@ const CaissonDeRememoration = () => {
 
   return (
     <div>
-      <Definition
-        titre={caissonData.titre}
-        image={caissonData.image}
-        rubriques={caissonData.rubriques}
-      />
+      <Definition section="C" keyName="Caisson De Remémoration" />
     </div>
   );
 };

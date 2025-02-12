@@ -10,11 +10,7 @@ const Jonath = () => {
 
   return (
     <div>
-      <Definition
-        titre={jonathData.titre}
-        image={jonathData.image}
-        rubriques={jonathData.rubriques}
-      />
+      <Definition section="J" keyName="Jonath" />
     </div>
   );
 };

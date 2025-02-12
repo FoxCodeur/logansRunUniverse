@@ -10,11 +10,7 @@ const Omnite = () => {
 
   return (
     <div>
-      <Definition
-        titre={omniteData.titre}
-        image={omniteData.image}
-        rubriques={omniteData.rubriques}
-      />
+      <Definition section="O" keyName="Omnite" />
     </div>
   );
 };

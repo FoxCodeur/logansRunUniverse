@@ -10,11 +10,7 @@ const Karenya = () => {
 
   return (
     <div>
-      <Definition
-        titre={karenyaData.titre}
-        image={karenyaData.image}
-        rubriques={karenyaData.rubriques}
-      />
+      <Definition section="K" keyName="Karenya" />
     </div>
   );
 };

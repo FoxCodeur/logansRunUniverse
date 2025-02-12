@@ -10,11 +10,7 @@ const Stanhope = () => {
 
   return (
     <div>
-      <Definition
-        titre={stanhopeData.titre}
-        image={stanhopeData.image}
-        rubriques={stanhopeData.rubriques}
-      />
+      <Definition section="S" keyName="Stanhope" />
     </div>
   );
 };

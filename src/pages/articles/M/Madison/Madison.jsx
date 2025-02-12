@@ -10,11 +10,7 @@ const Madison = () => {
 
   return (
     <div>
-      <Definition
-        titre={madisonData.titre}
-        image={madisonData.image}
-        rubriques={madisonData.rubriques}
-      />
+      <Definition section="M" keyName="Madison" />
     </div>
   );
 };

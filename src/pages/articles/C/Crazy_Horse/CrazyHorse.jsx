@@ -10,11 +10,7 @@ const CrazyHorse = () => {
 
   return (
     <div>
-      <Definition
-        titre={crazyHorseData.titre}
-        image={crazyHorseData.image}
-        rubriques={crazyHorseData.rubriques}
-      />
+      <Definition section="C" keyName="Crazy Horse" />
     </div>
   );
 };

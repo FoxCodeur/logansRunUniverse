@@ -14,11 +14,7 @@ const JohnsonGeorgeClayton = () => {
 
   return (
     <div>
-      <Definition
-        titre={johnsonecrivainData.titre}
-        image={johnsonecrivainData.image}
-        rubriques={johnsonecrivainData.rubriques}
-      />
+      <Definition section="J" keyName="George Clayton Johnson" />
     </div>
   );
 };

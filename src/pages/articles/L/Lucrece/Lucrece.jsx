@@ -10,11 +10,7 @@ const Lucrece = () => {
 
   return (
     <div>
-      <Definition
-        titre={lucreceData.titre}
-        image={lucreceData.image}
-        rubriques={lucreceData.rubriques}
-      />
+      <Definition section="L" keyName="Lucrèce" />
     </div>
   );
 };

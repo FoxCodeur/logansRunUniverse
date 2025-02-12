@@ -10,11 +10,7 @@ const Wilson = () => {
 
   return (
     <div>
-      <Definition
-        titre={wilsonData.titre}
-        image={wilsonData.image}
-        rubriques={wilsonData.rubriques}
-      />
+      <Definition section="W" keyName="Wilson" />
     </div>
   );
 };

@@ -10,11 +10,7 @@ const MarvelComics = () => {
 
   return (
     <div>
-      <Definition
-        titre={marvelData.titre}
-        image={marvelData.image}
-        rubriques={marvelData.rubriques}
-      />
+      <Definition section="M" keyName="Marvel Comics" />
     </div>
   );
 };

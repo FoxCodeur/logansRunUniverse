@@ -12,11 +12,7 @@ const LogansWorld = () => {
 
   return (
     <div>
-      <Definition
-        titre={logansWorldData.titre}
-        image={logansWorldData.image}
-        rubriques={logansWorldData.rubriques}
-      />
+      <Definition section="L" keyName="Logans World roman" />
     </div>
   );
 };

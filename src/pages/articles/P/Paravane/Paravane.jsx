@@ -10,11 +10,7 @@ const Paravane = () => {
 
   return (
     <div>
-      <Definition
-        titre={paravaneData.titre}
-        image={paravaneData.image}
-        rubriques={paravaneData.rubriques}
-      />
+      <Definition section="P" keyName="Paravane" />
     </div>
   );
 };

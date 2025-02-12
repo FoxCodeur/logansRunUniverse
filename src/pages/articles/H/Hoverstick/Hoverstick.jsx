@@ -10,11 +10,7 @@ const Hoverstick = () => {
 
   return (
     <div>
-      <Definition
-        titre={hoverstickData.titre}
-        image={hoverstickData.image}
-        rubriques={hoverstickData.rubriques}
-      />
+      <Definition section="H" keyName="Hoverstick" />
     </div>
   );
 };

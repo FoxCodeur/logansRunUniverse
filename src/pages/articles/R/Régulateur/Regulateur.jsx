@@ -10,11 +10,7 @@ const Regulateur = () => {
 
   return (
     <div>
-      <Definition
-        titre={regulateurData.titre}
-        image={regulateurData.image}
-        rubriques={regulateurData.rubriques}
-      />
+      <Definition section="R" keyName="Regulateur" />
     </div>
   );
 };

@@ -10,11 +10,7 @@ const Sanson = () => {
 
   return (
     <div>
-      <Definition
-        titre={sansonData.titre}
-        image={sansonData.image}
-        rubriques={sansonData.rubriques}
-      />
+      <Definition section="S" keyName="Sanson" />
     </div>
   );
 };

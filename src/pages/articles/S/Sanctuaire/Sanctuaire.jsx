@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../../../data.json";
 import Definition from "../../Definition";
+
 const Sanctuaire = () => {
   const sanctuaireData = data.S ? data.S["Sanctuaire"] : null;
 
@@ -10,11 +11,7 @@ const Sanctuaire = () => {
 
   return (
     <div>
-      <Definition
-        titre={sanctuaireData.titre}
-        image={sanctuaireData.image}
-        rubriques={sanctuaireData.rubriques}
-      />
+      <Definition section="S" keyName="Sanctuaire" />
     </div>
   );
 };

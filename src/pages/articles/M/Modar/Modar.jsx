@@ -10,11 +10,7 @@ const Modar = () => {
 
   return (
     <div>
-      <Definition
-        titre={modarData.titre}
-        image={modarData.image}
-        rubriques={modarData.rubriques}
-      />
+      <Definition section="M" keyName="Modar" />
     </div>
   );
 };

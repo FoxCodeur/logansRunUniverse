@@ -10,11 +10,7 @@ const TriDi = () => {
 
   return (
     <div>
-      <Definition
-        titre={triDiData.titre}
-        image={triDiData.image}
-        rubriques={triDiData.rubriques}
-      />
+      <Definition section="T" keyName="Tri Di" />
     </div>
   );
 };

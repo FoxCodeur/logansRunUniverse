@@ -10,11 +10,7 @@ const Fennister = () => {
 
   return (
     <div>
-      <Definition
-        titre={fennisterData.titre}
-        image={fennisterData.image}
-        rubriques={fennisterData.rubriques}
-      />
+      <Definition section="F" keyName="Fennister" />
     </div>
   );
 };

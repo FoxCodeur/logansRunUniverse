@@ -10,11 +10,7 @@ const PetiteGuerre = () => {
 
   return (
     <div>
-      <Definition
-        titre={petiteguerreData.titre}
-        image={petiteguerreData.image}
-        rubriques={petiteguerreData.rubriques}
-      />
+      <Definition section="P" keyName="Petite guerre" />
     </div>
   );
 };

@@ -10,11 +10,7 @@ const CharmingBilly = () => {
 
   return (
     <div>
-      <Definition
-        titre={charmingBillyData.titre}
-        image={charmingBillyData.image}
-        rubriques={charmingBillyData.rubriques}
-      />
+      <Definition section="C" keyName="Charming Billy" />
     </div>
   );
 };

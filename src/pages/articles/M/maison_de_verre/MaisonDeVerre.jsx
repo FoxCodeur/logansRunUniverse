@@ -10,11 +10,7 @@ const MaisonDeVerre = () => {
 
   return (
     <div>
-      <Definition
-        titre={maisondeVerreData.titre}
-        image={maisondeVerreData.image}
-        rubriques={maisondeVerreData.rubriques}
-      />
+      <Definition section="M" keyName="Maison de verre" />
     </div>
   );
 };

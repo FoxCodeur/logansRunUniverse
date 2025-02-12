@@ -40,8 +40,7 @@ const App = () => {
               <Route
                 key={index}
                 path={route.path} // Définition du chemin (exemple : "/home").
-                element={<route.element />} // Le composant qui sera affiché lorsque l'utilisateur accède à cette route.
-                exact={route.exact} // Si exact est défini sur true, la route doit correspondre exactement au chemin.
+                element={React.createElement(route.element)} // Utilisation de createElement pour éviter l'erreur.
               />
             ))}
           </Routes>

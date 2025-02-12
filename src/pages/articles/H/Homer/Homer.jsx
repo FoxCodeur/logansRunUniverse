@@ -10,11 +10,7 @@ const Homer = () => {
 
   return (
     <div>
-      <Definition
-        titre={homerData.titre}
-        image={homerData.image}
-        rubriques={homerData.rubriques}
-      />
+      <Definition section="H" keyName="Homer" />
     </div>
   );
 };

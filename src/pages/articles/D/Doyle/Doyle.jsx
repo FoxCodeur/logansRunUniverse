@@ -11,11 +11,7 @@ const Doyle = () => {
 
   return (
     <div>
-      <Definition
-        titre={doyleData.titre}
-        image={doyleData.image}
-        rubriques={doyleData.rubriques}
-      />
+      <Definition section="D" keyName="Doyle" />
       <MemoryGames />
     </div>
   );

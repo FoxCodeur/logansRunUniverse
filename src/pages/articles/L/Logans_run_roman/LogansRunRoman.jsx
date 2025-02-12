@@ -12,11 +12,7 @@ const LogansRunRoman = () => {
 
   return (
     <div>
-      <Definition
-        titre={logansrunnovelData.titre}
-        image={logansrunnovelData.image}
-        rubriques={logansrunnovelData.rubriques}
-      />
+      <Definition section="L" keyName="Logans run roman" />
     </div>
   );
 };

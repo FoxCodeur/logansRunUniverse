@@ -10,11 +10,7 @@ const Jaq = () => {
 
   return (
     <div>
-      <Definition
-        titre={jaqData.titre}
-        image={jaqData.image}
-        rubriques={jaqData.rubriques}
-      />
+      <Definition section="J" keyName="Jaq" />
     </div>
   );
 };

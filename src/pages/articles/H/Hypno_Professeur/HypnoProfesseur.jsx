@@ -12,11 +12,7 @@ const HypnoProfesseur = () => {
 
   return (
     <div>
-      <Definition
-        titre={hypnoprofesseurData.titre}
-        image={hypnoprofesseurData.image}
-        rubriques={hypnoprofesseurData.rubriques}
-      />
+      <Definition section="H" keyName="Hypno professeur" />
     </div>
   );
 };

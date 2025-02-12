@@ -12,11 +12,7 @@ const TrottoirMecanique = () => {
 
   return (
     <div>
-      <Definition
-        titre={trottoirMecaniqueData.titre}
-        image={trottoirMecaniqueData.image}
-        rubriques={trottoirMecaniqueData.rubriques}
-      />
+      <Definition section="T" keyName="Trottoir mécanique" />
     </div>
   );
 };

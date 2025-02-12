@@ -10,11 +10,7 @@ const Needler = () => {
 
   return (
     <div>
-      <Definition
-        titre={needlerData.titre}
-        image={needlerData.image}
-        rubriques={needlerData.rubriques}
-      />
+      <Definition section="N" keyName="Needler" />
     </div>
   );
 };

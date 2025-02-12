@@ -13,11 +13,7 @@ const CapeSteinbeck = () => {
 
   return (
     <div>
-      <Definition
-        titre={capeSteinbeckData.titre}
-        image={capeSteinbeckData.image}
-        rubriques={capeSteinbeckData.rubriques}
-      />
+      <Definition section="C" keyName="Cape Steinbeck" />
     </div>
   );
 };

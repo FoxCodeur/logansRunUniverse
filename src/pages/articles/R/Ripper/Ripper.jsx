@@ -10,11 +10,7 @@ const Ripper = () => {
 
   return (
     <div>
-      <Definition
-        titre={ripperData.titre}
-        image={ripperData.image}
-        rubriques={ripperData.rubriques}
-      />
+      <Definition section="R" keyName="Ripper" />
     </div>
   );
 };

@@ -10,11 +10,7 @@ const Tangler = () => {
 
   return (
     <div>
-      <Definition
-        titre={tanglerData.titre}
-        image={tanglerData.image}
-        rubriques={tanglerData.rubriques}
-      />
+      <Definition section="T" keyName="Tangler" />
     </div>
   );
 };

@@ -10,11 +10,7 @@ const Rutago = () => {
 
   return (
     <div>
-      <Definition
-        titre={rutagoData.titre}
-        image={rutagoData.image}
-        rubriques={rutagoData.rubriques}
-      />
+      <Definition section="R" keyName="Rutago" />
     </div>
   );
 };

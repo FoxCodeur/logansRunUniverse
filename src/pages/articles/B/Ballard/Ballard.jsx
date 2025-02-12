@@ -13,11 +13,7 @@ const Ballard = () => {
 
   return (
     <div>
-      <Definition
-        titre={ballardData.titre}
-        image={ballardData.image}
-        rubriques={ballardData.rubriques}
-      />
+      <Definition section="B" keyName="Ballard" />
     </div>
   );
 };

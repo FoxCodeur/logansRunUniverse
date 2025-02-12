@@ -10,11 +10,7 @@ const Flamegun = () => {
 
   return (
     <div>
-      <Definition
-        titre={flamegunData.titre}
-        image={flamegunData.image}
-        rubriques={flamegunData.rubriques}
-      />
+      <Definition section="F" keyName="Flamegun" />
     </div>
   );
 };

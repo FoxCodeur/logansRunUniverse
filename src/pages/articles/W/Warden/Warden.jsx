@@ -10,11 +10,7 @@ const Warden = () => {
 
   return (
     <div>
-      <Definition
-        titre={wardenData.titre}
-        image={wardenData.image}
-        rubriques={wardenData.rubriques}
-      />
+      <Definition section="W" keyName="Warden" />
     </div>
   );
 };

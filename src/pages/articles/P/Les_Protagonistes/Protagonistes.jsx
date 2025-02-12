@@ -10,11 +10,7 @@ const Protagonistes = () => {
 
   return (
     <div>
-      <Definition
-        titre={protagonistesData.titre}
-        image={protagonistesData.image}
-        rubriques={protagonistesData.rubriques}
-      />
+      <Definition section="P" keyName="Protagonistes" />
     </div>
   );
 };

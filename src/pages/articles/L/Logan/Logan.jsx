@@ -10,11 +10,7 @@ const Logan = () => {
 
   return (
     <div>
-      <Definition
-        titre={loganData.titre}
-        image={loganData.image}
-        rubriques={loganData.rubriques}
-      />
+      <Definition section="L" keyName="Logan" />
     </div>
   );
 };

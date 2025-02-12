@@ -13,11 +13,7 @@ const Arcade = () => {
 
   return (
     <div>
-      <Definition
-        titre={arcadeData.titre}
-        image={arcadeData.image}
-        rubriques={arcadeData.rubriques}
-      />
+      <Definition section="A" keyName="Arcade" />
       {/* sous composant */}
       <BandeauArcade />
     </div>

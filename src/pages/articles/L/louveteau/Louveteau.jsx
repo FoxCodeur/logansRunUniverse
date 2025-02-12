@@ -10,11 +10,7 @@ const Louveteau = () => {
 
   return (
     <div>
-      <Definition
-        titre={louveteaudData.titre}
-        image={louveteaudData.image}
-        rubriques={louveteaudData.rubriques}
-      />
+      <Definition section="L" keyName="Louveteau" />
     </div>
   );
 };

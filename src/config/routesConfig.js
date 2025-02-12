@@ -130,6 +130,7 @@ import Warden from "../pages/articles/W/Warden/Warden";
 import Watchman from "../pages/articles/W/Watchman/Watchman";
 import Webster from "../pages/articles/W/Webster/Webster";
 import Wilson from "../pages/articles/W/Wilson/Wilson";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 const routesConfig = [
   { path: "/", element: Home, exact: true },
@@ -137,6 +138,7 @@ const routesConfig = [
   { path: "/timelines", element: Timeline },
   { path: "games", element: Games },
   { path: "portfolio", element: Portfolio },
+  { path: "*", element: ErrorPage }, // Capture toutes les routes non définies
   // ------------------------------A----------------------------------------------
   { path: "les-acteurs-du-film", element: Acteurs },
   { path: "adam-1", element: Adam },

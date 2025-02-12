@@ -9,11 +9,7 @@ const Baleine = () => {
 
   return (
     <div>
-      <Definition
-        titre={baleineData.titre}
-        image={baleineData.image}
-        rubriques={baleineData.rubriques}
-      />
+      <Definition section="B" keyName="Baleine" />
     </div>
   );
 };

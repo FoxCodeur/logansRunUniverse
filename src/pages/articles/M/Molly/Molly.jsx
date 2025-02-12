@@ -10,11 +10,7 @@ const Molly = () => {
 
   return (
     <div>
-      <Definition
-        titre={mollyData.titre}
-        image={mollyData.image}
-        rubriques={mollyData.rubriques}
-      />
+      <Definition section="M" keyName="Molly" />
     </div>
   );
 };

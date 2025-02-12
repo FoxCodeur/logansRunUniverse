@@ -10,11 +10,7 @@ const Webster = () => {
 
   return (
     <div>
-      <Definition
-        titre={websterData.titre}
-        image={websterData.image}
-        rubriques={websterData.rubriques}
-      />
+      <Definition section="W" keyName="Webster" />
     </div>
   );
 };

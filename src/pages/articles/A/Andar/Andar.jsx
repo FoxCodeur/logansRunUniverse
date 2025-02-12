@@ -10,11 +10,7 @@ const Andar = () => {
 
   return (
     <div>
-      <Definition
-        titre={andarData.titre}
-        image={andarData.image}
-        rubriques={andarData.rubriques}
-      />
+      <Definition section="A" keyName="Andar" />
     </div>
   );
 };

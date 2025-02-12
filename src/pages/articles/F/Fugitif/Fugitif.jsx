@@ -12,11 +12,7 @@ const Fugitif = () => {
 
   return (
     <div>
-      <Definition
-        titre={fugitifData.titre}
-        image={fugitifData.image}
-        rubriques={fugitifData.rubriques}
-      />
+      <Definition section="F" keyName="fugitif" />
     </div>
   );
 };

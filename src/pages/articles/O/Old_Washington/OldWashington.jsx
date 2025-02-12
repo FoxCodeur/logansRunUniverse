@@ -10,11 +10,7 @@ const OldWashington = () => {
 
   return (
     <div>
-      <Definition
-        titre={oldWashingtonData.titre}
-        image={oldWashingtonData.image}
-        rubriques={oldWashingtonData.rubriques}
-      />
+      <Definition section="O" keyName="Old Washington" />
     </div>
   );
 };

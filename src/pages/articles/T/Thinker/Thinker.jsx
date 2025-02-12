@@ -10,11 +10,7 @@ const Thinker = () => {
 
   return (
     <div>
-      <Definition
-        titre={thinkerData.titre}
-        image={thinkerData.image}
-        rubriques={thinkerData.rubriques}
-      />
+      <Definition section="T" keyName="THINKER" />
     </div>
   );
 };

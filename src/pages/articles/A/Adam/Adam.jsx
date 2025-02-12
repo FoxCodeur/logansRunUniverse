@@ -13,11 +13,7 @@ const Adam = () => {
 
   return (
     <div>
-      <Definition
-        titre={adamData.titre}
-        image={adamData.image}
-        rubriques={adamData.rubriques}
-      />
+      <Definition section="A" keyName="Adam 1" />
     </div>
   );
 };

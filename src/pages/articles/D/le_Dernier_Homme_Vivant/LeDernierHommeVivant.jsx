@@ -14,11 +14,7 @@ const LeDernierHommeVivant = () => {
 
   return (
     <div>
-      <Definition
-        titre={dernierHommeData.titre}
-        image={dernierHommeData.image}
-        rubriques={dernierHommeData.rubriques}
-      />
+      <Definition section="D" keyName="Dernier Homme Vivant" />
     </div>
   );
 };

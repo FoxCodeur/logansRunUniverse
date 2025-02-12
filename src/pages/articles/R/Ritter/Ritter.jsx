@@ -10,11 +10,7 @@ const Ritter = () => {
 
   return (
     <div>
-      <Definition
-        titre={ritterData.titre}
-        image={ritterData.image}
-        rubriques={ritterData.rubriques}
-      />
+      <Definition section="R" keyName="Ritter" />
     </div>
   );
 };

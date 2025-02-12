@@ -10,11 +10,7 @@ const NolanWilliamF = () => {
 
   return (
     <div>
-      <Definition
-        titre={nolanWilliamData.titre}
-        image={nolanWilliamData.image}
-        rubriques={nolanWilliamData.rubriques}
-      />
+      <Definition section="N" keyName="William F Nolan" />
     </div>
   );
 };

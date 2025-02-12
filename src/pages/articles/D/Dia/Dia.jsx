@@ -10,11 +10,7 @@ const Dia = () => {
 
   return (
     <div>
-      <Definition
-        titre={diaData.titre}
-        image={diaData.image}
-        rubriques={diaData.rubriques}
-      />
+      <Definition section="D" keyName="Dia" />
     </div>
   );
 };

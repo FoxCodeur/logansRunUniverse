@@ -10,11 +10,7 @@ const LeDedale = () => {
 
   return (
     <div>
-      <Definition
-        titre={dedaleData.titre}
-        image={dedaleData.image}
-        rubriques={dedaleData.rubriques}
-      />
+      <Definition section="D" keyName="Dédale" />
     </div>
   );
 };

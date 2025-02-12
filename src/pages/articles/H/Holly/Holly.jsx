@@ -10,11 +10,7 @@ const Holly = () => {
 
   return (
     <div>
-      <Definition
-        titre={hollyData.titre}
-        image={hollyData.image}
-        rubriques={hollyData.rubriques}
-      />
+      <Definition section="H" keyName="Holly" />
     </div>
   );
 };

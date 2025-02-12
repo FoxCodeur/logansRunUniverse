@@ -10,11 +10,7 @@ const Judee = () => {
 
   return (
     <div>
-      <Definition
-        titre={judeeData.titre}
-        image={judeeData.image}
-        rubriques={judeeData.rubriques}
-      />
+      <Definition section="J" keyName="Judee" />
     </div>
   );
 };

@@ -10,11 +10,7 @@ const Lacy = () => {
 
   return (
     <div>
-      <Definition
-        titre={lacyData.titre}
-        image={lacyData.image}
-        rubriques={lacyData.rubriques}
-      />
+      <Definition section="L" keyName="Lacy" />
     </div>
   );
 };

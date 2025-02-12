@@ -12,11 +12,7 @@ const CrecheIndustrielle = () => {
 
   return (
     <div>
-      <Definition
-        titre={crecheIndData.titre}
-        image={crecheIndData.image}
-        rubriques={crecheIndData.rubriques}
-      />
+      <Definition section="C" keyName="Créche industrielle" />
     </div>
   );
 };

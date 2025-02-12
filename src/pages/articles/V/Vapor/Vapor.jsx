@@ -10,11 +10,7 @@ const Vapor = () => {
 
   return (
     <div>
-      <Definition
-        titre={vaporData.titre}
-        image={vaporData.image}
-        rubriques={vaporData.rubriques}
-      />
+      <Definition section="V" keyName="Vapor" />
     </div>
   );
 };

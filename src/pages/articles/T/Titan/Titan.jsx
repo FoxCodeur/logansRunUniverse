@@ -10,11 +10,7 @@ const Titan = () => {
 
   return (
     <div>
-      <Definition
-        titre={titanData.titre}
-        image={titanData.image}
-        rubriques={titanData.rubriques}
-      />
+      <Definition section="T" keyName="Titan" />
     </div>
   );
 };

@@ -10,11 +10,7 @@ const Rawls = () => {
 
   return (
     <div>
-      <Definition
-        titre={rawlsData.titre}
-        image={rawlsData.image}
-        rubriques={rawlsData.rubriques}
-      />
+      <Definition section="R" keyName="Rawls" />
     </div>
   );
 };

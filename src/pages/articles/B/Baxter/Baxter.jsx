@@ -10,11 +10,7 @@ const Baxter = () => {
 
   return (
     <div>
-      <Definition
-        titre={baxterData.titre}
-        image={baxterData.image}
-        rubriques={baxterData.rubriques}
-      />
+      <Definition section="B" keyName="Baxter" />
     </div>
   );
 };

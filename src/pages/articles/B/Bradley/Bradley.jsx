@@ -10,11 +10,7 @@ const Bradley = () => {
 
   return (
     <div>
-      <Definition
-        titre={bradleyData.titre}
-        image={bradleyData.image}
-        rubriques={bradleyData.rubriques}
-      />
+      <Definition section="B" keyName="Bradley" />
     </div>
   );
 };

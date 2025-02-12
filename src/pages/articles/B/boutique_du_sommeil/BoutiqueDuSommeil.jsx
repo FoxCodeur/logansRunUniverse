@@ -12,11 +12,7 @@ const BoutiqueDuSommeil = () => {
 
   return (
     <div>
-      <Definition
-        titre={boutiquedusommeilData.titre}
-        image={boutiquedusommeilData.image}
-        rubriques={boutiquedusommeilData.rubriques}
-      />
+      <Definition section="B" keyName="Boutique du sommeil" />
     </div>
   );
 };

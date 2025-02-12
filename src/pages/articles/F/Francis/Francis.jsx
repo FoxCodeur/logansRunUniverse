@@ -10,11 +10,7 @@ const Francis = () => {
 
   return (
     <div>
-      <Definition
-        titre={francisData.titre}
-        image={francisData.image}
-        rubriques={francisData.rubriques}
-      />
+      <Definition section="F" keyName="Francis" />
     </div>
   );
 };

@@ -10,11 +10,7 @@ const Evans = () => {
 
   return (
     <div>
-      <Definition
-        titre={evansData.titre}
-        image={evansData.image}
-        rubriques={evansData.rubriques}
-      />
+      <Definition section="E" keyName="Evans" />
     </div>
   );
 };

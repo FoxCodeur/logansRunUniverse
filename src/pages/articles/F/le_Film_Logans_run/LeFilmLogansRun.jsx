@@ -10,11 +10,7 @@ const LeFilmLogansRun = () => {
 
   return (
     <div>
-      <Definition
-        titre={filmData.titre}
-        image={filmData.image}
-        rubriques={filmData.rubriques}
-      />
+      <Definition section="F" keyName="Film Logans run" />
     </div>
   );
 };

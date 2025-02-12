@@ -10,11 +10,7 @@ const Tara = () => {
 
   return (
     <div>
-      <Definition
-        titre={taraData.titre}
-        image={taraData.image}
-        rubriques={taraData.rubriques}
-      />
+      <Definition section="T" keyName="Tara" />
     </div>
   );
 };

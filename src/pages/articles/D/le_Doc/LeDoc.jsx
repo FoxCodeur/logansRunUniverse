@@ -10,11 +10,7 @@ const LeDoc = () => {
 
   return (
     <div>
-      <Definition
-        titre={docData.titre}
-        image={docData.image}
-        rubriques={docData.rubriques}
-      />
+      <Definition section="D" keyName="Doc" />
     </div>
   );
 };

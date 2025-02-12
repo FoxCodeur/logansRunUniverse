@@ -10,11 +10,7 @@ const PoupeeParlante = () => {
 
   return (
     <div>
-      <Definition
-        titre={poupeeParlanteData.titre}
-        image={poupeeParlanteData.image}
-        rubriques={poupeeParlanteData.rubriques}
-      />
+      <Definition section="P" keyName="Poupée parlante" />
     </div>
   );
 };

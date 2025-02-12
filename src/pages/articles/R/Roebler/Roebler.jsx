@@ -10,11 +10,7 @@ const Roebler = () => {
 
   return (
     <div>
-      <Definition
-        titre={roeblerData.titre}
-        image={roeblerData.image}
-        rubriques={roeblerData.rubriques}
-      />
+      <Definition section="R" keyName="Roebler" />
     </div>
   );
 };

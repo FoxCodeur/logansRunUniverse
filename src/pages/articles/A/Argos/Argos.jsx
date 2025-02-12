@@ -10,11 +10,7 @@ const Argos = () => {
 
   return (
     <div>
-      <Definition
-        titre={argosData.titre}
-        image={argosData.image}
-        rubriques={argosData.rubriques}
-      />
+      <Definition section="A" keyName="Argos" />
     </div>
   );
 };

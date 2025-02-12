@@ -11,11 +11,7 @@ const AigleMecha = () => {
 
   return (
     <div>
-      <Definition
-        titre={aigleMechaData.titre}
-        image={aigleMechaData.image}
-        rubriques={aigleMechaData.rubriques}
-      />
+      <Definition section="A" keyName="Mecha Eagle" />
     </div>
   );
 };

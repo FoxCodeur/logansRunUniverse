@@ -10,11 +10,7 @@ const Pisteur = () => {
 
   return (
     <div>
-      <Definition
-        titre={pisteurData.titre}
-        image={pisteurData.image}
-        rubriques={pisteurData.rubriques}
-      />
+      <Definition section="P" keyName="Pisteur" />
     </div>
   );
 };

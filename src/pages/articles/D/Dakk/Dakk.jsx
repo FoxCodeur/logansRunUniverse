@@ -10,11 +10,7 @@ const Dakk = () => {
 
   return (
     <div>
-      <Definition
-        titre={dakkData.titre}
-        image={dakkData.image}
-        rubriques={dakkData.rubriques}
-      />
+      <Definition section="D" keyName="Dakk" />
     </div>
   );
 };

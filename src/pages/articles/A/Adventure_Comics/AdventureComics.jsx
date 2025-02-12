@@ -15,11 +15,7 @@ const AdventureComics = () => {
 
   return (
     <div>
-      <Definition
-        titre={adventureData.titre}
-        image={adventureData.image}
-        rubriques={adventureData.rubriques}
-      />
+      <Definition section="A" keyName="Adventure comics" />
     </div>
   );
 };

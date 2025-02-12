@@ -20,11 +20,7 @@ const Acteurs = () => {
   // Sinon, affiche le composant Definition avec les données disponibles
   return (
     <div className="acteurs-wrapper">
-      <Definition
-        titre={acteursData.titre}
-        image={acteursData.image}
-        rubriques={acteursData.rubriques}
-      />
+      <Definition section="A" keyName="acteurs du film" />
       <SliderMovieActors />
       <TypeWritterActors />
     </div>

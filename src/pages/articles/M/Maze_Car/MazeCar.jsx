@@ -12,11 +12,7 @@ const MazeCar = () => {
 
   return (
     <div>
-      <Definition
-        titre={mazeCarData.titre}
-        image={mazeCarData.image}
-        rubriques={mazeCarData.rubriques}
-      />
+      <Definition section="M" keyName="Maze Car" />
     </div>
   );
 };

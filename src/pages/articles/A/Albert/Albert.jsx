@@ -19,11 +19,7 @@ const Albert = () => {
 
   return (
     <div>
-      <Definition
-        titre={albertData.titre}
-        image={albertData.image}
-        rubriques={albertData.rubriques}
-      />
+      <Definition section="A" keyName="Albert" />
       <TypeWriterAlbert />
     </div>
   );

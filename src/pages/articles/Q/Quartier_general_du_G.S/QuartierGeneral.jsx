@@ -14,11 +14,7 @@ const QuartierGeneral = () => {
 
   return (
     <div>
-      <Definition
-        titre={qgData.titre}
-        image={qgData.image}
-        rubriques={qgData.rubriques}
-      />
+      <Definition section="Q" keyName="Quartier general du GS" />
     </div>
   );
 };

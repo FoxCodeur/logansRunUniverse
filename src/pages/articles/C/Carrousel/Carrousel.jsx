@@ -11,11 +11,7 @@ const Carrousel = () => {
 
   return (
     <div>
-      <Definition
-        titre={carrouselData.titre}
-        image={carrouselData.image}
-        rubriques={carrouselData.rubriques}
-      />
+      <Definition section="C" keyName="Carrousel" />
       <BandeauCarrousel />
     </div>
   );

@@ -10,11 +10,7 @@ const Ankh = () => {
 
   return (
     <div>
-      <Definition
-        titre={ankhData.titre}
-        image={ankhData.image}
-        rubriques={ankhData.rubriques}
-      />
+      <Definition section="A" keyName="Ankh" />
     </div>
   );
 };

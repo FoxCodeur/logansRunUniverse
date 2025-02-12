@@ -10,11 +10,7 @@ const Detoxique = () => {
 
   return (
     <div>
-      <Definition
-        titre={detoxiqueData.titre}
-        image={detoxiqueData.image}
-        rubriques={detoxiqueData.rubriques}
-      />
+      <Definition section="D" keyName="Detoxique" />
     </div>
   );
 };

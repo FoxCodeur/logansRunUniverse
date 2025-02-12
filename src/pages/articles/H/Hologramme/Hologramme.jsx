@@ -10,11 +10,7 @@ const Hologramme = () => {
 
   return (
     <div>
-      <Definition
-        titre={hologrammeData.titre}
-        image={hologrammeData.image}
-        rubriques={hologrammeData.rubriques}
-      />
+      <Definition section="H" keyName="Hologramme" />
     </div>
   );
 };

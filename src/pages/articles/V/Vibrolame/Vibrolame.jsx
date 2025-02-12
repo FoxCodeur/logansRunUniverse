@@ -10,11 +10,7 @@ const Vibrolame = () => {
 
   return (
     <div>
-      <Definition
-        titre={vibroLameData.titre}
-        image={vibroLameData.image}
-        rubriques={vibroLameData.rubriques}
-      />
+      <Definition section="V" keyName="vibrolame" />
     </div>
   );
 };

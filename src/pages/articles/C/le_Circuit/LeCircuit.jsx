@@ -12,11 +12,7 @@ const LeCircuit = () => {
 
   return (
     <div>
-      <Definition
-        titre={leCircuitData.titre}
-        image={leCircuitData.image}
-        rubriques={leCircuitData.rubriques}
-      />
+      <Definition section="C" keyName="Le Circuit" />
     </div>
   );
 };

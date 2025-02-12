@@ -12,11 +12,7 @@ const LesGitansLibres = () => {
 
   return (
     <div>
-      <Definition
-        titre={gitanslibresData.titre}
-        image={gitanslibresData.image}
-        rubriques={gitanslibresData.rubriques}
-      />
+      <Definition section="G" keyName="Les Gitans Libres" />
     </div>
   );
 };

@@ -10,11 +10,7 @@ const ComplexeCity = () => {
 
   return (
     <div>
-      <Definition
-        titre={complexeCityData.titre}
-        image={complexeCityData.image}
-        rubriques={complexeCityData.rubriques}
-      />
+      <Definition section="C" keyName="Complexe City" />
     </div>
   );
 };

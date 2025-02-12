@@ -10,11 +10,7 @@ const Sawyer = () => {
 
   return (
     <div>
-      <Definition
-        titre={sawyerData.titre}
-        image={sawyerData.image}
-        rubriques={sawyerData.rubriques}
-      />
+      <Definition section="S" keyName="Sawyer" />
     </div>
   );
 };

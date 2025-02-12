@@ -10,11 +10,7 @@ const Sterozine = () => {
 
   return (
     <div>
-      <Definition
-        titre={sterozineData.titre}
-        image={sterozineData.image}
-        rubriques={sterozineData.rubriques}
-      />
+      <Definition section="S" keyName="Sterozine" />
     </div>
   );
 };

@@ -11,11 +11,7 @@ const Gant = () => {
 
   return (
     <div>
-      <Definition
-        titre={gantData.titre}
-        image={gantData.image}
-        rubriques={gantData.rubriques}
-      />
+      <Definition section="G" keyName="Gant" />
       <AnimeGant />
     </div>
   );

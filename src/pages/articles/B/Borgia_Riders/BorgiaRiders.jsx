@@ -10,11 +10,7 @@ const BorgiaRiders = () => {
 
   return (
     <div>
-      <Definition
-        titre={borgiasData.titre}
-        image={borgiasData.image}
-        rubriques={borgiasData.rubriques}
-      />
+      <Definition section="B" keyName="Borgia riders" />
     </div>
   );
 };

@@ -12,11 +12,7 @@ const LaCiteeDesDomes = () => {
 
   return (
     <div>
-      <Definition
-        titre={domeData.titre}
-        image={domeData.image}
-        rubriques={domeData.rubriques}
-      />
+      <Definition section="D" keyName="Domes" />
     </div>
   );
 };

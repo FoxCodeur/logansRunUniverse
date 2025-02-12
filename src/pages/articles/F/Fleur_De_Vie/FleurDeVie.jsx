@@ -10,11 +10,7 @@ const FleurDeVie = () => {
 
   return (
     <div>
-      <Definition
-        titre={fleurdevieData.titre}
-        image={fleurdevieData.image}
-        rubriques={fleurdevieData.rubriques}
-      />
+      <Definition section="F" keyName="Fleur de Vie" />
     </div>
   );
 };

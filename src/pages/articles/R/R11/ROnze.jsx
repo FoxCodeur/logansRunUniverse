@@ -10,11 +10,7 @@ const ROnze = () => {
 
   return (
     <div>
-      <Definition
-        titre={rOnzeData.titre}
-        image={rOnzeData.image}
-        rubriques={rOnzeData.rubriques}
-      />
+      <Definition section="R" keyName="R 11" />
     </div>
   );
 };

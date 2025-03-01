@@ -2,8 +2,8 @@ import React from "react";
 import "./Footer.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubAlt, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import FoxCodeurLogo from "../../assets/images/images-générales/fox-codeur.png";
-import renard from "../../assets/images/images-générales/renard.png";
+import FoxCodeurLogo from "@/assets/images/images-générales/fox-codeur.png";
+import renard from "@/assets/images/images-générales/renard.png";
 import Logo from "../Nav/logo/Logo";
 const Footer = () => {
   return (

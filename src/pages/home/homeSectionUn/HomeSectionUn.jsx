@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react"; // Importation des hooks React
 import "./HomeSectionUn.scss";
 import "../Home.scss";
-import nouvelleEdition from "../../../assets/images/images-générales/logans_run_edition_mars_2019.png"; // Importation de l'image à afficher
+import nouvelleEdition from "@/assets/images/images-générales/logans_run_edition_mars_2019.png"; // Importation de l'image à afficher
 import { LazyLoadImage } from "react-lazy-load-image-component"; // Importation du composant LazyLoadImage pour le chargement d'images paresseux
 import "react-lazy-load-image-component/src/effects/blur.css"; // Importation de l'effet de flou pour le LazyLoadImage
 import gsap from "gsap"; // Importation de GSAP pour les animations

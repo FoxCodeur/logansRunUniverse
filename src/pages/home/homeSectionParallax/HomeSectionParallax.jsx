@@ -1,8 +1,8 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import "./HomeSectionParallax.scss";
-import afficheBarillet from "../../../assets/images/images-générales/barillet-affiche.png";
-import afficheBarilletcover from "../../../assets/images/images-générales/six-way-to-die.png";
+import afficheBarillet from "@/assets/images/images-générales/barillet-affiche.png";
+import afficheBarilletcover from "@/assets/images/images-générales/six-way-to-die.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HomeSectionParallax = () => {

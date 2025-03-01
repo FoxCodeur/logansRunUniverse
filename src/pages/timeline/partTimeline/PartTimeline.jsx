@@ -5,7 +5,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import sphere from "../../../assets/images/images-générales/red_cristal.png";
+import sphere from "@/assets/images/images-générales/red_cristal.png";
 
 const PartTimeline = () => {
   return (

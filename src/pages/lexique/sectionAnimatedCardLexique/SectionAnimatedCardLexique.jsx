@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./SectionAnimatedCard.scss";
-import traitvertical from "../../../assets/images/images-générales/trait-vert-vertical.png";
-import redLine from "../../../assets/images/images-générales/redLine.png";
+import traitvertical from "@/assets/images/images-générales/trait-vert-vertical.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const SectionAnimatedCardLexique = () => {

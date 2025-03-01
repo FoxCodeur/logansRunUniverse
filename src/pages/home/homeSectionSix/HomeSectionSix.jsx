@@ -2,8 +2,8 @@ import React from "react";
 import "./HomeSectionSix.scss";
 import "../homeSectionUn/HomeSectionUn.scss";
 import "../Home.scss";
-import maquetteUn from "../../../assets/images/images-générales/maquetteCityOne.png";
-import maquetteDeux from "../../../assets/images/images-générales/maquetteCityTwo.png";
+import maquetteUn from "@/assets/images/images-générales/maquetteCityOne.png";
+import maquetteDeux from "@/assets/images/images-générales/maquetteCityTwo.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionSix = () => {
   return (

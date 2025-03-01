@@ -1,19 +1,19 @@
 import React from "react";
 import "./SectionLogansRunMedias.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import fleurDeVieBlanche from "../../../assets/images/images-générales/fleur_de_vie_blanche.png";
-import fleurDeVieJaune from "../../../assets/images/images-générales/fleur_de_vie_jaune.png";
-import fleurDeVieBleue from "../../../assets/images/images-générales/fleur_de_vie_bleue.png";
-import fleurDeVieRouge from "../../../assets/images/images-générales/fleur_de_vie_rouge.png";
-import fleurDeVieNoire from "../../../assets/images/images-générales/fleur_de_vie_noire.png";
-import adventurecomicsBluewater from "../../../assets/images/icones/adventurecomics_bluewater.png";
-import logansRunWorldNovel from "../../../assets/images/icones/logans_run_world_marvel.png";
-import jessicaLexique from "../../../assets/images/square grid images Lexique/JessicaLexique.png";
-import LoganLexique from "../../../assets/images/square grid images Lexique/loganLexique.png";
-import revolverLexique from "../../../assets/images/square grid images Lexique/revolverLexique.png";
-import phaserLexique from "../../../assets/images/square grid images Lexique/phaserLexique.png";
-import traitvertical from "../../../assets/images/images-générales/trait-vert-vertical.png";
-import redLine from "../../../assets/images/images-générales/redLine.png";
+import fleurDeVieBlanche from "@/assets/images/images-générales/fleur_de_vie_blanche.png";
+import fleurDeVieJaune from "@/assets/images/images-générales/fleur_de_vie_jaune.png";
+import fleurDeVieBleue from "@/assets/images/images-générales/fleur_de_vie_bleue.png";
+import fleurDeVieRouge from "@/assets/images/images-générales/fleur_de_vie_rouge.png";
+import fleurDeVieNoire from "@/assets/images/images-générales/fleur_de_vie_noire.png";
+import adventurecomicsBluewater from "@/assets/images/icones/adventurecomics_bluewater.png";
+import logansRunWorldNovel from "@/assets/images/icones/logans_run_world_marvel.png";
+import jessicaLexique from "@/assets/images/square grid images Lexique/JessicaLexique.png";
+import LoganLexique from "@/assets/images/square grid images Lexique/loganLexique.png";
+import revolverLexique from "@/assets/images/square grid images Lexique/revolverLexique.png";
+import phaserLexique from "@/assets/images/square grid images Lexique/phaserLexique.png";
+import traitvertical from "@/assets/images/images-générales/trait-vert-vertical.png";
+import redLine from "@/assets/images/images-générales/redLine.png";
 
 // import logansRunWorldMarvel from "../../../assets/images/images-générales/logans_run_world_marvel.png";
 const SectionLogansRunMedias = () => {

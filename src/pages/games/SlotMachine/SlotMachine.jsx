@@ -3,16 +3,16 @@ import React, { useState } from "react";
 import "./SlotMachine.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component"; // Importation du composant LazyLoadImage pour le chargement paresseux des images.
 import "react-lazy-load-image-component/src/effects/blur.css"; // Importation des effets de flou pour le chargement des images.
-import cashMachine from "../../../assets/images/slotMachine/cashMachine.png";
-import icone1 from "../../../assets/images/slotMachine/01.png";
-import icone2 from "../../../assets/images/slotMachine/02.png";
-import icone3 from "../../../assets/images/slotMachine/03.png";
-import icone4 from "../../../assets/images/slotMachine/04.png";
-import icone5 from "../../../assets/images/slotMachine/05.png";
-import icone6 from "../../../assets/images/slotMachine/06.png";
-import icone7 from "../../../assets/images/slotMachine/07.png";
-import icone8 from "../../../assets/images/slotMachine/08.png";
-import icone9 from "../../../assets/images/slotMachine/09.png";
+import cashMachine from "@/assets/images/slotMachine/cashMachine.png";
+import icone1 from "@/assets/images/slotMachine/01.png";
+import icone2 from "@/assets/images/slotMachine/02.png";
+import icone3 from "@/assets/images/slotMachine/03.png";
+import icone4 from "@/assets/images/slotMachine/04.png";
+import icone5 from "@/assets/images/slotMachine/05.png";
+import icone6 from "@/assets/images/slotMachine/06.png";
+import icone7 from "@/assets/images/slotMachine/07.png";
+import icone8 from "@/assets/images/slotMachine/08.png";
+import icone9 from "@/assets/images/slotMachine/09.png";
 
 // Liste des icônes symbolisant les symboles de la machine à sous.
 const symbols = [

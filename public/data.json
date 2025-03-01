@@ -3,8 +3,8 @@
       "acteurs du film": {
         "id": 1,
         "titre": "Les acteurs du film",
-        "image": "./assets/images/images-générales/logans_run_actors.png",
-        "imageMedia":["./assets/images/icones/film_logans_run.png"],
+        "image": "./src/assets/images/images-générales/logans_run_actors.png",
+        "imageMedia":["./src/assets/images/icones/film_logans_run.png"],
         "rubriques": {
           "autres_identites": "",
           "categories": "acteurs de cinéma",

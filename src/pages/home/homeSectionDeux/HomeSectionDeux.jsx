@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 //et useRef pour sélectionner un élément qui n' pas de rapport avec le state.
 import "./HomeSectionDeux.scss";
 import "../Home.scss";
-import ceremonieCarousel from "../../../assets/images/images-générales/carousel.png";
+import ceremonieCarousel from "@/assets/images/images-générales/carousel.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionDeux = () => {
   const newsletterRef = useRef();

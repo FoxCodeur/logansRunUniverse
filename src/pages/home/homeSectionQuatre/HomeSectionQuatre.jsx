@@ -1,8 +1,8 @@
 import React from "react";
 import "./HomeSectionQuatre.scss";
 import "../Home.scss";
-import concept1 from "../../../assets/images/images-générales/titre1.png";
-import concept2 from "../../../assets/images/images-générales/titre2.png";
+import concept1 from "@/assets/images/images-générales/titre1.png";
+import concept2 from "@/assets/images/images-générales/titre2.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionQuatre = () => {
   return (

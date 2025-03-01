@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"; // Importation des hooks React pour la gestion d'état et des effets
-import hero from "../../../assets/images/images-générales/JeanLuc.png";
+import hero from "@/assets/images/images-générales/JeanLuc.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar"; // Importation des composants et des styles pour CircularProgressbar
 import "react-circular-progressbar/dist/styles.css"; // Importation des styles par défaut de CircularProgressbar

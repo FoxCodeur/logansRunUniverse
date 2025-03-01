@@ -97,7 +97,14 @@ const Nav = () => {
 
       {/* Bouton hamburger pour les petits écrans. Il affiche ou cache le menu quand on clique dessus. 
           Le composant HamburgerButton reçoit l'état ouvert (showLinks) pour ajuster son apparence. */}
-      <button className="navbar_burger" type="button" onClick={handleShowLinks}>
+      <button
+        className="navbar_burger"
+        type="button"
+        onClick={handleShowLinks}
+        aria-label="Ouvrir ou fermer le menu de navigation"
+        aria-expanded={showLinks}
+        aria-controls="menu-navigation"
+      >
         <HamburgerButton opened={showLinks} />
       </button>
     </nav>

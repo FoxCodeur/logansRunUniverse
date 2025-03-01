@@ -1,23 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import { formatTextWithLineBreaks } from "../../utils";
-import data from "../../../public/data.json"; // Importation de données depuis le fichier JSON
-
 import "./Definition.scss";
 
 const Definition = ({ section, keyName }) => {
-  // Récupération dynamique des données depuis data.json en utilisant les props section et keyName
-  const entryData = data[section] ? data[section][keyName] : null;
+  const [entryData, setEntryData] = useState(null);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  // Charger les données depuis le fichier JSON dans public avec async/await et try...catch
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/data.json");
+        if (!response.ok) {
+          throw new Error(`Erreur HTTP: ${response.status}`);
+        }
+        const data = await response.json();
+        const entry = data[section] ? data[section][keyName] : null;
+        setEntryData(entry);
+      } catch (error) {
+        console.error("Erreur lors du chargement des données:", error);
+      }
+    };
+
+    fetchData();
+  }, [section, keyName]);
 
   if (!entryData) {
     return <div>Les données pour {keyName} ne sont pas disponibles.</div>;
   }
 
-  const { titre, image, rubriques } = entryData; // Déstructuration des données
-
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const { titre, image, rubriques } = entryData;
 
   return (
     <div className={`definitions ${isDarkMode ? "dark" : ""}`}>
@@ -78,8 +93,8 @@ const Definition = ({ section, keyName }) => {
 };
 
 Definition.propTypes = {
-  section: PropTypes.string.isRequired, // Section est une chaîne de caractères requise
-  keyName: PropTypes.string.isRequired, // keyName est une chaîne de caractères requise
+  section: PropTypes.string.isRequired,
+  keyName: PropTypes.string.isRequired,
 };
 
 export default Definition;

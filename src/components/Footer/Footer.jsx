@@ -7,19 +7,16 @@ import renard from "../../assets/images/images-générales/renard.png";
 import Logo from "../Nav/logo/Logo";
 const Footer = () => {
   return (
-    <section className="footer">
+    <footer className="footer">
       <div className="footer_inside">
-        <div className="footer_inside_part">
-          <Logo />
-        </div>
-        <div className="footer_inside_part">
-          <img
-            className="foxCodeurLogo"
-            src={FoxCodeurLogo}
-            alt=" illustration d'une tête de renard"
-          />
-        </div>
-        <div className="socials-container footer_inside_part">
+        <Logo />
+        <img
+          className="foxCodeurLogo"
+          src={FoxCodeurLogo}
+          alt=" illustration d'une tête de renard"
+        />
+
+        <div className="socials-container">
           <div className="github">
             <FontAwesomeIcon icon={faGithubAlt} className="socialsStyle" />
             {/* github icon */}
@@ -37,7 +34,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 

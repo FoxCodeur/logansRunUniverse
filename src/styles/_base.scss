@@ -1,0 +1,85 @@
+// les styles généraux du site qui sont appliqués sur tout le site
+/* Styles de base pour la scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Largeur de la scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkred; /* Couleur du fond de la scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: white; /* Couleur de la piste de la scrollbar */
+}
+*::selection {
+  background: #000101;
+  color: #fefeff;
+}
+html {
+  height: 100%; // Pour garantir que le contenu s'étire sur toute la hauteur
+  scroll-snap-type: y mandatory;
+  //En appliquant scroll-behavior: smooth; à l'élément html, vous indiquez que tout le document doit avoir un défilement fluide.
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  overflow-x: hidden; /* Empêche le défilement horizontal */
+  overflow-y: auto; /* Assure que le défilement vertical est activé */
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Revalia", sans-serif;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-family: "Orbitron", sans-serif;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem; // Diminution des titres H1
+  }
+
+  h2 {
+    font-size: 1.4rem; // Diminution des titres H2
+  }
+
+  p {
+    font-size: 1rem; // Diminution des paragraphes
+  }
+
+  a {
+    font-size: 1rem; // Diminution de la taille des liens
+  }
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+@media (max-width: 600px) {
+  img {
+    max-width: 300px;
+  }
+}
+a {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+// fin du style général
+//les composants personnalisés

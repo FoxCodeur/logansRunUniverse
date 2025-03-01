@@ -9,88 +9,75 @@
   background-size: cover;
   background-attachment: fixed;
   border: 2px solid rgba(0, 0, 0, 0.672);
-  color: variables.$navbarTextColor;
 
   .footer_inside {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; // Permet à l'intérieur de se réorganiser en cas de réduction de la largeur
-    width: 100%; // Assure que le conteneur prend toute la largeur disponible
-    padding-left: 2rem; // Ajouté pour les écrans plus petits
+    flex-wrap: wrap;
+    width: 100%;
 
-    .footer_inside_part {
-      width: 33.33%;
-      margin-left: 2rem;
-
-      &:last-child {
-        margin-left: 0; // Retire la marge du dernier élément
-      }
-
-      .foxCodeurLogo {
-        width: 10rem;
-      }
-    }
-
-    .socials-container {
+    @media screen and (max-width: 768px) {
       display: flex;
-      width: 10rem;
-
-      .socialsStyle {
-        position: relative;
-        display: block;
-        margin: 0 12px;
-        border-radius: 50%;
-        padding: 8px;
-        box-shadow: 0 10px 15px rgba(83, 83, 83, 0.3);
-        background: linear-gradient(0deg, #ddd, #fff);
-        transition: color 0.5s;
-
-        &:hover {
-          color: darkred;
-        }
-      }
-
-      .github,
-      .linkedin {
-        font-size: 1.9rem; // Taille par défaut
-        margin-bottom: 1rem; // Margin pour tous les éléments
-
-        @media screen and (max-width: 768px) {
-          font-size: 1.4rem; // Ajustement de la taille de la police en mode mobile
-        }
-      }
-
-      .socialFox {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1rem;
-
-        .fox {
-          width: 2.8rem; // Taille par défaut
-
-          @media screen and (max-width: 768px) {
-            width: 2.4rem; // Taille réduite en mode mobile
-          }
-        }
-      }
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
     }
   }
 
-  @media screen and (max-width: 768px) {
-    padding-left: 1rem;
-    padding-right: 1rem;
+  .foxCodeurLogo {
+    width: 10rem;
 
-    .footer_inside {
-      padding-left: 2rem;
-      border: 1px solid black;
-      border-radius: 5px;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
 
-      .footer_inside_part {
-        .foxCodeurLogo {
-          display: none; // Cache le logo en mode mobile
+  .socials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    @media screen and (max-width: 768px) {
+      gap: 10px;
+    }
+
+    .socialsStyle {
+      position: relative;
+      display: block;
+      margin: 0 12px;
+      border-radius: 50%;
+      padding: 8px;
+      box-shadow: 0 10px 15px rgba(83, 83, 83, 0.3);
+      background: linear-gradient(0deg, #ddd, #fff);
+      transition: color 0.5s;
+
+      &:hover {
+        color: darkred;
+      }
+    }
+
+    .github,
+    .linkedin {
+      font-size: 1.9rem;
+      margin-bottom: 1rem;
+
+      @media screen and (max-width: 768px) {
+        font-size: 1.4rem;
+      }
+    }
+
+    .socialFox {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      .fox {
+        width: 2.8rem;
+
+        @media screen and (max-width: 768px) {
+          width: 2.4rem;
         }
-        width: 100%; // Chaque partie occupe la largeur complète
       }
     }
   }

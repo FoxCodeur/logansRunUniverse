@@ -1,1 +1,0 @@
-étape 3: Créer l'ensemble des composants de pages qui utilisent le composant générique Definition.

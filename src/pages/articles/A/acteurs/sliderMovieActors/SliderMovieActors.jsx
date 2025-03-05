@@ -10,15 +10,15 @@ import "react-lazy-load-image-component/src/effects/blur.css"; // Importer les s
 import "./SliderMovieActors.scss";
 
 // Import des images
-import imageMovieUn from "../../../../../assets/images/movie/movie1.png";
-import imageMovieDeux from "../../../../../assets/images/movie/movie2.png";
-import imageMovieTrois from "../../../../../assets/images/movie/movie3.png";
-import imageMoviQuatre from "../../../../../assets/images/movie/movie4.png";
-import imageMovieCinq from "../../../../../assets/images/movie/movie5.png";
-import imageMovieSix from "../../../../../assets/images/movie/movie6.png";
-import imageMovieHuit from "../../../../../assets/images/movie/movie8.png";
-import imageMovieNeuf from "../../../../../assets/images/movie/movie9.png";
-import imageMovieDix from "../../../../../assets/images/movie/movie10.png";
+import imageMovieUn from "@/assets/images/movie/movie1.png";
+import imageMovieDeux from "@/assets/images/movie/movie2.png";
+import imageMovieTrois from "@/assets/images/movie/movie3.png";
+import imageMoviQuatre from "@/assets/images/movie/movie4.png";
+import imageMovieCinq from "@/assets/images/movie/movie5.png";
+import imageMovieSix from "@/assets/images/movie/movie6.png";
+import imageMovieHuit from "@/assets/images/movie/movie8.png";
+import imageMovieNeuf from "@/assets/images/movie/movie9.png";
+import imageMovieDix from "@/assets/images/movie/movie10.png";
 
 const SliderMovieActors = () => {
   return (

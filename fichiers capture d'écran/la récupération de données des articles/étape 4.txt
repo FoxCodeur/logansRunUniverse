@@ -1,3 +1,0 @@
-Résultat :
-
-Le composant générique Definition est utilisé pour afficher n'importe quel article en fonction des données passées. On peut ainsi créer de nouvelles pages d'articles en utilisant simplement ce composant avec les données appropriées.

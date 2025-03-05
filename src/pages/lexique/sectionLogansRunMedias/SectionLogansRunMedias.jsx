@@ -1,9 +1,6 @@
 import React from "react";
 import "./SectionLogansRunMedias.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import fleurDeVieBlanche from "@/assets/images/images-générales/fleur_de_vie_blanche.png";
-import fleurDeVieJaune from "@/assets/images/images-générales/fleur_de_vie_jaune.png";
-import fleurDeVieBleue from "@/assets/images/images-générales/fleur_de_vie_bleue.png";
 import fleurDeVieRouge from "@/assets/images/images-générales/fleur_de_vie_rouge.png";
 import fleurDeVieNoire from "@/assets/images/images-générales/fleur_de_vie_noire.png";
 import adventurecomicsBluewater from "@/assets/images/icones/adventurecomics_bluewater.png";

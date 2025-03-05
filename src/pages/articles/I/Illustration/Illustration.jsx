@@ -11,11 +11,7 @@ const Illustration = () => {
 
   return (
     <div>
-      <Definition
-        titre={illustrationsData.titre}
-        image={illustrationsData.image}
-        rubriques={illustrationsData.rubriques}
-      />
+      <Definition section="I" keyName="Illustration" />
       <PursuitAnimation />
     </div>
   );

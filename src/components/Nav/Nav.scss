@@ -17,25 +17,23 @@
   color: $navbarTextColor;
 
   .navbar_content {
-    display: flex;
-    align-items: center;
+    @include flex-align-center;
     width: 100%;
   }
 
   @media screen and (max-width: 767px) {
-    padding-left: 1rem; /* Ajout du padding gauche de 1rem */
-    padding-right: 1rem; /* Ajout du padding droit de 1rem */
+    padding: 0 1rem 0 1rem;
   }
 }
 
 .navbar_links {
   position: relative;
   display: flex;
-  justify-content: flex-end; /* Align links to the right */
+  justify-content: flex-end;
   width: 100%;
 
   &.show-nav {
-    right: 0; /* Slide in from the right on click */
+    right: 0;
   }
 
   .navbar_link {
@@ -163,9 +161,7 @@
 @media screen and (max-width: 767px) {
   .navbar_links {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-column-center;
     position: absolute;
     top: 0;
     right: -100vw;
@@ -189,8 +185,7 @@
     }
 
     .navbar_item {
-      display: flex;
-      flex-direction: column;
+      @include flex-column;
 
       .navbar_link {
         padding: 1.5rem;

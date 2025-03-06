@@ -12,7 +12,7 @@ const CrecheIndustrielle = () => {
 
   return (
     <div>
-      <Definition section="C" keyName="Créche industrielle" />
+      <Definition section="C" keyName="Crèche industrielle" />
     </div>
   );
 };

@@ -5,11 +5,9 @@ import "./Logo.scss";
 const Logo = () => {
   return (
     <div className="logo">
-      <img
-        className="widthLogo"
-        src={logo}
-        alt="logo texte avec en arriere plan une sphère rouge"
-      />
+      <h1>
+        <img className="widthLogo" src={logo} alt="Logan's run" />
+      </h1>
     </div>
   );
 };

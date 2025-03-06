@@ -1,78 +1,82 @@
-import React, { useState, useMemo, useRef } from "react";
-//Pour afficher l'icône de loupe (faMagnifyingGlass) dans la barre de recherche.
+import React, { useState, useMemo, useRef, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-//permet de rediriger l'utilisateur vers une autre page de manière programmatique.
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 import "./LexiqueSearchBar.scss";
-import data from "../../../data.json"; // Importation des données JSON
 
 const LexiqueSearchBar = () => {
-  // value gère la valeur de ce qui est tapté dans la barre de recherche..
-  //setValue est la fonction utilisée pour mettre à jour cette valeur.
-  const [value, setValue] = useState("");
-  //Détermine si la liste de suggestions doit être affichée. setIsActive
-  // permet de contrôler son état.
+  const [searchTerm, setSearchTerm] = useState("");
   const [isActive, setIsActive] = useState(false);
-  //Utilise useRef pour créer une référence au champ de saisie. Cela permet
-  // d'interagir directement avec l'élément DOM (comme détecter les clics
-  //en dehors du champ).
+  const [data, setData] = useState(null);
   const inputRef = useRef(null);
-  const navigate = useNavigate(); // Le hook useNavigate de
-  // react-router-dom permet de rediriger l'utilisateur vers une autre page.
-  //useMemo optimise les performances en ne recalculant la liste des titres
-  // que lorsque data change. Il s'agit d'une liste plate de tous les titres provenant du fichier JSON.
-  const titles = useMemo(
-    () =>
-      Object.values(data).flatMap((lexiqueTitre) =>
-        Object.values(lexiqueTitre).map((item) => item.titre)
-      ),
-    []
-  );
-  //Gestion des changements et des clics
-  //handleChange met à jour la valeur du champ de recherche lorsque l'utilisateur
-  // tape dedans.
-  const handleChange = (event) => {
-    setValue(event.target.value);
+  const navigate = useNavigate();
+
+  // Récupération des données depuis le fichier JSON
+  const fetchData = async () => {
+    try {
+      const response = await axios.get("/data.json");
+      setData(response.data);
+    } catch (error) {
+      console.error("Erreur lors du chargement du fichier JSON", error);
+    }
   };
-  //handleClick active l'affichage de la liste de suggestions.
-  const handleClick = () => {
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  // Utilisation de useMemo pour optimiser le calcul des titres
+  const titles = useMemo(() => {
+    if (!data) return [];
+    return Object.values(data)
+      .flatMap((lexiqueTitre) =>
+        Object.values(lexiqueTitre).map((item) => item.titre)
+      )
+      .filter((title) => typeof title === "string");
+  }, [data]);
+
+  // Filtrage des titres en fonction du terme de recherche
+  const filteredTitles = useMemo(() => {
+    return titles.filter((title) =>
+      title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  }, [searchTerm, titles]);
+
+  // Fonction de gestion du changement dans le champ de recherche
+  const handleInputChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  // Gestion du clic sur l'input pour activer les suggestions
+  const handleInputClick = () => {
     setIsActive(true);
   };
-  //handleClickOutside : Si l'utilisateur clique en dehors de la barre de
-  // recherche, cela désactive l'affichage des suggestions
+
+  // Fonction de gestion du clic à l'extérieur pour fermer la liste
   const handleClickOutside = (event) => {
     if (inputRef.current && !inputRef.current.contains(event.target)) {
       setIsActive(false);
     }
   };
-  //Gestion des effets (utilisation de useEffect)
-  //useEffect est utilisé pour ajouter et retirer l'écouteur d'événements qui
-  // détecte les clics en dehors de la barre de recherche. Cet effet ne
-  // s'exécute qu'une seule fois (grâce à [] en second argument).
-  React.useEffect(() => {
+
+  // Ajout de l'événement pour détecter les clics à l'extérieur
+  useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-  //filteredTitles contient uniquement les titres qui correspondent à ce
-  // que l'utilisateur a tapé, en ignorant la casse (toLowerCase).
-  const filteredTitles = titles.filter((title) =>
-    title.toLowerCase().includes(value.toLowerCase())
-  );
-  //handleSelectTitle : Lorsque l'utilisateur clique sur un titre dans la
-  // liste de suggestions, ce titre est mis dans la barre de recherche, et
-  // la liste de suggestions disparaît.
-  const handleSelectTitle = (title) => {
-    setValue(title);
+
+  // Sélection d'un titre dans la liste et fermeture de la liste
+  const handleTitleSelect = (title) => {
+    setSearchTerm(title);
     setIsActive(false);
   };
 
-  // Fonction de gestion du clic sur le bouton de recherche
-  const handleSearch = () => {
-    if (value) {
-      // Conversion du titre en URL compatible
-      const formattedTitle = value.toLowerCase().replace(/ /g, "-");
-      navigate(`/${formattedTitle}`); // Redirection vers la page correspondante
+  // Gestion de la soumission de la recherche (redirection)
+  const handleSearchSubmit = () => {
+    if (searchTerm) {
+      const formattedTitle = searchTerm.toLowerCase().replace(/ /g, "-");
+      navigate(`/${formattedTitle}`);
     }
   };
 
@@ -83,11 +87,11 @@ const LexiqueSearchBar = () => {
           <input
             type="text"
             placeholder="Type to Search"
-            value={value}
-            onChange={handleChange}
-            onClick={handleClick}
+            value={searchTerm}
+            onChange={handleInputChange}
+            onClick={handleInputClick}
           />
-          <button onClick={handleSearch}>
+          <button onClick={handleSearchSubmit}>
             <span className="inputSearchIcon_Container">
               <FontAwesomeIcon
                 className="inputSearchIcon"
@@ -101,7 +105,7 @@ const LexiqueSearchBar = () => {
                 <li
                   key={index}
                   className="suggestionItem"
-                  onClick={() => handleSelectTitle(title)}
+                  onClick={() => handleTitleSelect(title)}
                 >
                   {title}
                 </li>

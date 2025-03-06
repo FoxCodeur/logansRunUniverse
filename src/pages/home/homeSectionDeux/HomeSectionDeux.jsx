@@ -38,7 +38,7 @@ const HomeSectionDeux = () => {
           <LazyLoadImage
             className="ceremonieCarousel"
             src={ceremonieCarousel}
-            alt="on voit ici le déroulement d'une cérémonie du Carousel. Les participants qui portent le costume avec masque lévitent, d'ici quelques intants ils vont être euthanasiés par des lasers"
+            alt="Participants masqués flottant lors de la cérémonie du Carousel"
             loading="lazy"
           />
           <figcaption>La cérémonie du Carousel</figcaption>

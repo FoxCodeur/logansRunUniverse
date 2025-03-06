@@ -6,7 +6,7 @@ import concept2 from "@/assets/images/images-générales/titre2.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionQuatre = () => {
   return (
-    <div className="sectionQuatreContainer">
+    <section className="sectionQuatreContainer">
       <h2 className="fancy-undeline">Le projet</h2>
       <div className="scroll-reveal">
         <p>
@@ -63,7 +63,7 @@ const HomeSectionQuatre = () => {
           loading="lazy"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

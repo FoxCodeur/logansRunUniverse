@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom"; // Import de useNavigate
 import PropTypes from "prop-types";
 import { formatTextWithLineBreaks } from "../../utils";
 import "./Definition.scss";
@@ -8,6 +8,7 @@ import "./Definition.scss";
 const Definition = ({ section, keyName }) => {
   const [entryData, setEntryData] = useState(null);
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const navigate = useNavigate();
 
   // Charger les données depuis le fichier JSON dans public avec async/await et try...catch
   useEffect(() => {
@@ -20,16 +21,25 @@ const Definition = ({ section, keyName }) => {
         const data = await response.json();
         const entry = data[section] ? data[section][keyName] : null;
         setEntryData(entry);
+
+        // Si les données sont manquantes, redirige l'utilisateur
+        if (!entry) {
+          navigate("*");
+        }
       } catch (error) {
         console.error("Erreur lors du chargement des données:", error);
+        navigate("*");
       }
     };
 
     fetchData();
-  }, [section, keyName]);
+    // Ajout de section et keyName comme dependencies
+  }, [section, keyName, navigate]);
 
+  // Affichage du contenu si les données existent
   if (!entryData) {
-    return <div>Les données pour {keyName} ne sont pas disponibles.</div>;
+    // Cette ligne n'est plus nécessaire, car la redirection se produit avant d'atteindre cette partie.
+    return null;
   }
 
   const { titre, image, rubriques } = entryData;
@@ -41,10 +51,6 @@ const Definition = ({ section, keyName }) => {
         <meta
           name="description"
           content={`Découvrez tout ce qu'il faut connaitre sur ${titre}, à savoir son descriptif, degré d'importance dans l'univers de Logan's run, son apparitions mais aussi les différences qui peuvent exister selon les médias utilisés et plus encore.`}
-        />
-        <meta
-          name="keywords"
-          content={`${titre}, Logan's Run, Logan 5, Francis 7, Jessica 6, Carousel, City of Domes, The Sanctuary, Sandmen, Runners, dystopie, science-fiction, anticipation, univers futuriste, film de science-fiction`}
         />
       </Helmet>
       <button
@@ -63,7 +69,7 @@ const Definition = ({ section, keyName }) => {
         </li>
         <li>{titre}</li>
       </ol>
-      <h1 className="personnage">{titre}</h1>
+      <h2 className="personnage">{titre}</h2>
       <section className="glossaire">
         <div className="illustration">
           <img alt={titre} src={image} className="borderAffiches" />

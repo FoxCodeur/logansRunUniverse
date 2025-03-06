@@ -4,7 +4,7 @@ import "../Home.scss";
 
 const HomeSectionCinq = () => {
   return (
-    <div className="marginUpDownContainer">
+    <section className="marginUpDownContainer">
       <h2 className="fancy-undeline">
         Un film qui a bien failli ne jamais voir le jour
       </h2>
@@ -65,7 +65,7 @@ const HomeSectionCinq = () => {
         </p>
       </div>
       <div className="moreMargintiret"></div>
-    </div>
+    </section>
   );
 };
 

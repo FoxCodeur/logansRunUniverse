@@ -8,7 +8,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css"; // Importer les styles d'effet si nécessaire
 const HomeSectionTrois = () => {
   return (
-    <div className="marginUpDownContainer">
+    <section className="marginUpDownContainer">
       <h2 className="fancy-undeline">L'antihéros</h2>
       <div className="scroll-reveal">
         <p>
@@ -66,7 +66,7 @@ const HomeSectionTrois = () => {
         </div>
       </div>
       <div className="moreMargintiret"></div>
-    </div>
+    </section>
   );
 };
 

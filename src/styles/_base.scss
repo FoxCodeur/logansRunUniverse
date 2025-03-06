@@ -27,7 +27,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: black;
   font-size: 16px;
-  text-align: justify;
+  text-align: left;
+  hyphens: auto; /* Permet d'ajouter des césures automatiques pour les textes justifiés */
   overflow-x: hidden; /* Empêche le défilement horizontal */
   overflow-y: auto; /* Assure que le défilement vertical est activé */
   margin: 0;

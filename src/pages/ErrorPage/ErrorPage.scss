@@ -1,0 +1,11 @@
+/* ErrorPage.scss */
+@use "@/styles/mixins" as *;
+
+.error-page {
+  width: 100%;
+  height: 700px;
+  @include flex-column;
+  justify-content: space-around;
+  gap: 139px;
+  text-align: center;
+}

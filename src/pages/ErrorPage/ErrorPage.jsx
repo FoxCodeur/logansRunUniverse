@@ -7,8 +7,9 @@ const ErrorPage = () => {
     <div className="error-page">
       <h1>404</h1>
       <p>Oups! La page que vous demandez n&rsquo;existe pas.</p>
-      {/* Supprimer la balise NavLink extérieure */}
-      <NavLink to="/">Retourner sur la page d&rsquo;accueil</NavLink>
+      <NavLink to="/" className="return-home">
+        Retourner sur la page d&apos;accueil
+      </NavLink>
     </div>
   );
 };

@@ -1,21 +1,21 @@
-@use "src/styles/variables";
+@use "@/styles/variables" as *;
 .section-zero-flower {
-  background-color: variables.$backgroundSectionWhiteFlower;
+  background-color: $backgroundSectionWhiteFlower;
 }
 .section-one-flower {
-  background-color: variables.$backgroundSectionyellowFlower;
+  background-color: $backgroundSectionyellowFlower;
 }
 .section-two-flower {
-  background-color: variables.$backgroundSectionBlueFlower;
+  background-color: $backgroundSectionBlueFlower;
 }
 .section-three-flower {
-  background-color: variables.$backgroundSectionRedFlower;
+  background-color: $backgroundSectionRedFlower;
 }
 .section-four-flower {
-  background-color: variables.$backgroundSectionBlinkingRedFlower;
+  background-color: $backgroundSectionBlinkingRedFlower;
 }
 .section-five-flower {
-  background-color: variables.$backgroundSectionBlacklower;
+  background-color: $backgroundSectionBlackFlower;
 }
 .section-zero-flower,
 .section-one-flower,
@@ -62,11 +62,8 @@
   align-items: center;
   .left-flower-column {
     padding: 0rem 2rem;
-    & h1 {
+    & h3 {
       font-size: 3rem;
-    }
-    .text-flower {
-      //   font-family: "Orbitron", sans-serif;
     }
     .text-flower-effect {
       animation: lights 5s 750ms linear infinite;

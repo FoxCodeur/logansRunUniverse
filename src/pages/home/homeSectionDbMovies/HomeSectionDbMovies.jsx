@@ -6,23 +6,32 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HomeSectionDbMovies = () => {
   const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    const apiKey = "1b023d964223701c40d5eafe769e7601";
-    axios
-      .get(
-        `https://api.themoviedb.org/3/movie/10803?api_key=${apiKey}&language=fr&append_to_response=credits`
-      )
-      .then((res) => setData(res.data))
-      .catch((error) => console.error(error));
+    const fetchData = async () => {
+      const apiKey = "1b023d964223701c40d5eafe769e7601";
+      try {
+        const response = await axios.get(
+          `https://api.themoviedb.org/3/movie/10803?api_key=${apiKey}&language=fr&append_to_response=credits`
+        );
+        setData(response.data);
+      } catch (err) {
+        console.error("Erreur lors de la récupération des données :", err);
+        setError("Une erreur est survenue lors du chargement des données.");
+      }
+    };
+
+    fetchData();
   }, []);
 
-  // Calculer le pourcentage d'évaluation
   const votePercentage = data ? data.vote_average * 10 : null;
 
   return (
     <div>
-      {data ? (
+      {error ? (
+        <p className="error-message">{error}</p>
+      ) : data ? (
         <div className="sectionContainer">
           <div className="dbMoviesHome_sectionGauche box_center">
             {data.poster_path && (
@@ -79,25 +88,23 @@ const HomeSectionDbMovies = () => {
             </p>
             <p>
               <span className="badge">Écrivains et scénaristes</span>{" "}
-              {data.credits &&
-                data.credits.crew
-                  .filter((crewMember) => crewMember.department === "Writing")
-                  .map((writer, index, array) => (
-                    <span key={writer.id}>
-                      {writer.name}
-                      {index !== array.length - 1 && ", "}
-                    </span>
-                  ))}
+              {data.credits?.crew
+                .filter((crewMember) => crewMember.department === "Writing")
+                .map((writer, index, array) => (
+                  <span key={writer.id}>
+                    {writer.name}
+                    {index !== array.length - 1 && ", "}
+                  </span>
+                ))}
             </p>
             <p>
               <span className="badge">Réalisateur</span>{" "}
-              {data.credits &&
-                data.credits.crew
-                  .filter((crewMember) => crewMember.department === "Directing")
-                  .slice(0, 1)
-                  .map((director) => (
-                    <span key={director.id}>{director.name} </span>
-                  ))}
+              {data.credits?.crew
+                .filter((crewMember) => crewMember.department === "Directing")
+                .slice(0, 1)
+                .map((director) => (
+                  <span key={director.id}>{director.name} </span>
+                ))}
             </p>
           </div>
         </div>

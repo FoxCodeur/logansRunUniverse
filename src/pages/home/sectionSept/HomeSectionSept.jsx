@@ -12,12 +12,12 @@ const HomeSectionSept = () => {
     <div className="marginUpDownContainer">
       <div className="tiret"></div>
       {/* white period */}
-      <section className="box_center section-zero-flower">
+      <article className="box_center section-zero-flower">
         <div className="flower-container">
           <div className="left-flower-column">
-            <h1 className="text-flower text-flower-effect">
+            <h3 className="text-flower text-flower-effect">
               Fleur de vie : blanche
-            </h1>
+            </h3>
             <p className="text-flower">naissance</p>
           </div>
           <div className="right-flower-column">
@@ -29,14 +29,14 @@ const HomeSectionSept = () => {
             />
           </div>
         </div>
-      </section>
+      </article>
       {/* yellow period */}
-      <section className="box_center section-one-flower">
+      <article className="box_center section-one-flower">
         <div className="flower-container">
           <div className="left-flower-column">
-            <h1 className="text-flower text-flower-effect2">
+            <h3 className="text-flower text-flower-effect2">
               Fleur de vie : jaune
-            </h1>
+            </h3>
             <p className="text-flower">
               de la naissance jusqu'à l'âge de 6 ans
             </p>
@@ -50,14 +50,14 @@ const HomeSectionSept = () => {
             />
           </div>
         </div>
-      </section>
+      </article>
       {/* blue period */}
-      <section className="box_center section-two-flower">
+      <article className="box_center section-two-flower">
         <div className="flower-container">
           <div className="left-flower-column">
-            <h1 className="text-flower text-flower-effect">
+            <h3 className="text-flower text-flower-effect">
               Fleur de vie : bleue
-            </h1>
+            </h3>
             <p className="text-flower">de 7 à 13 ans</p>
           </div>
           <div className="right-flower-column">
@@ -69,14 +69,14 @@ const HomeSectionSept = () => {
             />
           </div>
         </div>
-      </section>
+      </article>
       {/* red period */}
-      <section className="box_center section-three-flower">
+      <article className="box_center section-three-flower">
         <div className="flower-container">
           <div className="left-flower-column">
-            <h1 className="text-flower text-flower-effect2">
+            <h3 className="text-flower text-flower-effect2">
               Fleur de vie : rouge
-            </h1>
+            </h3>
             <p className="text-flower">de 14 à 20 ans</p>
           </div>
           <div className="right-flower-column">
@@ -88,14 +88,14 @@ const HomeSectionSept = () => {
             />
           </div>
         </div>
-      </section>
+      </article>
       {/* blinking red */}
-      <section className="box_center section-four-flower">
+      <article className="box_center section-four-flower">
         <div className="flower-container">
           <div className="left-flower-column">
-            <h1 className="text-flower text-flower-effect2">
+            <h3 className="text-flower text-flower-effect2">
               Fleur de vie : rouge clignotante
-            </h1>
+            </h3>
             <p className="text-flower">dernier jour</p>
           </div>
           <div className="right-flower-column">
@@ -113,14 +113,14 @@ const HomeSectionSept = () => {
             />
           </div>
         </div>
-      </section>
+      </article>
       {/* black cristal */}
-      <section className="box_center section-five-flower">
+      <article className="box_center section-five-flower">
         <div className="flower-container">
           <div className="left-flower-column">
-            <h1 className="text-flower text-flower-effect3">
+            <h3 className="text-flower text-flower-effect3">
               Fleur de vie : noire
-            </h1>
+            </h3>
             <p className="text-flower">citoyen renégat</p>
           </div>
           <div className="right-flower-column">
@@ -132,7 +132,7 @@ const HomeSectionSept = () => {
             />
           </div>
         </div>
-      </section>
+      </article>
     </div>
   );
 };

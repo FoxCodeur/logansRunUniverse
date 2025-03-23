@@ -1,68 +1,76 @@
-import React from "react";
-//importation du composant NavLink de la bibliothèque react-router-dom, utilisé
-// pour créer des liens de navigation.
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-//importation de la bibliothèque prop-types, utilisée pour vérifier les types
-//des propriétés passées aux composants.
-import PropTypes from "prop-types";
 import "./SectionDataList.scss";
-// Déclaration du composant fonctionnel SectionDataList qui prend pour seul
-// argument 'data'. Cet argument est déstructuré, ce qui signifit que seuls
-// les champs 'data' de l'objet passé en argument seront utilisés dans la
-// fonction.
-const SectionDataList = ({ data }) => {
-  //Crée un tableau vide appelé titles. Ce tableau sert à stocker
-  //les titres extraits des données fournies.
-  const titles = [];
-  Object.keys(data).forEach((key) => {
-    const items = data[key];
 
-    // Itérer sur chaque clé de l'objet items
-    Object.keys(items).forEach((itemKey) => {
-      // Ajouter le titre correspondant à titles
-      titles.push(items[itemKey].titre);
-    });
-  });
+const SectionDataList = () => {
+  // Déclaration des états, le premier pour stocker les titres et le second pour
+  //  gérer les erreurs
+  const [titles, setTitles] = useState([]);
+  const [error, setError] = useState(null);
 
-  console.log("Contenu de data :", data);
-  console.log("Titres extraits :", titles);
+  // Utilisation de useEffect pour récupérer les données au chargement du composant
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        // Récupération des données depuis le fichier JSON
+        const response = await fetch("/data.json");
 
-  // Vérifier si des titres ont été extraits ou s'il y a une erreur
-  if (titles.length === 0) {
-    titles.push("Définitions non disponibles");
-  }
+        // Vérification de la réponse HTTP
+        if (!response.ok)
+          throw new Error("Erreur lors du chargement des données");
 
-  return (
+        // Conversion de la réponse en JSON
+        const data = await response.json();
+
+        // Extraction des titres :
+        // 1️⃣ Object.values(data) → transforme l'objet en tableau de valeurs
+        // 2️⃣ flatMap(Object.values) → récupère toutes les valeurs imbriquées
+        //  des objets internes
+        // 3️⃣ map(item => item.titre) → récupère uniquement les titres
+        const extractedTitles = Object.values(data)
+          .flatMap(Object.values)
+          .map((item) => item.titre);
+
+        // Mise à jour de l'état avec les titres extraits ou un message si vide
+        setTitles(
+          extractedTitles.length
+            ? extractedTitles
+            : ["Définitions non disponibles"]
+        );
+      } catch (err) {
+        // Gestion des erreurs et mise à jour de l'état d'erreur
+        setError(err.message);
+      }
+    };
+
+    // Appel de la fonction fetchData
+    fetchData();
+  }, []); // Le tableau de dépendances vide garantit que l'effet ne s'exécute qu'une seule fois
+
+  return error ? (
+    // Affichage du message d'erreur si une erreur est détectée
+    <p className="error-message">{error}</p>
+  ) : (
     <>
-      {/*${title.toLowerCase()} la méthode toLowerCase() convertit les majuscules
-    en minuscules. Cela permet de normaliser les titres du fait que
-    les URLs sont en minuscules.
-    .replace(/ /g, "-") Cela remplace tous les espaces par des tirets dans le
-    titre, en utilisant la méthode replace(). C'est une pratique courante
-    pour créer des URLs conviviales pour les moteurs de recherche, car les
-    espaces ne sont pas autorisés dans les URLs.
-    (/ /g, "-")}`} les deux barres obliques entourent le motif que nous voulons
-    rechercher et remplacer. l'indicateur g (global), indique que toutes les 
-    occurences du motif dans la chaine doivent être remplacées.
-    "-" : C'est le caractère de remplacement. Dans cet exemple, chaque espace
-    trouvé dans la chaîne sera remplacé par un tiret (-).
-     */}
+      {/* Liste des titres sous forme de liens de navigation */}
       <ul className="grid-list-search">
         {titles.map((title, index) => (
           <li className="list-search-style" key={index}>
+            {/* Création d'un lien vers une URL formatée avec le titre */}
+            {/* Objectif : Générer des URL lisibles et compatibles avec le web.
+             Les espaces ne sont pas valides dans une URL, c'est pourquoi on les
+              remplace par des - pour une meilleure structure. C'est une bonne
+               pratique SEO et améliore l'accessibilité.*/}
             <NavLink to={`/${title.toLowerCase().replace(/ /g, "-")}`}>
               {title}
             </NavLink>
           </li>
         ))}
       </ul>
+      {/* Ajout d'un séparateur visuel */}
       <div className="tiret"></div>
     </>
   );
-};
-
-SectionDataList.propTypes = {
-  data: PropTypes.object.isRequired,
 };
 
 export default SectionDataList;

@@ -1,6 +1,6 @@
 // styles.scss
 
-@use "src/styles/variables";
+@use "@/styles/variables" as *;
 
 .homeContainer {
   padding-left: 5rem;

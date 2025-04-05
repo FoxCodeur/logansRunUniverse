@@ -1,6 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom"; // Import des composants
-// nécessaires pour la gestion des routes avec React Router.
+import { Route, Routes } from "react-router-dom";
 import { ParallaxProvider } from "react-scroll-parallax"; // Import du
 // ParallaxProvider pour activer les effets parallaxes sur les composants
 // enfants.
@@ -10,9 +9,7 @@ import { HelmetProvider } from "react-helmet-async"; // HelmetProvider
 import "./App.scss";
 import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
-import routesConfig from "../../config/routesConfig"; // Import de la
-// configuration des routes. Il s'agit d'un fichier qui définit les chemins
-// et les composants associés à chaque route.
+import routesConfig from "../../config/routesConfig";
 
 const App = () => {
   return (
@@ -40,7 +37,7 @@ const App = () => {
               <Route
                 key={index}
                 path={route.path} // Définition du chemin (exemple : "/home").
-                element={React.createElement(route.element)} // Utilisation de createElement pour éviter l'erreur.
+                element={<route.element />}
               />
             ))}
           </Routes>

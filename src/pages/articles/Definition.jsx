@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { NavLink, useNavigate } from "react-router-dom";
 import { DataContext } from "../../context/DataContext";
@@ -9,13 +9,17 @@ import "./Definition.scss";
 const Definition = ({ section, keyName }) => {
   const { getDefinition, isDarkMode, toggleDarkMode } = useContext(DataContext);
   const navigate = useNavigate();
-
-  // Récupération des données via le contexte
   const entryData = getDefinition(section, keyName);
 
+  // Gestion de la redirection dans un useEffect
+  useEffect(() => {
+    if (!entryData) {
+      navigate("*", { replace: true });
+    }
+  }, [entryData, navigate]);
+
   if (!entryData) {
-    navigate("*");
-    return null;
+    return <div className="loading-state">Chargement en cours...</div>;
   }
 
   const { titre, image, rubriques } = entryData;
@@ -30,44 +34,51 @@ const Definition = ({ section, keyName }) => {
         />
       </Helmet>
 
-      {/* Bouton mode sombre avec le même style */}
       <button className="toggle-theme" onClick={toggleDarkMode}>
         {isDarkMode ? "light mode" : "Dark mode"}
       </button>
 
-      {/* Structure OL conservée identique */}
       <ol
         id="mise_en_forme_retour_sommaire"
         className="mise_en_forme_retour_sommaire_margin_left"
       >
         <li className="retour_sommaire">
-          <NavLink to="/lexique">Sommaire</NavLink>{" "}
+          <NavLink to="/lexique">Sommaire</NavLink>
           <span className="separator"> /</span>
         </li>
         <li>{titre}</li>
       </ol>
 
-      {/* Contenu principal inchangé */}
       <h2 className="personnage">{titre}</h2>
+
       <section className="glossaire">
         <div className="illustration">
-          <img alt={titre} src={image} className="borderAffiches" />
+          <img
+            alt={titre}
+            src={image}
+            className="borderAffiches"
+            loading="lazy"
+          />
         </div>
+
         <div className="definition">
           <div className="badgeContainer">
-            <span className="badge">Autres identités</span>{" "}
+            <span className="badge">Autres identités</span>
             <span className="badge_def">
               {rubriques.autres_identites || "N/A"}
             </span>
           </div>
+
           <div className="badgeContainer">
-            <span className="badge">Catégorie</span>{" "}
+            <span className="badge">Catégorie</span>
             <span className="badge_def">{rubriques.categories}</span>
           </div>
+
           <div className="badgeContainer">
-            <span className="badge">Apparitions</span>{" "}
+            <span className="badge">Apparitions</span>
             <span className="badge_def">{rubriques.apparition}</span>
           </div>
+
           <div className="paddingContent">
             {formatTextWithLineBreaks(rubriques.contenu)}
           </div>

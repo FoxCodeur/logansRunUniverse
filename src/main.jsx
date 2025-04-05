@@ -8,10 +8,13 @@ import "./styles/index.scss";
 const root = createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
+  <BrowserRouter
+    future={{
+      v7_startTransition: true,
+      v7_relativeSplatPath: true,
+    }}
+  >
     <DataProvider>
-      {" "}
-      {/* Englobe l'App avec le DataProvider */}
       <App />
     </DataProvider>
   </BrowserRouter>

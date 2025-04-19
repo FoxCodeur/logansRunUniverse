@@ -1,0 +1,10 @@
+{
+  "id": "185",
+  "title": "Chapitre 185",
+  "text": "Tu te réveilles dans une pièce obscure. Une voix résonne...",
+  "image": "/images/chap1.jpg",
+  "choices": [
+    { "label": "Avancer vers la lumière", "next": "72" },
+    { "label": "Fouiller la pièce", "next": "246" }
+  ]
+}

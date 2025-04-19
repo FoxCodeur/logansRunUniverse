@@ -1,0 +1,14 @@
+{
+  "id": "365",
+  "title": "Chapitre 365",
+  "text": "Tu te réveilles dans une pièce obscure. Une voix résonne...",
+  "image": "/images/chap1.jpg",
+  "diceRoll": {
+    "required": true,
+    "numberOfDice": 1
+  },
+  "choices": [
+    { "label": "Avancer vers la lumière", "next": "308" },
+    { "label": "Fouiller la pièce", "next": "120" }
+  ]
+}

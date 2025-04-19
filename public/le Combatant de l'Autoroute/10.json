@@ -1,0 +1,16 @@
+{
+  "id": "10",
+  "title": "Chapitre 10",
+  "text": "La cause de ce bouchon, quelle qu'elle fût, a dû plonger les propriétaires des véhicules dans la confusion la plus totale. Il semble que les conducteurs, paniqués, ont essayé désespérément de se dégager de ce chaos en s'emboutissant les uns les autres, ne faisant qu'empirer la situation. Vous vous frayez un chemin parmi les épaves afin de voir si vous pouvez trouver quelque chose d'utile. Dans un camion, vous ramassez une barre de fer dont vous vous servez pour forcer le coffre de plusieurs voitures. Mais alors que vous remontez lentement la file des véhicules, vous prenez brusquement conscience que vous avez laissé l'Interceptor sans surveillance !",
+  "image": "/images/chap1.jpg",
+  "choices": [
+    {
+      "label": "Si vous désirez retourner en courant vers votre voiture, rendez-vous au",
+      "next": "264"
+    },
+    {
+      "label": "Si vous voulez continuer à fouiller les épaves qui jalonnent la route, rendez-vous au",
+      "next": "359"
+    }
+  ]
+}

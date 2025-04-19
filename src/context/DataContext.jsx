@@ -2,8 +2,8 @@ import React, { createContext, useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
 /**
- * Création du contexte React pour partager les données globales
- * Ce contexte permettra à tous les composants enfants d'accéder à :
+ * Création du contexte React afin de partager les données globales
+ * Ce contexte permet aux composants enfants d'accéder à :
  * - Les données chargées depuis data.json
  * - L'état du mode sombre/dark mode
  * - Les fonctions pour manipuler ces données
@@ -11,7 +11,8 @@ import PropTypes from "prop-types";
 export const DataContext = createContext();
 
 /**
- * DataProvider - Composant fournisseur du contexte
+ * Documentation explicative
+ * DataProvider - Ce composant est le fournisseur du contexte
  * @param {Object} props - Les propriétés du composant
  * @param {ReactNode} props.children - Les composants enfants à enrober
  * @returns {JSX.Element} Le fournisseur de contexte

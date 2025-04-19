@@ -1,0 +1,11 @@
+{
+  "id": "317",
+  "title": "Chapitre 317",
+  "text": "Tu te réveilles dans une pièce obscure. Une voix résonne...",
+  "image": "/images/chap1.jpg",
+  "choices": [
+    { "label": "Avancer vers la lumière", "next": "17" },
+    { "label": "Avancer vers la lumière", "next": "212" },
+    { "label": "Fouiller la pièce", "next": "295" }
+  ]
+}

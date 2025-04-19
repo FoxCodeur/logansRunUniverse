@@ -1,0 +1,16 @@
+{
+  "id": "12",
+  "title": "Chapitre 12",
+  "text": "Vous savez pertinemment que vous avez très peu de chances de réussir, mais vous n'avez pas d'autre choix car ce bandit vous a pris de court. Ignorant la douleur fulgurante que vous ressentez, vous sortez de sous l'ambulance en roulant sur le côté et vous tirez au jugé sur votre adversaire à deux reprises.\n\nMalheureusement, les deux coups manquent leur but et vous voyez soudain surgir de derrière un rocher un homme débraillé, portant un bandeau rouge autour de la tête. L'homme fait feu sur vous et vous devez l'affronter.\n\nBANDIT DE GRAND CHEMIN  \nHABILETÉ : 8  \nENDURANCE : 12\n\nMenez ce combat à bien selon les règles de Tir, mais en déduisant d'emblée — et pour toute la durée du combat —, 1 point de votre total d'HABILETÉ en raison de votre blessure. Si vous sortez vainqueur de cet affrontement mais que vous avez été touché plus d'une fois au cours du duel, retirez 1 point d'HABILETE",
+  "image": "/images/chap1.jpg",
+  "diceRoll": {
+    "required": true,
+    "numberOfDice": 1
+  },
+  "choices": [
+    {
+      "label": "rendez-vous au",
+      "next": "131"
+    }
+  ]
+}

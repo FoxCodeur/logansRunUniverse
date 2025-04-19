@@ -1,0 +1,13 @@
+{
+  "id": "6",
+  "title": "Chapitre 6",
+  "text": "Les deux motards sont chacun armés d'un pistolet. Vous dégainez votre revolver et le duel commence :\nHABILETÉ     ENDURANCE\nPremier MOTARD     6     15\nDeuxième MOTARD     7     17\nMenez ce combat à bien selon les règles de Tir. À chaque Assaut, les deux motards tireront sur vous séparément, et vous devez choisir l'adversaire que vous désirez combattre en priorité (reportez-vous à la règle : Combat contre plus d'un adversaire).",
+  "image": "/images/chap1.jpg",
+  "diceRoll": {
+    "required": true,
+    "numberOfDice": 1
+  },
+  "choices": [
+    { "label": "Si vous sortez vainqueur n'oubliez pas de réduire votre total d'HABILETE de 1 point si vous avez été touché plus d'une fois lors du combat. Rendez-vous au", "next": "307" }
+  ]
+}

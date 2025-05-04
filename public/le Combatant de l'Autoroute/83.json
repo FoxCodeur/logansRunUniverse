@@ -1,11 +1,26 @@
 {
   "id": "83",
   "title": "Chapitre 83",
-  "text": "Vous plongez à l'intérieur de l'Interceptor et vous faites feu sur les pirates du ciel qui ripostent immédiatement :\n\nHÉLICOPTÈRE\nPUISSANCE DE FEU : 8\nBLINDAGE : 11\n\nDurant tout ce Combat Motorisé, réduisez de 2 points votre total de BLINDAGE, étant donné que votre voiture est à l'arrêt.",
+  "text": "Vous plongez à l'intérieur de l'Interceptor et vous faites feu sur les pirates du ciel qui ripostent immédiatement.",
   "image": "/images/chap1.jpg",
-  "diceRoll": {
-    "required": true,
-    "numberOfDice": 1
+  "combat": {
+    "type": "motorisé",
+    "diceRoll": {
+      "required": true,
+      "numberOfDice": 2
+    },
+    "modificateurs": {
+      "degatsJoueur": 2,
+      "degatsAdversaire": 2
+    },
+    "imageEnnemis": "/images/ennemis/motards.jpg",
+    "ennemis": [
+      {
+        "nom": "Hélicoptère",
+        "puissanceDeFeu": 8,
+        "blindage": 11 
+      }
+    ]
   },
   "choices": [
     {

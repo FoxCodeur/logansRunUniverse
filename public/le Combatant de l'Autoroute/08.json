@@ -1,9 +1,0 @@
-{
-  "id": "8",
-  "title": "Chapitre 8",
-  "text": "Vous faites semblant de vouloir dépasser la Ford par la gauche mais, au dernier moment, vous faites un brusque écart pour la doubler par la droite. Votre manœuvre réussit et vous parvenez à accélérer suffisamment pour distancer votre adversaire",
-  "image": "/images/chap1.jpg",
-  "choices": [
-    { "label": "rendez-vous au", "next": "340" }
-  ]
-}

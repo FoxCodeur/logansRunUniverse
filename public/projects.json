@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+  "title": "Riding Cities",
+  "image": "https://placehold.co/400x250?text=Riding+Cities",
+  "summary": "Création d'une nouvelle section sur la page web d’une association, en respectant une maquette fournie via Figma.",
+  "details": {
+    "objectif": "Apprendre à structurer du contenu en HTML, intégrer de nouveaux éléments (titre, section, boutons), et adapter les styles CSS existants pour garantir une cohérence visuelle avec le reste du site.",
+    "travail": [
+      "Création d’une nouvelle section selon la maquette.",
+      "Ajout d’un titre et de deux boutons de téléchargement.",
+      "Intégration HTML et adaptation du CSS existant.",
+      "Découverte de Figma et VS Code."
+    ],
+    "code": "https://github.com/FoxCodeur/print-it",
+    "demo": "https://foxcodeur.github.io/print-it/",
+    "deliverable": "Présentation du projet 2"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Booki",
+    "image": "https://placehold.co/400x250?text=Booki",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Oh My Food",
+    "image": "https://placehold.co/400x250?text=Oh+My+Food",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Print-It",
+    "image": "https://placehold.co/400x250?text=Print-It",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Portfolio-architecte-sophie-bluel",
+    "image": "https://placehold.co/400x250?text=Portfolio+architecte+sophie+bluel",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Kaza",
+    "image": "https://placehold.co/400x250?text=Kaza",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Nina Carducci",
+    "image": "https://placehold.co/400x250?text=Nina+Carducci",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  },
+  {
+    "id": 8,
+    "title": "724 events",
+    "image": "https://placehold.co/400x250?text=724+events",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Argent Bank",
+    "image": "https://placehold.co/400x250?text=Argent+Bank",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Logan's Run",
+    "image": "https://placehold.co/400x250?text=Logan's+Run",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Le Combattant de l'Autoroute",
+    "image": "https://placehold.co/400x250?text=Le+Combattant+de+l'Autoroute",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Portfolio",
+    "image": "https://placehold.co/400x250?text=Portfolio",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Projet 13",
+    "image": "https://placehold.co/400x250?text=Projet+13",
+    "summary": "Résumé du projet.",
+    "details": {
+      "objectif": "Objectif du projet.",
+      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "code": "#",
+      "demo": "#",
+      "deliverable": "Livrable à venir"
+    }
+  }
+]

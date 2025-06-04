@@ -2,7 +2,8 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./components/App/App";
-import { DataProvider } from "./context/DataContext"; // Import du DataProvider
+import { DataProvider } from "./context/DataContext";
+import { PortfolioProvider } from "./pages/portfolio/Context/PortfolioContext"; // Ajoute ceci
 import "./styles/index.scss";
 
 const root = createRoot(document.getElementById("root"));
@@ -15,7 +16,9 @@ root.render(
     }}
   >
     <DataProvider>
-      <App />
+      <PortfolioProvider>
+        <App />
+      </PortfolioProvider>
     </DataProvider>
   </BrowserRouter>
 );

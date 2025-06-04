@@ -7,7 +7,7 @@
   align-items: flex-start;
   padding: 3rem 1rem 5rem 1rem;
   min-height: 100vh;
-  background: linear-gradient(180deg, #ecefff 0%, #e5e6fa 100%);
+  background: linear-gradient(180deg, #0c0c1d, #111132);
 }
 
 .portfolio-grid {
@@ -121,6 +121,17 @@
       border-color: #37428b;
       transform: scale(0.97);
     }
+  }
+
+  // === Ajout du hover général pour la carte ===
+  &:hover {
+    transform: translateY(-8px) scale(1.015);
+    box-shadow:
+      0 16px 48px 0 rgba(80, 90, 210, 0.18),
+      0 6px 22px rgba(0, 0, 0, 0.1);
+    background: rgba(246, 248, 255, 0.99);
+    border-color: #bfc8ff;
+    z-index: 2;
   }
 }
 

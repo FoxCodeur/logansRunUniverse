@@ -1,0 +1,2008 @@
+{
+    "A": {
+      "acteurs du film": {
+        "id": 1,
+        "titre": "Les acteurs du film",
+        "image": "./assets/images/images-générales/logans_run_actors.png",
+        "imageMedia":["./assets/images/icones/film_logans_run.png"],
+        "rubriques": {
+          "autres_identites": "",
+          "categories": "acteurs de cinéma",
+          "apparition": "film l'Age de cristal (Logan's run)",
+          "contenu": "Jenny Agutter (VF : Pascale Brouillard) : Jessica 6\nMichael York (VF : Philippe Étesse) : Logan 5\nRichard Jordan (VF : Bernard Alane) : Francis 7\nMichael Anderson Jr. (VF : François Leccia) : Doc\nGary Morgan : Billy Charming\nFarrah Fawcett (VF : Jeanine Forney) : Holly\nPeter Ustinov (VF : Roger Carel) : Ballard, le vieil homme\nRoscoe Lee Browne : Box\nMichelle Stacy : Mary 2\nCamilla Carr (VF : Béatrice Delfe) : la femme du sanctuaire"
+        }
+      },
+      "Adam 1": {
+        "id": 2,
+        "titre": "Adam-1",
+        "image": "./assets/images/images-générales/title_logans_run.png",
+        "imageMedia":["./assets/images/icones/bluewater.png"],
+        "rubriques": {
+          "autres_identites": "le premier enfant",
+          "categories": "transhumain",
+          "apparition": "comics",
+          "contenu": "19 juillet 2231 : Le premier bébé trans-humain nait dans la citée complexe de Tokyo, Adam 1. Son numéro d'identification est le 31597. La fleur de vie artificielle qui a été implantée par les machines dans la paume de sa main droite informe sur son âge en permanence. incolore à la naissance, le cristal va changer de couleur tout au long de son existence, jusqu'à devenir rouge clignotant. Désormais et pour toujours les enfants du THINKER auront tous la même longévité: 21 ans. "
+        }
+      },
+      "Adventure comics": {
+        "id": 3,
+        "titre": "Adventure Comics",
+        "image": "./assets/images/images-générales/logans_run_adventure_comics.png",
+        "imageMedia":["./assets/images/icones/adventure_comics.png"],
+        "rubriques": {
+          "autres_identites": "comic book",
+          "categories": "transhumain",
+          "apparition": "",
+          "contenu": "Adventure Comics est l'une des divisions de Malibu Comics, éditeur américain de bandes dessinées. Celui-ci a publié au début des années 90 deux séries de bandes dessinées consacrées à l'univers de Logan's Run :\n \nLogan's Run (1990 to 1991)\nLogan's World (1991 to 1992)"
+        }
+      },
+      "Aitken": {
+        "id": 4,
+        "titre": "Aitken",
+        "image": "./assets/images/images-générales/moonBase.png",
+        "imageMedia":["./assets/images/icones/roman_logans_world.png"],
+        "rubriques": {
+          "autres_identites": "base lunaire, cratère Aitken",
+          "categories": "lieu",
+          "apparition": "roman Logan's World",
+          "contenu": "le site d'Aitken est situé sur la face cachée de la Lune. Ancienne colonie habitée, cette base désaffectée sert désormais de point relais pour la résistance. Les fugitifs y sont d'abord transportés avant que la fusée Titan ne calcule une trajectoire leur permettant de rejoindre Mars dans les plus brefs délais. "
+        }
+      },
+      "Mecha Eagle": {
+        "id": 5,
+        "titre": "aigle-mécanique",
+        "image": "./assets/images/images-générales/mecha_eagle.png",
+        "imageMedia":[
+        "./assets/images/icones/adventure_comics.png",
+        "./assets/images/icones/roman_logans_run.png"
+      ],
+        "rubriques": {
+          "autres_identites": "robotic Eagle",
+          "categories": "Machine",
+          "apparition": "roman logans-run et comics",
+          "contenu": "Afin de contrer toute insurrection que les sandmen ne pourraient résoudre, THINKER a créé une armada de soldats robots impitoyables. En tant que machines, ceux-ci ne connaissent pas la pitié ; ils éliminent sans hésitation quiconque ose s'opposer à l'ordre établi. En effet, les aigles robotiques sont programmés pour traquer et éliminer ceux qui refusent de mourir à l'âge de 21 ans."
+        }
+      },
+      "Albert": {
+        "id": 6,
+        "titre": "Albert",
+        "image": "./assets/images/images-générales/albert.png",
+        "imageMedia":[
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png"
+        ],
+        "rubriques": {
+          "autres_identites": "doudou espion",
+          "categories": "Machine empathique",
+          "apparition": "roman logans-run et comics",
+          "contenu": "Dans la société futuriste de Logan's run chaque bébé qui vient de naitre est aussitôt placé dans une crèche industrielle administrée par des Autogouvernantes. Durant la phase jaune de son existence qui s'étale sur une pèriode de sept ans, l'enfant garçon ou fille se prépare à devenir le futur citoyen qui rejoindra plus tard, l'une des Citée Complexe. Logan, comme l'ensemble de ses concitoyens est né dans un incubateur artificiel, il n'a donc pas de mère. Pour combler le manque d'affection, les machines confient à chacun des enfants une poupée parlante douée de raison qu'ils pourront conserver jusqu'au jour de leur départ de la crèche. Des liens forts unissent les enfants à leur doudou, celui de Logan s'appelait Albert 6 et il l'aimait. Logan aurait bien voulu garder son anibot avec lui pour toujours, ses pleurs n'ont hélas pas fait céder la gouvernante. Il n'y a pas d'exception, jamais, les poupées parlantes demeurent la propriété exclusive des crèches. La poupée doudou lui a toutefois promis qu'elle ne l'oublierait jamais...Les anibots sont programmés pour aimer, voilà leur unique raison d'exister. \n\n Photo nounours modifié de Marina Shatskikh provenant de Pexels  "
+        }
+      },
+      "Andar": {
+        "id": 7,
+        "titre": "Andar",
+        "image": "./assets/images/images-générales/andar.png",
+        "imageMedia":[
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_world.png"
+        ],
+        "rubriques": {
+          "autres_identites": "l'initié",
+          "categories": "transhumain, mutant",
+          "apparition": "roman logans-run et le roman Logans'World",
+          "contenu": "Andar, aveugle depuis son irradiation, possède le don de prescience. Lors d'une brève entrevue celui-ci consent à aider Logan dans sa quête désespérée pour retrouver Jessica. Les Deux filles du mutant, Dia et Liath, également aveugles, prennent soin de lui. Il est révélé que l'une d'elles est télépathe."
+        }
+      },
+      "Ankh": {
+        "id": 8,
+        "titre": "Ankh",
+        "image": "./assets/images/images-générales/Ankh.png",
+        "imageMedia":[
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/marvel.png",
+          "./assets/images/icones/film_logans_run.png",
+          "./assets/images/icones/roman_logans_world.png"
+        ],
+        "rubriques": {
+          "autres_identites": "la croix de vie, la clé du passage",
+          "categories": "objet",
+          "apparition": "roman logans-run, film et comics",
+          "contenu": "(source Wikipédia) L'ânkh (en hiéroglyphes égyptiens : ☥), également connue sous les différentes appellations de croix ansée, croix de vie, clé de vie, croix égyptienne, croix du Nil, est un hiéroglyphe représentant le mot ˁnḫ, qui signifie « vie ». Il était utilisé jadis par les Égyptiens pour symboliser la vie. Ceux-ci pensaient que leur séjour sur Terre ne constituait qu'une partie infime d'une vie éternelle plus grande. La croix de vie symbolise donc non seulement l'existence mortelle sur la Terre, mais également l'existence immortelle d'un individu dans l'après-vie. Ses origines et significations ne sont pas certaines.\n Dans Logan's run les opposants au profond sommeil se reconnaissent grâce à ce symbôle qu'ils portent autour du cou. "
+        }
+      },
+      "Arcade": {
+        "id": 9,
+        "titre": "Arcade",
+        "image": "./assets/images/images-générales/arcade.png",
+        "imageMedia":[
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/marvel.png",
+          "./assets/images/icones/film_logans_run.png",
+          "./assets/images/icones/roman_logans_world.png"
+        ],
+        "rubriques": {
+          "autres_identites": "secteur Arcade",
+          "categories": "lieu",
+          "apparition": "roman logans-run, film et comics",
+          "contenu": "Désormais 100% de la population mondiale réside dans ces gigantesques mégapoles entièrement automatisées. Etant donné que nul ne travaille ou presque c'est aux machines qu'il incombe de gérer la mobilité, l'approvisionnement en énergie, la sécurité, mais aussi la santé des citoyens. Mais alors un seul passe temps subsiste, le plaisir charnel.  "
+        }
+      },
+      "Argos": {
+        "id": 10,
+        "titre": "Argos",
+        "image": "./assets/images/images-générales/argos.png",
+        "imageMedia":[
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png",
+          "./assets/images/icones/roman_logans_world.png"
+        ],
+        "rubriques": {
+          "autres_identites": "Argos, colonie de l'espace, station spatiale martienne ",
+          "categories": "lieu",
+          "apparition": "roman logans-run, logans'worl et comics",
+          "contenu": "Attention, spoiler alerte! Les prochaines lignes contiennent des informations importantes sur le final du roman Logan's Run. Il est important de noter que les informations révélées pourraient gâcher la surprise de la fin de l'histoire pour ceux qui n'ont pas encore lu le livre. Si vous ne voulez pas connaître la fin à l'avance, vous devriez peut-être arrêter de lire ici.\n Tout au long du récit, Logan et Jessica sillonent la planète Terre à la recherche du Sanctuaire, un lieu où les fugitifs peuvent vivre au-delà de l'âge de 21 ans. Dans les dernières pages du livre, on découvre que la solution ne se trouve non pas sur Terre, mais dans l'espace, sur une colonie spatiale abandonnée nommée Argos, près de Mars. Logan et Jessica parviennent à s'échapper vers la colonie à bord d'une fusée, qui décolle d'un ancien site de lancement du programme spatial en Floride. Pendant ce temps, Ballard reste sur Terre pour aider les autres fugitifs à s'échapper. \n Population du sanctuaire: 3000 habitants \n Dans le roman Logans'World on apprend qu'Argos est une station spatiale en forme de roue tournant sur elle même. (ce type de technologie permet de créer une gravité artificielle) Son énergie demeure inépuisable du fait de ses panneaux solaires.    "
+        }
+      }
+    },
+    "B": {
+      "Baleine": {
+        "id": 11,
+        "titre": "Baleine",
+        "image": "./assets/images/images-générales/baleine.png",
+        "imageMedia":[
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png"
+        ],
+        "rubriques": {
+          "autres_identites": "the whale",
+          "categories": "transhumain",
+          "apparition": "roman Logans'run et comics",
+          "contenu": "Baleine (Sans doute un faux prénom) joue un rôle actif au sein de la résistance. Sa tâche principale consiste à accueillir les fugitifs dans la cité sous-marine désaffectée, Molly. Il faut savoir qu'en dépit de sa toute puissance, THINKER et ses Aigles Mechas ont tout oublié des lieux d'avant la guerre, c'est pourquoi ceux du dernier jour s'ils espèrent survivre à la traque doivent impérativement transiter par lesdits sites qui échappent aux radars. Cet homme sans faille à la confiance de Ballard, il détient les coordonnées GPS des différents endroits où doivent se rendre les fugitifs. Sans son aide, nul ne peut trouver le Sanctuaire. "
+        }
+      },
+      "Ballard": {
+        "id": 12,
+        "titre": "Ballard",
+        "image": "./assets/images/images-générales/ballard.png",
+        "imageMedia":[
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png"
+        ],
+        "rubriques": {
+          "autres_identites": "Francis",
+          "categories": "transhumain",
+          "apparition": "roman Logans'run et comics",
+          "contenu": "Ballard est le chef de la résistance, celui qui contrôle les points de passage que doivent emprunter les fugitifs qui souhaitent s'échapper. C'est l'homme le plus âgé du monde (42 ans). Sa fleur de vie n'a jamais noirci en raison d'une défaillance technique des machines au cours de sa naissance. Son identité doit rester secrète car lui seul connaît les coordonnées GPS du Sanctuaire. Attention, spoiler ci-dessous. Plus tard, on découvre que Francis et Ballard ne font qu'un. En effet, le limier a cette particularité de pouvoir moduler les traits de son visage afin de conserver une apparente jeunesse. Ainsi, il a pu changer son identité.  "
+        }
+      },
+      "Baxter": {
+        "id": 13,
+        "titre": "Baxter",
+        "image": "./assets/images/images-générales/title_logans_run.png",
+        "imageMedia":[
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png"
+        ],
+        "rubriques": {
+          "autres_identites": "Baxter 2",
+          "categories": "transhumain",
+          "apparition": "roman Logans'run et comics",
+          "contenu": "Cet ancien citoyen fait partie d'une bande de charognards menée par Dakk. "
+        }
+      },
+      "Bluewater Comics": {
+        "id": 14,
+        "titre": "Bluewater Comics",
+        "image": "./assets/images/images-générales/bluewater_comics.png",
+        "imageMedia":["./src/assets/images/icones/bluewater.png"],
+        "rubriques": {
+          "autres_identites": "TidalWave Productions",
+          "categories": "maison d'édition",
+          "apparition": "",
+          "contenu": "Bluewater Productions est un éditeur américain de bandes dessinées. Il a publié plusieurs séries de comics Logan's Run :\n \n Logan's Run Last Day \n Logan's Run Aftermath \n Logan's Run Solo \n Logan's Run Rebirth \n Logan's Run Black Flower"
+        }
+      },
+      "Borgia riders": {
+        "id": 15,
+        "titre": "Borgia riders",
+        "image": "./assets/images/images-générales/title_logans_run.png",
+        "imageMedia":[
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_world.png"
+        ],
+        "rubriques": {
+          "autres_identites": "TidalWave Productions",
+          "categories": "transhumain",
+          "apparition": "roman logans'world et comics",
+          "contenu": "Ce groupe de nomades originaires du Complexe de New York se compose de neuf hommes et deux femmes. Leur chef Anan 9, son nom avant la destruction de THINKER, s'est rebaptisé Lucrèce (en l'honneur des Borgias). ces pillards sont de la pire espèce car ils n'hésitent pas à violer, tuer et asservir leurs victimes "
+        }
+      },
+      "Boutique du sommeil": {
+        "id": 16,
+        "titre": "Boutique du sommeil",
+        "image": "./assets/images/images-générales/sleep-shop.png",
+        "imageMedia":[
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png"
+        ],
+        "rubriques": {
+          "autres_identites": "Sleep Shop",
+          "categories": "batiment officiel",
+          "apparition": "roman logans-run, et comics",
+          "contenu": "Le limier se remémora la boutique-du-sommeil qu'il avait visitée étant plus jeune, batiment où les citoyens devenus trop vieux devaient se rendre (21 ans). Il se rappela les murs aux couleurs vives, les employés en robes pastel, les choeurs artificiels amplifiés électroniquement, et l'odeur étouffante de l'Hallucinogène qui imprégnait l'air. Mais ce qui le frappa le plus, ce furent les cryptes, plongées dans une pénombre sinistre, où les étagères en aluminium accueillaient les boîtes en feuille d'acier portant les noms et les numéros des défunts. C'était là que les employés du THINKER administraient la dose létale aux citoyens du dernier jour, dans une ambiance aseptisée et pourtant terrifiante."
+        }
+      },
+      "Box": {
+        "id": 17,
+        "titre": "Box",
+        "image": "./assets/images/images-générales/Box.png",
+        "imageMedia":[
+          "./assets/images/icones/bluewater.png",
+          "./assets/images/icones/adventure_comics.png",
+          "./assets/images/icones/roman_logans_run.png",
+          "./assets/images/icones/film_logans_run.png"
+        ],
+        "rubriques": {
+          "autres_identites": "Coffre",
+          "categories": "hybrid human machine",
+          "apparition": "roman logans-run, film et comics",
+          "contenu": "Cet individu, autrefois un meurtrier récidiviste, a été grièvement blessé par un trottoir mécanique défectueux. Retrouvé à moitié mort, il a été sauvé par des machines qui lui ont fabriqué des membres cybernétiques. Désormais devenu à demi machine, Box (son nouveau nom), a été exilé en Enfer, une région gelée située entre la baie de Baffin et le détroit de Béring, pour y purger sa peine. Une fois sur place, il a décidé de se rebeller contre le système. terré dans sa caverne, il a réussi à désactiver sa fleur de vie, échappant ainsi au contrôle des machines. Logan et Jessica le rencontrent au deuxième point relais. Devenu fou, il tue quiconque croise sa route."
+        }
+      },
+      "Bradley": {
+        "id": 18,
+        "titre": "Bradley",
+        "image": "./assets/images/images-générales/title_logans_run.png",
+        "imageMedia":[   
+          "./assets/images/icones/roman_logans_run.png"
+        ],
+        "rubriques": {
+          "autres_identites": "Bradley",
+          "categories": "transhumain",
+          "apparition": "roman logans-run, et comics",
+          "contenu": "Policier abattu par les louveteaux lors d'une intervention à Cathédrale."
+        }
+      }
+    },
+    "C": {
+      "Caisson De Remémoration": {
+        "id": 19,
+        "titre": "Caisson de remémoration",
+        "image": "./assets/images/images-générales/memoryBox.png",
+        "imageMedia":[   
+          "./assets/images/icones/roman_logans_run.png"
+        ],
+        "rubriques": {
+          "autres_identites": "rebirth Chamber",
+          "categories": "machine",
+          "apparition": "roman Logans'run et comics",
+          "contenu": "Le jour précédant son euthanasie, tout citoyen peut se rendre dans un Centre de remémorations. Ces établissements, gérés par des robots empathiques, proposent des services d'un genre particulier : un accès total aux souvenirs. La séance se déroule ainsi : le citoyen, allongé dans un caisson de remémoration, accède via un terminal à l'année de son choix et peut même sélectionner, avec une précision inouïe, chacun des moments qu'il souhaite revivre. Les séquences flash ne durent guère longtemps, mais la sensation de réalisme est proche du réel. Ainsi, à la veille de sa mort, chacun peut faire le bilan de son existence."
+        }
+      },
+        "Cape Steinbeck": {
+          "id": 20,
+          "titre": "Cape-Steinbeck",
+          "image": "./assets/images/images-générales/adAstra.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "rampe de lancement des fusées",
+            "categories": "lieu",
+            "apparition": "roman Logans'run et comics",
+            "contenu": "La base de lancement de fusées de Cape Steinbeck en Floride, constitue l'ultime étape dans la quête que Logan et Jessica entreprennent pour trouver le Sanctuaire. Désormais désaffecté et tombé dans l'oubli, ce site ne suscite aucun intérêt pour THINKER, tout comme la cité sous-marine Molly et les ruines de l'ancienne Washington. Autrefois florissant, Cape Steinbeck fut le foyer de l'exploration spatiale, avant que les vols ne soient abandonnés par l'humanité. Cependant, la résistance humaine a réussi à remettre en état une ancienne fusée Titan Falcone pour transporter les fugitifs vers leur destination finale : l'espace. Néanmoins, le lieu exact du Sanctuaire demeure un mystère. En effet, les planètes du système solaire ne semblent pas être des lieux propices à la vie, et l'exploration des étoiles reste un rêve inassouvi. \n Spoiler alerte : Il est révélé dans le roman que Logan et Jessica parviennent finalement à s'échapper vers le Sanctuaire à bord de la fusée Titan Falcone depuis Cape Steinbeck, laissant à leur nouvel allié Ballard la mission d'aider les autres à fuir. Le sanctuaire se trouve à Argos (base spatiale). "
+          }
+        },
+        "Cathedrale": {
+          "id": 21,
+          "titre": "Cathedrale",
+          "image": "./assets/images/images-générales/cathedrale.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "secteur Cathedrale",
+            "categories": "lieu",
+            "apparition": "roman Logans'run, film, comics",
+            "contenu": "Plaie gangrenée au flanc du Grand Complexe d'Angeles se trouve une zone de décombre, de poussière, d'immeubles carbonisés, un lieu d'ombre et de pollution, de furtivité et de mort subite. Voici le seul endroit sur Terre où le crime n'est pas puni, on le nomme aussi territoire des louveteaux. \n Cathedrale : chaque citée Complexe se doit de posséder un lieu isolé du reste de la population où l'on parque les parias, ceux sur lesquels le conditionnement n'a pas ou peu d'effet. Au sein de cette zone de non droit s'affrontent chaque jour les clans d'adolescents retors au système, il arrive parfois qu'un fugitif désespéré tente de s'y terrer. En réalité c'est une folie que de s'y rendre car nul citoyent lambda ne saurait survivre dans un lieu si dangereux que même la police l'évite et si par miracle cela survient, alors les limiers ont l'ordre de s'y rendre pour faire un peu de ménage.  "
+          }
+        },
+        "Carrousel": {
+          "id": 22,
+          "titre": "Carrousel",
+          "image": "./assets/images/images-générales/le_carrousel.png",
+          "imageMedia":[
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "boutique du sommeil",
+            "categories": "lieu",
+            "apparition": "film",
+            "contenu": "Le carrousel apparait dans le film Logan's Run, mais aussi dans les comics Marvel. Au dernier jour de son existence de trente ans, chaque citoyen homme ou femme doit être euthanasié au cours d'un rituel public que l'on nomme Carousel. C'est la loi instauré par les anciens, nul ne peut s'y soustraire. Lors de cette cérémonies, les participants, qui sont projetés dans les airs se font tirer dessus par des lasers et ce jusqu'à ce que mort s'ensuive. Au début de chaque cérémonie, la trentaine de participants drapé d'une aube blanche forme un cercle autour d'une horloge de vie au stade rouge, puis une voix féminine retentit Soyez fort, et vous renaitrez. A ce moment précis les participants lèvent leur main droite et le le cercle commence à tourner tel un manège, alors que ceux-ci commencent eux même à flotter dans les aires. On ne sait pas ce qu'est le renouvellement, mais il est sous-entendu qu'il s'agit d'une réincarnation - la chance d'être renouvelé (naitre à nouveau) dans un autre corps et de commencer un autre cycle de vie. "
+          }
+        },
+        "Charming Billy": {
+          "id": 23,
+          "titre": "Charming Billy",
+          "image": "./assets/images/images-générales/charming_billy.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "le chef des louveteau",
+            "categories": "transhumain",
+            "apparition": "roman logans'world, film et comics",
+            "contenu": "Il est le chef des louveteaux, un groupe de jeunes qui suivent aveuglément ses ordres à Cathedral. Lorsque Logan et Jessica arrivent dans la zone désaffectée, Charming Billy se montre hostile envers eux et ordonne à son groupe de les tuer. Cependant, Logan parvient à lui faire douter de son rôle de chef en lui faisant réaliser qu'il sera bientôt trop vieux pour rester un louveteau. Logan rencontre vite des difficultés lors de l'affrontement car ses jeunes assaillants ont un avantage. En effet la muscline, une drogue que les louveteaux de Cathedral ingèrent pour augmenter leur vitesse et leur force. de ce fait Logan a du mal à les combattre en raison de l'effet de la muscline sur leur organisme, mais il finit par trouver un moyen de les vaincre en utilisant un bâton électrique pour bloquer l'effet de la drogue sur leur système nerveux. "
+          }
+        },
+        "Chirurgien Mark J": {
+          "id": 24,
+          "titre": "Chirurgien Mark.J",
+          "image": "./assets/images/images-générales/table_opératoire.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "bloc opératoire",
+            "categories": "machine",
+            "apparition": "roman logans-run, film et comics",
+            "contenu": "Et si votre opération de chirurgie plastique pouvait désormais être réalisée par un robot, et ce sans aucune intervention humaine ? Le chirurgien robotisé, Mark-J, appartient précisément à cette toute nouvelle génération de machines, offrant aux médecins du 22ème siècle une vision améliorée pour des actes encore plus précis. Grâce à ses bras articulés plus précis que ceux du précédent robot, il permet une finesse de mouvements accrue, limitant ainsi les conflits entre les bras et repoussant les limites de la chirurgie. "
+          }
+        },
+        "Les Charognards": {
+          "id": 25,
+          "titre": "Les Charognards",
+          "image": "./assets/images/images-générales/charognards.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "pilleurs",
+            "categories": "transhumain",
+            "apparition": "roman logans-run, logan's World et comics",
+            "contenu": "Suite à la destruction du supercalculateur THINKER, le système électrique mondial est mis à l'arrêt. Les villes, désormais plus alimentées par les centrales nucléaires, sont abandonnées par leurs habitants. Les rues sont désertes, les bâtiments ouverts à tous. La population désoeuvrée est en proie à la panique et à la confusion. Tous ces gens habitués à vivre uniquement pour leurs propre plaisir se retrouvent contraint de se nourrir avec les moyens du bord. S'ensuit une période de chaos au cours de laquelle la société doit se restructurer. C'est à ce moment-là que les charognards apparaissent. Ces groupes d'humains sans foi ni loi sont armés et violents. Ils ne reculent devant rien pour obtenir ce qu'ils veulent, pillage, viols, esclavagisme. Les charognards s'approprient les villes et dépouillent ceux qui osent s'y aventurer à la recherche d'eau, de médicaments et d'autres ressources vitales. Ils sont une menace constante pour les survivants, qui doivent se battre pour leur vie. "
+          }
+        },
+        "Le Circuit": {
+          "id": 26,
+          "titre": "le circuit",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png"
+          ],
+          
+          "rubriques": {
+            "autres_identites": "le réseau de rencontre",
+            "categories": "réseau social",
+            "apparition": "film",
+            "contenu": "Après une journée de travail, Logan-6 rentre chez lui dans son appartement et souhaite se détendre en ajoutant une touche de sexe à sa soirée. Il enfile un peignoir, saisit une télécommande et commence à la régler. On entend alors des fréquences semblables à une radio AM en train d'être syntonisée, mais sans jamais trouver une station clairement. Soudain, une alcôve située dans un coin du salon s'illumine d'une texture vaporeuse et clignotante de lumière multicolore. C'est alors qu'un homme en tenue SM apparaît, puis disparait, et après plusieurs tentatives infructueuses du limier, Jessica se matérialise. Logan, satisfait de son choix, invite la jeune femme à le rejoindre. Le Circuit est en réalité un système sophistiqué de téléportation qui permet aux citoyens de la cité de se rencontrer instantanément. Pour satisfaire ses envies sexuelles, il suffit de se connecter au réseau et de choisir son partenaire."
+          }
+        },
+        "Complexe City": {
+            "id": 27,
+            "titre": "Complexe-City",
+            "image": "./assets/images/images-générales/complexe-city.png",
+            "imageMedia":[
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/roman_logans_world.png",
+              "./assets/images/icones/roman_logans_run.png"
+            ],
+            "rubriques": {
+              "autres_identites": "la citée des dômes, Géants verts",
+              "categories": "lieu",
+              "apparition": "roman Logans'run, Logans'World, comics",
+              "contenu": "Suite à la petite guerre de gigantesques cités buiding de plus de 1000 mètres de haut ont été érigées. La grande majorité des citoyens y vivent, tous contraints de se conformer aux lois du THINKER. A l'extèrieur ne sévissent que les pillards, mais même eux ne peuvent se soustraire à la loi de l'âge \n \n complexe Tokyo basé sur la photo de David Underland sur Pexels \n \n Complexe Londres basé sur Photo de Adam Borkowski"
+            }
+          },
+        "Crazy Horse": {
+            "id": 28,
+            "titre": "Crazy-Horse",
+            "image": "./assets/images/images-générales/crazy_horse.png",
+            "imageMedia":[
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/roman_logans_world.png",
+              "./assets/images/icones/roman_logans_run.png"
+            ],
+            "rubriques": {
+              "autres_identites": "le chef indien",
+              "categories": "lieu",
+              "apparition": "roman Logans'World, comics", 
+              "contenu": "Dans l'état du Dakota se dresse un géant taillé dans le granit, qui s'élève à plus de cent soixante-dix mètres de haut pour cent quatre-vingt-quinze de long. Cette imposante structure de six millions de tonnes de pierre représente un chef indien chevauchant un puissant étalon. c'est l'ultime étape de Logan qui souhaite retrouver Jessica. Au cœur de la montagne se trouve un titanesque complexe informatique, constitué d'innombrables cellules électroniques dernier cri : le PENSEUR (THINKER). Gant et toute son armée de limier se sont établis en ces lieux, convaincus de pouvoir réveiller le penseur."
+            }
+          },
+        "Crèche industrielle": {
+            "id": 29,
+            "titre": "Crèche",
+            "image": "./assets/images/images-générales/creche.png",
+            "imageMedia":[
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_world.png",
+              "./assets/images/icones/roman_logans_run.png"
+            ],
+            "rubriques": {
+              "autres_identites": "Nursery",
+              "categories": "lieu",
+              "apparition": "roman Logan's run, film, comics",
+              "contenu": "C'est dans cet endroit que les futurs citoyens sont élevés jusqu'à l'âge de sept ans. Pendant toutes ces années, leurs seuls interlocuteurs sont les auto gouvernantes, instructeurs androïdes, mais aussi les poupées parlantes qui leur prodiguent tout l'amour d'une mère. Les crèches sont soigneusement isolées du reste de la ville, et les adultes n'y sont pas autorisés à pénétrer sous aucun prétexte (à l'exception du film)."
+            }
+          },
+        "The Cubs": {
+            "id": 30,
+            "titre": "The Cubs",
+            "image": "./assets/images/images-générales/cubs.png",
+            "imageMedia":[
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_run.png"
+            ],
+            "rubriques": {
+              "autres_identites": "louveteaux",
+              "categories": "gang",
+              "apparition": "roman Logan's run, film, comics",
+              "contenu": "Il n'y a plus de prison au 22ème siècle et donc ceux et celles qui ne parviennent pas à s'insérer dans la société instaurée par les machines ont l'obligation de résider à Cathedrale et ce jusqu'à lâge de treize ans. Les Cubs sont l'un de ces groupes d'adolescents dissidents au début de l'histoire. Billy est leur chef à Cathedral. Les louveteaux violents et agressifs tuent quiconque s'aventure sur leur territoire."
+            }
+          }
+      },
+    "D": {
+        "Dakk": {
+          "id": 31,
+          "titre": "Dakk",
+          "image": "./assets/images/images-générales/scavengers.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "ancien lieutenant de charming Billy",
+            "categories": "transhumain",
+            "apparition": "roman Logans'World, comics",
+            "contenu": "Dakk est le chef d'une meute de vingt pillards. Au début du roman Logans'World, Logan est capturé par Dakk et sa bande alors qu'il tentait la traversée d'un Complexe désaffecté à la recherche d'antibiotiques pour son fils malade."
+          }
+        },
+        "Detoxique": {
+          "id": 32,
+          "titre": "Détoxique",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "",
+            "categories": "médicament",
+            "apparition": "roman Logans'run, comics",
+            "contenu": "Ces pilules purgent l'organisme, les limiers tenus de ne pas être sous l'emprise de substance chimique en prennent généralement une avant de débuter leur service."
+          }
+        },
+        "Dédale": {
+          "id": 33,
+          "titre": "Le dédale",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "autoroute",
+            "categories": "lieu",
+            "apparition": "roman logans-run, comics",
+            "contenu": "Le Dédale. des millions de kilomètres de tunnels, un réseau complexe de voies express desservant les continents, reliant Chicago à New York, Détroit à la Nouvelle Alaska, Londres à l'Australie Inférieure. Une multitude de lucanes en acier noir s'enfoncent ainsi dans les profondeurs souterraines à des vitesses prodigieuses. Pour se rendre d'un point A à un point B, les citoyens empruntent ces lucanes, des véhicules de transport tractés sur des rails. Le réseau est si vaste que nul ne connaît tous ses embranchements, pas même THINKER. C'est pourquoi la Résistance les utilise pour transporter les fugitifs à travers plusieurs points relais jusqu'au Sanctuaire."
+          }
+        },
+        "Dernier Homme Vivant": {
+          "id": 34,
+          "titre": "Le dernier homme vivant sur Terre",
+          "image": "./assets/images/images-générales/last_man.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png"
+          ],
+          "rubriques": {
+            "autres_identites": "last man",
+            "categories": "humain",
+            "apparition": "comics",
+            "contenu": "Il est le dernier homme à avoir vécu sur Terre, décédé dans le Complexe de Londres en l'an 2154. Ses descendants, modifiés génétiquement par les machines pour ne jamais tomber malades, appartiennent à l'espèce transhumaine. Logan et Jessica en font partie. "
+          }
+        },
+        "Dia": {
+          "id": 35,
+          "titre": "Dia",
+          "image": "./assets/images/images-générales/dia.png",
+          "imageMedia":[
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
+          ],
+          "rubriques": {
+            "autres_identites": "",
+            "categories": "transhumain mutante",
+            "apparition": "",
+            "contenu": "Elle est l'une des deux filles du mutant Andar. Comme son père, elle a, au contact prolongé des radiations, développé une faculté spécifique,  la double vue."
+          }
+        },
+        "Domes": {
+          "id": 36,
+          "titre": "Dômes",
+          "image": "./assets/images/images-générales/cite_des_domes.png",
+          "imageMedia":[
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "Complexe A-NY.S",
+            "categories": "lieu",
+            "apparition": "film, comics marvel",
+            "contenu": "Au 23e siècle, les survivants de la guerre nucléaire, de la surpopulation et de la pollution vivent dans un vaste dôme, isolés du monde extérieur oublié. Ici, dans un équilibre écologique, l'humanité ne vit que pour le plaisir. Nul ne sait quand et comment la première colonie s'y est établie et d'ailleurs ses habitants conditionnés par les machines à mourir jeune, demeurent convaincus que la vie n'existe pas en dehors du Dôme. "
+          }
+        },
+        "Doc": {
+          "id": 37,
+          "titre": "le Doc",
+          "image": "./assets/images/images-générales/doc.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": " Doc",
+            "categories": "transhumain",
+            "apparition": "roman Logan's run, film, comics",
+            "contenu": "Lorsque Logan 5 parvient à la clinique Peau Neuve et demande à Holly une refonte de visage, Doc, qui craint d'être pris pour cible par les Sandmen - tente d'éliminer le nouveau venu. L'agent du PS riposte et finit même par abattre le médecin.Les fugitifs qui recherchent le Sanctuaire doivent s'ils espèrent survivre, s'astreindre à un protocole bien précis. Rencontrer le doc fait parti de la première phase du jeu de piste car lui seul connait les coordonnées géographique du prochain lieu à atteindre. "
+          }
+        },
+        "Doyle": {
+            "id": 38,
+            "titre": "Doyle",
+            "image": "./assets/images/images-générales/doyle.png",
+            "imageMedia":[
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/roman_logans_run.png"
+            ],
+            "rubriques": {
+              "autres_identites": "Doyle",
+              "categories": "transhumain",
+              "apparition": "roman Logans'run, film, comics",
+              "contenu": "Doyle, 21 ans au début du récit a pour soeur jumelle Jessica. Dès le début de l'histoire ce fugitif tente de fuir vers Cathedrale, convaincu de pouvoir se soustraire à l'euthanasie du dernier jour. "
+            }
+          }
+      },
+    "E": {
+        "Evans": {
+          "id": 39,
+          "titre": "Evans",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+
+          "rubriques": {
+            "autres_identites": "Evans 9",
+            "categories": "transhumain",
+            "apparition": "roman Logan's run",
+            "contenu": "Ce limier travaille dans la même unité que Logan"
+           }
+          }
+      },
+    "F": {
+        "Fennister": {
+          "id": 40,
+          "titre": "Fennister",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/roman_logans_world.png"
+          ],
+          "rubriques": {
+            "autres_identites": "",
+            "categories": "transhumain",
+            "apparition": "roman Logans'World, comics",
+            "contenu": "Fennister est un ancien ingénieur qui travaille sous les ordres de Gant, le chef autoproclamé des limiers. Gant aspire à redonner vie à THINKER, et pour ce faire, il a recruté d'anciens informaticiens aux quatre coins du monde. Contrairement à ce que l'on pourrait croire, le supercalculateur n'a pas été détruit par Ballard ; il est simplement en sommeil, et Fennister possède les compétences nécessaires pour le réveiller."
+          }
+        },
+        "Film Logans run": {
+          "id": 41,
+          "titre": "Film Logan's run",
+          "image": "./assets/images/images-générales/410476.1020.A.jpg",
+          "imageMedia":[
+            "./assets/images/icones/film_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "l'âge de cristal",
+            "categories": "film",
+            "apparition": "cinéma, DVD",
+            "contenu": "L’an 2274. En apparence, le Sanctuaire est un véritable paradis. Ses habitants, néanmoins, n’ont pas le droit d’en sortir. Ceux qui ont l’audace d’aller voir ailleurs sont systématiquement traqués et supprimés. De plus, une loi condamne la population à mourir à l’âge de 30 ans. Les citoyens qui atteignent cet âge sont éliminés lors d'une cérémonie. On parle d’une sélection qui permettrait à certains de renaître, mais nul n’est là pour en témoigner. Aussi les moins dociles préfèrent‐ils prendre la fuite avant le jour fatal. Logan est de ceux‐là. Cédant à la curiosité, il s’échappe un jour de la cité pour voir à quoi ressemble ce vaste monde qu’on lui cache depuis sa naissance…"
+          }
+        },
+        "Flamegun": {
+          "id": 42,
+          "titre": "Flamegun",
+          "image": "./assets/images/images-générales/flamegun.png",
+          "imageMedia":[
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "flamegun",
+            "categories": "arme de poing",
+            "apparition": "film, comics marvel",
+            "contenu": "Dans le film de 1976 l'arme de poing du limier ne bénéficie que d'une seule capacité de tirs. Au lieu des six types de projectiles solides répertorié dans le roman, le canon expulse ici des particules chargées d'intensité variable. Un seul tir bien placé suffit à terminer un humain et le cas échéant peut aussi endommager certains obstacles. "
+          }
+        },
+        "Fleur de Vie": {
+          "id": 43,
+          "titre": "Fleur de vie",
+          "image": "./assets/images/images-générales/phase_life.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "palm flower",
+            "categories": "radiaoactif mineral",
+            "apparition": "roman Logan's run, film, comics",
+            "contenu": "L'horloge de vie est implantée à la naissance dans la paume de la main droite de chaque citoyen. Dans Le Roman, l'âge d'une personne est révélé par le cristal incrusté dans la paume de sa main gauche qui change de couleur tous les sept ans, phase jaune (0-6 ans), bleu (7-13 ans), rouge (âge 14-20). A la toute fin de l'existence de son porteur celui-ci clignote en rouge et noir jusqu'au dernier jour, et devient enfin noir à 21. Dans le film de 1976, ce même cristal est incrusté dans la main droite. La palette de couleurs change également avec le vieillissement du porteur: blanc jusqu'à 7 ans révolu, puis jaune de 8 à 16 ans, vert de 16 à 24 ans et enfin rouge de 24 à 30 ans. Les citoyens portent tous des vêtements en adéquation avec la couleur de leur cristal, cela permet de les différencier. À l'approche du dernier jour, la fleur de vie se met à clignoter du rouge au noir. Les cristaux ne sont effectifs qu'à l'intérieur du dôme. Quiconque s'aventure à l'extérieur constatera que son horloge de vie est redevenu blanche. "
+          }
+        },
+        "Francis": {
+          "id": 44,
+          "titre": "Francis",
+          "image": "./assets/images/images-générales/francis.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "Ballard",
+            "categories": "transhumain",
+            "apparition": "roman Logan's run, film, comics",
+            "contenu": "Les Limiers constituent l'élite de la société futuriste, celle établie par THINKER. Sélectionnés parmi les milliers de nourrissons qui naissent chaque jour au sein des super crèches, ces futurs agents de l'ordre sont conditionnés et ce dès leur plus jeune âge, à traquer et purger leurs concitoyens. Francis est lui-même un de ces implacables tueurs, lui et son ami Logan excellent dans leur travail. En effet, chaque jour, le duo extermine sont lot de fugitifs, convaincus d'œuvrer en tant que héros. \n Plusieurs versions de Francis existent, et leur personnalité change de manière radicale selon les médias. Dans le film par exemple, Francis rejette catégoriquement la vérité du Sanctuaire et il ne peut même pas envisager la possibilité de vivre au-delà de 30 ans. Par ailleurs lorsque son ami Logan trahit l'ordre, Francis se lance sitôt à sa poursuite, avec la ferme intention de le tuer. Dans le roman, ce Limier joue un double jeu avec Logan. En apparence, il incarne le Limier parfait, mais la réalité est tout autre : Francis se révèle être Ballard, le leader de la résistance, engagé dans un combat contre Thinker. "
+          }
+        },
+        "fugitif": {
+          "id": 45,
+          "titre": "Fugitif",
+          "image": "./assets/images/images-générales/fugitif.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "runner",
+            "categories": "transhumain",
+            "apparition": "roman Logan's run, film, comics",
+            "contenu": "Ainsi sont nommés les récalcitrants qui refusent de se rendre dans une boutique du sommeil pour y mourir à l'âge de 21 ans. Dans le film ces même citoyens ne croient pas qu'ils seront renouvelés lors de la cérémonie du Carousel, alors ils fuient. Une partie d'entre eux aidés par un groupe de résistants, essaient désespérément de retrouver le mythique Sanctuaire. Ceux et celles qui ne se rendent pas au Carousel sont continuellement traqués par les limiers. Au cours de son entrevue privé avec le Penseur Logan apprend que 1056 fugitifs sont parvenus à retrouver le Sanctuaire. "
+            }
+          }
+      },
+    "G": {
+        "Gant": {
+          "id": 46,
+          "titre": "Gant",
+          "image": "./assets/images/images-générales/gant.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "Gant",
+            "categories": "transhumain",
+            "apparition": "roman Logans'run, comics",
+            "contenu": "Gant est sans conteste ce que l'on pourrait qualifier de chasseur ultime. En effet, les instructeurs machines ont accompli un conditionnement exceptionnel sur son esprit lors de son apprentissage d'enfant, ce qui fait de lui un bon limier. Cependant, lorsque THINKER fut détruit par le chef de la résistance, Ballard, les villes sombrèrent dans l'inertie et leurs habitants, bien qu'enfin libres, se retrouvèrent vite confrontés à la famine. La plupart des limiers perdirent tout intérêt à vivre, étant donné que leur rôle de tueurs n'était plus nécessaire, en revanche Gant fit preuve d'une remarquable adaptabilité. Plutôt que sombrer dans le désespoir, il saisit l'opportunité qui s'offrait à lui. Il mit en place sa propre armée et s'éleva au rang de despote, dominant ainsi les humains autrefois opprimés. \n  Cette tournure inattendue des événements a mis en évidence la complexité de la nature humaine, même chez un individu comme Gant, dont l'esprit avait été façonné par les machines. Sa capacité à s'adapter et à se réinventer révèle à quel point l'homme peut être influencé par son environnement et par les choix qu'il fait."
+          }
+        },
+        "Les Gitans Libres": {
+          "id": 47,
+          "titre": "les Gitans Libres",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "gitans",
+            "categories": "transhumain",
+            "apparition": "roman Logans'run, comics",
+            "contenu": " se référer à la fiche Rutago"
+          }
+        },
+        "Le Grand Sommeil": {
+          "id": 48,
+          "titre": "Deep Sleep",
+          "image": "./assets/images/images-générales/deep_sleep.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "euthanasie industrielle",
+            "categories": "loi",
+            "apparition": "roman Logan's run, film, comics",
+            "contenu": "En l'an 2116, les humains ont une durée de vie standard de 21 ans. Cette limite de vie a été instaurée pour réguler l'accroissement naturel de la population et prévenir une nouvelle catastrophe écologique comme celle qui a failli anéantir la Terre. Grâce à cette régulation, la société n'est plus confrontée à des problèmes de maladie, de famine ou de pauvreté. Cependant, cette restriction de la durée de vie a un prix, et les citoyens doivent renoncer à certaines libertés en échange de cette sécurité. Le Penseur, un superordinateur autocrate, règne sur la société et impose des règles strictes pour maintenir la stabilité. Ainsi, le dernier jour de leur existence, chaque citoyen doit se rendre dans une boutique du sommeil pour y être euthanasié. Les personnes qui contestent cette pratique deviennent alors des fugitifs, pourchassés par les agents du Penseur. Il est interdit de donner publiquement son opinion sur le dernier jour, car cela peut entraîner des troubles. \n Dans le film Logan's Run, les citoyens doivent se présenter à la cérémonie du Carousel le jour de leur 30ème anniversaire pour y être exterminés devant un auditoire enthousiaste. Contrairement à la boutique du sommeil, le Carousel est un événement public très médiatisé, qui attire des spectateurs de toute la ville. Les citoyens qui refusent de se présenter au Carousel et tentent de fuir sont pourchassés par les Sandmen, des agents du Penseur chargés de maintenir l'ordre."
+          }
+        }     
+      },
+    "H": {
+        "Hallucinusine": {
+          "id": 49,
+          "titre": "Hallucinusine",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "",
+            "categories": "lieu",
+            "apparition": "roman Logans'run, comics",
+            "contenu": "Les hallucinusines (hallucimills) sont ces boutiques qui dispensent une drogue qui garantit le bonheur aux habitants des Complexes, domptant ainsi leurs rêves de fuite et de contestation."
+          }
+        },
+        "Harry": {
+          "id": 50,
+          "titre": "Harry 7",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "Harry 7",
+            "categories": "transhumain",
+            "apparition": "roman Logan's run",
+            "contenu": "Harry 7, trois fois meurtrier, a été arrêté en l'an 2116 dans le Complexe de Trancas. Depuis son instauration le Penseur est omniscient, il voit tout, gère tout et pourtant malgré le conditionnement psychologique que ses machines exercent sur l'homme, celles-ci ne parviennent pas à supprimer de manière définitive la criminalité au sein des citées. Dans le futur il n'y a plus de prison depuis que l'IA gouverne et dans les complexes on ne tolère le crime qu'au seul secteur Cathédrale, sans ça dans le but d'empêcher toute récidive, les assassins sont euthanasiés. Ceux qui ne sont pas exterminés sont envoyés en Enfer (une zone inhabitable de la Terre)"
+          }
+        },
+        "Hologramme": {
+          "id": 51,
+          "titre": "Hologramme",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "tridi",
+            "categories": "technologie",
+            "apparition": "roman Logans'run et comics",
+            "contenu": "Le proscenium de l’Immeuble de Presse s’éclaira. Une silhouette familière – haute de cent mètres – prit peu à peu forme, sourit chaleureusement à la foule. Le journaliste en trois dimensions était vêtu d’un collant de cuir inusable. Il posait sur le monde des yeux géants aussi clairs que candides. Les hologrammes existaient déjà bien avant Star Wars, en effet dans Logan's run ces images tridimensionnelles se forment en haut les batiments. C'est ainsi que les infos sont véhiculés par l'autorité car dans le futur il n'y a plus de TV. \n Photo building de HamZa NOUASRIA sur Pexels"
+          }
+        },
+        "Homer": {
+          "id": 52,
+          "titre": "Homer",
+          "image": "./assets/images/images-générales/logans_run_first-novel.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "balle chatieuse",
+            "categories": "munition",
+            "apparition": "roman Logan's run, comics",
+            "contenu": "se référer à revolver-limier"
+          }
+        },
+        "Holly": {
+          "id": 53,
+          "titre": "Holly",
+          "image": "./assets/images/images-générales/holly.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "l'assistante du doc",
+            "categories": "transhumain",
+            "apparition": "roman Logan's run, film, comics",
+            "contenu": "Holly est l'assistante du Doc à Peau Neuve."
+          }
+        },
+        "Hoverstick": {
+          "id": 54,
+          "titre": "the Hoverstick",
+          "image": "./assets/images/images-générales/hoverstick.png",
+          "imageMedia":[
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "devil stick, baton du diable",
+            "categories": "engin motorisé volant",
+            "apparition": "roman Logan's run, film, comics",
+            "contenu": "Les gitans se servent de ces engins pour franchir les grandes distances en dehors des Complexes."
+          }
+          },
+        "Hypno professeur": {
+            "id": 55,
+            "titre": "Hypno professeur",
+            "image": "./assets/images/images-générales/title_logans_run.png",
+            "imageMedia":[
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/roman_logans_run.png"
+            ],
+            "rubriques": {
+              "autres_identites": "Hypno droide",
+              "categories": "instructeur machine",
+              "apparition": "roman Logan's run, comics",
+              "contenu": "Durant leur phase jaune, de la naissance jusqu'à sept ans, les enfants dans l'univers de Logan's Run, qui, je le rappelle, ne sont pas encore des citoyens, doivent résider dans les crèches. Pendant cette période, ce sont les auto-gouvernantes qui se chargent de leur éducation. En effet, pendant plusieurs heures chaque semaine, on les connecte à des machines qui leur enseignent tout ce qu'ils doivent savoir sur leur future vie. Ces appareils se nomment des hypno-professeurs. Lorsque l'un des pupille échoue à un examen important ou refuse de se conformer aux règles, les hypno-professeurs servent également de moyen de punition. L'enfant reçoit alors un choc électrique jusqu'à ce qu'il comprenne la leçon. C'est ainsi que les futurs citoyens sont conditionnés à ne jamais se rebeller contre le système."
+              }
+            }
+      },
+    "I": {
+        "Les Illustrateurs": {
+          "id": 56,
+          "titre": "Les illustrateurs",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png"
+          ],
+          "rubriques": {
+            "autres_identites": "",
+            "categories": "artiste",
+            "apparition": "comics",
+            "contenu": ""
+          }
+        },
+        "Illustration": {
+          "id": 57,
+          "titre": "Illustration",
+          "image": "./assets/images/images-générales/helmetLogan2.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png"
+          ],
+          "rubriques": {
+            "autres_identites": "",
+            "categories": "",
+            "apparition": "comics",
+            "contenu": ""
+          }  
+            }
+      },
+      "J": {
+        "Jaq": {
+          "id": 58,
+          "titre": "Jaq",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
+          ],
+          "rubriques": {
+            "autres_identites": "Jaq",
+            "categories": "humain",
+            "apparition": "roman Logans'World, comics",
+            "contenu": "Jaq est le fils de Logan est Jessica. "
+          }
+        },
+        "Jessica": {
+          "id": 59,
+          "titre": "Jessica",
+          "image": "./assets/images/images-générales/jessica.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png",
+            "./assets/images/icones/roman_logans_world.png"
+          ],
+          "rubriques": {
+            "autres_identites": "Jessica",
+            "categories": "transhumain",
+            "apparition": "roman Logan's run, film, comics",
+            "contenu": "Elle est avec son ami Doyle une fugitive, tous deux appartiennent à un groupuscule de révolutionnaires arborant le symbole de l'Ankh. La jeune femme refuse le diktat imposé par THINKER et, comme tous ses semblables qui veulent vivre au-delà de 21 ans, Jessica cherche à rejoindre le Sanctuaire. Au cours de son périple elle fait la rencontre de Logan, dont il ne reste plus qu'un jour à vivre."
+          }
+        },
+        "George Clayton Johnson": {
+          "id": 60,
+          "titre": "George Clayton Johnson",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "",
+            "categories": "écrivain de science fiction",
+            "apparition": "roman Logans'run",
+            "contenu": "George Clayton Johnson, né le 10 juillet 1929 à Cheyenne dans le Wyoming et mort le 25 décembre 2015 (à 86 ans), est un écrivain de science-fiction et scénariste pour l'audiovisuel américain. Il est surtout connu pour avoir coécrit avec William F. Nolan en 1976 Quand ton cristal mourra (en) (Logan's Run), adapté au cinéma puis à la télévision en 1976-1978 sous le titre L'Âge de cristal (Logan's Run). Il a fait partie des scénaristes de la première version d’Ocean's Eleven en 1960 et a écrit des épisodes de série télévisée. (source wikipédia) "
+          }
+        },
+        "Jonath": {
+          "id": 61,
+          "titre": "Jonath",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
+          ],
+          "rubriques": {
+            "autres_identites": "doyen du peuple errant",
+            "categories": "transhumain",
+            "apparition": "roman Logan's World, comics",
+            "contenu": "Bien des années après leur retour forcé sur Terre, Logan, Jessica et son fils Jaq vivent avec une communauté de survivants. L'un des membres de ce groupe se nomme Jonath."
+          }
+        },
+        "Judee": {
+          "id": 62,
+          "titre": "judee 3",
+          "image": "./assets/images/images-générales/judee.png",
+          "imageMedia":[
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
+          ],
+          "rubriques": {
+            "autres_identites": "",
+            "categories": "poupée parlante",
+            "apparition": "roman Logan's World, comics",
+            "contenu": "Judee est la poupée parlante d'une fillette survivante, Bet. Logan fait leur rencontre alors qu'il revient de son excursion avec des antibiotiques pour son fils malade, de la stérozine. Hélas, Jaq est mort. Enragé, Logan interroge aussitôt Bet sur l'identité des coupables, mais il constate vite que l'enfant est incapable de répondre à ses questions à cause des drogues qu'elle a ingérées. C'est la poupée, Judee, qui va s'en charger. Celle-ci lui révèle que sa femme a été enlevée par un groupe de pillards, les Borgias."
+            }
+        }
+        },
+    "K": {
+        "Kelly": {
+          "id": 63,
+          "titre": "Kelly 4",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "",
+            "categories": "transhumain",
+            "apparition": "roman Logan's run, comics",
+            "contenu": "Kelly est un limier qui fait parti du même secteur que celui de Logan."
+          }
+        },
+        "Karenya": {
+          "id": 64,
+          "titre": "Karenya",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "",
+            "categories": "transhumain",
+            "apparition": "roman Logan's run, comics",
+            "contenu": "Karenya travaille pour une maison de verre, elle couche avec Logan au tout début du roman."
+          }  
+            }
+      },
+      "L": {
+        "Lacy": {
+          "id": 65,
+          "titre": "Lacy 14",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
+          ],
+          "rubriques": {
+            "autres_identites": "",
+            "categories": "transhumain",
+            "apparition": "roman logans'world et comics",
+            "contenu": "Lacy est une ancienne citoyenne devenue marchande de drogue. Depuis la destruction de THINKER par Ballard, elle jouit d'un certain pouvoir et réside dans l'ancien Complexe de New York. C'est auprès d'elle que Logan obtient le R11 tant désiré, une puissante drogue hallucinogène."
+          }
+        },
+        "Lilith": {
+          "id": 66,
+          "titre": "Lilith 14",
+          "image": "./assets/images/images-générales/lilith.png",
+          "imageMedia":[
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "Lilith",
+            "categories": "transhumain",
+            "apparition": "roman Logans'run",
+            "contenu": "Lilith est une citoyenne rebelle qui oeuvre avec la résistance. Ignorant l'identité réelle de Logan et croyant faire face à un fugitif, elle l'oriente vers la boutique du Doc"
+          }
+        },
+        "Logan": {
+          "id": 67,
+          "titre": "Logan",
+          "image": "./assets/images/images-générales/logan_5.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png",
+            "./assets/images/icones/roman_logans_world.png"
+          ],
+          "rubriques": {
+            "autres_identites": "Logan 3 (roman), Logan 5 (film), Logan 6 (comics)",
+            "categories": "transhumain",
+            "apparition": "roman Logan's run, Logan's World, film, comics",
+            "contenu": "Logan est le protagoniste du roman. Il appartient à l'ordre des Sandman, la police chargée de traquer et d'éliminer les fugitifs, ces citoyens renégats qui refusent de se conformer à la loi : mourir euthanasiés à l'âge de 21 ans. Logan est intelligent, pragmatique, mais il est aussi profondément troublé par la nature oppressante de la société dans laquelle il vit. Au tout début de l'histoire, on apprend qu'il en est à son dernier jour d'existence. Il ne craint pas la mort, néanmoins il veut utiliser ses dernières heures à profit. Il se lance alors dans une quête impossible, celle de trouver le Sanctuaire, un lieu bien caché où les fugitifs vivent en liberté. Logan sait qu'il a peu de chance d'y parvenir, mais il reste déterminé à l'accomplir. En effet, détruire le Sanctuaire et éliminer tous ceux qui s'y trouvent lui permettrait de devenir l'élu, celui qui aura ramené l'ordre dans le monde. Il faut savoir que dans l'univers de Logan's run, comme il n'y a pas d'héritage et que les humains n'ont plus d'enfants, les gens n'ont plus d'identité, sinon leur prénom. Dès lors que vous mourrez, nul ne se souvient de vous. Logan ressent une certaine frustration à ce que plus personne ne se souvienne de lui après sa mort, c'est pourquoi il commence à douter de lui. Peu à peu le doute va le faire changer, notamment lorsqu'il rencontre Jessica. "
+          }
+        },
+        "Logans run roman": {
+          "id": 68,
+          "titre": "Logan's run roman",
+          "image": "./assets/images/images-générales/logans_run_first-novel.png",
+          "imageMedia":[
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "l'âge de cristal",
+            "categories": "livre",
+            "apparition": "roman Logans'run",
+            "contenu": "Résumé : Ce sont deux « vieux » de vingt-et-un ans, ils n'ont plus que quelques heures à vivre et essaient d'échapper à l'euthanasie imposée par le gouvernement des machines. Dans la paume de leurs mains clignote la fleur de vie radio-active. Et ce clignotement rouge-noir sonne le glas pour le duo fugitif : en effet d'ici à quelques heures leur cristal deviendra noir et la police spéciale sera alertée... Car dans cette société de l'an 2116 tous les citoyens ayant atteint leur majorité doivent se livrer au « Profond Sommeil », la mort. Les bébés qui naissent désormais dans des incubateurs naissent avec un cristal implanté dans la paume de leur main. Celui-ci change de couleur tous les 7 ans: jaune, bleu, rouge et enfin au dernier jour, noir. Une satire virulente d'un certain culte de la jeunesse, par deux nouveaux auteurs américains de science-fiction. "
+          }
+        },
+        "Logans World roman": {
+          "id": 69,
+          "titre": "Logan's World",
+          "image": "./assets/images/images-générales/title_logans_run.png",
+          "imageMedia":[
+            "./assets/images/icones/roman_logans_world.png"
+          ],
+          "rubriques": {
+            "autres_identites": "retour à l'âge de cristal",
+            "categories": "livre",
+            "apparition": "roman Logan's World",
+            "contenu": "Après avoir échappé de peu aux Sandmen, Logan et Jessica vivent heureux depuis quatre ans sur Argos, le légendaire Sanctuaire en orbite autour de Mars, en compagnie de 3 000 autres fugitifs. Ils ont un fils de deux ans, Jaq. Pendant ce temps, sur Terre, le site de lancement des fusées Titans à Cap Steinbeck est découvert puis détruit par des agents du Profond Sommeil. Ballard, qui est parvenu à rejoindre le Crazy Horse Mountain, sabote le complexe du THINKER, enterré dans les catacombes sous la statue. Bien qu'il soit tué lors de l'explosion, il parvient à détruire le réseau informatique et libère ainsi le monde. Avec la mort de Ballard, les vaisseaux de ravitaillement vers Argos cessent. Pendant six années supplémentaires, les colons de la station essaient de survivre, jusqu'à ce qu'il ne reste plus que quelques dizaines d'entre eux. Ils n'ont désormais plus assez de nourriture et la peste sévit. Ils tirent à la courte paille pour décider qui pourra retourner sur Terre. Logan, Jessica et Jaq font partie des élus. Hélas une fois revenus sur Terre Jaq tombe bientôt malade. Logan part chercher des médicaments pour son fils, mais Pendant son absence, les gitans Borgia en possession de bâtons du diable assassinent son fils et enlève Jessica. Logan, fou de rage n'a qu'une idée en tête, vengeance... "
+          }
+        },
+        "Louveteau": {
+          "id": 70,
+          "titre": "Louveteau",
+          "image": "./assets/images/images-générales/louveteaux.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/marvel.png",
+            "./assets/images/icones/film_logans_run.png",
+            "./assets/images/icones/roman_logans_run.png"
+          ],
+          "rubriques": {
+            "autres_identites": "CUBS",
+            "categories": "transhumain",
+            "apparition": "roman Logan's run, comics",
+            "contenu": "Les louveteaux (l'âge max toléré est 14 ans) sont connus pour massacrer quiconque s'aventure sur leur territoire, y compris la police et parfois même les limiers. Par ailleurs les forces de l'ordre évitent de se rendre à Cathédrale dans la mesure du possible tant le lieu est dangereux. Non sans raison. En effet dans le roman on apprend que lors d’une incursion des lieux trois hommes d’une escouade, Sanson Bradley et Wilson 9, tous pourtant de bons officiers, ont péri massacré par un groupe de louveteaux. "
+          }
+        },
+        "Lucrèce": {
+          "id": 71,
+          "titre": "Lucrèce",
+          "image": "./assets/images/images-générales/lucrèce.png",
+          "imageMedia":[
+            "./assets/images/icones/bluewater.png",
+            "./assets/images/icones/adventure_comics.png",
+            "./assets/images/icones/roman_logans_world.png"
+          ],
+          "rubriques": {
+            "autres_identites": "Lucrezia",
+            "categories": "transhumain",
+            "apparition": "roman Logan's World, comics",
+            "contenu": "Lucrèce et Prince dirigent un groupe de pillards. Au début du roman Logan's World, ils enlèvent Jessica pendant que Logan est dans une cité désaffectée située à plusieurs heures du village, à la recherche de médicaments."
+          }
+        }
+        },
+        "M": {
+          "Machines": {
+            "id": 72,
+            "titre": "les machines",
+            "image": "./assets/images/images-générales/robots.png",
+            "imageMedia":[
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_run.png",
+              "./assets/images/icones/roman_logans_world.png"
+            ],
+            "rubriques": {
+              "autres_identites": "autogouvernantes, drones, aigle mécanique, Gardien",
+              "categories": "machine",
+              "apparition": "roman Logans'run",
+              "contenu": "Thinker contrôle la population du monde entier et ce, depuis que les humains ont accepté que les machines gèrent leur existence. Dans les romans, ce superorinateur est situé dans le Crazy Horse Monument, dans les monts Dakota de ce qui fut autrefois l'Amérique. Il contrôle l'ensemble du réseau de transport, mais aussi les machines qui interagissent avec les humains: gouvernantes, instructeurs, aigles, gardiens. Dans le film, l'ordinateur à voix féminine contrôle la ville. Ce dernier communique régulièrement avec les Sandmen, qui sont tenus de se présenter à chaque fin de mission. Alors que Logan vient de terminer le fugitif Doyle, THINKER lui confie une mission spéciale : infiltrer et détruire le Sanctuaire. À cet effet, l'ordinateur modifie l'horloge de vie biologique de Logan afin qu'il puisse lui-même devenir un fugitif. Ce processus est appelé \"Procédure 033-03\". Thinker est omniscient et détient donc les pleins pouvoir, ces sbires mahines qui n'ont pas de conscience propre exécutent ses ordres."
+            }
+          },
+          "Marvel Comics": {
+            "id": 73,
+            "titre": "Marvel Comics",
+            "image": "./assets/images/images-générales/marvel_comics.png",
+            "imageMedia":[
+              "./assets/images/icones/marvel.png"
+            ],
+            "rubriques": {
+              "autres_identites": "subdivision de Marvel Entertainment",
+              "categories": "maison d'édition",
+              "apparition": "comics marvel",
+              "contenu": "En 1977, ils ont publié une série de bandes dessinées Logan's Run basée sur l'histoire du film de 1976. Il y a eu en tout sept numéros de janvier à juillet. C'est à ce jour le seul comics qui soit traduit en français."
+            }
+          },
+          "Mary": {
+            "id": 74,
+            "titre": "Mary",
+            "image": "./assets/images/images-générales/mary.png",
+            "imageMedia":[
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_run.png",
+              "./assets/images/icones/roman_logans_world.png"
+            ],
+            "rubriques": {
+              "autres_identites": "Mary-Mary 2",
+              "categories": "transhumain",
+              "apparition": "roman Logans'run, Logans'World, comics",
+              "contenu": "Mary est une petite fille louveteau que Logan et Jessica rencontre dans le secteur Cathédrale."
+            }
+          },
+          "Madison": {
+            "id": 75,
+            "titre": "Madison",
+            "image": "./assets/images/images-générales/title_logans_run.png",
+            "imageMedia":[
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/roman_logans_run.png"
+            ],
+            "rubriques": {
+              "autres_identites": "Madison 4",
+              "categories": "transhumain",
+              "apparition": "roman Logan's World",
+              "contenu": "C'est un journaliste proscenium (il n'y a pas de TV dans Logan's run, les infos sont diffusées sur d'immenses hologrammes visibles un peu partout en ville sur les murs des batiments"
+            }
+          },
+          "Maison de verre": {
+            "id": 76,
+            "titre": "maison de verre",
+            "image": "./assets/images/images-générales/maison-de-verre.png",
+            "imageMedia":[
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_run.png"
+            ],
+            "rubriques": {
+              "autres_identites": "Glasshouse",
+              "categories": "lieu",
+              "apparition": "roman Logan's run, film, comics",
+              "contenu": "Désormais 100% de la population mondiale réside dans ces gigantesques mégapoles entièrement automatisées. Etant donné que nul ne travaille ou presque c'est aux machines qu'il incombe de gérer la mobilité, l'approvisionnement en énergie, la sécurité, mais aussi la santé des citoyens. Mais alors un seul passe temps subsiste, le plaisir charnel."
+            }
+          },
+          "Maze Car": {
+            "id": 77,
+            "titre": "Maze-Car",
+            "image": "./assets/images/images-générales/mazeCar.png",
+            "imageMedia":[
+              "./assets/images/icones/bluewater.png",
+              "./assets/images/icones/adventure_comics.png",
+              "./assets/images/icones/marvel.png",
+              "./assets/images/icones/film_logans_run.png",
+              "./assets/images/icones/roman_logans_run.png",
+              "./assets/images/icones/roman_logans_world.png"
+            ],
+            "rubriques": {
+              "autres_identites": "Lucane",
+              "categories": "véhicule",
+              "apparition": "roman Logan's run, film, comics",
+              "contenu": "Dans le film, les citoyens se déplacent dans des véhicule à deux places à travers des tubes de transport."
+            }
+          },
+          "Modar": {
+            "id": 78,
+            "titre": "Modar",
+            "image": "./assets/images/images-générales/modar.png",
+            "imageMedia":[
+              "./assets/images/icones/marvel.png"
+            ],
+            "rubriques": {
+              "autres_identites": "Modar 9",
+              "categories": "transhumain",
+              "apparition": "comics marvel",
+              "contenu": "Modar est un limier qui n'apparait que dans les comics marvel."
+            }
+          },
+          "Molly": {
+                "id": 79,
+                "titre": "Molly",
+                "image": "./assets/images/images-générales/molly.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                "rubriques": {
+                  "autres_identites": "citée sous marine, CORA",
+                  "categories": "lieu",
+                  "apparition": "roman Logan's run, comics",
+                  "contenu": "Au 21ème siècle, l'humanité avait déjà érigé plusieurs complexes sous-marins, parmi lesquels Molly, Zuther-Notion, Proteus et Manta City. Les habitants de ces villes, principalement des familles d'ingénieurs, y vivaient heureux. Cependant, le 6 mars 2033, un drame se produisit. En effet un séisme dans la fosse des Mariannes provoqua une fissure dans la coque, et l'eau submergea la grande cité de Molly, emportant avec elle ses 14 mille habitants. Malgré cela, la ville tint bon grâce aux cloisons qui résistèrent, se déchirèrent, mais supportèrent la pression, rugissant comme la marée océanique. Les vannes automatiques se refermèrent, les écoutilles claquant fermement. En l'espace de douze secondes à peine, la gigantesque structure se transforma en un amas confus de cadavres, compartiments et couloirs inondés, de machines entassées en désordre. Certains compartiments réussirent à contenir de l'air - mais en dépit de ces chambres étanches, la mer continuait de grignoter l'acier avec une patience infinie, ne cessant jamais et ce tant que Molly ne serait pas complètement engloutie. Depuis la création du groupuscule de résistance, cet endroit est devenu l'un des passages obligés par lesquels transitent les fugitifs, ceux qui souhaitent se rendre au Sanctuaire. "
+                }
+            },
+          "Motorcycle": {
+                "id": 80,
+                "titre": "Motorcycle",
+                "image": "./assets/images/images-générales/motorcycle.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png"
+                ],
+                "rubriques": {
+                  "autres_identites": "",
+                  "categories": "véhicuel",
+                  "apparition": "comics",
+                  "contenu": ""
+                }
+              }
+            },
+      "N": {
+          "Needler": {
+                "id": 81,
+                "titre": "Needler",
+                "image": "./assets/images/images-générales/logans_run_first-novel.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                    "autres_identites": "balle anesthésique",
+                    "categories": "munition",
+                    "apparition": "roman Logans'run",
+                    "contenu": "se référer à revolver-limier"
+                  }
+                },
+          "NGC": {
+                "id": 82,
+                "titre": "NGC",
+                "image": "./assets/images/images-générales/NGC.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png"
+                ],
+                  "rubriques": {
+                    "autres_identites": "Nouvelle Confédération Globale ",
+                    "categories": "organisation gouvernementale",
+                    "apparition": "comics",
+                    "contenu": "2112...création de la NGC : avec le déclin de l'hiver nucléaire. La nouvelle confédération globale (NGC) a été instaurée dans le but de sauver la race humaine de l'extinction. "
+                  }
+                },
+          "Nitro": {
+                "id": 83,
+                "titre": "Nitro",
+                "image": "./assets/images/images-générales/logans_run_first-novel.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                    "autres_identites": "nitro",
+                    "categories": "munition",
+                    "apparition": "roman Logans'run, comics",
+                    "contenu": "se référer à revolver-limier"
+                  }
+                },
+          "William F Nolan": {
+                "id": 84,
+                "titre": "William F Nolan",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                    "autres_identites": "",
+                    "categories": "écrivain de science fiction",
+                    "apparition": "",
+                    "contenu": "William Francis Nolan, né le 6 mars 1928 à Kansas City au Missouri et mort le 15 juillet 20211 à Vancouver dans l'État de Washington, est un scénariste, romancier et poète américain, auteur de science-fiction, roman policier, roman fantastique et fantasy. Il est surtout connu pour la série romanesque de science-fiction L'Âge de cristal, dont il a tiré le scénario du film homonyme. "
+                  }
+                }            
+              },
+      "O": {
+          "Old Washington": {
+                "id": 85,
+                "titre": "Old Washington",
+                "image": "./assets/images/images-générales/old-washington.png",
+                "imageMedia":[
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                      "autres_identites": "ancien site du gouvernement des Etats Unis d'Amérique",
+                      "categories": "lieu",
+                      "apparition": "roman Logans'run, film, comics",
+                      "contenu": "Les anciennes villes ont été détruites ou abandonnées suite à la Petite Guerre, néanmoins même après plusieurs siècles les vestiges de l'ancien monde perdurent. Que ce soit dans le film ou bien dans le roman, Logan et Jessica découvrent avec stupéfaction les ruines de l'ancien Washington. "
+                      }
+                    },
+          "Omnite": {
+                "id": 86,
+                "titre": "Omnite",
+                "image": "./assets/images/images-générales/omnite.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                      "autres_identites": "",
+                      "categories": "art martial mix",
+                      "apparition": "roman Logans'run et comics",
+                      "contenu": "L'art martial omnite intègre une variété de techniques, incluant des coups de pied, de poing, de genou et de coude, ainsi que des techniques de préhension en corps à corps, de projection et de soumission. Au cours de leur entraînement, les limiers doivent maîtriser ces compétences en combat rapproché, car en situations d'extrême urgence, le recours exclusif à leur arme peut s'avérer insuffisant. \n photo designed by pavel-danilyuk"
+                      }
+                  }   
+                },
+                "P": {
+                  "Paralax": {
+                      "id": 87,
+                      "titre": "Paralax",
+                      "image": "./assets/images/images-générales/title_logans_run.png",
+                      "imageMedia":[
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/roman_logans_run.png"
+                      ],
+                      "rubriques": {
+                          "autres_identites": "gaz paralysant",
+                          "categories": "produit chimique",
+                          "apparition": "roman Logans'run, comics",
+                          "contenu": "Cette drogue immobilise quiconque en ingère, le rendant incapable du moindre mouvement"
+                      }
+                  },
+                  "Paravane": {
+                      "id": 88,
+                      "titre": "Paravane de police",
+                      "image": "./assets/images/images-générales/paravane.jpg",
+                      "imageMedia":[
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/roman_logans_run.png",
+                        "./assets/images/icones/roman_logans_world.png"
+                      ],
+                      "rubriques": {
+                          "autres_identites": "véhicule d'intervention de police",
+                          "categories": "véhicule volant",
+                          "apparition": "roman Logans'run, Logans'World, comics",
+                          "contenu": "Ces engins futuristes volants sont utilisés par les forces de police"
+                      }
+                  },
+                  "Peau Neuve": {
+                      "id": 89,
+                      "titre": "Peau Neuve",
+                      "image": "./assets/images/images-générales/New_you.png",
+                      "imageMedia":[
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/marvel.png",
+                        "./assets/images/icones/film_logans_run.png",
+                        "./assets/images/icones/roman_logans_run.png"
+                      ],
+                      "rubriques": {
+                          "autres_identites": "NEW-YOU",
+                          "categories": "lieu",
+                          "apparition": "roman Logans'run, film, comics",
+                          "contenu": "Peau Neuve est l'une de ces innombrables cliniques de chirurgie plastique qui sillonent le quartier Arcade et dans lesquelle les clients peuvent faire modifier leurs visage à la carte. Doc et sa belle assistante, Holly 13, procurent ainsi aux fugitifs de nouveaux visages pour les aider à échapper aux Sandmen. Il est à noter que la fleur de vie incrustée dans la paume de main reste inviolable, et l'on ne peut donc modifier sa couleur d'une quelconque façon."
+                      }
+                  },
+                  "Protagonistes": {
+                      "id": 90,
+                      "titre": "(les) protagonistes",
+                      "image": "./assets/images/images-générales/protagonistes.png",
+                      "imageMedia":[
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/marvel.png",
+                        "./assets/images/icones/film_logans_run.png",
+                        "./assets/images/icones/roman_logans_run.png",
+                        "./assets/images/icones/roman_logans_world.png"
+                      ],
+                      "rubriques": {
+                          "autres_identites": "",
+                          "categories": "transhumain, machines",
+                          "apparition": "roman Logan's run, Logan's World, film, comics",
+                          "contenu": ""
+                      }
+                  },
+                  "Petite guerre": {
+                      "id": 91,
+                      "titre": "la petite guerre",
+                      "image": "./assets/images/images-générales/la_petite_guerre.png",
+                      "imageMedia":[
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/roman_logans_run.png"
+                      ],
+                      "rubriques": {
+                          "autres_identites": "Little War",
+                          "categories": "évènement historique",
+                          "apparition": "roman Logan's run, comics",
+                          "contenu": "L'évènement Little Wars marque le déclin de l'espèce humaine mais aussi sa servitude aux machines. En effet, dans l'une des version de l'histoire Logan's run la 3ème guerre mondiale a eu lieu le 7/12/2095. La toute première salve de missile nucléaire s'abat sur Washington D.C, Londres, Tokyo et Moscou. C'est ici que commence l'hiver nucléaire.\n Champignon nucléaire designed by macrovector / Freepik \n Radioactive vector created by rawpixel.com - www.freepik.com"
+                      }
+                  },
+                  "Pisteur": {
+                      "id": 92,
+                      "titre": "Pisteur",
+                      "image": "./assets/images/images-générales/pisteur.png",
+                      "imageMedia":[
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/marvel.png",
+                        "./assets/images/icones/film_logans_run.png"
+                      ],
+                      "rubriques": {
+                          "autres_identites": "tracker",
+                          "categories": "objet",
+                          "apparition": "roman Logan's run, film, comics",
+                          "contenu": "Le tracker est le communicateur qui permet aux limiers de converser avec le QG. Cet appareil (pas plus gros qu'un smartphone) doté lui aussi d'une puce GPS, permet de se verrouiller sur le cristal clignotant 'horloge de vie' des fugitifs. A mesure que la cible s'en rapproche, le tracker du limier émet des bips aigus de plus en plus rapides."
+                      }
+                  },
+                  "Poupée parlante": {
+                      "id": 93,
+                      "titre": "Poupée parlante",
+                      "image": "./assets/images/images-générales/poupee_parlante.png",
+                      "imageMedia":[
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/roman_logans_run.png",
+                        "./assets/images/icones/roman_logans_world.png"
+                      ],
+                      "rubriques": {
+                          "autres_identites": "Judee the doll",
+                          "categories": "doudou empathique",
+                          "apparition": "roman Logan's run, Logan's World, film, comics",
+                          "contenu": "voir la fiche Albert"
+                      }
+                  },
+                  "Prince": {
+                      "id": 94,
+                      "titre": "Prince",
+                      "image": "./assets/images/images-générales/prince.png",
+                      "imageMedia":[
+                        "./assets/images/icones/bluewater.png",
+                        "./assets/images/icones/adventure_comics.png",
+                        "./assets/images/icones/roman_logans_world.png"
+                      ],
+                      "rubriques": {
+                          "autres_identites": "",
+                          "categories": "transhumain",
+                          "apparition": "roman Logan's run, comics",
+                          "contenu": "se référer à la fiche Lucrèce"
+                      }
+                  }
+              },
+      "Q": {
+          "Quartier general du GS": {
+                "id": 95,
+                "titre": "Quartier Général du G.S",
+                "image": "./assets/images/images-générales/qg_limier.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                      "autres_identites": "ancien site du gouvernement des Etats Unis d'Amérique",
+                      "categories": "lieu",
+                      "apparition": "roman Logans'run, film, comics",
+                      "contenu": "Les cités complexes sont si étendues qu'elles se décomposent en niveaux. Chaque secteur possède sa propre unité de sommeil profond (DS, pour Deep Sleep), gérée par un officier régulateur. Tout comme dans la police, les limiers œuvrent en duo, et Logan a pour équipier Francis. Durant leur traques, les limiers sont guidés par leurs coéquipiers mais aussi par leurs collègues de quart au QG. Ces derniers assis devant leur terminaux leur fournissent en temps réel des informations sur la localisation des fugitifs. En effet, la fleur de vie implantée dans la paume de chaque citoyen à la naissance possède un mouchard GPS. De ce fait il est impossible de fuir, car aucun lieu n'est inconnu du système."
+                      }                        
+                  }   
+                },
+      "R": {
+          "R 11": {
+                "id": 96,
+                "titre": "R-11",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                      "autres_identites": "",
+                      "categories": "produit chimique",
+                      "apparition": "roman Logans'World, comics",
+                      "contenu": "Cette puissante drogue hallucibogène permet de faire revivre à son utilisateur des souvenirs comme s'il y était."
+                      }
+                    },
+          "Regulateur": {
+                "id": 97,
+                "titre": "Régulateur",
+                "image": "./assets/images/images-générales/regulateur.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                      "autres_identites": "responsable de quart QG DS",
+                      "categories": "officier Sandman",
+                      "apparition": "roman Logans'run, comics",
+                      "contenu": "Au sein de chaque unité DS il y a un officier régulateur qui dispatche les missions, organise l'emploi du temps de tous les agents Sandman."
+                      }
+                  },
+          "Revolver limier": {
+                "id": 98,
+                "titre": "revolver-limier",
+                "image": "./assets/images/images-générales/revolver-sandman.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "pistolet 6 coups",
+                        "categories": "officier Sandman",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "Depuis l'avènement des machines, il n'y a plus aucune arme répertoriées dans les catégories A B ou C. THINKER a ordonné leurs destructions suite à la Petite guerre.                       Au sein de la population les Limiers garants de l'ordre sont désormais les seuls humains habilités à se servir de l'emblématique revolver six coups. En effet, chacune de ses armes de poing nominative est codée selon le schéma digital de la main de son propriétaire. Il est déjà quasi impossible qu'un limier perde son arme lors d'une traque, sans ça les rares courageux qui sont parvenus à en subtiliser une ont tous péri de manière brutale, leur main amputée sous l'impact de l'explosion. \n  Désarmés, les fugitifs, qui ne peuvent fomenter une révolte, n'ont comme seule alternative la fuite... \n Les limiers aiment faire durer le plaisir de la chasse. Compétiteurs, ceux-ci essaient de battre le record du plus grand nombre de kills. Il arrive néanmoins que quelques rares fugitifs soient plus malins que d'autres, l'issue de ces courses poursuites ne font hélas jamais de surprises car ce sont toujours les forces de l'ordre qui l'emportent à la fin."
+                        }                         
+                    },
+          "Ripper": {
+                "id": 99,
+                "titre": "Ripper",
+                "image": "./assets/images/images-générales/logans_run_first-novel.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "balle éventreuse",
+                        "categories": "munition",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "se référer à revolver-limier"
+                        }                             
+                      },
+          "Ritter": {
+                "id": 100,
+                "titre": "Ritter",
+                "image": "./assets/images/images-générales/Ritter.png",
+                "imageMedia":[
+                          "./assets/images/icones/roman_logans_world.png"
+                        ],
+                  "rubriques": {
+                    "autres_identites": "charognard",
+                    "categories": "transhumain",
+                    "apparition": "roman Logans'run, comics",
+                    "contenu": "ce charognard convoite le titre de chef dans la bande qui sévit dans les ruines du Complexe d'Angeles."
+                                }                             
+                    },
+          "Rawls": {
+                "id": 101,
+                "titre": "Rawls",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "Rawls",
+                        "categories": "transhumain",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "A la mort des Complexes citées, ce citoyen s'est retrouvé coincé dans une glissière, ce qui a provoqué l'amputation de ses deux jambes. Ex star des maisons de verre, il en est réduit à dénicher et vendre des reliques de l'ancien monde.  "
+                        }                             
+                    },
+          "Roebler": {
+                "id": 102,
+                    "titre": "Roebler",
+                    "image": "./assets/images/images-générales/title_logans_run.png",
+                    "imageMedia":[
+                      "./assets/images/icones/adventure_comics.png",
+                      "./assets/images/icones/roman_logans_run.png"
+                    ],
+                    "rubriques": {
+                        "autres_identites": "",
+                        "categories": "transhumain",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "Au début du roman, Logan, qui marche dans la rue, s'arrête pour contempler une composition murale qui orne un immeuble en face de lui, appelé le Joyau. La mosaïque est constituée de minuscules fragments de verre ardent, brillamment disposés pour commémorer l'Incendie de Washington. Bien que magistrale, l'œuvre reste incomplète. En effet, l'auteur de ce chef-d'œuvre, Roebler, n'est plus. Ses compositions restent à ce jour inachevées, car il est mort le jour de ses 21 ans, emportant avec lui le secret de son talent exceptionnel."
+                        }                                                    
+                      },
+          "Rutago": {
+                "id": 103,
+                "titre": "Rutago",
+                "image": "./assets/images/images-générales/rutago.png",
+                "imageMedia":[  
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "",
+                        "categories": "transhumain",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "Descendant de l'Apache Jimmy Marche-comme-un-Loup, Rutago suit les préceptes d'un ancien pacte selon lequel aucun gitan ne doit vivre assez longtemps pour voir sa fleur noircir. N'ayant guère le choix, la communauté recourt au suicide plutôt qu'à l'euthanasie. Au cours de leurs périples, Logan et Jessica rencontrent l'un de ces groupe de gitans dirigé par Rutago. Celui-ci impose à Logan un défi qu'il doit réussir, sans quoi Jessica pourrait mourir empoisonnée."
+                        } 
+                      }                          
+            },
+      "S": {
+          "Sanctuaire": {
+                "id": 104,
+                "titre": "Sanctuaire",
+                "image": "./assets/images/images-générales/sanctuary.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "Argos, station spatiale martienne, Mont Rushmore",
+                        "categories": "lieu",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "Le sanctuaire est cet endroit secret où les fugitifs veulent se rendre pour échapper à l'euthanasie imposée par le Penseur. Là, libres de vivre la vie qu'ils ont choisis hommes et femmes sont censés pouvoir vieillir et mourir de vieillesse. Dans le roman, le Sanctuaire est une station spatiale Argos qui gravite autour de Mars. Dans le film, Logan 5 doit infiltrer et détruire le Sanctuaire mais celui-ci découvre qu'un tel endroit n'existe pas. Dans les nouveaux comics le Sanctuaire est une sorte de zone blanche, lieu non répertorié situé dans la Dakota du sud, au Mont Rushmore."
+                        }
+                  },
+          "Sandman": {
+                "id": 105,
+                "titre": "Sandman",
+                "image": "./assets/images/images-générales/limier_affiche2.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "limier",
+                        "categories": "transhumain",
+                        "apparition": "roman Logans'run, Logans'World, comics",
+                        "contenu": "Sandman, ou DS operative (abréviation de Deep Sleep Operative), est un individu spécialement sélectionnée et génétiquement modifiée qui traque au quotidien les fugitif et les termine avec une arme à feu dédiée. Dès leurs plus jeune âge ces enfants hors norme recrutées par les machines suivent un entrainement spartiate très éprouvant tant au niveau psychique que physique et qui au terme de plusieurs années fait d'eux des machines à tuer. Le conditionnement demeure si efficace que ces soldats aguerris ne peuvent contester l'ordre établi, ils n'éprouvent d'ailleurs pas la compassion. Aucun limier n'a jamais fui lors de son dernier jour, jusqu'à l'arrivée de Logan. Dans le roman, ces hommes d'élite élimine les fugitifs à l'aide d'un revolver nominatif (explose dans la main d'un autre) qui peut tirer six projectiles différents. Les sandmen pratiquent aussi l'Omnite, un style d'arts martiaux hybride fictif qui n'est pas sans rappeler le MMA(mix martial art). "
+                        }
+                  },
+          "Sanson": {
+                "id": 106,
+                "titre": "Sanson",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "Sanson",
+                        "categories": "transhumain",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "Policier abattu lors d'une intervention à Cathédrale. "
+                        }                         
+                      },
+          "Sawyer": {
+                "id": 107,
+                "titre": "Sawyer",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "",
+                        "categories": "transhumain",
+                        "apparition": "roman Logans'World, comics",
+                        "contenu": "Logan qui doit passer remettre son uniforme au QG a une discussion avec un citoyen qui en est à son dernier jour. Ce dernier n'arrête pas de parler, ce qui contraint Logan, exaspéré, à quitter le tapis roulant et finir son chemin à pied."
+                        }                             
+                      },
+          "Stanhope": {
+                "id": 108,
+                "titre": "Stanhope",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "Stanhope",
+                        "categories": "transhumain",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "Ce limier appartient au même secteur que celui de Logan."
+                        }                             
+                      },
+          "Sterozine": {
+                "id": 109,
+                "titre": "Sterozine",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "antibiotique",
+                        "categories": "substance chimique",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": ""
+                        } 
+                  }                          
+                },
+      "T": {
+          "Tangler": {
+                "id": 110,
+                "titre": "Tangler",
+                "image": "./assets/images/images-générales/logans_run_first-novel.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "fileuse",
+                        "categories": "munition",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "se référer à revolver limier"
+                        }
+                  },
+          "Tara": {
+                "id": 111,
+                "titre": "Tara",
+                "image": "./assets/images/images-générales/tara.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "Tara 8",
+                        "categories": "transhumain",
+                        "apparition": "roman Logans'World, comics",
+                        "contenu": ""
+                        }
+                  },
+          "THINKER": {
+                "id": 112,
+                "titre": "the Thinker",
+                "image": "./assets/images/images-générales/thinker.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "le penseur",
+                        "categories": "A.I",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "Dans toutes les versions de Logan's Run, roman, film, comics, la société de demain est gouvernée par un supercalculateur et ce depuis que les humains ont décidé de renoncer à leur liberté suite à la grande guerre. \n Le Data Center qui regroupe l'ensemble des circuits constituants le système d'information (ordinateurs centraux, serveurs, baies de stockage, équipements réseaux et de télécommunications) de l'IA THINKER, a été assemblé quelque part dans les sous-sols de la montagne Crazy Horse. Des robots (les aigle Mechas) tuent quiconque tenterait de pénétrer la zone."
+                                }                         
+                              },
+          "Trottoir mécanique": {
+                "id": 113,
+                "titre": "Trottoir mécanique",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "trottoir roulant",
+                        "categories": "appareillage",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "Comme il n'y a pas de voiture dans Logan's run, les citoyens qui souhaitent se rendrent d'un quartier à un autre utilisent les trottoirs électriques."
+                        }                             
+                },
+          "Tri Di": {
+                "id": 114,
+                "titre": "Tri-Di",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "",
+                        "categories": "",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": ""
+                        }                             
+                  },
+          "Titan": {
+                "id": 115,
+                "titre": "spacecraft-titan",
+                "image": "./assets/images/images-générales/titan.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                        "autres_identites": "",
+                        "categories": "fusée",
+                        "apparition": "roman Logans'run, comics",
+                        "contenu": "Ce sont les tous derniers modèles de fusées utilisés par la NASA pour envoyer les astronautes dans l'espace. Incapable de développer une technologie révolutionnaire qui lui permettrait d'atteindre d'autres systèmes stellaires, l'humanité a abandonné son rêve d'explorer l'univers au 21ème siècle. Ballard et son réseau de la résistance utilise ces fusées pour transporter les fugitifs vers la station spatiale Argos."
+                  } 
+                }                          
+              },
+      "U": {
+          "Unité de vie": {
+                "id": 116,
+                "titre": "Unité de vie",
+                "image": "./assets/images/images-générales/unite_de_vie.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/film_logans_run.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                          "autres_identites": "quartier résidentiel",
+                          "categories": "lieu",
+                          "apparition": "roman Logans'run, film, comics",
+                          "contenu": "Dans l'univers de Logan's Run, chaque citoyen doit subvenir à ses besoins dès qu'il atteint l'âge adulte. Cependant, aucune mention d'argent n'est faite, ce qui laisse supposer que le travail est orienté vers le service de la communauté. Chaque homme ou femme a ainsi droit à un logement individuel. Le film montre clairement que les limiers jouissent d'appartements luxueux, reflet de leur statut privilégié au sein de cette société."
+                          }                        
+                  }   
+                },
+      "V": {
+          "Vapor": {
+                "id": 117,
+                "titre": "Vapor",
+                "image": "./assets/images/images-générales/logans_run_first-novel.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png",
+                  "./assets/images/icones/roman_logans_world.png"
+                ],
+                  "rubriques": {
+                          "autres_identites": "gaz",
+                          "categories": "gaz",
+                          "apparition": "roman Logans'run, film, comics",
+                          "contenu": "se référer à revolver limier"
+                          }
+                  },
+          "vibrolame": {
+                "id": 118,
+                "titre": "vibrolame",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/marvel.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                          "autres_identites": "",
+                          "categories": "arme",
+                          "apparition": "roman Logans'run et comics",
+                          "contenu": ""
+                          }
+                  }   
+          },
+      "W": {
+          "Warden": {
+                "id": 119,
+                "titre": "Warden",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                          "autres_identites": "",
+                          "categories": "transhumain",
+                          "apparition": "roman Logans'run, comics",
+                          "contenu": "C'est l'un des détenus de l'Enfer, un désert de glace où sont transférés les citoyens ingérables tels que les meurtriers et les violeurs. En règle générale, les nouveaux arrivants n'y survivent pas longtemps, mais certains font exception à la règle, tel Warden, qui y est arrivé il y a un an."
+                  }
+                },
+          "Watchman": {
+                "id": 120,
+                "titre": "Watchman",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/bluewater.png",
+                  "./assets/images/icones/adventure_comics.png",
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                          "autres_identites": "Watchman",
+                          "categories": "robot guetteur",
+                          "apparition": "roman Logans'run, film, comics",
+                          "contenu": ""
+                          }
+                  },
+          "Webster": {
+                "id": 121,
+                "titre": "Webster",
+                "image": "./assets/images/images-générales/title_logans_run.png",
+                "imageMedia":[
+                  "./assets/images/icones/roman_logans_run.png"
+                ],
+                  "rubriques": {
+                          "autres_identites": "",
+                          "categories": "transhumain",
+                          "apparition": "roman Logans'run, comics",
+                          "contenu": ""
+                          }
+                  },
+            "Wilson": {
+                  "id": 122,
+                  "titre": "Wilson",
+                  "image": "./assets/images/images-générales/title_logans_run.png",
+                  "imageMedia":[
+                    "./assets/images/icones/roman_logans_run.png"
+                  ],
+                    "rubriques": {
+                            "autres_identites": "",
+                            "categories": "transhumain",
+                            "apparition": "roman Logans'run et comics",
+                            "contenu": "Policier abattu par les louveteaux lors d'une intervention à Cathédrale."
+                            }
+                  }   
+            }
+    
+  }
+  

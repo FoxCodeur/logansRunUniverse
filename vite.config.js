@@ -9,17 +9,17 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/logansRunUniverse", // Chemin de base pour le déploiement
+  base: process.env.NODE_ENV === "production" ? "/logansRunUniverse/" : "/",
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src"), // Alias pour éviter les chemins relatifs
+      "@": path.resolve(__dirname, "src"),
     },
   },
   build: {
-    minify: "terser", // Utilisation de Terser pour la minification
+    minify: "terser",
     terserOptions: {
       compress: {
-        drop_console: true, // Supprimer les appels console.log lors de la minification
+        drop_console: true,
       },
     },
   },

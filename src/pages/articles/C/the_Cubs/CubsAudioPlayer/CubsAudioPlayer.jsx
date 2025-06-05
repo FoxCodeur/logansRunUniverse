@@ -7,7 +7,7 @@ import cubs from "@/assets/images/images-générales/cubs_player.png";
 
 // Importation des fichiers audio
 import terminatedInCathedral from "@/assets/sons/cubs/Terminated_in_Cathedral.mp3";
-import cubsAudio from "@/assets/sons/Cubs.mp3";
+import cubsAudio from "@/assets/sons/cubs/Cubs.mp3";
 
 const CubsAudioPlayer = () => {
   const [audioSrc, setAudioSrc] = useState(terminatedInCathedral);

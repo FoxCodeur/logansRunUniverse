@@ -1,7 +1,6 @@
 @use "@/styles/mixins" as *;
 @use "@/styles/variables" as *;
 
-// === Styles généraux (cards, grid, etc.) restent inchangés ===
 .portfolio-grid-container {
   @include flex-justify-center;
   align-items: flex-start;
@@ -37,10 +36,11 @@
   -webkit-backdrop-filter: blur(15px) saturate(110%);
   overflow: hidden;
   transition:
-    transform 0.22s cubic-bezier(0.23, 1.36, 0.62, 1.01),
-    box-shadow 0.22s,
+    transform 0.33s cubic-bezier(0.23, 1.36, 0.62, 1.01),
+    box-shadow 0.33s,
     border 0.18s,
-    background 0.18s;
+    background 0.18s,
+    filter 0.33s;
 
   &::before {
     content: "";
@@ -123,12 +123,16 @@
     }
   }
 
-  // === Ajout du hover général pour la carte ===
-  &:hover {
-    transform: translateY(-8px) scale(1.015);
+  // Impression 3D sur hover
+  &:hover,
+  &:focus {
+    transform: perspective(950px) rotateY(11deg) rotateX(6deg) scale(1.025)
+      translateY(-10px);
     box-shadow:
-      0 16px 48px 0 rgba(80, 90, 210, 0.18),
-      0 6px 22px rgba(0, 0, 0, 0.1);
+      0 20px 38px 0 rgba(80, 90, 210, 0.2),
+      0 8px 32px 0 rgba(80, 90, 210, 0.16),
+      0 12px 32px 0 rgba(50, 60, 110, 0.07);
+    filter: drop-shadow(0 10px 24px #8ecaff55);
     background: rgba(246, 248, 255, 0.99);
     border-color: #bfc8ff;
     z-index: 2;
@@ -218,7 +222,7 @@
 
 .modal-portfolio-content li.modal-portfolio-paragraph {
   position: relative;
-  padding-left: 1.7em; // espace pour la puce
+  padding-left: 1.7em;
   margin-bottom: 0.65em;
   color: #35396a;
   font-weight: 600;
@@ -229,7 +233,7 @@
     content: "";
     position: absolute;
     left: 0;
-    top: 0.72em; // <-- Ajuste cette valeur pour centrer parfaitement la puce sur la première ligne
+    top: 0.72em;
     width: 0.7em;
     height: 0.7em;
     background: $accent-bullet;

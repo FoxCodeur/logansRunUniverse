@@ -130,3 +130,52 @@
   align-items: $align-items;
   justify-content: $justify-content;
 }
+// Les mixins pour le portfolio
+// Mixin 3D/hover effect for portfolio cards
+// === Mixin pour effet 3D/hover sur une carte ===
+@mixin card-3d-hover(
+  $perspective: 950px,
+  $rotateY: 11deg,
+  $rotateX: 6deg,
+  $scale: 1.025,
+  $translateY: -10px,
+  $shadow1: 0 20px 38px 0 rgba(80, 90, 210, 0.2),
+  $shadow2: 0 8px 32px 0 rgba(80, 90, 210, 0.16),
+  $shadow3: 0 12px 32px 0 rgba(50, 60, 110, 0.07),
+  $filter: drop-shadow(0 10px 24px #8ecaff55),
+  $bg: rgba(246, 248, 255, 0.99),
+  $border: #bfc8ff
+) {
+  transform: perspective($perspective) rotateY($rotateY) rotateX($rotateX)
+    scale($scale) translateY($translateY);
+  box-shadow: $shadow1, $shadow2, $shadow3;
+  filter: $filter;
+  background: $bg;
+  border-color: $border;
+  z-index: 2;
+}
+// -------------------------------------------------------------------
+// === Nouveau : Mixin pour la base d'une card générique ===
+@mixin card-base(
+  $bg: rgba(250, 250, 255, 0.95),
+  $radius: 1.45rem,
+  $padding: 2.1rem 1.7rem 2.7rem 1.7rem,
+  $shadow: (
+    0 8px 32px 0 rgba(80, 90, 210, 0.12),
+    0 2.5px 12px rgba(0, 0, 0, 0.07),
+  ),
+  $border: 1.5px solid rgba(130, 160, 255, 0.14),
+  $backdrop: blur(15px) saturate(110%)
+) {
+  position: relative;
+  background: $bg;
+  min-height: 400px;
+  height: 100%;
+  border-radius: $radius;
+  box-shadow: nth($shadow, 1), nth($shadow, 2);
+  padding: $padding;
+  border: $border;
+  backdrop-filter: $backdrop;
+  -webkit-backdrop-filter: $backdrop;
+  overflow: hidden;
+}

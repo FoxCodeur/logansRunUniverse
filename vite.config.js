@@ -9,6 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "/logansRunUniverse", // Chemin de base pour le déploiement
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"), // Alias pour éviter les chemins relatifs

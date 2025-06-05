@@ -138,7 +138,7 @@
     "id": 11,
     "title": "Le Combattant de l'Autoroute",
     "image": "https://placehold.co/400x250?text=Le+Combattant+de+l'Autoroute",
-    "summary": "Résumé du projet.",
+    "summary": "Ce projet est une adaptation numérique de l’expérience du livre-jeu, où le lecteur devient acteur de l’aventure. L’application, réalisée en React, propose une interface immersive permettant de parcourir un récit à embranchements, de faire des choix et d’en découvrir les conséquences en temps réel.",
     "details": {
       "objectif": "Objectif du projet.",
       "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],

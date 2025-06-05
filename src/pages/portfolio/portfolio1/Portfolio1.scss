@@ -1,6 +1,8 @@
 @use "@/styles/mixins" as *;
 @use "@/styles/variables" as *;
 
+// Centrage du conteneur principal grid.
+// Utilise le mixin flex-justify-center pour centrer horizontalement le contenu.
 .portfolio-grid-container {
   @include flex-justify-center;
   align-items: flex-start;
@@ -17,24 +19,20 @@
   width: 100%;
 }
 
+// Styles de base pour toutes les cards du portfolio.
+// Utilise le mixin card-base pour factoriser les styles génériques de card (.portfolio-card)
 .portfolio-card {
-  position: relative;
-  background: rgba(250, 250, 255, 0.95);
-  min-height: 400px;
-  height: 100%;
-  border-radius: 1.45rem;
-  box-shadow:
-    0 8px 32px 0 rgba(80, 90, 210, 0.12),
-    0 2.5px 12px rgba(0, 0, 0, 0.07);
-  padding: 2.1rem 1.7rem 2.7rem 1.7rem;
+  @include card-base(
+
+  ); // Applique le style générique de card (fond, arrondi, padding, ombre, etc.)
+
   text-align: left;
+
+  // Utilise le mixin flex-column pour organiser verticalement le contenu de la card.
   @include flex-column;
   justify-content: flex-start;
   align-items: flex-start;
-  border: 1.5px solid rgba(130, 160, 255, 0.14);
-  backdrop-filter: blur(15px) saturate(110%);
-  -webkit-backdrop-filter: blur(15px) saturate(110%);
-  overflow: hidden;
+
   transition:
     transform 0.33s cubic-bezier(0.23, 1.36, 0.62, 1.01),
     box-shadow 0.33s,
@@ -123,19 +121,11 @@
     }
   }
 
-  // Impression 3D sur hover
+  // Applique l'effet 3D sur hover/focus à la card.
+  // Utilise le mixin card-3d-hover pour donner une impression de profondeur sur hover (.portfolio-card:hover, .portfolio-card:focus)
   &:hover,
   &:focus {
-    transform: perspective(950px) rotateY(11deg) rotateX(6deg) scale(1.025)
-      translateY(-10px);
-    box-shadow:
-      0 20px 38px 0 rgba(80, 90, 210, 0.2),
-      0 8px 32px 0 rgba(80, 90, 210, 0.16),
-      0 12px 32px 0 rgba(50, 60, 110, 0.07);
-    filter: drop-shadow(0 10px 24px #8ecaff55);
-    background: rgba(246, 248, 255, 0.99);
-    border-color: #bfc8ff;
-    z-index: 2;
+    @include card-3d-hover();
   }
 }
 

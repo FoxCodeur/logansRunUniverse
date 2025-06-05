@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// Importation des bibliothèques nécessaires
 import ReactAudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css"; // Importer les styles CSS de la bibliothèque ReactAudioPlayer
 import { LazyLoadImage } from "react-lazy-load-image-component";

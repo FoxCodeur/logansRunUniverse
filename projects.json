@@ -21,10 +21,10 @@
     "id": 2,
     "title": "Booki",
     "image": "https://placehold.co/400x250?text=Booki",
-    "summary": "Résumé du projet.",
+    "summary": "Créer la page d’accueil responsive d’une agence de voyage à partir de maquettes Figma, en utilisant uniquement HTML et CSS.",
     "details": {
-      "objectif": "Objectif du projet.",
-      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "objectif": "Intégrer fidèlement l’interface du site selon la maquette, en assurant une adaptation parfaite sur mobile, tablette et desktop.",
+      "travail": ["Construction de la structure HTML", "Création et stylisation des composants en CSS","Mise en place du design responsive pour tous les écrans","Utilisation des ressources fournies (maquettes, images, note de synthèse)"],
       "code": "#",
       "demo": "#",
       "deliverable": "Livrable à venir"
@@ -34,10 +34,10 @@
     "id": 3,
     "title": "Oh My Food",
     "image": "https://placehold.co/400x250?text=Oh+My+Food",
-    "summary": "Résumé du projet.",
+    "summary": "Intégration mobile-first de l’interface d’un site pour une start-up, avec Sass, animations CSS et gestion de version via Git/GitHub.",
     "details": {
-      "objectif": "Objectif du projet.",
-      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "objectif": "Intégrer la maquette en mobile-first, enrichir l’interface avec des animations CSS, utiliser Sass pour structurer les styles et versionner le projet avec Git et GitHub.",
+      "travail": ["Intégration de la maquette mobile et desktop à partir du prototype Figma", "Mise en place du design mobile-first et responsive","Utilisation de Sass pour organiser et optimiser le CSS","Implémentation d’animations CSS pour améliorer l’expérience utilisateur","Gestion du projet avec Git et GitHub"],
       "code": "#",
       "demo": "#",
       "deliverable": "Livrable à venir"
@@ -47,10 +47,10 @@
     "id": 4,
     "title": "Print-It",
     "image": "https://placehold.co/400x250?text=Print-It",
-    "summary": "Résumé du projet.",
+    "summary": "Découvrir les bases de JavaScript en dynamisant le site d’une imprimerie, notamment en y ajoutant un carrousel interactif.",
     "details": {
-      "objectif": "Objectif du projet.",
-      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "objectif": "Ajout d’un carrousel interactif en JavaScript pour dynamiser le site statique d’une imprimerie.",
+      "travail": ["Exploration des fondamentaux de JavaScript pour le web.", "Mise à jour du code HTML existant.","Création et intégration d’un carrousel interactif en JavaScript.","Manipulation du DOM pour relier HTML, CSS et JavaScript.","Utilisation de Visual Studio Code pour le développement et de GitHub pour le versionnement."],
       "code": "#",
       "demo": "#",
       "deliverable": "Livrable à venir"
@@ -60,10 +60,10 @@
     "id": 5,
     "title": "Portfolio-architecte-sophie-bluel",
     "image": "https://placehold.co/400x250?text=Portfolio+architecte+sophie+bluel",
-    "summary": "Résumé du projet.",
+    "summary": "Création d’une page web dynamique pour une architecte d’intérieur, en utilisant JavaScript et en communiquant avec une API.",
     "details": {
-      "objectif": "Objectif du projet.",
-      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "objectif": "Développer la partie front-end pour afficher les réalisations de l’architecte, permettre l’authentification de l’administrateur et l’upload de nouveaux médias, tout en interagissant avec une API.",
+      "travail": ["Intégration de la page de présentation à partir du HTML fourni", "Manipulation du DOM et gestion des événements utilisateurs en JavaScript","Création d’une page de connexion pour l’administrateur","Développement d’une modale pour l’ajout de nouveaux médias","Communication avec une API pour l’affichage et la gestion des données","Utilisation de Figma, Visual Studio Code et GitHub pour le développement et le versionnement"],
       "code": "#",
       "demo": "#",
       "deliverable": "Livrable à venir"
@@ -73,10 +73,10 @@
     "id": 6,
     "title": "Kaza",
     "image": "https://placehold.co/400x250?text=Kaza",
-    "summary": "Résumé du projet.",
+    "summary": "Réalisation du front-end d’une application de location immobilière avec React, en suivant des maquettes et en utilisant des données simulées.",
     "details": {
-      "objectif": "Objectif du projet.",
-      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "objectif": "Mettre en œuvre une interface utilisateur moderne et réactive avec React, gérer la navigation avec React Router, et styliser l’application avec SASS et des animations CSS.",
+      "travail": ["Initialisation du projet avec Vite pour une configuration rapide", "Création des composants React pour afficher les données immobilières","Utilisation de React Router pour la navigation entre les pages","Intégration des maquettes fournies et utilisation de données simulées (JSON)","Stylisation avancée avec SASS et implémentation d’animations CSS","Étape 2 réalisée","Exécution du code avec Node.js en environnement local"],
       "code": "#",
       "demo": "#",
       "deliverable": "Livrable à venir"
@@ -86,10 +86,10 @@
     "id": 7,
     "title": "Nina Carducci",
     "image": "https://placehold.co/400x250?text=Nina+Carducci",
-    "summary": "Résumé du projet.",
+    "summary": "Optimisation du référencement (SEO) et de l’accessibilité d’un site de photographe en freelance, avec analyse, recommandations et application d’améliorations.",
     "details": {
-      "objectif": "Objectif du projet.",
-      "travail": ["Étape 1 réalisée", "Étape 2 réalisée"],
+      "objectif": "Identifier et corriger les problèmes de performance, d’accessibilité et de référencement afin d’améliorer la visibilité du site sur les moteurs de recherche.",
+      "travail": ["Analyse des performances et du référencement du site (Lighthouse, Wave)", "dentification des problèmes de chargement et d’accessibilité","Rédaction de recommandations pour optimiser la vitesse, la structure du code, et le SEO","Mise en œuvre des améliorations dans le code du site","Création d’un rapport illustré avec les résultats avant/après et explication de l’impact des changements"],
       "code": "#",
       "demo": "#",
       "deliverable": "Livrable à venir"

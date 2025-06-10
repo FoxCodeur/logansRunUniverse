@@ -2,7 +2,7 @@ import React from "react";
 import NavbarPortfolio from "./navbarPortfolio/NavbarPortfolio";
 import Hero from "./hero/Hero";
 import Parallax1 from "./parallax1/Parallax1";
-import Services from "./services/Services";
+import Skills from "./services/Skills";
 import Parallaxe2 from "./parallax2/Parallax2";
 import Portfolio1 from "./portfolio1/Portfolio1";
 import Contact from "./contact/Contact";
@@ -22,7 +22,7 @@ const Portfolio = () => {
           <Parallax1 />
         </section>
         <section className="sectionPortfolio" id="Services">
-          <Services />
+          <Skills />
         </section>
         <section className="sectionPortfolio" id="Portfolio">
           <Parallaxe2 />

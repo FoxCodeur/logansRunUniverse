@@ -1,9 +1,12 @@
-import React, { createContext, useState, useEffect, useContext } from "react";
+import React, { createContext, useState, useEffect } from "react";
 
-const PortfolioContext = createContext();
+// Création du contexte pour le portfolio
+export const PortfolioContext = createContext();
 
-export const usePortfolio = () => useContext(PortfolioContext);
-
+/**
+ * Ce composant provider gère l'état des projets du portfolio (projets, chargement, erreurs)
+ * et rend ces données disponibles à tous ses enfants via le contexte.
+ */
 export const PortfolioProvider = ({ children }) => {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);

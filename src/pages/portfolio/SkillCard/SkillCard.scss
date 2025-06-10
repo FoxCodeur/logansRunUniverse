@@ -1,3 +1,26 @@
+.skills-section {
+  width: 100%;
+  padding: 2rem 0;
+  background: transparent;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+    color: #222;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 .skill-card {
   background: #181818;
   border-radius: 18px;
@@ -7,34 +30,121 @@
   padding: 2rem 1.5rem;
   margin: 1rem;
   transition:
-    transform 0.2s,
-    box-shadow 0.2s;
+    background 0.4s cubic-bezier(0.65, 0, 0.35, 1),
+    box-shadow 0.4s cubic-bezier(0.65, 0, 0.35, 1),
+    backdrop-filter 0.4s cubic-bezier(0.65, 0, 0.35, 1),
+    border 0.4s cubic-bezier(0.65, 0, 0.35, 1),
+    color 0.3s,
+    transform 0.2s;
   min-width: 220px;
-  max-width: 280px;
-  flex: 1 1 240px;
+  max-width: 260px;
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  &:hover {
-    transform: translateY(-8px) scale(1.05);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.27);
-  }
-
   .skill-card-icon {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    z-index: 2;
+    position: relative;
+    transition: color 0.3s;
+    svg {
+      transition: color 0.3s;
+      color: inherit;
+    }
   }
   .skill-card-title {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
+    z-index: 2;
+    position: relative;
+    transition: color 0.3s;
   }
   .skill-card-description {
     font-size: 0.96rem;
     opacity: 0.85;
+    z-index: 2;
+    position: relative;
+    transition: color 0.3s;
+  }
+
+  // GitHub icon couleur par défaut
+  .skill-card-icon .github-icon {
+    color: #fff;
+    transition: color 0.3s;
+  }
+
+  &:hover,
+  &:focus-visible {
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px) saturate(1.2);
+    -webkit-backdrop-filter: blur(12px) saturate(1.2);
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    transform: translateY(-8px) scale(1.04);
+    color: #111;
+
+    .skill-card-title,
+    .skill-card-description {
+      color: #111;
+    }
+    .skill-card-icon {
+      filter: none;
+    }
+    // Seule l'icône GitHub devient noire au hover
+    .skill-card-icon .github-icon {
+      color: #000 !important;
+    }
+    &::after {
+      opacity: 1;
+    }
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.24) 100%
+    );
+    opacity: 0;
+    transition: opacity 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+    z-index: 1;
+  }
+  * {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .skills-list {
+    gap: 1rem;
+  }
+  .skill-card {
+    min-width: 180px;
+    max-width: 220px;
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-list {
+    flex-direction: column !important;
+    gap: 1.2rem;
+    align-items: center;
+  }
+  .skill-card {
+    width: 95vw;
+    min-width: unset;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 1.5rem 0.7rem;
   }
 }

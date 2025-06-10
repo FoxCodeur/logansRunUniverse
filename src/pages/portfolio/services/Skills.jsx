@@ -40,7 +40,8 @@ const skills = [
     description: "CSS pre-processor with advanced features.",
   },
   {
-    icon: <DiGithubAlt color="#fff" />,
+    // Ajout de la classe github-icon ici
+    icon: <DiGithubAlt className="github-icon" color="#fff" />,
     title: "GitHub",
     description: "Platform for version control and collaboration.",
   },

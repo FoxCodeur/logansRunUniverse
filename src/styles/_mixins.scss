@@ -179,3 +179,79 @@
   -webkit-backdrop-filter: $backdrop;
   overflow: hidden;
 }
+// Mixin pour les images de card
+@mixin portfolio-card-img {
+  width: 100%;
+  max-width: 330px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 4px 16px 0 rgba(117, 117, 255, 0.07);
+  border: 1.5px solid #e8eefd;
+  background: #f5f6fa;
+  z-index: 1;
+  transition:
+    box-shadow 0.18s,
+    border 0.18s;
+}
+
+// Mixin pour les boutons du portfolio
+@mixin portfolio-button {
+  padding: 0.75rem 2.2rem;
+  margin-top: 1.6rem;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #161831 60%, #23244d 100%);
+  color: #fff;
+  border: 2.5px solid #4958a8;
+  border-radius: 0.9rem;
+  box-shadow: 0 2px 16px 0 rgba(80, 90, 210, 0.15);
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition:
+    background 0.23s,
+    border-color 0.23s,
+    transform 0.16s,
+    box-shadow 0.23s,
+    color 0.23s;
+}
+
+// Mixin pour hover des boutons du portfolio
+@mixin portfolio-button-hover {
+  background: #fff;
+  color: darkred;
+  border-color: red;
+  box-shadow: 0 8px 28px 0 rgba(255, 0, 0, 0.08);
+}
+
+// Mixin pour les titres h3 du portfolio
+@mixin portfolio-title {
+  font-size: 1.23rem;
+  margin: 0 0 0.7rem 0;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #222;
+  text-shadow:
+    1px 1px 0 #aaa,
+    2px 2px 0 #888,
+    3px 3px 2px #444,
+    4px 4px 8px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  transition:
+    color 0.23s,
+    text-shadow 0.23s;
+}
+
+// Mixin pour les transitions principales des cards
+@mixin portfolio-transition {
+  transition:
+    transform 0.33s cubic-bezier(0.23, 1.36, 0.62, 1.01),
+    box-shadow 0.33s,
+    border 0.18s,
+    background 0.18s,
+    filter 0.33s,
+    color 0.23s;
+}

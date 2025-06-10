@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // portfolio1
 import Modal from "../../../components/Modal/Modal";
 import "./Portfolio1.scss";
-import { usePortfolio } from "../Context/PortfolioContext";
+import { usePortfolio } from "../Context/usePortfolio";
 import { formatTextWithLineBreaks } from "../../../utils";
 
 const Portfolio1 = () => {

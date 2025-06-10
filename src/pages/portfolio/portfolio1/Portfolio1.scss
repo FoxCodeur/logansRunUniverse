@@ -1,8 +1,116 @@
 @use "@/styles/mixins" as *;
 @use "@/styles/variables" as *;
-// projet portfolio
-// Centrage du conteneur principal grid.
-// Utilise le mixin flex-justify-center pour centrer horizontalement le contenu.
+
+// ==============================
+// MIXINS PORTFOLIO SPÉCIFIQUES
+// ==============================
+
+/**
+ * Mixin pour styliser les images au sein des cards du portfolio.
+ * Applique une taille maximale, un arrondi, une ombre légère, un fond blanc cassé
+ * et une transition douce sur l'ombre et la bordure.
+ * Usage : @include portfolio-card-img;
+ */
+@mixin portfolio-card-img {
+  width: 100%;
+  max-width: 330px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 4px 16px 0 rgba(117, 117, 255, 0.07);
+  border: 1.5px solid #e8eefd;
+  background: #f5f6fa;
+  z-index: 1;
+  transition:
+    box-shadow 0.18s,
+    border 0.18s;
+}
+
+/**
+ * Mixin pour styliser le bouton principal des cards du portfolio.
+ * Utilise un dégradé de fond, du texte blanc, des coins arrondis, une ombre subtile,
+ * une bordure colorée et des transitions pour un effet interactif.
+ * Usage : @include portfolio-button;
+ */
+@mixin portfolio-button {
+  padding: 0.75rem 2.2rem;
+  margin-top: 1.6rem;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #161831 60%, #23244d 100%);
+  color: #fff;
+  border: 2.5px solid #4958a8;
+  border-radius: 0.9rem;
+  box-shadow: 0 2px 16px 0 rgba(80, 90, 210, 0.15);
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition:
+    background 0.23s,
+    border-color 0.23s,
+    transform 0.16s,
+    box-shadow 0.23s,
+    color 0.23s;
+}
+
+/**
+ * Mixin pour l'effet hover/active du bouton principal du portfolio.
+ * Change le fond en blanc, le texte en darkred et la bordure en rouge,
+ * tout en ajoutant une ombre rouge légère.
+ * Usage : @include portfolio-button-hover;
+ */
+@mixin portfolio-button-hover {
+  background: #fff;
+  color: darkred;
+  border-color: red;
+  box-shadow: 0 8px 28px 0 rgba(255, 0, 0, 0.08);
+}
+
+/**
+ * Mixin pour styliser les titres h3 des cards du portfolio.
+ * Applique une taille, un poids, un léger espacement, une couleur sombre
+ * et plusieurs couches d'ombre pour donner du relief au texte.
+ * Usage : @include portfolio-title;
+ */
+@mixin portfolio-title {
+  font-size: 1.23rem;
+  margin: 0 0 0.7rem 0;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #222;
+  text-shadow:
+    1px 1px 0 #aaa,
+    2px 2px 0 #888,
+    3px 3px 2px #444,
+    4px 4px 8px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  transition:
+    color 0.23s,
+    text-shadow 0.23s;
+}
+
+/**
+ * Mixin pour factoriser les transitions principales sur les cards du portfolio.
+ * Permet une animation douce sur la transformation, l'ombre, la bordure, le fond,
+ * le filtre et la couleur.
+ * Usage : @include portfolio-transition;
+ */
+@mixin portfolio-transition {
+  transition:
+    transform 0.33s cubic-bezier(0.23, 1.36, 0.62, 1.01),
+    box-shadow 0.33s,
+    border 0.18s,
+    background 0.18s,
+    filter 0.33s,
+    color 0.23s;
+}
+
+// ==============================
+// STYLES PORTFOLIO
+// ==============================
+
 .portfolio-grid-container {
   @include flex-justify-center;
   align-items: flex-start;
@@ -20,112 +128,48 @@
 }
 
 // Styles de base pour toutes les cards du portfolio.
-// Utilise le mixin card-base pour factoriser les styles génériques de card (.portfolio-card)
 .portfolio-card {
-  @include card-base(
-
-  ); // Applique le style générique de card (fond, arrondi, padding, ombre, etc.)
-
+  @include card-base();
   text-align: left;
-
-  // Utilise le mixin flex-column pour organiser verticalement le contenu de la card.
   @include flex-column;
   justify-content: flex-start;
   align-items: flex-start;
-
-  transition:
-    transform 0.33s cubic-bezier(0.23, 1.36, 0.62, 1.01),
-    box-shadow 0.33s,
-    border 0.18s,
-    background 0.18s,
-    filter 0.33s;
-
-  &::before {
-    content: "";
-    pointer-events: none;
-    position: absolute;
-    top: 0.7rem;
-    left: 0.7rem;
-    right: 0.7rem;
-    height: 13%;
-    background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.34) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    border-radius: 1.1rem;
-    z-index: 2;
-    filter: blur(1.7px);
-  }
+  @include portfolio-transition;
 
   img {
-    width: 100%;
-    max-width: 330px;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 1rem;
-    margin-bottom: 1.25rem;
-    box-shadow: 0 4px 16px 0 rgba(117, 117, 255, 0.07);
-    border: 1.5px solid #e8eefd;
-    background: #f5f6fa;
-    z-index: 1;
-    transition:
-      box-shadow 0.18s,
-      border 0.18s;
+    @include portfolio-card-img;
   }
 
   h3 {
-    font-size: 1.23rem;
-    margin: 0 0 0.7rem 0;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-    background: linear-gradient(90deg, #7f9cf5 30%, #a5b4fc 70%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    z-index: 1;
+    @include portfolio-title;
   }
 
   button {
-    padding: 0.75rem 2.2rem;
-    margin-top: 1.6rem;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 700;
-    background: linear-gradient(90deg, #161831 60%, #23244d 100%);
-    color: #fff;
-    border: 2.5px solid #4958a8;
-    border-radius: 0.9rem;
-    box-shadow: 0 2px 16px 0 rgba(80, 90, 210, 0.15);
-    cursor: pointer;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    transition:
-      background 0.23s,
-      border-color 0.23s,
-      transform 0.16s,
-      box-shadow 0.23s;
+    @include portfolio-button;
 
     &:hover {
-      background: linear-gradient(90deg, #23244d 60%, #3e448c 100%);
-      border-color: #6e7ad2;
-      transform: translateY(-2px) scale(1.05);
-      box-shadow: 0 8px 28px 0 rgba(80, 90, 210, 0.2);
+      @include portfolio-button-hover;
     }
-
     &:active {
-      background: #191a36;
-      border-color: #37428b;
-      transform: scale(0.97);
+      @include portfolio-button-hover;
     }
   }
 
-  // Applique l'effet 3D sur hover/focus à la card.
-  // Utilise le mixin card-3d-hover pour donner une impression de profondeur sur hover (.portfolio-card:hover, .portfolio-card:focus)
+  // Effet 3D et changement couleur texte/fond au hover
   &:hover,
   &:focus {
     @include card-3d-hover();
+    background: linear-gradient(120deg, #22246a 0%, #3d54b2 100%);
+    color: #fff;
+
+    h3,
+    p,
+    a,
+    li {
+      color: #fff !important;
+      text-shadow: none;
+    }
+    // Le bouton garde sa couleur personnalisée au hover
   }
 }
 

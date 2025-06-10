@@ -11,10 +11,14 @@ import "./Portfolio.scss";
 const Portfolio = () => {
   return (
     <>
-      <div className="sectionNavbar" id="Homepage">
+      <nav
+        className="sectionNavbar"
+        id="Homepage"
+        aria-label="Navigation principale"
+      >
         <NavbarPortfolio />
-      </div>
-      <div className="portfolioContainer">
+      </nav>
+      <main className="portfolioContainer">
         <section className="sectionPortfolio">
           <Hero />
         </section>
@@ -33,7 +37,7 @@ const Portfolio = () => {
         <section className="sectionPortfolio" id="Contact">
           <Contact />
         </section>
-      </div>
+      </main>
     </>
   );
 };

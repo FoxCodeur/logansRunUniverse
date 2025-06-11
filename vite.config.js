@@ -5,9 +5,9 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-export default defineConfig(({ mode }) => ({
+export default defineConfig({
   plugins: [react()],
-  base: mode === "production" ? "/logansRunUniverse/" : "/",
+  base: "/", // Pour Vercel, toujours "/"
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
@@ -21,4 +21,4 @@ export default defineConfig(({ mode }) => ({
       },
     },
   },
-}));
+});

@@ -1,54 +1,54 @@
 import React from "react";
-import { usePortfolio } from "./usePortfolio";
-import "./Experience.scss";
+import "./Experience.scss"; // Assure-toi d'avoir le SCSS adapté
 
-const Experience = () => {
-  const { experiences, loadingExperiences, experiencesError } = usePortfolio();
+const timelineItems = [
+  {
+    date: "2024 - 2025",
+    title: "Développeur React",
+    subtitle: "Entreprise X, Paris",
+    description: "Développement d'applications web modernes.",
+  },
+  {
+    date: "2022 - 2024",
+    title: "Diplôme d’ingénieur",
+    subtitle: "École Y",
+    description: "Spécialisation en développement web.",
+  },
+  {
+    date: "2021",
+    title: "Stage Développeur",
+    subtitle: "Startup Z",
+    description: "Participation à la création d’une application mobile.",
+  },
+  {
+    date: "2020",
+    title: "Baccalauréat Scientifique",
+    subtitle: "Lycée ABC",
+    description: "Mention très bien.",
+  },
+];
 
-  return loadingExperiences ? (
-    <div>Chargement…</div>
-  ) : experiencesError ? (
-    <div>Erreur : {experiencesError}</div>
-  ) : (
-    <div className="experience-wrapper">
-      <h2 className="experience-title">Parcours professionnel</h2>
-      <div className="timeline">
-        {experiences.map((exp, idx) => (
-          <div className="timeline-item" key={idx}>
-            <div className="timeline-marker" />
-            <div className="timeline-content">
-              <span className="timeline-period">{exp.period}</span>
-              <h3 className="timeline-title">{exp.title}</h3>
-              <span className="timeline-company">{exp.company}</span>
-              <span className="timeline-location">{exp.location}</span>
-              <div className="timeline-description">
-                <p>{exp.description}</p>
-                {exp.certification &&
-                exp.certification.titre &&
-                exp.certification.titre.trim() !== "" ? (
-                  <div className="certification-section">
-                    <p>
-                      <b>Titre professionnel visé&nbsp;:</b>{" "}
-                      {exp.certification.titre}
-                      <br />
-                      <b>Niveau de certification&nbsp;:</b>{" "}
-                      {exp.certification.niveau}
-                      <br />
-                      <b>CCP obtenu&nbsp;:</b> {exp.certification.ccp}
-                    </p>
-                    <p>
-                      <b>Date d'obtention&nbsp;:</b>{" "}
-                      {exp.certification.date_obtention}
-                    </p>
-                  </div>
-                ) : null}
-              </div>
-            </div>
+const Experience = () => (
+  <div className="timeline-wrapper">
+    <h2 className="timeline-main-title">Mon parcours</h2>
+    <div className="timeline">
+      {timelineItems.map((item, idx) => (
+        <div className="timeline-item" key={idx}>
+          <div className="timeline-marker" />
+          <div className="timeline-content">
+            <div className="timeline-date">{item.date}</div>
+            <div className="timeline-title">{item.title}</div>
+            {item.subtitle && (
+              <div className="timeline-subtitle">{item.subtitle}</div>
+            )}
+            {item.description && (
+              <div className="timeline-description">{item.description}</div>
+            )}
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
-  );
-};
+  </div>
+);
 
 export default Experience;

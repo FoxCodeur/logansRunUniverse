@@ -310,3 +310,69 @@
     text-decoration: underline solid #ffb800;
   }
 }
+
+// ========== Technologies sous la modale ==========
+
+/**
+ * Conteneur de la liste des technologies utilisées dans la modale.
+ */
+.modal-portfolio-technologies {
+  margin-top: 2.2rem;
+  h4 {
+    color: #2b284d;
+    font-size: 1.07rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.01em;
+  }
+}
+
+/**
+ * Liste horizontale des badges technologies.
+ */
+.technologies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  list-style: none;
+  padding: 0;
+}
+
+/**
+ * Badge unique pour chaque technologie utilisée.
+ * Style doux, arrondi, couleur harmonieuse avec le site.
+ * Peut être personnalisé facilement (couleur, padding, etc).
+ */
+.technology-badge {
+  /* Fond semi-transparent en glassmorphism */
+  background: linear-gradient(
+    120deg,
+    rgba(219, 234, 254, 0.32) 60%,
+    rgba(186, 230, 253, 0.28) 100%
+  );
+  /* Effet de flou derrière le badge */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* Safari */
+  /* Bordure blanche subtile et arrondie */
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  border-radius: 14px;
+  /* Typographie */
+  color: #1e293b;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  padding: 0.28em 1.22em;
+  margin-bottom: 0.18em;
+  margin-right: 0.15em;
+  /* Effet glassmorphisme réaliste avec 2 ombres */
+  box-shadow:
+    0 2px 12px 0 rgba(37, 99, 235, 0.13),
+    /* ombre colorée bleue */ 0 1.5px 8px 0 rgba(255, 255, 255, 0.11),
+    /* lumière diffuse */ 0 0.5px 0.7px 0 rgba(255, 255, 255, 0.27) inset; /* reflet intérieur */
+  /* Animation douce au hover */
+  transition:
+    background 0.19s,
+    color 0.19s,
+    box-shadow 0.21s,
+    border 0.19s;
+}

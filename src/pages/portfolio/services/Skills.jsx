@@ -9,6 +9,10 @@ import {
   SiRedux,
   SiGit,
   SiSwagger,
+  SiFigma,
+  SiMongodb,
+  SiLighthouse,
+  SiGoogle,
 } from "react-icons/si";
 import { DiGithubAlt } from "react-icons/di";
 import "./Skills.scss";
@@ -23,6 +27,18 @@ const skills = [
     icon: <SiReact color="#61DAFB" />,
     title: "React",
     description: "Modern library for building user interfaces.",
+  },
+  {
+    // React Context avec une couleur différente (#21A1F3)
+    icon: <SiReact color="#21A1F3" />,
+    title: "React Context",
+    description: "Système de gestion d’état global pour React.",
+  },
+  {
+    // Redux avec une couleur différente (#764ABC est la couleur officielle Redux)
+    icon: <SiRedux color="#764ABC" />,
+    title: "Redux",
+    description: "Gestion centralisée de l’état des applications React.",
   },
   {
     icon: <SiHtml5 color="#E44D26" />,
@@ -40,15 +56,9 @@ const skills = [
     description: "CSS pre-processor with advanced features.",
   },
   {
-    // Ajout de la classe github-icon ici
     icon: <DiGithubAlt className="github-icon" color="#fff" />,
     title: "GitHub",
     description: "Platform for version control and collaboration.",
-  },
-  {
-    icon: <SiRedux color="#764ABC" />,
-    title: "Redux",
-    description: "State container for JavaScript apps.",
   },
   {
     icon: <SiGit color="#F05032" />,
@@ -59,6 +69,26 @@ const skills = [
     icon: <SiSwagger color="#85EA2D" />,
     title: "Swagger",
     description: "API design and documentation platform.",
+  },
+  {
+    icon: <SiFigma color="#F24E1E" />,
+    title: "Figma",
+    description: "Collaborative interface design tool.",
+  },
+  {
+    icon: <SiMongodb color="#47A248" />,
+    title: "MongoDB",
+    description: "NoSQL database for modern applications.",
+  },
+  {
+    icon: <SiLighthouse color="#F44B21" />,
+    title: "Lighthouse",
+    description: "Outil d'audit de performance, SEO et accessibilité web.",
+  },
+  {
+    icon: <SiGoogle color="#F9AB00" />,
+    title: "Google Analytics",
+    description: "Outil d'analyse de trafic et de performance web. (SEO)",
   },
 ];
 

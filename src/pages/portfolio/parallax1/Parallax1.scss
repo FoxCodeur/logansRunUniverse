@@ -1,0 +1,99 @@
+.parallax1-wrapper {
+  width: 100vw;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  padding-top: 48px; /* Ajoute de l'espace en haut */
+  padding-bottom: 48px; /* Ajoute de l'espace en bas */
+}
+
+.parallax1-section {
+  position: relative;
+  width: 1197px;
+  height: 597px;
+  overflow: hidden;
+  background: #000;
+  display: block;
+
+  /* Bordure stylée façon métal rouillé */
+  border: 8px solid #d2a94e;
+  border-radius: 32px;
+  box-shadow:
+    0 0 0 4px #4b3b11,
+    0 6px 48px 8px #000a,
+    0 0 28px 2px #d2a94e22 inset;
+  background-image:
+    repeating-linear-gradient(135deg, #2d2512 0 5px, transparent 5px 25px),
+    repeating-linear-gradient(45deg, #3e2b13 0 8px, transparent 8px 30px);
+  background-blend-mode: overlay;
+}
+
+.parallax1-section img {
+  position: absolute;
+  width: auto !important;
+  height: auto !important;
+  max-width: none;
+  max-height: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.parallax-bg {
+  z-index: 0;
+  left: 0;
+  top: 0;
+}
+
+.parallax-interceptor {
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  top: auto;
+}
+
+.parallax-logo {
+  z-index: 3;
+  left: 50%;
+  top: 04%;
+  transform: translateX(-50%);
+}
+
+/* Gutz, Skarr, Nyx réduits avec scale et bien positionnés */
+.parallax-gutz {
+  z-index: 4;
+  right: 0;
+  bottom: -1%;
+  left: -28%;
+  top: auto;
+  transform: scale(0.7);
+  transform-origin: bottom right;
+}
+
+.parallax-skarr {
+  z-index: 5;
+  right: 8%;
+  bottom: 0;
+  left: -29%;
+  top: auto;
+  transform: scale(0.7);
+  transform-origin: bottom right;
+}
+
+.parallax-nyx {
+  z-index: 6;
+  right: 0;
+  bottom: 0;
+  left: -5%;
+  top: auto;
+  transform: scale(0.7);
+  transform-origin: bottom right;
+}
+
+.parallax-logo,
+.parallax-gutz,
+.parallax-skarr,
+.parallax-nyx {
+  opacity: 0;
+}

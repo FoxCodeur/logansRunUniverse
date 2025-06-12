@@ -33,7 +33,10 @@
       gap: 10px;
     }
 
+    // Applique la taille sur les icônes et images sociales même quand elles sont dans un <a>
+    a .socialsStyle,
     .socialsStyle {
+      font-size: 1.9rem;
       position: relative;
       display: block;
       margin: 0 12px;
@@ -46,21 +49,26 @@
       &:hover {
         color: darkred;
       }
-    }
-
-    .github,
-    .linkedin {
-      font-size: 1.9rem;
-      margin-bottom: 1rem;
 
       @media screen and (max-width: 768px) {
         font-size: 1.4rem;
       }
     }
 
+    // Curseur en main sur tout le lien social
+    a {
+      cursor: pointer;
+    }
+
+    .github,
+    .linkedin {
+      margin-bottom: 1rem;
+    }
+
     .socialFox {
       margin-bottom: 1rem;
 
+      a .fox,
       .fox {
         width: 2.8rem;
 

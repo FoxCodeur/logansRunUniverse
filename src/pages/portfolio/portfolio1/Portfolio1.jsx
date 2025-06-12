@@ -1,10 +1,14 @@
 import React, { useState } from "react";
-// portfolio1
 import Modal from "../../../components/Modal/Modal";
 import "./Portfolio1.scss";
 import { usePortfolio } from "../Context/usePortfolio";
 import { formatTextWithLineBreaks } from "../../../utils";
 
+/**
+ * Portfolio1
+ * Affiche une grille de projets avec ouverture de modale au clic.
+ * Utilise le contexte usePortfolio pour récupérer les projets.
+ */
 const Portfolio1 = () => {
   const { projects, loading, fetchError } = usePortfolio();
   const [openModal, setOpenModal] = useState(null);
@@ -71,6 +75,22 @@ const Portfolio1 = () => {
                       {project.details.demo}
                     </a>
                   </p>
+                  {/* Technologies utilisées */}
+                  {project.technologies &&
+                    Object.values(project.technologies).some(Boolean) && (
+                      <div className="modal-portfolio-technologies">
+                        <h4>Technologies utilisées</h4>
+                        <ul className="technologies-list">
+                          {Object.entries(project.technologies)
+                            .filter(([, used]) => used)
+                            .map(([tech]) => (
+                              <li key={tech} className="technology-badge">
+                                {tech}
+                              </li>
+                            ))}
+                        </ul>
+                      </div>
+                    )}
                 </div>
               </Modal>
             )}

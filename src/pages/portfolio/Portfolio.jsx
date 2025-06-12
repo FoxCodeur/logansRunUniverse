@@ -6,7 +6,6 @@ import Skills from "./services/Skills";
 import Parallaxe2 from "./parallax2/Parallax2";
 import Portfolio1 from "./portfolio1/Portfolio1";
 import "./Portfolio.scss";
-import Experience from "./experience/Experience";
 
 const Portfolio = () => {
   return (
@@ -34,9 +33,7 @@ const Portfolio = () => {
         <section className="sectionPortfolio">
           <Portfolio1 />
         </section>
-        <section className="sectionPortfolio" id="Contact">
-          <Experience />
-        </section>
+        <section className="sectionPortfolio" id="Contact"></section>
       </main>
     </>
   );

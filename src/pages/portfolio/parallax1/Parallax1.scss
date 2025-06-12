@@ -62,8 +62,7 @@
 .parallax-logo {
   z-index: 3;
   left: 50%;
-  top: 4%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 // Gutz, Skarr, Nyx réduits avec scale et bien positionnés

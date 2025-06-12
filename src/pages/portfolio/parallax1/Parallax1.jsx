@@ -3,12 +3,12 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./Parallax1.scss";
 
-import portfolioRoadWarrior from "../../../assets/images/portfolioImages/portfolioRoadWarrior.png";
-import portfolioInterceptor from "../../../assets/images/portfolioImages/portfolioInterceptor.png";
-import portfolioLogo from "../../../assets/images/portfolioImages/portfolioLogo.png";
-import portfolioGutz from "../../../assets/images/portfolioImages/portfolioGutz.png";
-import portfolioSkarr from "../../../assets/images/portfolioImages/portfolioSkarr.png";
-import portfolioNyx from "../../../assets/images/portfolioImages/portfolioNyx.png";
+import portfolioRoadWarrior from "@/assets/images/portfolioImages/portfolioRoadWarrior.png";
+import portfolioInterceptor from "@/assets/images/portfolioImages/portfolioInterceptor.png";
+import portfolioLogo from "@/assets/images/portfolioImages/portfolioLogo.png";
+import portfolioGutz from "@/assets/images/portfolioImages/portfolioGutz.png";
+import portfolioSkarr from "@/assets/images/portfolioImages/portfolioSkarr.png";
+import portfolioNyx from "@/assets/images/portfolioImages/portfolioNyx.png";
 
 gsap.registerPlugin(ScrollTrigger);
 

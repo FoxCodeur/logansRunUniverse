@@ -1,23 +1,18 @@
 import React, { useState } from "react";
 import Modal from "../../../components/Modal/Modal";
 import "./Portfolio1.scss";
-import { usePortfolio } from "../Context/usePortfolio";
+import { usePortfolio } from "../Context/PortfolioProvider";
 import { formatTextWithLineBreaks } from "../../../utils";
 
-/**
- * Portfolio1
- * Affiche une grille de projets avec ouverture de modale au clic.
- * Utilise le contexte usePortfolio pour récupérer les projets.
- */
 const Portfolio1 = () => {
-  const { projects, loading, fetchError } = usePortfolio();
+  const { projects, loadingProjects, projectsError } = usePortfolio();
   const [openModal, setOpenModal] = useState(null);
 
-  if (loading)
+  if (loadingProjects)
     return <div className="portfolio-grid-container">Chargement...</div>;
-  if (fetchError)
+  if (projectsError)
     return (
-      <div className="portfolio-grid-container">Erreur : {fetchError}</div>
+      <div className="portfolio-grid-container">Erreur : {projectsError}</div>
     );
 
   return (

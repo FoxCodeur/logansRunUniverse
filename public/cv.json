@@ -1,0 +1,54 @@
+[
+  {
+    "period": "2025 - présent",
+    "title": "Intégrateur web",
+    "company": "OpenClassrooms",
+    "description": "Maîtrise des technologies web modernes : HTML5, CSS3, SASS, JavaScript, React, Redux, gestion d’API, responsive design, optimisation SEO, Git et GitHub. Réalisation de projets concrets et dynamiques en environnement professionnel.",
+    "location": "Bordeaux, France",
+    "certification": {
+      "titre": "",
+      "niveau": "Niveau 5",
+      "ccp": "",
+      "date_obtention": ""
+    }
+  },
+  {
+    "period": "09/2024 - 03/2025",
+    "title": "Développeur front-end",
+    "company": "O'clock",
+    "description": "Formation intensive au développement web full stack : création d’interfaces web responsives en HTML/CSS, développement back-end avec PHP, bases de données SQL, POO, et utilisation de frameworks comme Laravel et Wordpress. Conception d’APIs, gestion de projets complets, et spécialisation en développement d’interfaces dynamiques avec React.",
+    "location": "Bordeaux, France",
+    "certification": {
+      "titre": "Développeur web et web mobile",
+      "niveau": "Niveau 5",
+      "ccp": "CP-002570 - Développer la partie front-end d'une application web ou web mobile en intégrant les recommandations de sécurité",
+      "date_obtention": "07/05/2024"
+    }
+  },
+  {
+    "period": "11/2011 - 06/2024",
+    "title": "employé Drive commerce alimentaire",
+    "company": "LECLERC DRIVE",
+    "description": "Préparation des commandes clients, gestion des stocks, et service client. Expérience dans un environnement dynamique et orienté vers la satisfaction du client.",
+    "location": "Bruges, France",
+    "certification": {
+      "titre": "",
+      "niveau": "Niveau 5",
+      "ccp": "",
+      "date_obtention": ""
+    }
+  },
+  {
+    "period": "2014",
+    "title": "",
+    "company": "",
+    "description": "roman Fury, publié chez les éditions Peuple de Mu",
+    "location": "",
+    "certification": {
+      "titre": "",
+      "niveau": "Niveau 4",
+      "ccp": "",
+      "date_obtention": ""
+    }
+  }
+]

@@ -1,12 +1,13 @@
+@use "@/styles/mixins" as *;
+
+// Utilisation des mixins flex pour factoriser
 .parallax1-wrapper {
+  @include flex-center;
   width: 100vw;
   min-width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: auto;
-  padding-top: 48px; /* Ajoute de l'espace en haut */
-  padding-bottom: 48px; /* Ajoute de l'espace en bas */
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .parallax1-section {
@@ -16,8 +17,6 @@
   overflow: hidden;
   background: #000;
   display: block;
-
-  /* Bordure stylée façon métal rouillé */
   border: 8px solid #d2a94e;
   border-radius: 32px;
   box-shadow:
@@ -28,16 +27,22 @@
     repeating-linear-gradient(135deg, #2d2512 0 5px, transparent 5px 25px),
     repeating-linear-gradient(45deg, #3e2b13 0 8px, transparent 8px 30px);
   background-blend-mode: overlay;
+
+  // Masquer la section sur mobile et petits écrans
+  @media (max-width: 1366px) {
+    display: none;
+  }
 }
 
 .parallax1-section img {
   position: absolute;
-  width: auto !important;
-  height: auto !important;
+  width: auto;
+  height: auto;
   max-width: none;
   max-height: none;
   user-select: none;
   pointer-events: none;
+  /* Pas de !important ici */
 }
 
 .parallax-bg {
@@ -56,19 +61,24 @@
 .parallax-logo {
   z-index: 3;
   left: 50%;
-  top: 04%;
+  top: 4%;
   transform: translateX(-50%);
 }
 
-/* Gutz, Skarr, Nyx réduits avec scale et bien positionnés */
+// Gutz, Skarr, Nyx réduits avec scale et bien positionnés
+.parallax-gutz,
+.parallax-skarr,
+.parallax-nyx {
+  transform: scale(0.7);
+  transform-origin: bottom right;
+}
+
 .parallax-gutz {
   z-index: 4;
   right: 0;
   bottom: -1%;
   left: -28%;
   top: auto;
-  transform: scale(0.7);
-  transform-origin: bottom right;
 }
 
 .parallax-skarr {
@@ -77,8 +87,6 @@
   bottom: 0;
   left: -29%;
   top: auto;
-  transform: scale(0.7);
-  transform-origin: bottom right;
 }
 
 .parallax-nyx {
@@ -87,8 +95,6 @@
   bottom: 0;
   left: -5%;
   top: auto;
-  transform: scale(0.7);
-  transform-origin: bottom right;
 }
 
 .parallax-logo,

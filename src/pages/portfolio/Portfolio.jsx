@@ -5,6 +5,7 @@ import Parallax1 from "./parallax1/Parallax1";
 import Skills from "./services/Skills";
 import Parallaxe2 from "./parallax2/Parallax2";
 import Portfolio1 from "./portfolio1/Portfolio1";
+import ExperiencePro from "./ExperiencePro/ExperiencePro";
 import "./Portfolio.scss";
 
 const Portfolio = () => {
@@ -33,7 +34,9 @@ const Portfolio = () => {
         <section className="sectionPortfolio">
           <Portfolio1 />
         </section>
-        <section className="sectionPortfolio" id="Contact"></section>
+        <section className="sectionPortfolio" id="CV">
+          <ExperiencePro />
+        </section>
       </main>
     </>
   );

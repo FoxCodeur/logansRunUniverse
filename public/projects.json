@@ -332,7 +332,7 @@
       "github": false,
       "redux": false,
       "git": true,
-      "swagger": true,
+      "swagger": false,
       "mongoDB": false,
       "figma": false,
       "Lighthouse": true,

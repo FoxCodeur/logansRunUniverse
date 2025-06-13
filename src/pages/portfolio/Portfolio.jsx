@@ -3,10 +3,10 @@ import NavbarPortfolio from "./navbarPortfolio/NavbarPortfolio";
 import Hero from "./hero/Hero";
 import Parallax1 from "./parallax1/Parallax1";
 import Skills from "./services/Skills";
-import Parallaxe2 from "./parallax2/Parallax2";
 import Portfolio1 from "./portfolio1/Portfolio1";
 import ExperiencePro from "./ExperiencePro/ExperiencePro";
 import "./Portfolio.scss";
+import LogansRunAnimated from "./LogansRunAnimated/LogansRunAnimated";
 
 const Portfolio = () => {
   return (
@@ -28,10 +28,10 @@ const Portfolio = () => {
         <section className="sectionPortfolio" id="Services">
           <Skills />
         </section>
-        <section className="sectionPortfolio" id="Portfolio">
-          <Parallaxe2 />
-        </section>
         <section className="sectionPortfolio">
+          <LogansRunAnimated />
+        </section>
+        <section className="sectionPortfolio" id="Portfolio">
           <Portfolio1 />
         </section>
         <section className="sectionPortfolio" id="CV">

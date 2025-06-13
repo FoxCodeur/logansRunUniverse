@@ -1,0 +1,126 @@
+@use "@/styles/mixins" as *;
+
+.logansrun-animated-wrapper {
+  @include flex-center;
+  width: 100vw;
+  min-width: 100vw;
+  overflow: auto;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.logansrun-animated-section {
+  position: relative;
+  width: 1197px;
+  height: 597px;
+  overflow: hidden;
+  background: #000;
+  display: block;
+  border: 8px solid #3ee7c5;
+  border-radius: 32px;
+  box-shadow:
+    0 0 0 4px #1a7f6e,
+    0 6px 48px 8px #000a,
+    0 0 28px 2px #3ee7c544 inset;
+  background-image:
+    repeating-linear-gradient(135deg, #112b2d 0 5px, transparent 5px 25px),
+    repeating-linear-gradient(45deg, #13433e 0 8px, transparent 8px 30px);
+  background-blend-mode: overlay;
+
+  @media (max-width: 1366px) {
+    display: none;
+  }
+}
+
+.logansrun-animated-section img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Background */
+.logansrun-bg {
+  z-index: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Wagon */
+.logansrun-wagon {
+  z-index: 2;
+  left: 0;
+  bottom: 8%;
+  width: 520px;
+}
+
+/* Logan 5 */
+.logansrun-logan5 {
+  z-index: 3;
+  left: 22%;
+  bottom: 0;
+  width: 210px;
+  opacity: 0;
+}
+
+/* Francis */
+.logansrun-francis {
+  z-index: 4;
+  left: 33%;
+  bottom: 0;
+  width: 210px;
+  opacity: 0;
+}
+
+/* Jessica 6 */
+.logansrun-jessica6 {
+  z-index: 5;
+  left: 12%;
+  bottom: 0;
+  width: 210px;
+  opacity: 0;
+}
+
+/* Revolver */
+.logansrun-revolver {
+  z-index: 6;
+  left: 55%;
+  bottom: 25%;
+  width: 210px;
+  opacity: 0;
+}
+
+/* Laser */
+.logansrun-laser {
+  z-index: 7;
+  left: 67%;
+  bottom: 37%;
+  width: 380px;
+  opacity: 0;
+}
+
+/* Titre */
+.logansrun-titre {
+  z-index: 8;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  width: 340px;
+  opacity: 0;
+}
+
+/* Affiche finale */
+.logansrun-affiche {
+  z-index: 9;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  opacity: 0;
+}

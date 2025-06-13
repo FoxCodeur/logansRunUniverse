@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Riding Cities",
-    "image": "https://placehold.co/400x250?text=Riding+Cities",
+    "image": "/assets/images/portfolioProjects/RidingCitiesProject.webp",
     "summary": "Création d'une nouvelle section sur la page web d’une association, en respectant une maquette fournie via Figma.",
     "details": {
       "objectif": "Apprendre à structurer du contenu en HTML, intégrer de nouveaux éléments (titre, section, boutons), et adapter les styles CSS existants pour garantir une cohérence visuelle avec le reste du site.",
@@ -12,8 +12,8 @@
         "Intégration HTML et adaptation du CSS existant.",
         "Découverte de Figma et VS Code."
       ],
-      "code": "https://github.com/FoxCodeur/print-it",
-      "demo": "https://foxcodeur.github.io/print-it/",
+      "code": "",
+      "demo": "",
       "deliverable": "Présentation du projet 2"
     },
     "technologies": {
@@ -34,7 +34,7 @@
   {
     "id": 2,
     "title": "Booki",
-    "image": "https://placehold.co/400x250?text=Booki",
+    "image": "/assets/images/portfolioProjects/BookiProject.webp",
     "summary": "Créer la page d’accueil responsive d’une agence de voyage à partir de maquettes Figma, en utilisant uniquement HTML et CSS.",
     "details": {
       "objectif": "Intégrer fidèlement l’interface du site selon la maquette, en assurant une adaptation parfaite sur mobile, tablette et desktop.",
@@ -66,7 +66,7 @@
   {
     "id": 3,
     "title": "Oh My Food",
-    "image": "https://placehold.co/400x250?text=Oh+My+Food",
+    "image": "/assets/images/portfolioProjects/OhMyFoodProject.webp",
     "summary": "Intégration mobile-first de l’interface d’un site pour une start-up, avec Sass, animations CSS et gestion de version via Git/GitHub.",
     "details": {
       "objectif": "Intégrer la maquette en mobile-first, enrichir l’interface avec des animations CSS, utiliser Sass pour structurer les styles et versionner le projet avec Git et GitHub.",
@@ -77,7 +77,7 @@
         "Implémentation d’animations CSS pour améliorer l’expérience utilisateur",
         "Gestion du projet avec Git et GitHub"
       ],
-      "code": "#",
+      "code": "https://github.com/FoxCodeur/OhMyFood",
       "demo": "#",
       "deliverable": "Livrable à venir"
     },
@@ -99,7 +99,7 @@
   {
     "id": 4,
     "title": "Print-It",
-    "image": "https://placehold.co/400x250?text=Print-It",
+    "image": "/assets/images/portfolioProjects/PrintItProject.webp",
     "summary": "Découvrir les bases de JavaScript en dynamisant le site d’une imprimerie, notamment en y ajoutant un carrousel interactif.",
     "details": {
       "objectif": "Ajout d’un carrousel interactif en JavaScript pour dynamiser le site statique d’une imprimerie.",
@@ -110,8 +110,8 @@
         "Manipulation du DOM pour relier HTML, CSS et JavaScript.",
         "Utilisation de Visual Studio Code pour le développement et de GitHub pour le versionnement."
       ],
-      "code": "#",
-      "demo": "#",
+      "code": "https://github.com/FoxCodeur/print-it",
+      "demo": "https://foxcodeur.github.io/print-it/",
       "deliverable": "Livrable à venir"
     },
     "technologies": {
@@ -132,7 +132,7 @@
   {
     "id": 5,
     "title": "Portfolio-architecte-sophie-bluel",
-    "image": "https://placehold.co/400x250?text=Portfolio+architecte+sophie+bluel",
+    "image": "/assets/images/portfolioProjects/SophieBluelProject.webp",
     "summary": "Création d’une page web dynamique pour une architecte d’intérieur, en utilisant JavaScript et en communiquant avec une API.",
     "details": {
       "objectif": "Développer la partie front-end pour afficher les réalisations de l’architecte, permettre l’authentification de l’administrateur et l’upload de nouveaux médias, tout en interagissant avec une API.",
@@ -144,7 +144,7 @@
         "Communication avec une API pour l’affichage et la gestion des données",
         "Utilisation de Figma, Visual Studio Code et GitHub pour le développement et le versionnement"
       ],
-      "code": "#",
+      "code": "https://github.com/FoxCodeur/Portfolio-architecte-sophie-bluel",
       "demo": "#",
       "deliverable": "Livrable à venir"
     },
@@ -165,8 +165,8 @@
   },
   {
     "id": 6,
-    "title": "Kaza",
-    "image": "https://placehold.co/400x250?text=Kaza",
+    "title": "Kasa",
+    "image": "/assets/images/portfolioProjects/KasaProject.webp",
     "summary": "Réalisation du front-end d’une application de location immobilière avec React, en suivant des maquettes et en utilisant des données simulées.",
     "details": {
       "objectif": "Mettre en œuvre une interface utilisateur moderne et réactive avec React, gérer la navigation avec React Router, et styliser l’application avec SASS et des animations CSS.",
@@ -179,8 +179,8 @@
         "Étape 2 réalisée",
         "Exécution du code avec Node.js en environnement local"
       ],
-      "code": "#",
-      "demo": "#",
+      "code": "https://github.com/FoxCodeur/kasa",
+      "demo": "https://kasa-gold.vercel.app/",
       "deliverable": "Livrable à venir"
     },
     "technologies": {
@@ -201,7 +201,7 @@
   {
     "id": 7,
     "title": "Nina Carducci",
-    "image": "https://placehold.co/400x250?text=Nina+Carducci",
+    "image": "/assets/images/portfolioProjects/NinaCarducciProject.webp",
     "summary": "Optimisation du référencement (SEO) et de l’accessibilité d’un site de photographe en freelance, avec analyse, recommandations et application d’améliorations.",
     "details": {
       "objectif": "Identifier et corriger les problèmes de performance, d’accessibilité et de référencement afin d’améliorer la visibilité du site sur les moteurs de recherche.",
@@ -236,13 +236,19 @@
   {
     "id": 8,
     "title": "724 events",
-    "image": "https://placehold.co/400x250?text=724+events",
-    "summary": "Résumé du projet.",
+    "image": "/assets/images/portfolioProjects/724EventProject.webp",
+    "summary": "Débogage et finalisation d’un site one-page, avec correction des bugs, optimisation du code et rédaction du cahier de recette.",
     "details": {
-      "objectif": "Objectif du projet.",
+      "objectif": "Examiner, corriger et fiabiliser un site one-page développé en React, en utilisant les outils de debugging (Chrome DevTools, React Developer Tools) et en s’assurant de la conformité grâce à un cahier de recette détaillé.",
       "travail": [
-        "Étape 1 réalisée",
-        "Étape 2 réalisée"
+        "Audit du code existant à l’aide des Chrome DevTools et React Developer Tools",
+        "Identification, analyse et correction des bugs signalés",
+        "Finalisation des fonctionnalités manquantes ou incomplètes",
+        "Rédaction d’un cahier de recette détaillant les scénarios de tests unitaires et fonctionnels",
+        "Mise en place et exécution de tests pour garantir la stabilité du site",
+        "Utilisation de Yarn pour la gestion des dépendances et l’exécution locale avec Node.js",
+        "Versionnement du projet avec GitHub",
+        "Développement et débogage sous Visual Studio Code"
       ],
       "code": "#",
       "demo": "#",
@@ -270,12 +276,18 @@
     "id": 9,
     "title": "Argent Bank",
     "image": "https://placehold.co/400x250?text=Argent+Bank",
-    "summary": "Résumé du projet.",
+    "summary": "Développement du front-end d’une application bancaire en React et Redux, avec connexion à une API REST et gestion complète de l’état de l’application.",
     "details": {
-      "objectif": "Objectif du projet.",
+      "objectif": "Développer l’interface utilisateur et connecter le front-end à un back-end via une API REST. Utiliser React pour le développement UI, Redux pour la gestion d’état global, et Swagger pour la documentation et la modélisation de l’API.",
       "travail": [
-        "Étape 1 réalisée",
-        "Étape 2 réalisée"
+        "Développement de l’interface utilisateur de l’application bancaire avec React",
+        "Création d’un tableau de bord complet et responsive pour les utilisateurs",
+        "Utilisation de Redux pour la gestion centralisée de l’état de l’application",
+        "Intégration du front-end avec le back-end via des appels à l’API REST",
+        "Écriture et gestion des appels API pour connecter le client et le serveur",
+        "Modélisation et documentation des points d’accès API avec Swagger",
+        "Utilisation de Node.js pour l’exécution de code côté serveur et la gestion des environnements de développement",
+        "Assurer la communication fluide et sécurisée entre le client et le serveur"
       ],
       "code": "#",
       "demo": "#",
@@ -343,7 +355,7 @@
   {
     "id": 11,
     "title": "Le Combattant de l'Autoroute",
-    "image": "https://placehold.co/400x250?text=Le+Combattant+de+l'Autoroute",
+    "image": "/assets/images/portfolioProjects/LeCombattantProject.webp",
     "summary": "Ce projet est une adaptation numérique de l’expérience du livre-jeu, où le lecteur devient acteur de l’aventure. L’application, réalisée en React, propose une interface immersive permettant de parcourir un récit à embranchements, de faire des choix et d’en découvrir les conséquences en temps réel.",
     "details": {
       "objectif": "Objectif du projet.",

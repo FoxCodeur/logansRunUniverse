@@ -58,16 +58,14 @@
   z-index: 0;
 }
 
-/* Images animées : PAS de width: auto/max-width: none ici ! */
 .logansrun-animated-section img:not(.logansrun-bg) {
   position: absolute;
   height: auto;
   user-select: none;
   pointer-events: none;
-  /* On laisse chaque image gérer sa largeur */
 }
 
-/* Largeurs ajustées en % (et min/max pour le responsive) */
+/* Animés */
 .logansrun-wagon {
   z-index: 2;
   left: 0;
@@ -77,10 +75,9 @@
 
 .logansrun-logan5 {
   z-index: 3;
-  left: 22%;
+  left: 0;
   bottom: 0;
   width: 100%;
-
   opacity: 0;
 }
 
@@ -89,7 +86,6 @@
   left: 33%;
   bottom: 0;
   width: 100%;
-
   opacity: 0;
 }
 
@@ -98,23 +94,34 @@
   left: 12%;
   bottom: 0;
   width: 100%;
-
   opacity: 0;
 }
 
+/* Revolver */
 .logansrun-revolver {
   z-index: 6;
   left: 55%;
   bottom: 25%;
   width: 100%;
-
   opacity: 0;
 }
 
-.logansrun-revolver {
-  z-index: 6;
-  left: 0;
-  bottom: 25%;
+/* Bullet (BulletLogansRunPortfolio) - sous le laser, au-dessus du revolver/personnages */
+.logansrun-bullet {
+  z-index: 6.5;
+  left: 55%; /* Démarre à la position du revolver */
+  bottom: 37%; /* Même hauteur que le laser */
+  width: 4%; /* Ajuste selon la taille de l'image */
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Laser */
+.logansrun-laser {
+  z-index: 7;
+  left: 67%;
+  bottom: 37%;
+  width: 100%;
   opacity: 0;
 }
 
@@ -124,16 +131,14 @@
   top: 5%;
   transform: translateX(-50%);
   width: 100%;
-
   opacity: 0;
 }
 
 .logansrun-affiche {
   z-index: 9;
   left: 50%;
-  top: 50%;
+  top: 90%;
   transform: translate(-50%, -50%);
-  width: 100%;
-
+  width: 50%;
   opacity: 0;
 }

@@ -57,7 +57,7 @@
   position: relative;
   z-index: 0;
 }
-
+// Cela permet d’appliquer certains styles à toutes les images animées, mais pas au fond (background), par exemple : position: absolute, pointer-events, etc.
 .logansrun-animated-section img:not(.logansrun-bg) {
   position: absolute;
   height: auto;
@@ -100,35 +100,24 @@
 /* Revolver */
 .logansrun-revolver {
   z-index: 6;
-  // left: 55%;
-  bottom: 25%;
+  bottom: 0;
   width: 100%;
   opacity: 0;
 }
 
-/* Bullet (BulletLogansRunPortfolio) - sous le laser, au-dessus du revolver/personnages */
-.logansrun-bullet {
-  z-index: 6.5;
-  left: 55%; /* Démarre à la position du revolver */
-  bottom: 37%; /* Même hauteur que le laser */
-  width: 4%; /* Ajuste selon la taille de l'image */
-  opacity: 0;
-  pointer-events: none;
-}
-
-/* Laser */
+/* Bullet (BulletLogansRunPortfolio) */
 .logansrun-laser {
   z-index: 7;
-  left: 67%;
-  bottom: 37%;
-  width: 100%;
+  left: 33%;
+  bottom: 42%;
+  width: 6%;
   opacity: 0;
 }
 
 .logansrun-titre {
   z-index: 8;
   left: 50%;
-  top: 5%;
+  top: 0;
   transform: translateX(-50%);
   width: 100%;
   opacity: 0;
@@ -137,7 +126,7 @@
 .logansrun-affiche {
   z-index: 9;
   left: 50%;
-  top: 90%;
+  top: 75%;
   transform: translate(-50%, -50%);
   width: 50%;
   opacity: 0;

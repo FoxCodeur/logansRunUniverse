@@ -9,175 +9,168 @@ import logan5Img from "@/assets/images/portfolioImages/Logan5Portfolio.png";
 import francisImg from "@/assets/images/portfolioImages/FrancisLogansRunPortfolio.png";
 import jessica6Img from "@/assets/images/portfolioImages/Jessica6Portfolio.png";
 import revolverImg from "@/assets/images/portfolioImages/RevolverLogansRunPortfolio.png";
-// import laserImg from "@/assets/images/portfolioImages/LaserLogansRunPortfolio.png"; // SUPPRIMÉ
+import laserImg from "@/assets/images/portfolioImages/LaserPortfolio.webp";
 import titreImg from "@/assets/images/portfolioImages/TitreLogansRunPortfolio.png";
 import afficheImg from "@/assets/images/portfolioImages/AfficheLogansRunPortfolio.png";
 
 /*
-  ===== EXPLICATIONS SUR LA GESTION DE L'ANIMATION =====
-
-  1. Références React (useRef)
-     - Chaque image animée a son propre ref (wagonRef, logan5Ref, etc.)
-     - Permet de cibler et manipuler chaque élément DOM précisément via GSAP.
-
-  2. ScrollTrigger
-     - GSAP + ScrollTrigger permet de déclencher la timeline d'animations
-       quand la section est visible à 70% du viewport (start: "top 70%").
-     - Le composant gsap.context() gère le scope pour éviter les fuites de références.
-
-  3. Timeline GSAP
-     - Chaque .fromTo ou .to correspond à une étape de l’animation :
-         - Apparition (opacity: 0 -> 1, scale, translation, etc.)
-         - Disparition (opacity: 1 -> 0, translation x/y)
-         - "x" et "y" déplacent horizontalement ou verticalement
-         - "scale" gère un effet de zoom/miniaturisation
-         - "duration" règle la durée de chaque animation
-         - "ease" gère la courbe d’accélération (effet rebond, etc.)
-     - Le paramètre "+=0.x" décale une animation dans le temps
-     - Le paramètre "-=0.x" fait démarrer une animation avant la fin de la précédente
-     - Les animations sont jouées dans l’ordre de la timeline.
-
-  4. Nettoyage
-     - ctx.revert() nettoie tous les effets GSAP lorsque le composant est démonté.
-
-  5. Positionnement & Styles
-     - Le positionnement, la taille et l’opacité initiale des images sont gérés dans le fichier SCSS associé.
-     - Les images sont en position absolute dans la section animée.
-
-  6. Pour personnaliser
-     - Modifie les valeurs x, y, scale, opacity, duration, ease et l'ordre dans la timeline.
-     - Ajoute ou enlève des étapes à la timeline pour changer la scène.
-
-  7. Ressources utiles
-     - https://greensock.com/docs/v3/GSAP/Timeline
-     - https://greensock.com/docs/v3/Plugins/ScrollTrigger
-
-  Orchestration schématique :
-    [Section visible (scroll)]
-       |
-       v
-    [Wagon traverse de gauche à droite & disparaît]
-       |
-       v
-    [Logan5, Francis, Jessica6 apparaissent successivement]
-       |
-       v
-    [Revolver apparaît]
-       |
-       v
-    [Titre apparaît, personnages disparaissent, Affiche apparaît]
+  Ce composant orchestre une animation complexe avec GSAP et ScrollTrigger.
+  Chaque image a sa référence (ref) pour l'animer individuellement.
 */
 
 gsap.registerPlugin(ScrollTrigger);
 
 const LogansRunAnimated = () => {
-  // Refs pour chaque image animée
+  // Références pour chaque image animée
   const sectionRef = useRef(null);
   const wagonRef = useRef(null);
   const logan5Ref = useRef(null);
   const francisRef = useRef(null);
   const jessica6Ref = useRef(null);
   const revolverRef = useRef(null);
-  // const laserRef = useRef(null); // SUPPRIMÉ
+  const laserRef = useRef(null);
   const titreRef = useRef(null);
   const afficheRef = useRef(null);
 
   useEffect(() => {
-    // Contexte GSAP pour éviter les fuites de références
+    // On crée un contexte GSAP pour éviter les fuites de références
     const ctx = gsap.context(() => {
-      // Timeline principale, liée au scroll
+      // La timeline principale, déclenchée quand la section est à 70% du viewport
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: "top 70%",
-          toggleActions: "play none none none",
+          start: "top 70%", // Quand le haut de la section atteint 70% du viewport
+          toggleActions: "play none none none", // Joue l'animation une seule fois
         },
       });
 
-      // Animation du wagon : traverse la scène de gauche à droite et disparaît
+      // 1. WAGON : Traverse de gauche à droite et disparaît
       tl.fromTo(
-        wagonRef.current,
-        { x: 0, opacity: 1 },
+        wagonRef.current, // Élément ciblé
+        { x: 0, opacity: 1 }, // Départ : position normale, visible
         { x: "100vw", duration: 2.5, opacity: 0, ease: "power2.inOut" }
+        // Arrivée : sort de l'écran à droite, disparaît en 2.5s avec une courbe douce
+        // À modifier :
+        //   - x : déplacement horizontal (ex: "80vw" va moins loin)
+        //   - duration : durée du déplacement
+        //   - opacity : 0 pour disparaître, 1 pour rester visible
+        //   - ease : type de courbe d'accélération (ex: "linear", "bounce", ...)
       )
-        // Logan5 apparaît, effet de zoom et fade-in
+        // 2. LOGAN5 : Apparaît avec effet de zoom et fondu
         .fromTo(
           logan5Ref.current,
-          { opacity: 0, scale: 0.8 },
-          { opacity: 1, scale: 1, duration: 1, ease: "back.out(1.7)" },
-          "+=0.2"
+          { opacity: 0, scale: 0.8 }, // Départ : invisible et petit
+          { opacity: 1, scale: 1, duration: 1, ease: "back.out(1.7)" }, // Arrivée : visible, taille normale, effet rebond
+          "+=0.2" // Commence 0.2s après la fin de l'étape précédente
+          // À modifier :
+          //   - opacity (0→1) pour le fondu
+          //   - scale (zoom)
+          //   - duration (vitesse)
+          //   - ease ("back.out" pour rebond, "power1.out" pour plus linéaire)
+          //   - "+=0.2" : délai après l'étape précédente ("-=0.2" pour chevaucher, "0" pour enchaîner)
         )
-        // Francis apparaît, translation verticale et fade-in
+        // 3. FRANCIS : Apparaît du bas vers le haut avec fondu
         .fromTo(
           francisRef.current,
-          { opacity: 0, y: 50 },
+          { opacity: 0, y: 50 }, // Départ : invisible, décalé de 50px vers le bas
           { opacity: 1, y: 0, duration: 0.8, ease: "power2.out" },
           "+=0.4"
+          // À modifier :
+          //   - y : décalage vertical de départ
+          //   - duration : vitesse
+          //   - ease : courbe
+          //   - "+=0.4" : délai après l'étape précédente
         )
-        // Jessica6 apparaît, translation verticale et fade-in
+        // 4. JESSICA6 : Même principe que Francis
         .fromTo(
           jessica6Ref.current,
           { opacity: 0, y: 50 },
           { opacity: 1, y: 0, duration: 0.8, ease: "power2.out" },
           "+=0.3"
         )
-        // Revolver apparaît, translation horizontale et fade-in
+        // 5. REVOLVER : Apparaît en glissant de la gauche
         .fromTo(
           revolverRef.current,
-          { opacity: 0, x: -50 },
+          { opacity: 0, x: -50 }, // Départ : invisible, décalé de -50px à gauche
           { opacity: 1, x: 0, duration: 0.7, ease: "power2.out" },
           "+=0.3"
+          // À modifier :
+          //   - x : décalage horizontal de départ
         )
-        // SUPPRIMER les animations laser :
-        // // Laser apparaît, translation horizontale et fade-in
-        // .fromTo(
-        //   laserRef.current,
-        //   { opacity: 0, x: -80 },
-        //   { opacity: 1, x: 0, duration: 0.6, ease: "power2.out" }
-        // )
-        // // Laser traverse la scène vers la droite et disparaît
-        // .to(
-        //   laserRef.current,
-        //   { x: "100vw", opacity: 0, duration: 1.2, ease: "power2.in" },
-        //   "+=0.2"
-        // )
-        // // Laser disparaît complètement (sécurité)
-        // .to(laserRef.current, { opacity: 0, duration: 0.4 }, "-=0.5")
-        // Titre apparaît, effet de zoom et fade-in
+        // 6. LASER : Apparaît, glisse un peu vers la droite
+        .fromTo(
+          laserRef.current,
+          { opacity: 0, x: -80 }, // Départ : invisible, décalé à gauche
+          { opacity: 1, x: 0, duration: 0.6, ease: "power2.out" }
+          // À modifier :
+          //   - x : décalage horizontal de départ
+          //   - duration : vitesse d'apparition
+          //   - ease : courbe d'arrivée
+        )
+        // 7. LASER : Traverse l'écran vers la droite et disparaît
+        .to(
+          laserRef.current,
+          { x: "58vw", opacity: 0, duration: 1.8, ease: "power2.in" },
+          "+=0.2"
+          // x: "100vw" = traverse tout l'écran à droite
+          // opacity: 0 = disparition progressive
+          // duration: temps du trajet
+          // "+=0.2" = délai après la fin de l'animation précédente
+        )
+        // 8. TITRE : Apparaît avec effet de zoom et fondu
         .fromTo(
           titreRef.current,
           { opacity: 0, scale: 0.8 },
           { opacity: 1, scale: 1, duration: 1, ease: "back.out(1.7)" },
           "+=0.3"
+          // Même principes qu'avant
         )
-        // Les personnages disparaissent progressivement vers le haut
+        // 9. JESSICA6 : Disparaît vers le haut (en premier)
+        .to(
+          jessica6Ref.current,
+          { opacity: 0, y: -40, duration: 0.7, ease: "power2.in" },
+          "+=0.6"
+          // y: -40 = monte de 40px
+          // opacity: 0 = disparaît
+          // duration : rapidité de disparition
+          // "+=0.6" : délai après l'étape précédente
+        )
+        // 10. FRANCIS : Disparaît vers le haut, chevauche la disparition de Jessica6
         .to(
           francisRef.current,
           { opacity: 0, y: -40, duration: 0.7, ease: "power2.in" },
-          "+=0.6"
+          "-=0.4"
+          // "-=0.4" = commence 0.4s avant la fin de la disparition de Jessica6 (effet de chevauchement)
         )
+        // 11. LOGAN5 : Disparaît vers le haut, chevauche la disparition de Francis
         .to(
           logan5Ref.current,
           { opacity: 0, y: -40, duration: 0.7, ease: "power2.in" },
           "-=0.4"
+          // "-=0.4" = commence 0.4s avant la fin de la disparition de Francis (effet de chevauchement)
         )
-        .to(
-          jessica6Ref.current,
-          { opacity: 0, y: -40, duration: 0.7, ease: "power2.in" },
-          "-=0.4"
-        )
-        // Revolver disparaît vers la droite
+        // 12. REVOLVER : Disparaît vers la droite, chevauche la disparition des persos
         .to(
           revolverRef.current,
           { opacity: 0, x: 50, duration: 0.7, ease: "power2.in" },
           "-=0.5"
+          // x: 50 = décale de 50px à droite
         )
-        // Affiche apparaît, effet de zoom et fade-in
+        // 13. LASER : Disparaît totalement (sécurité pour éviter bug visuel)
+        .to(
+          laserRef.current,
+          { opacity: 0, duration: 0.4 },
+          "-=0.5"
+          // opacity: 0 = s'assure que le laser est bien invisible
+          // duration: rapidité de la disparition
+        )
+        // 14. AFFICHE : Apparaît avec effet de zoom et fondu
         .fromTo(
           afficheRef.current,
-          { opacity: 0, scale: 0.85 },
-          { opacity: 1, scale: 1, duration: 1, ease: "back.out(1.7)" },
+          { opacity: 0 },
+          { opacity: 1, duration: 2, ease: "back.out(1.7)" },
           "+=0.3"
+          // Dernière étape: l'affiche prend la place avec un zoom et un fondu
         );
     }, sectionRef);
 
@@ -196,8 +189,6 @@ const LogansRunAnimated = () => {
             draggable="false"
           />
         </div>
-
-        {/* Images animées, chaque ref sert à l'animation GSAP */}
         <img
           src={wagonImg}
           alt="Wagon"
@@ -233,13 +224,13 @@ const LogansRunAnimated = () => {
           ref={revolverRef}
           draggable="false"
         />
-        {/* <img
+        <img
           src={laserImg}
           alt="Laser"
           className="logansrun-laser"
           ref={laserRef}
           draggable="false"
-        /> */}
+        />
         <img
           src={titreImg}
           alt="Titre Logan's Run"

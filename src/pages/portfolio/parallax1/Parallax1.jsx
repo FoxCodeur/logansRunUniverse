@@ -5,6 +5,8 @@ import "./Parallax1.scss";
 
 import portfolioRoadWarrior from "@/assets/images/portfolioImages/portfolioRoadWarrior.png";
 import portfolioInterceptor from "@/assets/images/portfolioImages/portfolioInterceptor.png";
+import portfolioBigBoss from "@/assets/images/portfolioImages/portfolioBigBoss.webp";
+import portfolioVexxel from "@/assets/images/portfolioImages/portfolioVexxel.webp";
 import portfolioLogo from "@/assets/images/portfolioImages/portfolioLogo.png";
 import portfolioGutz from "@/assets/images/portfolioImages/portfolioGutz.png";
 import portfolioSkarr from "@/assets/images/portfolioImages/portfolioSkarr.png";
@@ -19,6 +21,8 @@ const Parallax1 = () => {
   const gutzRef = useRef(null);
   const skarrRef = useRef(null);
   const nyxRef = useRef(null);
+  const bigbossRef = useRef(null);
+  const vexxelRef = useRef(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -41,7 +45,7 @@ const Parallax1 = () => {
           logoRef.current,
           { opacity: 0, scale: 0.7 },
           { opacity: 1, scale: 1, duration: 1, ease: "back.out(1.7)" },
-          "+=0.2" // petit délai après l'animation voiture
+          "+=0.2"
         )
         // Gutz apparaît ensuite, décalé
         .fromTo(
@@ -63,6 +67,20 @@ const Parallax1 = () => {
           { opacity: 0, y: 50 },
           { opacity: 1, y: 0, duration: 0.8, ease: "power2.out" },
           "+=0.3"
+        )
+        // BigBoss (mask) apparaît en fondu derrière les persos, masque le logo
+        .fromTo(
+          bigbossRef.current,
+          { opacity: 0 },
+          { opacity: 1, duration: 1.3, ease: "power1.inOut" },
+          "+=0.3"
+        )
+        // Vexxel apparaît en même temps que BigBoss, même niveau (z-index)
+        .fromTo(
+          vexxelRef.current,
+          { opacity: 0 },
+          { opacity: 1, duration: 1.3, ease: "power1.inOut" },
+          "<" // "<" démarre exactement en même temps que l'étape précédente
         );
     }, sectionRef);
 
@@ -92,6 +110,22 @@ const Parallax1 = () => {
           alt="Logo"
           className="parallax-logo"
           ref={logoRef}
+          draggable="false"
+        />
+
+        <img
+          src={portfolioBigBoss}
+          alt="Effet de fondu"
+          className="parallax-mask"
+          ref={bigbossRef}
+          draggable="false"
+        />
+
+        <img
+          src={portfolioVexxel}
+          alt="Vexxel Illu"
+          className="parallax-mask-vexxel"
+          ref={vexxelRef}
           draggable="false"
         />
 

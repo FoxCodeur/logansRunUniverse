@@ -69,11 +69,10 @@
 // BigBoss mask : doit être derrière les persos, devant le logo
 .parallax-mask,
 .parallax-mask-vexxel {
+  width: 400px;
   z-index: 4;
   right: 10%;
-  top: -2%;
-  width: 100%;
-  height: 100%;
+  top: 10%;
   opacity: 0;
   pointer-events: none;
 }

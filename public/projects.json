@@ -44,8 +44,8 @@
         "Mise en place du design responsive pour tous les écrans",
         "Utilisation des ressources fournies (maquettes, images, note de synthèse)"
       ],
-      "code": "#",
-      "demo": "#",
+      "code": "https://github.com/FoxCodeur/booki-starter-code",
+      "demo": "https://foxcodeur.github.io/booki-starter-code/",
       "deliverable": "Livrable à venir"
     },
     "technologies": {
@@ -78,7 +78,7 @@
         "Gestion du projet avec Git et GitHub"
       ],
       "code": "https://github.com/FoxCodeur/OhMyFood",
-      "demo": "#",
+      "demo": "https://foxcodeur.github.io/OhMyFood/",
       "deliverable": "Livrable à venir"
     },
     "technologies": {
@@ -145,7 +145,7 @@
         "Utilisation de Figma, Visual Studio Code et GitHub pour le développement et le versionnement"
       ],
       "code": "https://github.com/FoxCodeur/Portfolio-architecte-sophie-bluel",
-      "demo": "#",
+      "demo": "",
       "deliverable": "Livrable à venir"
     },
     "technologies": {
@@ -212,8 +212,8 @@
         "Mise en œuvre des améliorations dans le code du site",
         "Création d’un rapport illustré avec les résultats avant/après et explication de l’impact des changements"
       ],
-      "code": "#",
-      "demo": "#",
+      "code": "https://github.com/FoxCodeur/ninacarducci.github.io",
+      "demo": "https://foxcodeur.github.io/ninacarducci.github.io/",
       "deliverable": "Livrable à venir"
     },
     "technologies": {
@@ -250,8 +250,8 @@
         "Versionnement du projet avec GitHub",
         "Développement et débogage sous Visual Studio Code"
       ],
-      "code": "#",
-      "demo": "#",
+      "code": "https://github.com/FoxCodeur/Debuggez-une-application-React.JS",
+      "demo": "",
       "deliverable": "Livrable à venir"
     },
     "technologies": {
@@ -275,7 +275,7 @@
   {
     "id": 9,
     "title": "Argent Bank",
-    "image": "https://placehold.co/400x250?text=Argent+Bank",
+    "image": "/assets/images/portfolioProjects/ArgentBankProject.png",
     "summary": "Développement du front-end d’une application bancaire en React et Redux, avec connexion à une API REST et gestion complète de l’état de l’application.",
     "details": {
       "objectif": "Développer l’interface utilisateur et connecter le front-end à un back-end via une API REST. Utiliser React pour le développement UI, Redux pour la gestion d’état global, et Swagger pour la documentation et la modélisation de l’API.",
@@ -289,8 +289,8 @@
         "Utilisation de Node.js pour l’exécution de code côté serveur et la gestion des environnements de développement",
         "Assurer la communication fluide et sécurisée entre le client et le serveur"
       ],
-      "code": "#",
-      "demo": "#",
+      "code": "https://github.com/FoxCodeur/ArgentBank-Frontend/tree/feature/landing-page",
+      "demo": "",
       "deliverable": "Livrable à venir"
     },
     "technologies": {
@@ -389,15 +389,20 @@
     "id": 12,
     "title": "Portfolio",
     "image": "https://placehold.co/400x250?text=Portfolio",
-    "summary": "Résumé du projet.",
+    "summary": "Création et mise en ligne d’un portfolio personnel pour présenter mon parcours, mes compétences et mes projets.",
     "details": {
-      "objectif": "Objectif du projet.",
+      "objectif": "Développer et publier un site web personnel pour exposer mes réalisations et compétences. Assurer un affichage optimal sur tous les appareils, déployer le site via Vercel, et optimiser le SEO ainsi que les performances globales.",
       "travail": [
-        "Étape 1 réalisée",
-        "Étape 2 réalisée"
+        "Ajout d’au moins deux projets avec descriptions détaillées et visuels",
+        "Présentation claire du parcours professionnel et des compétences techniques",
+        "Mise en place du déploiement en ligne avec GitHub Pages ou Vercel",
+        "Optimisation des performances du site (chargement rapide, code propre)",
+        "Amélioration du référencement SEO (balises, structure, accessibilité)",
+        "Débogage et tests sur différents appareils pour assurer la compatibilité",
+        "Application des bonnes pratiques de web design et d’UX"
       ],
-      "code": "#",
-      "demo": "#",
+      "code": "https://github.com/FoxCodeur/logansRunUniverse",
+      "demo": "https://logans-run-universe.vercel.app/portfolio",
       "deliverable": "Livrable à venir"
     },
     "technologies": {

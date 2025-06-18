@@ -9,7 +9,7 @@
 
   .bg {
     position: fixed; // Gardez la position fixe pour la sidebar
-    top: 10; // Ajustez top à 0 pour qu'il soit collé en haut
+    top: 20.7%; // Valeur par défaut
     left: 0;
     width: 300px;
     height: 61%;
@@ -18,7 +18,7 @@
     border: 2px inset darkred;
     border-left: 5px inset darkred;
     background-color: rgb(169, 169, 255);
-    z-index: 10; // Valeur par défaut pour la sidebar
+    z-index: 10;
 
     .links {
       position: absolute; // Position absolue pour les liens à l'intérieur de la sidebar
@@ -43,5 +43,14 @@
     border: none;
     cursor: pointer;
     z-index: 20; // Assurez-vous que le bouton est au-dessus de la sidebar
+  }
+}
+
+// Responsive : modifie le top de .bg quand largeur <= 768px
+@media (max-width: 768px) {
+  .sidebarPortfolio {
+    .bg {
+      top: 20.7%; // La sidebar colle en haut en mode mobile/tablette
+    }
   }
 }

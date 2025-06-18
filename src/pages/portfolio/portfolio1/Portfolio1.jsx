@@ -4,30 +4,45 @@ import "./Portfolio1.scss";
 import { usePortfolio } from "../Context/PortfolioProvider";
 import { formatTextWithLineBreaks } from "../../../utils";
 
+/**
+ * Ce composant affiche la grille des projets du portfolio.
+ * Si une erreur survient lors du chargement, un message d'erreur est affiché.
+ */
 const Portfolio1 = () => {
-  const { projects, loadingProjects, projectsError } = usePortfolio();
-  const [openModal, setOpenModal] = useState(null);
+  // Récupère les projets et les éventuelles erreurs du contexte Portfolio
+  const { projects, projectsError } = usePortfolio();
+  const [openModal, setOpenModal] = useState(null); // Gère l'état de la modale
 
-  if (loadingProjects)
-    return <div className="portfolio-grid-container">Chargement...</div>;
+  // Affiche le message d'erreur si les projets ne sont pas disponibles
   if (projectsError)
     return (
-      <div className="portfolio-grid-container">Erreur : {projectsError}</div>
+      <div className="portfolio-grid-container">
+        <span className="portfolio-message portfolio-error-message">
+          Source indisponible
+        </span>
+      </div>
     );
 
+  // Affiche la grille des projets si tout va bien
   return (
     <div className="portfolio-grid-container">
       <div className="portfolio-grid">
         {projects.map((project, idx) => (
           <div
             key={project.id}
-            className={`portfolio-card${idx === projects.length - 1 ? " center-card" : ""}`}
+            className={`portfolio-card${
+              idx === projects.length - 1 ? " center-card" : ""
+            }`}
           >
+            {/* Image du projet */}
             <img src={project.image} alt={project.title} />
+            {/* Titre du projet */}
             <h3>{project.title}</h3>
+            {/* Bouton pour ouvrir la modale */}
             <button onClick={() => setOpenModal(project.id)}>
               En savoir plus
             </button>
+            {/* Modale avec détails du projet si openModal === id du projet */}
             {openModal === project.id && (
               <Modal onClose={() => setOpenModal(null)}>
                 <div className="modal-portfolio-content">

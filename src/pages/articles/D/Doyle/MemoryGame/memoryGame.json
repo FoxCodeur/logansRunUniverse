@@ -1,30 +1,30 @@
 {
   "cardOne": {
     "id": 1,
-    "image": "/assets/images/memory-game/black.png"
+    "image": "/assets/images/memory-game/black.webp"
   },
   "cardTwo": {
     "id": 2,
-    "image": "/assets/images/memory-game/blue.png"
+    "image": "/assets/images/memory-game/blue.webp"
   },
   "cardThree": {
     "id": 3,
-    "image": "/assets/images/memory-game/dechireuse.png"
+    "image": "/assets/images/memory-game/dechireuse.webp"
   },
   "cardFour": {
     "id": 4,
-    "image": "/assets/images/memory-game/red.png"
+    "image": "/assets/images/memory-game/red.webp"
   },
   "cardFive": {
     "id": 5,
-    "image": "/assets/images/memory-game/white.png"
+    "image": "/assets/images/memory-game/white.webp"
   },
   "cardSix": {
     "id": 6,
-    "image": "/assets/images/memory-game/yellow.png"
+    "image": "/assets/images/memory-game/yellow.webp"
   },
   "reverseCard": {
     "id": 10,
-    "image": "/assets/images/memory-game/backface-card.png"
+    "image": "/assets/images/memory-game/backface-card.webp"
   }
 }

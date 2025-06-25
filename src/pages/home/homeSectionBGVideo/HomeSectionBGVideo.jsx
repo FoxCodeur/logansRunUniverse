@@ -2,10 +2,10 @@ import React from "react";
 import "./HomeSectionBGVideo.scss";
 import "../Home.scss";
 import videoBG from "@/assets/videos/holly.mp4";
-import starring from "@/assets/images/images-générales/starring.png";
-import starring2 from "@/assets/images/images-générales/starring2.png";
-import starring3 from "@/assets/images/images-générales/starring3.png";
-import starring4 from "@/assets/images/images-générales/starring4.png";
+import starring from "@/assets/images/images-générales/starring.webp";
+import starring2 from "@/assets/images/images-générales/starring2.webp";
+import starring3 from "@/assets/images/images-générales/starring3.webp";
+import starring4 from "@/assets/images/images-générales/starring4.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionBGVideo = () => {
   return (

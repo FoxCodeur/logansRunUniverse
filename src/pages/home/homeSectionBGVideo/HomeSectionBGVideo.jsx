@@ -41,7 +41,16 @@ const HomeSectionBGVideo = () => {
           </section>
         </section>
         <div className="accueilVideoBG box_center">
-          <video src={videoBG} autoPlay loop muted className="hollyBG" />
+          <video
+            src={videoBG}
+            autoPlay
+            loop
+            muted
+            className="hollyBG"
+            preload="none"
+            poster="/chemin/vers/une-image-légère.webp"
+            playsInline
+          />
         </div>
       </div>
       <div className="image-container">

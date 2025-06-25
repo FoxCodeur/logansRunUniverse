@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeWaveNav.scss";
-import loganSphere from "@/assets/images/images-générales/logans_run sphere.png";
+import loganSphere from "@/assets/images/images-générales/logans_run sphere.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeWaveNav = () => {
   return (

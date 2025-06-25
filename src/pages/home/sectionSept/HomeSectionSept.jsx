@@ -1,11 +1,11 @@
 import React from "react";
 import "./HomeSectionSept.scss";
 import "../Home.scss";
-import whiteCristal from "@/assets/images/flowers-index/white-flower.png";
-import yellowCristal from "@/assets/images/flowers-index/yellow-flower.png";
-import blueCristal from "@/assets/images/flowers-index/blue-flower.png";
-import redCristal from "@/assets/images/flowers-index/red-flower.png";
-import blackCristal from "@/assets/images/flowers-index/black-flower.png";
+import whiteCristal from "@/assets/images/flowers-index/white-flower.webp";
+import yellowCristal from "@/assets/images/flowers-index/yellow-flower.webp";
+import blueCristal from "@/assets/images/flowers-index/blue-flower.webp";
+import redCristal from "@/assets/images/flowers-index/red-flower.webp";
+import blackCristal from "@/assets/images/flowers-index/black-flower.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSectionSept = () => {
   return (

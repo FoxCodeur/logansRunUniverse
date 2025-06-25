@@ -1,9 +1,9 @@
 import React from "react";
 import "./HomeSectionTrois.scss";
 import "../Home.scss";
-import loganVersionUn from "@/assets/images/images-générales/logan1.png";
-import loganVersionDeux from "@/assets/images/images-générales/logan2.png";
-import loganVersionTrois from "@/assets/images/images-générales/logan3.png";
+import loganVersionUn from "@/assets/images/images-générales/logan1.webp";
+import loganVersionDeux from "@/assets/images/images-générales/logan2.webp";
+import loganVersionTrois from "@/assets/images/images-générales/logan3.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css"; // Importer les styles d'effet si nécessaire
 const HomeSectionTrois = () => {

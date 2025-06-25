@@ -1,8 +1,8 @@
 import React from "react";
 import "./HomeSlider.scss";
 import "../Home.scss";
-import loganBirthUn from "@/assets/images/images-générales/image1.png";
-import loganBirthDeux from "@/assets/images/images-générales/image2.png";
+import loganBirthUn from "@/assets/images/images-générales/image1.webp";
+import loganBirthDeux from "@/assets/images/images-générales/image2.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeSlider = () => {
   return (

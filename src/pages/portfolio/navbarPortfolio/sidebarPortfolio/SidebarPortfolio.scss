@@ -1,27 +1,31 @@
 .sidebarPortfolio {
-  padding-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  color: black;
-  position: relative; // Assure que le conteneur a une position définie pour l'empilement
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  z-index: 20;
 
   .bg {
-    position: fixed; // Gardez la position fixe pour la sidebar
-    top: 20.7%; // Valeur par défaut
-    left: 0;
+    position: fixed;
+    top: 260px;
+    left: 25px;
     width: 300px;
-    height: 61%;
+    height: 450px;
+    background: rgb(169, 169, 255);
+    border-radius: 51px;
     box-shadow: 9px 8px 19px 4px rgba(0, 0, 0, 0.5);
-    border-radius: 0px 51px 49px 0px;
     border: 2px inset darkred;
-    border-left: 5px inset darkred;
-    background-color: rgb(169, 169, 255);
     z-index: 10;
+    overflow: hidden;
+    clip-path: circle(28px at 50px 50px);
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .links {
-      position: absolute; // Position absolue pour les liens à l'intérieur de la sidebar
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
       display: flex;
@@ -31,26 +35,21 @@
       gap: 20px;
     }
   }
-  // button
+
   button {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    position: fixed; // Position fixe pour le bouton toggle
-    top: 215px;
-    left: 25px;
-    background-color: white;
-    border: none;
+    background: white;
+    border: 2px solid rgb(169, 169, 255); // Contour mauve autour du bouton hamburger
+    box-shadow: 0 0 0 4px rgb(169, 169, 255); // Optionnel, pour plus de "glow"
+    position: fixed;
+    top: 310px;
+    left: 40px;
     cursor: pointer;
-    z-index: 20; // Assurez-vous que le bouton est au-dessus de la sidebar
-  }
-}
-
-// Responsive : modifie le top de .bg quand largeur <= 768px
-@media (max-width: 768px) {
-  .sidebarPortfolio {
-    .bg {
-      top: 20.7%; // La sidebar colle en haut en mode mobile/tablette
-    }
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

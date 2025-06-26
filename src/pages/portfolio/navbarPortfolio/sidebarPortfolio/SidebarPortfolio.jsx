@@ -4,41 +4,34 @@ import ToggleButton from "../toggleButton/ToggleButton";
 import Links from "../links/Links";
 import gsap from "gsap";
 
-/**
- * Composant SidebarPortfolio
- * Affiche le menu latéral animé (ouvert/fermé) et le bouton toggle.
- */
 const SidebarPortfolio = () => {
-  const [open, setOpen] = useState(false); // état du menu (ouvert/fermé)
-  const bgRef = useRef(); // ref pour le fond animé (clipPath)
+  const [open, setOpen] = useState(false);
+  const bgRef = useRef();
 
-  // Anime le fond rond du menu latéral avec GSAP lors de l'ouverture/fermeture
+  // Affiche le bg *seulement* si ouvert
   useEffect(() => {
-    if (open) {
-      gsap.to(bgRef.current, {
-        clipPath: "circle(1200px at 50px 50px)", // Grand cercle pour ouverture
-        zIndex: 20,
-        duration: 1,
-        ease: "power2.out",
-      });
-    } else {
-      gsap.to(bgRef.current, {
-        clipPath: "circle(30px at 50px 50px)", // Petit cercle pour fermeture
-        zIndex: 0,
-        duration: 1,
-        ease: "power2.in",
-        delay: 0.3, // attend la disparition des liens avant de réduire le fond
-      });
+    if (open && bgRef.current) {
+      gsap.fromTo(
+        bgRef.current,
+        { clipPath: "circle(28px at 50px 50px)" },
+        {
+          clipPath: "circle(800px at 50px 50px)",
+          duration: 0.8,
+          ease: "power2.out",
+        }
+      );
     }
   }, [open]);
 
   return (
     <div className="sidebarPortfolio">
-      <div className="bg" ref={bgRef}>
-        {/* Les liens du menu, animés avec GSAP */}
-        <Links isOpen={open} />
-      </div>
-      {/* Le bouton toggle pour ouvrir/fermer le menu */}
+      {/* Le fond mauve n’apparait QUE si open */}
+      {open && (
+        <div className="bg" ref={bgRef}>
+          <Links isOpen={open} />
+        </div>
+      )}
+      {/* Le bouton hamburger a toujours son contour mauve */}
       <ToggleButton setOpen={setOpen} isOpen={open} />
     </div>
   );

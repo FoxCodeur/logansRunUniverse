@@ -33,7 +33,7 @@ const itemVariants = {
 
 const Links = () => {
   // Déclaration d'un tableau d'éléments pour les liens
-  const items = ["Homepage", "Compétences", "Portfolio", "CV", "About"];
+  const items = ["Homepage", "Competences", "Portfolio", "CV"];
 
   return (
     <motion.div

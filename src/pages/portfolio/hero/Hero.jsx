@@ -74,7 +74,7 @@ const Hero = () => {
           {/* Conteneur pour la barre de progression circulaire */}
           <CircularProgressbar
             value={percentage} // Valeur actuelle de la barre de progression
-            text={`${percentage}%`} // Texte affiché au centre de la barre (le pourcentage)
+            // text={`${percentage}%`}
             strokeWidth={3} // Épaisseur de la barre de progression
             styles={buildStyles({
               // Styles personnalisés pour la barre de progression

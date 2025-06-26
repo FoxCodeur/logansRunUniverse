@@ -25,7 +25,7 @@ const Portfolio = () => {
         <section className="sectionPortfolio">
           <Parallax1 />
         </section>
-        <section className="sectionPortfolio" id="Services">
+        <section className="sectionPortfolio" id="Competences">
           <Skills />
         </section>
         <section className="sectionPortfolio">

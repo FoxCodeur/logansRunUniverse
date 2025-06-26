@@ -1,60 +1,84 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import "./Links.scss";
-import { motion } from "framer-motion";
+import gsap from "gsap";
 
-// Les variantes pour l'animation du conteneur
-const variants = {
-  open: {
-    // L'état "open" représente l'animation lorsque les éléments sont visibles
-    transition: {
-      staggerChildren: 0.1, // Le délai de 0,1 seconde entre chaque élément enfant lors de l'apparition
-    },
-  },
-  closed: {
-    // L'état "closed" représente l'animation lorsque les éléments disparaissent
-    transition: {
-      staggerChildren: 0.05, // Le délai de 0,05 seconde entre chaque élément enfant lors de la disparition
-      staggerDirection: -1, // L'animation se fait en sens inverse (du dernier élément au premier)
-    },
-  },
-};
+// Liste des éléments de navigation (leurs noms doivent correspondre aux ids des sections de la page)
+const items = ["Homepage", "Competences", "Portfolio", "CV"];
 
-// Les variantes pour l'animation de chaque lien
-const itemVariants = {
-  open: {
-    y: 0, // Le lien est à sa position normale sur l'axe Y
-    opacity: 1, // Le lien est complètement visible
-  },
-  closed: {
-    y: 50, // Le lien est déplacé de 50 pixels vers le bas sur l'axe Y
-    opacity: 0, // Le lien est complètement transparent (invisible)
-  },
-};
+/**
+ * Composant Links
+ * Affiche les liens de navigation et anime leur apparition/disparition avec GSAP.
+ * @param {boolean} isOpen - indique si le menu est ouvert
+ */
+const Links = ({ isOpen }) => {
+  // Références vers chaque élément <a> pour GSAP
+  const linksRef = useRef([]);
+  // Référence vers le conteneur principal
+  const containerRef = useRef();
 
-const Links = () => {
-  // Déclaration d'un tableau d'éléments pour les liens
-  const items = ["Homepage", "Competences", "Portfolio", "CV"];
+  // Effet qui s'exécute à chaque changement de isOpen
+  useEffect(() => {
+    if (isOpen) {
+      // Active les pointer-events pour rendre les liens cliquables
+      gsap.to(containerRef.current, { pointerEvents: "auto" });
+      // Anime chaque lien vers le haut et rend visible (apparition en décalé)
+      gsap.fromTo(
+        linksRef.current,
+        { y: 50, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          stagger: 0.1, // délai entre chaque lien
+          duration: 0.5,
+          ease: "power3.out",
+        }
+      );
+    } else {
+      // Anime chaque lien vers le bas et rend invisible (disparition en décalé)
+      gsap.to(linksRef.current, {
+        y: 50,
+        opacity: 0,
+        stagger: 0.05,
+        duration: 0.3,
+        ease: "power3.in",
+      });
+      // Désactive les pointer-events après l'animation
+      gsap.to(containerRef.current, { pointerEvents: "none", delay: 0.3 });
+    }
+  }, [isOpen]);
 
   return (
-    <motion.div
-      className="links" // Classe CSS pour styliser le conteneur
-      initial="closed" // L'état initial est "closed", donc les liens sont en position fermée (invisible)
-      animate="open" // Lors du montage, l'état devient "open", déclenchant l'animation d'apparition
-      variants={variants} // On applique les variantes définies pour le conteneur
-    >
-      {items.map((item) => (
-        // Utilisation de motion.a pour animer chaque lien
-        <motion.a
-          href={`#${item}`} // Lien de navigation
-          key={item} // Clé unique pour chaque lien
-          variants={itemVariants} // Variantes appliquées à chaque lien individuel
-          whileHover={{ scale: 1.1 }} // Le lien s'agrandit légèrement lorsqu'on le survole
-          whileTap={{ scale: 0.95 }} // Le lien se rétrécit légèrement lorsqu'on clique dessus
+    <div className="links" ref={containerRef}>
+      {items.map((item, i) => (
+        <a
+          // On stocke chaque ref dans un tableau pour pouvoir les cibler individuellement avec GSAP
+          ref={(el) => (linksRef.current[i] = el)}
+          href={`#${item}`}
+          key={item}
+          tabIndex={isOpen ? 0 : -1} // Accessibilité : tabulation seulement si ouvert
+          style={{
+            display: "block",
+            opacity: 0, // état initial invisible
+            transform: "translateY(50px)", // état initial décalé vers le bas
+          }}
+          // Animations au survol et au clic avec GSAP (scale)
+          onMouseEnter={() =>
+            gsap.to(linksRef.current[i], { scale: 1.1, duration: 0.15 })
+          }
+          onMouseLeave={() =>
+            gsap.to(linksRef.current[i], { scale: 1, duration: 0.15 })
+          }
+          onMouseDown={() =>
+            gsap.to(linksRef.current[i], { scale: 0.95, duration: 0.1 })
+          }
+          onMouseUp={() =>
+            gsap.to(linksRef.current[i], { scale: 1.1, duration: 0.1 })
+          }
         >
           {item}
-        </motion.a>
+        </a>
       ))}
-    </motion.div>
+    </div>
   );
 };
 

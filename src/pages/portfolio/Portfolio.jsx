@@ -2,11 +2,11 @@ import React from "react";
 import NavbarPortfolio from "./navbarPortfolio/NavbarPortfolio";
 import Hero from "./hero/Hero";
 import Parallax1 from "./parallax1/Parallax1";
-import Skills from "./services/Skills";
 import Portfolio1 from "./portfolio1/Portfolio1";
 import ExperiencePro from "./ExperiencePro/ExperiencePro";
 import "./Portfolio.scss";
 import LogansRunAnimated from "./LogansRunAnimated/LogansRunAnimated";
+import Skills from "./skills/Skills";
 
 const Portfolio = () => {
   return (

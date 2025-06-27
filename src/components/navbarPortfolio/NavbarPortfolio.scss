@@ -1,16 +1,92 @@
+@use "@/styles/mixins" as *;
 .navbarPortfolio {
-  height: 100px;
+  height: 80px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(12px) saturate(160%);
+  border-bottom: 1.5px solid rgba(200, 200, 200, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.08);
+
   .navbarPortfolio_wrapper {
     max-width: 1366px;
-    margin: auto;
-    span {
-      font-weight: bold;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 100%;
+    @include flex-between-center;
+
+    .navbarPortfolio_brand {
+      font-weight: 700;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      color: #f5f5f5;
+      position: relative;
+      text-transform: uppercase;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      /* Effet 3D profond façon empilement, fidèle à ton exemple */
+      text-shadow:
+        1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+        1px 18px 6px rgba(16, 16, 16, 0.4),
+        1px 22px 10px rgba(16, 16, 16, 0.2),
+        1px 25px 35px rgba(16, 16, 16, 0.2),
+        1px 30px 60px rgba(16, 16, 16, 0.4),
+        0 0 2px #e53935; /* contour rouge subtil */
     }
+
     .navbarPortfolio_socials {
-      display: flex;
-      gap: 20px;
+      @include flex;
+      gap: 26px;
+
+      a {
+        @include flex-align-center;
+        color: #222;
+        transition:
+          transform 0.18s,
+          color 0.18s,
+          text-shadow 0.18s;
+
+        &:hover,
+        &:focus {
+          color: #00bfae;
+          transform: scale(1.17) rotate(-8deg);
+          text-shadow: 0 2px 16px rgba(0, 191, 174, 0.18);
+          text-decoration: none;
+        }
+      }
+
       .navbarPortfolio_socials_Style {
-        font-size: 2rem;
+        font-size: 2.1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .navbarPortfolio {
+    height: 64px;
+    .navbarPortfolio_wrapper {
+      padding: 0 1rem;
+      .navbarPortfolio_brand {
+        font-size: 1.1rem;
+        text-shadow:
+          1px 1px 1px #919191,
+          1px 2px 1px #919191,
+          1px 3px 1px #919191,
+          0 0 2px #e53935;
+      }
+      .navbarPortfolio_socials .navbarPortfolio_socials_Style {
+        font-size: 1.5rem;
       }
     }
   }

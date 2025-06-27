@@ -9,12 +9,13 @@ const NavbarPortfolio = () => {
     <div className="navbarPortfolio">
       <SidebarPortfolio />
       <div className="navbarPortfolio_wrapper d-flex">
-        <span>Detcherry Dev</span>
+        <span className="navbarPortfolio_brand">Fox Codeur</span>
         <div className="navbarPortfolio_socials">
           <a
             href="https://github.com/FoxCodeur/LOGAN"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="GitHub"
           >
             <FontAwesomeIcon
               icon={faGithubAlt}
@@ -25,6 +26,7 @@ const NavbarPortfolio = () => {
             href="https://www.linkedin.com/in/jean-luc-detcherry-04388018/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn"
           >
             <FontAwesomeIcon
               icon={faLinkedin}

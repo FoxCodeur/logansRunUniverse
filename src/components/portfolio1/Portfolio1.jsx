@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "../../components/Modal/Modal";
 import "./Portfolio1.scss";
-import { usePortfolio } from "../../pages/portfolio/Context/PortfolioProvider";
+import { usePortfolio } from "../../context/PortfolioProvider";
 import { formatTextWithLineBreaks } from "../../utils";
 
 /**

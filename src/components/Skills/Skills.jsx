@@ -93,7 +93,7 @@ const skills = [
 ];
 
 const Skills = () => (
-  <div className="skills-section">
+  <section className="skills-section">
     <h2>Compétences</h2>
     <div className="skills-list">
       {skills.map((skill, idx) => (
@@ -105,7 +105,7 @@ const Skills = () => (
         />
       ))}
     </div>
-  </div>
+  </section>
 );
 
 export default Skills;

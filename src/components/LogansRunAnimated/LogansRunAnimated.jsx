@@ -14,8 +14,17 @@ import laserImg from "@/assets/images/portfolioImages/LaserPortfolio.webp";
 import titreImg from "@/assets/images/portfolioImages/TitreLogansRunPortfolio.png";
 import afficheImg from "@/assets/images/portfolioImages/AfficheLogansRunPortfolio.png";
 
+// Enregistre le plugin ScrollTrigger pour GSAP (nécessaire pour les animations déclenchées au scroll)
 gsap.registerPlugin(ScrollTrigger);
 
+/**
+ * Tableau d'objets représentant les images à animer dans la section parallax.
+ * Chaque objet contient:
+ *  - refName: nom de la référence React pour cibler l'image dans l'animation
+ *  - src: source de l'image
+ *  - alt: texte alternatif pour l'accessibilité
+ *  - className: classe CSS personnalisée pour le style/placement
+ */
 const images = [
   {
     refName: "backgroundRef",
@@ -73,6 +82,11 @@ const images = [
   },
 ];
 
+/**
+ * Fonction qui construit la timeline d'animations GSAP pour les images du composant.
+ * - refs: objets contenant les références React de chaque image (passées automatiquement)
+ * - sectionRef: référence de la section parallax (pour déclencher l'animation au scroll)
+ */
 const buildTimeline = (refs, sectionRef) => {
   const tl = gsap.timeline({
     scrollTrigger: {
@@ -155,13 +169,23 @@ const buildTimeline = (refs, sectionRef) => {
     );
 };
 
+/**
+ * Composant principal qui affiche la scène animée de Logan's Run.
+ * Il délègue l'affichage et les refs à GsapScrollAnimatedImages,
+ * et passe la timeline d'animation à appliquer.
+ * Ajoute un titre explicatif sous la section d'animation.
+ */
 const LogansRunAnimated = () => (
-  <GsapScrollAnimatedImages
-    images={images}
-    buildTimeline={buildTimeline}
-    wrapperClass="logansrun-animated-wrapper"
-    sectionClass="logansrun-animated-section"
-  />
+  <div>
+    <GsapScrollAnimatedImages
+      images={images}
+      buildTimeline={buildTimeline}
+      wrapperClass="logansrun-animated-wrapper"
+      sectionClass="logansrun-animated-section"
+    />
+    {/* Titre explicatif sous la scène animée */}
+    <h2 className="logansrun-title">Logan's Run</h2>
+  </div>
 );
 
 export default LogansRunAnimated;

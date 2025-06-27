@@ -13,8 +13,17 @@ import portfolioGutz from "@/assets/images/portfolioImages/portfolioGutz.png";
 import portfolioSkarr from "@/assets/images/portfolioImages/portfolioSkarr.png";
 import portfolioNyx from "@/assets/images/portfolioImages/portfolioNyx.png";
 
+// Enregistre le plugin ScrollTrigger pour GSAP (nécessaire pour les animations déclenchées au scroll)
 gsap.registerPlugin(ScrollTrigger);
 
+/**
+ * Tableau d'objets représentant les images à animer dans la section parallax.
+ * Chaque objet contient:
+ *  - refName: nom de la référence React pour cibler l'image dans l'animation
+ *  - src: source de l'image
+ *  - alt: texte alternatif pour l'accessibilité
+ *  - className: classe CSS personnalisée pour le style/placement
+ */
 const images = [
   {
     refName: "roadWarriorRef",
@@ -66,6 +75,11 @@ const images = [
   },
 ];
 
+/**
+ * Fonction qui construit la timeline d'animations GSAP pour les images du composant.
+ * - refs: objets contenant les références React de chaque image (passées automatiquement)
+ * - sectionRef: référence de la section parallax (pour déclencher l'animation au scroll)
+ */
 const buildTimeline = (refs, sectionRef) => {
   const tl = gsap.timeline({
     scrollTrigger: {
@@ -74,6 +88,7 @@ const buildTimeline = (refs, sectionRef) => {
       toggleActions: "play none none none",
     },
   });
+  // Enchaînement des animations sur chaque image
   tl.fromTo(
     refs.interceptorRef.current,
     { x: 0, opacity: 1 },
@@ -117,13 +132,30 @@ const buildTimeline = (refs, sectionRef) => {
     );
 };
 
+/**
+ * Composant principal qui affiche la section Parallax1 avec les images animées.
+ * Il délègue l'affichage et les refs à GsapScrollAnimatedImages,
+ * et passe la timeline d'animation à appliquer.
+ * Ajoute un titre explicatif sous la section d'animation.
+ */
 const Parallax1 = () => (
-  <GsapScrollAnimatedImages
-    images={images}
-    buildTimeline={buildTimeline}
-    wrapperClass="parallax1-wrapper"
-    sectionClass="parallax1-section"
-  />
+  <div>
+    <GsapScrollAnimatedImages
+      images={images}
+      buildTimeline={buildTimeline}
+      wrapperClass="parallax1-wrapper"
+      sectionClass="parallax1-section"
+    />
+    {/* Titre explicatif sous la parallax */}
+    <h2 className="parallax1-title">Le Combattant de l'Autoroute</h2>
+    {/* 
+      // Vous pouvez ajouter ici un paragraphe d'explication pour contextualiser la scène,
+      // par exemple :
+      // <p className="parallax1-description">
+      //   Cette scène illustre l'ambiance et les protagonistes de l'univers Road Warrior.
+      // </p>
+    */}
+  </div>
 );
 
 export default Parallax1;

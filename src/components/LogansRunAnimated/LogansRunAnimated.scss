@@ -1,5 +1,6 @@
 @use "@/styles/mixins" as *;
 
+// Wrapper centré pour la scène animée
 .logansrun-animated-wrapper {
   display: flex;
   justify-content: center;
@@ -11,6 +12,7 @@
   padding-bottom: 48px;
 }
 
+// Section principale contenant la scène animée Logan's Run
 .logansrun-animated-section {
   position: relative;
   width: 1600px;
@@ -41,6 +43,7 @@
   height: auto;
 }
 
+// Conteneur de fond (s'il y a besoin d'un positionnement spécial)
 .background-container {
   width: 100%;
   height: auto;
@@ -49,6 +52,7 @@
   overflow: hidden;
 }
 
+// Image de fond principale
 .logansrun-bg {
   width: 100%;
   height: auto;
@@ -57,7 +61,8 @@
   position: relative;
   z-index: 0;
 }
-// Cela permet d’appliquer certains styles à toutes les images animées, mais pas au fond (background), par exemple : position: absolute, pointer-events, etc.
+
+// Appliquer certains styles à toutes les images animées sauf le fond
 .logansrun-animated-section img:not(.logansrun-bg) {
   position: absolute;
   height: auto;
@@ -65,7 +70,7 @@
   pointer-events: none;
 }
 
-/* Animés */
+/* Images animées - positionnées et empilées avec z-index */
 .logansrun-wagon {
   z-index: 2;
   left: 0;
@@ -105,7 +110,7 @@
   opacity: 0;
 }
 
-/* Bullet (BulletLogansRunPortfolio) */
+/* Laser tiré (Bullet) */
 .logansrun-laser {
   z-index: 7;
   left: 33%;
@@ -130,4 +135,13 @@
   transform: translate(-50%, -50%);
   width: 50%;
   opacity: 0;
+}
+
+// Titre explicatif sous la scène animée
+.logansrun-title {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  color: #3ee7c5;
+  letter-spacing: 2px;
 }

@@ -13,19 +13,18 @@ const Portfolio1 = () => {
   const { projects, projectsError } = usePortfolio();
   const [openModal, setOpenModal] = useState(null); // Gère l'état de la modale
 
-  // Affiche le message d'erreur si les projets ne sont pas disponibles
-  if (projectsError)
-    return (
-      <div className="portfolio-grid-container">
-        <span className="portfolio-message portfolio-error-message">
-          Source indisponible
-        </span>
-      </div>
-    );
-
-  // Affiche la grille des projets si tout va bien
-  return (
+  // Utilisation d'une ternaire pour afficher soit le message d'erreur,
+  // soit la grille des projets (remplace le if/return)
+  return projectsError ? (
+    // Si une erreur est présente, affiche un message d'erreur
     <div className="portfolio-grid-container">
+      <span className="portfolio-message portfolio-error-message">
+        Source indisponible
+      </span>
+    </div>
+  ) : (
+    // Sinon, affiche la grille des projets
+    <section className="portfolio-grid-container">
       <div className="portfolio-grid">
         {projects.map((project, idx) => (
           <div
@@ -107,7 +106,7 @@ const Portfolio1 = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -3,14 +3,20 @@ import PropTypes from "prop-types";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+// Enregistre le plugin ScrollTrigger (indispensable pour déclencher les animations au scroll)
 gsap.registerPlugin(ScrollTrigger);
 
 /**
  * Composant d'affichage et animation d'images GSAP+ScrollTrigger
- * @param {Object[]} images - { refName, src, alt, className }
+ * @param {Object[]} images - [{ refName, src, alt, className }]
  * @param {Function} buildTimeline - (refs, sectionRef) => void
- * @param {string} wrapperClass
- * @param {string} sectionClass
+ * @param {string} wrapperClass - classe CSS pour le wrapper externe
+ * @param {string} sectionClass - classe CSS pour la section principale
+ *
+ * Fonctionnement :
+ * - Génère dynamiquement des refs React pour chaque image (à partir de leur refName).
+ * - Passe toutes les refs et la ref de section à la fonction d'animation (buildTimeline).
+ * - Rendu de la section avec toutes les images positionnées pour être animées.
  */
 const GsapScrollAnimatedImages = ({
   images,
@@ -18,6 +24,7 @@ const GsapScrollAnimatedImages = ({
   wrapperClass = "",
   sectionClass = "",
 }) => {
+  // Création des refs dynamiques pour chaque image du tableau
   const sectionRef = useRef(null);
   const refs = useRef(
     images.reduce((acc, img) => {
@@ -27,9 +34,11 @@ const GsapScrollAnimatedImages = ({
   );
 
   useEffect(() => {
+    // Initialise les animations GSAP dans le contexte de la section
     const ctx = gsap.context(() => {
       buildTimeline(refs.current, sectionRef);
     }, sectionRef);
+    // Nettoyage à la destruction du composant pour éviter les effets de bord
     return () => ctx.revert();
   }, [buildTimeline]);
 

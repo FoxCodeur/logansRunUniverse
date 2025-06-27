@@ -10,17 +10,16 @@ const ExperiencePro = () => {
   // Récupère les expériences et les éventuelles erreurs du contexte Portfolio
   const { experiences, experiencesError } = usePortfolio();
 
-  // Affiche le message d'erreur si les expériences ne sont pas disponibles
-  if (experiencesError)
-    return (
-      <div className="timeline">
-        <div className="timeline-error">Source indisponible</div>
-      </div>
-    );
-
-  // Affiche la timeline des expériences si tout va bien
-  return (
+  // Utilisation d'une ternaire pour afficher soit le message d'erreur, soit la timeline
+  // Remplace l'ancien if (expériencesError) return <Erreur .../>
+  return experiencesError ? (
+    // Si une erreur est présente, affiche un message d'erreur
     <div className="timeline">
+      <div className="timeline-error">Source indisponible</div>
+    </div>
+  ) : (
+    // Sinon, affiche la timeline des expériences
+    <section className="timeline">
       {experiences.map((exp, idx) => (
         <div
           key={idx}
@@ -53,7 +52,7 @@ const ExperiencePro = () => {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

@@ -22,7 +22,7 @@ const Hero = () => {
   }, []); // Le tableau vide signifie que cet effet s'exécute uniquement au montage du composant
 
   return (
-    <div className="hero">
+    <section className="hero">
       {/* Conteneur principal du composant */}
       <div className="wrapperHero">
         {/* Conteneur pour le texte et le bouton */}
@@ -86,7 +86,7 @@ const Hero = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

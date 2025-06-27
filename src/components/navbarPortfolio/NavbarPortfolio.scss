@@ -24,7 +24,6 @@
       color: #f5f5f5;
       position: relative;
       text-transform: uppercase;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
       /* Effet 3D profond façon empilement, fidèle à ton exemple */
       text-shadow:
         1px 1px 1px #919191,
@@ -55,14 +54,6 @@
           transform 0.18s,
           color 0.18s,
           text-shadow 0.18s;
-
-        &:hover,
-        &:focus {
-          color: #00bfae;
-          transform: scale(1.17) rotate(-8deg);
-          text-shadow: 0 2px 16px rgba(0, 191, 174, 0.18);
-          text-decoration: none;
-        }
       }
 
       .navbarPortfolio_socials_Style {

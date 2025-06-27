@@ -1,6 +1,6 @@
 @use "@/styles/mixins" as *;
 
-// Utilisation des mixins flex pour factoriser
+// Utilisation des mixins flex pour factoriser la gestion du centrage
 .parallax1-wrapper {
   @include flex-center;
   width: 100vw;
@@ -10,6 +10,7 @@
   padding-bottom: 48px;
 }
 
+// Section principale contenant la scène parallaxée
 .parallax1-section {
   position: relative;
   width: 1197px;
@@ -34,7 +35,7 @@
   }
 }
 
-// Position globale des images
+// Style global des images de la parallax : position absolue, pas d'interaction utilisateur
 .parallax1-section img {
   position: absolute;
   width: auto;
@@ -43,9 +44,9 @@
   max-height: none;
   user-select: none;
   pointer-events: none;
-  /* Pas de !important ici */
 }
 
+// Styles spécifiques pour chaque image selon sa classe
 .parallax-bg {
   z-index: 0;
   left: 0;
@@ -109,10 +110,19 @@
   top: auto;
 }
 
-// Masquer les éléments au départ
+// Les images qui apparaissent à l'animation sont masquées au départ
 .parallax-logo,
 .parallax-gutz,
 .parallax-skarr,
 .parallax-nyx {
   opacity: 0;
+}
+
+// Titre explicatif sous la section parallax
+.parallax1-title {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  color: #e53935;
+  letter-spacing: 2px;
 }

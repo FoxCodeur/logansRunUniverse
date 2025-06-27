@@ -1,5 +1,5 @@
 import React from "react";
-import { usePortfolio } from "../Context/PortfolioProvider";
+import { usePortfolio } from "../../pages/portfolio/Context/PortfolioProvider";
 import "./ExperiencePro.scss";
 
 /**

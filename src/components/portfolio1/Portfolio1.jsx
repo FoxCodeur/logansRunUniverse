@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Modal from "../../../components/Modal/Modal";
+import Modal from "../../components/Modal/Modal";
 import "./Portfolio1.scss";
-import { usePortfolio } from "../Context/PortfolioProvider";
-import { formatTextWithLineBreaks } from "../../../utils";
+import { usePortfolio } from "../../pages/portfolio/Context/PortfolioProvider";
+import { formatTextWithLineBreaks } from "../../utils";
 
 /**
  * Ce composant affiche la grille des projets du portfolio.

@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   height: calc(100vh - 200px);
   overflow: hidden;
   background: linear-gradient(180deg, #0c0c1d, #111132);

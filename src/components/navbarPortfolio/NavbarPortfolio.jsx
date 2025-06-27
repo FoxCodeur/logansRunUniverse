@@ -2,7 +2,7 @@ import React from "react";
 import "./NavbarPortfolio.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubAlt, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import SidebarPortfolio from "./sidebarPortfolio/SidebarPortfolio";
+import SidebarPortfolio from "../sidebarPortfolio/SidebarPortfolio";
 
 const NavbarPortfolio = () => {
   return (

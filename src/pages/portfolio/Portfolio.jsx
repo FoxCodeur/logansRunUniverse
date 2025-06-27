@@ -1,12 +1,12 @@
 import React from "react";
-import NavbarPortfolio from "./navbarPortfolio/NavbarPortfolio";
-import Hero from "./hero/Hero";
-import Parallax1 from "./parallax1/Parallax1";
-import Portfolio1 from "./portfolio1/Portfolio1";
-import ExperiencePro from "./ExperiencePro/ExperiencePro";
+import NavbarPortfolio from "../../components/navbarPortfolio/NavbarPortfolio";
+import Hero from "../../components/hero/Hero";
+import Parallax1 from "../../components/parallax1/Parallax1";
+import Portfolio1 from "../../components/portfolio1/Portfolio1";
+import ExperiencePro from "../../components/ExperiencePro/ExperiencePro";
 import "./Portfolio.scss";
-import LogansRunAnimated from "./LogansRunAnimated/LogansRunAnimated";
-import Skills from "./Skills/Skills";
+import LogansRunAnimated from "../../components/LogansRunAnimated/LogansRunAnimated";
+import Skills from "../../components/Skills/Skills";
 
 const Portfolio = () => {
   return (

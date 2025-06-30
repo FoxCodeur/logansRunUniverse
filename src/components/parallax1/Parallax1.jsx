@@ -2,6 +2,7 @@ import React from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import GsapScrollAnimatedImages from "@/components/GsapScrollAnimatedImages/GsapScrollAnimatedImages";
+import useIsMobile from "@/hooks/useIsMobile"; // Ajout du hook pour gérer l'affichage mobile
 import "./Parallax1.scss";
 
 import portfolioRoadWarrior from "@/assets/images/portfolioImages/portfolioRoadWarrior.png";
@@ -138,17 +139,23 @@ const buildTimeline = (refs, sectionRef) => {
  * et passe la timeline d'animation à appliquer.
  * Ajoute un titre explicatif sous la section d'animation.
  */
-const Parallax1 = () => (
-  <div>
-    <GsapScrollAnimatedImages
-      images={images}
-      buildTimeline={buildTimeline}
-      wrapperClass="parallax1-wrapper"
-      sectionClass="parallax1-section"
-    />
-    {/* Titre explicatif sous la parallax */}
-    <h2 className="parallax1-title">Le Combattant de l'Autoroute</h2>
-  </div>
-);
+const Parallax1 = () => {
+  const isMobile = useIsMobile(1366); // On masque pour mobile et tablettes
+
+  if (isMobile) return null; // N'affiche rien sur mobile/tablette
+
+  return (
+    <div>
+      <GsapScrollAnimatedImages
+        images={images}
+        buildTimeline={buildTimeline}
+        wrapperClass="parallax1-wrapper"
+        sectionClass="parallax1-section"
+      />
+      {/* Titre explicatif sous la parallax */}
+      <h2 className="parallax1-title">Le Combattant de l'Autoroute</h2>
+    </div>
+  );
+};
 
 export default Parallax1;

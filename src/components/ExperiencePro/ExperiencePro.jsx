@@ -1,5 +1,6 @@
 import React from "react";
 import { usePortfolio } from "../../context/PortfolioProvider";
+import useIsMobile from "@/hooks/useIsMobile"; // Ajout du hook pour détecter le mobile
 import "./ExperiencePro.scss";
 
 /**
@@ -9,6 +10,7 @@ import "./ExperiencePro.scss";
 const ExperiencePro = () => {
   // Récupère les expériences et les éventuelles erreurs du contexte Portfolio
   const { experiences, experiencesError } = usePortfolio();
+  const isMobile = useIsMobile(800); // On considère "mobile" si < 800px
 
   // Utilisation d'une ternaire pour afficher soit le message d'erreur, soit la timeline
   // Remplace l'ancien if (expériencesError) return <Erreur .../>
@@ -23,7 +25,8 @@ const ExperiencePro = () => {
       {experiences.map((exp, idx) => (
         <div
           key={idx}
-          className={`timeline-item ${idx % 2 === 0 ? "left" : "right"}`}
+          // Sur mobile/tablette : on force tous les items à gauche, sinon on alterne gauche/droite
+          className={`timeline-item ${isMobile ? "left" : idx % 2 === 0 ? "left" : "right"}`}
         >
           <div className="timeline-period">{exp.period}</div>
           <div className="timeline-content">

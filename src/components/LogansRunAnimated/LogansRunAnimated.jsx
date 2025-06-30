@@ -2,6 +2,7 @@ import React from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import GsapScrollAnimatedImages from "@/components/GsapScrollAnimatedImages/GsapScrollAnimatedImages";
+import useIsMobile from "@/hooks/useIsMobile"; // Ajout du hook pour gérer l'affichage mobile
 import "./LogansRunAnimated.scss";
 
 import backgroundImg from "@/assets/images/portfolioImages/LogansRunBackgroundPortfolio.webp";
@@ -175,17 +176,23 @@ const buildTimeline = (refs, sectionRef) => {
  * et passe la timeline d'animation à appliquer.
  * Ajoute un titre explicatif sous la section d'animation.
  */
-const LogansRunAnimated = () => (
-  <div>
-    <GsapScrollAnimatedImages
-      images={images}
-      buildTimeline={buildTimeline}
-      wrapperClass="logansrun-animated-wrapper"
-      sectionClass="logansrun-animated-section"
-    />
-    {/* Titre explicatif sous la scène animée */}
-    <h2 className="logansrun-title">Logan's Run</h2>
-  </div>
-);
+const LogansRunAnimated = () => {
+  const isMobile = useIsMobile(1366); // On masque pour mobile et tablettes
+
+  if (isMobile) return null; // N'affiche rien sur mobile/tablette
+
+  return (
+    <div>
+      <GsapScrollAnimatedImages
+        images={images}
+        buildTimeline={buildTimeline}
+        wrapperClass="logansrun-animated-wrapper"
+        sectionClass="logansrun-animated-section"
+      />
+      {/* Titre explicatif sous la scène animée */}
+      <h2 className="logansrun-title">Logan's Run</h2>
+    </div>
+  );
+};
 
 export default LogansRunAnimated;

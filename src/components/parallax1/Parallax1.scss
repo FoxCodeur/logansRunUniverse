@@ -29,7 +29,6 @@
     repeating-linear-gradient(45deg, #3e2b13 0 8px, transparent 8px 30px);
   background-blend-mode: overlay;
 
-  // Masquer la section sur mobile et petits écrans
   @media (max-width: 1366px) {
     display: none;
   }
@@ -60,11 +59,14 @@
   top: auto;
 }
 
+// Correction centrage logo (Vercel/prod)
 .parallax-logo {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
   z-index: 3;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  opacity: 0;
 }
 
 // BigBoss mask : doit être derrière les persos, devant le logo
@@ -126,7 +128,6 @@
   color: #e53935;
   letter-spacing: 2px;
 
-  // Masquer le titre sur mobile et petits écrans (comme la section)
   @media (max-width: 1366px) {
     display: none;
   }

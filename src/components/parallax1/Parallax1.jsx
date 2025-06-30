@@ -2,7 +2,7 @@ import React from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import GsapScrollAnimatedImages from "@/components/GsapScrollAnimatedImages/GsapScrollAnimatedImages";
-import useIsMobile from "@/hooks/useIsMobile"; // Ajout du hook pour gérer l'affichage mobile
+import useIsMobile from "@/hooks/useIsMobile"; // Hook pour gérer l'affichage mobile
 import "./Parallax1.scss";
 
 import portfolioRoadWarrior from "@/assets/images/portfolioImages/portfolioRoadWarrior.png";

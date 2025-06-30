@@ -7,7 +7,14 @@ import blueCristal from "@/assets/images/flowers-index/blue-flower.webp";
 import redCristal from "@/assets/images/flowers-index/red-flower.webp";
 import blackCristal from "@/assets/images/flowers-index/black-flower.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import useIsMobile from "@/hooks/useIsMobile";
+
 const HomeSectionSept = () => {
+  const isMobile = useIsMobile();
+
+  // Ne pas afficher cette section sur mobile pour optimiser la perf
+  if (isMobile) return null;
+
   return (
     <div className="marginUpDownContainer">
       <div className="tiret"></div>
@@ -25,7 +32,7 @@ const HomeSectionSept = () => {
               className="organic-flower"
               src={whiteCristal}
               alt="cristal de vie incolore"
-              loading="lazy" // Cet attribut est utilisé pour activer le chargement paresseux (lazy loading) des images dans les navigateurs qui le prennent en charge. L'idée est de différer le chargement des images jusqu'à ce qu'elles soient visibles à l'écran, améliorant ainsi les performances en réduisant le temps de chargement initial de la page.
+              loading="lazy"
               width={838}
               height={748}
             />

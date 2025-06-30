@@ -4,8 +4,14 @@ import "./HomeSectionParallax.scss";
 import afficheBarillet from "@/assets/images/images-générales/barillet-affiche.webp";
 import afficheBarilletcover from "@/assets/images/images-générales/six-way-to-die.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import useIsMobile from "@/hooks/useIsMobile";
 
 const HomeSectionParallax = () => {
+  const isMobile = useIsMobile();
+
+  // Ne pas afficher la section sur mobile pour optimiser les performances et éviter le chargement inutile des images
+  if (isMobile) return null;
+
   return (
     <div className="parallax-container">
       {/* La première valeur (-50) représente la position de départ en 
@@ -17,7 +23,6 @@ const HomeSectionParallax = () => {
        l'utilisateur fait défiler la page, ajoutant un effet visuel attrayant
         et dynamique. Vous pouvez ajuster ces valeurs pour obtenir différents
          effets de mouvement selon vos besoins. */}
-
       <img
         className="afficheBarillet"
         src={afficheBarillet}

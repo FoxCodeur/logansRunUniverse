@@ -39,8 +39,8 @@ const HomeSectionTrois = () => {
             src={loganVersionUn}
             alt="logan brandit son arme de service"
             effect="blur" // Effet de flou ou autre effet supporté
-            width={448}
-            height={643}
+            // width={448}
+            // height={643}
           />
         </div>
         <div className="shadowBallContainer">
@@ -49,8 +49,8 @@ const HomeSectionTrois = () => {
               src={loganVersionDeux}
               alt="logan est à genoux"
               effect="blur" // Effet de flou ou autre effet supporté
-              width={444}
-              height={641}
+              // width={444}
+              // height={641}
             />
           </div>
 
@@ -66,8 +66,8 @@ const HomeSectionTrois = () => {
             src={loganVersionTrois}
             alt="logan porte sa tenue de service avec le casque de limier"
             effect="blur" // Effet de flou
-            width={444}
-            height={641}
+            // width={444}
+            // height={641}
           />
         </div>
       </div>

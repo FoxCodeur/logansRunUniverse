@@ -7,6 +7,7 @@ import ExperiencePro from "../../components/ExperiencePro/ExperiencePro";
 import "./Portfolio.scss";
 import LogansRunAnimated from "../../components/LogansRunAnimated/LogansRunAnimated";
 import Skills from "../../components/Skills/Skills";
+import ScrollToTopButton from "../../components/ScrollToTopButton/ScrollToTopButton"; // <--- IMPORT
 
 const Portfolio = () => {
   return (
@@ -27,15 +28,18 @@ const Portfolio = () => {
         </section>
         <section className="sectionPortfolio" id="Competences">
           <Skills />
+          <ScrollToTopButton />
         </section>
         <section className="sectionPortfolio">
           <LogansRunAnimated />
         </section>
         <section className="sectionPortfolio" id="Portfolio">
           <Portfolio1 />
+          <ScrollToTopButton />
         </section>
         <section className="sectionPortfolio" id="CV">
           <ExperiencePro />
+          <ScrollToTopButton />
         </section>
       </main>
     </>

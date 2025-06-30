@@ -10,6 +10,11 @@
   overflow-x: auto;
   padding-top: 48px;
   padding-bottom: 48px;
+
+  // Masquer toute la scène animée sur mobile et petits écrans
+  @media (max-width: 1366px) {
+    display: none;
+  }
 }
 
 // Section principale contenant la scène animée Logan's Run
@@ -41,6 +46,11 @@
   }
 
   height: auto;
+
+  // Masquer la section sur mobile et petits écrans
+  @media (max-width: 1366px) {
+    display: none;
+  }
 }
 
 // Conteneur de fond (s'il y a besoin d'un positionnement spécial)
@@ -144,4 +154,9 @@
   font-size: 1.5rem;
   color: #3ee7c5;
   letter-spacing: 2px;
+
+  // Masquer le titre sur mobile et petits écrans (comme la scène)
+  @media (max-width: 1366px) {
+    display: none;
+  }
 }

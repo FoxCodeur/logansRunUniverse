@@ -148,13 +148,6 @@ const Parallax1 = () => (
     />
     {/* Titre explicatif sous la parallax */}
     <h2 className="parallax1-title">Le Combattant de l'Autoroute</h2>
-    {/* 
-      // Vous pouvez ajouter ici un paragraphe d'explication pour contextualiser la scène,
-      // par exemple :
-      // <p className="parallax1-description">
-      //   Cette scène illustre l'ambiance et les protagonistes de l'univers Road Warrior.
-      // </p>
-    */}
   </div>
 );
 

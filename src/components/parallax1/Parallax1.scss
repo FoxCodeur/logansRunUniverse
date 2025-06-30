@@ -125,4 +125,9 @@
   font-size: 1.5rem;
   color: #e53935;
   letter-spacing: 2px;
+
+  // Masquer le titre sur mobile et petits écrans (comme la section)
+  @media (max-width: 1366px) {
+    display: none;
+  }
 }

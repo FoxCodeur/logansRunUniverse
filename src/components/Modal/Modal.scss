@@ -78,12 +78,23 @@
 }
 
 @media (max-width: 600px) {
+  .modal-overlay {
+    align-items: flex-end; /* Place la modal en bas */
+    justify-content: center;
+    padding-bottom: 6vw; /* Espace avec le bas */
+    padding-top: 0; /* Plus de padding haut */
+    min-height: 100dvh;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
   .modal-content {
     width: 98vw;
     max-width: 98vw;
     min-width: 0;
     padding: 1.2rem 0.5rem 1.2rem 0.5rem;
-    border-radius: 0.9rem;
+    border-radius: 1.1rem 1.1rem 0.9rem 0.9rem; /* coins arrondis sauf en bas */
+    margin: 0 auto;
+    max-height: 90vh; /* Permet de scroller si trop haut */
   }
   .modal-close {
     top: 1rem;

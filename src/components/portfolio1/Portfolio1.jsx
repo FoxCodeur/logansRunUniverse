@@ -6,60 +6,66 @@ import { formatTextWithLineBreaks } from "../../utils";
 
 /**
  * Ce composant affiche la grille des projets du portfolio.
+ * Si une erreur survient lors du chargement, un message d'erreur est affiché.
  */
 const Portfolio1 = () => {
+  // Récupère les projets et les éventuelles erreurs du contexte Portfolio
   const { projects, projectsError } = usePortfolio();
-  const [openModal, setOpenModal] = useState(null);
+  const [openModal, setOpenModal] = useState(null); // Gère l'état de la modale
+
+  // On stocke un ref pour chaque carte projet
   const cardRefs = useRef({});
 
-  // Centre la carte avant d’ouvrir la modale
+  // Callback qui centre la carte puis ouvre la modale
   const handleOpenModal = (projectId) => {
     const cardNode = cardRefs.current[projectId];
     if (cardNode) {
+      // On scrolle la section dans le viewport
       cardNode.scrollIntoView({ behavior: "smooth", block: "center" });
-      setTimeout(() => setOpenModal(projectId), 350);
+      // Ouvre la modale après un petit délai pour laisser le scroll se faire
+      setTimeout(() => setOpenModal(projectId), 300);
     } else {
       setOpenModal(projectId);
     }
   };
 
-  if (projectsError) {
-    return (
-      <div className="portfolio-grid-container">
-        <span className="portfolio-message portfolio-error-message">
-          Source indisponible
-        </span>
-      </div>
-    );
-  }
-
-  return (
+  // Utilisation d'une ternaire pour afficher soit le message d'erreur,
+  // soit la grille des projets (remplace le if/return)
+  return projectsError ? (
+    // Si une erreur est présente, affiche un message d'erreur
+    <div className="portfolio-grid-container">
+      <span className="portfolio-message portfolio-error-message">
+        Source indisponible
+      </span>
+    </div>
+  ) : (
+    // Sinon, affiche la grille des projets
     <section className="portfolio-grid-container">
       <div className="portfolio-grid">
         {projects.map((project, idx) => (
           <div
             key={project.id}
-            className={`portfolio-card${idx === projects.length - 1 ? " center-card" : ""}`}
+            className={`portfolio-card${
+              idx === projects.length - 1 ? " center-card" : ""
+            }`}
+            // Ajoute un ref à chaque carte
             ref={(el) => {
               cardRefs.current[project.id] = el;
             }}
           >
+            {/* Image du projet */}
             <img src={project.image} alt={project.title} />
+            {/* Titre du projet */}
             <h3>{project.title}</h3>
+            {/* Bouton pour ouvrir la modale */}
             <button onClick={() => handleOpenModal(project.id)}>
               En savoir plus
             </button>
+            {/* Modale avec détails du projet si openModal === id du projet */}
             {openModal === project.id && (
               <Modal onClose={() => setOpenModal(null)}>
                 <div className="modal-portfolio-content">
-                  <div className="modal-project-header">
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className="modal-project-image"
-                    />
-                    <h2 className="modal-project-title">{project.title}</h2>
-                  </div>
+                  <h2>{project.title}</h2>
                   <h4>Résumé du projet</h4>
                   <p className="modal-portfolio-paragraph">
                     {formatTextWithLineBreaks(project.summary)}
@@ -98,6 +104,7 @@ const Portfolio1 = () => {
                       {project.details.demo}
                     </a>
                   </p>
+                  {/* Technologies utilisées */}
                   {project.technologies &&
                     Object.values(project.technologies).some(Boolean) && (
                       <div className="modal-portfolio-technologies">

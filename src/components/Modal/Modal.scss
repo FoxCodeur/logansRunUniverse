@@ -3,15 +3,20 @@
   z-index: 2000;
   inset: 0;
   width: 100vw;
-  height: 100vh;
+  min-height: 100svh; /* viewport réel, évite le hors-champ mobile */
   background: rgba(30, 30, 60, 0.37);
   display: flex;
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(4px);
-  /* Pour certains navigateurs mobiles, forcer le plein écran */
-  min-height: 100vh;
-  min-width: 100vw;
+
+  /* Ajoute un léger padding pour éviter le collage sur le haut/bas en mobile */
+  padding: 4vw 0 4vw 0;
+
+  /* Sécurité pour les encoches (iPhone) */
+  padding-top: max(4vw, env(safe-area-inset-top));
+  padding-bottom: max(4vw, env(safe-area-inset-bottom));
+  box-sizing: border-box;
 }
 
 .modal-content {
@@ -31,6 +36,9 @@
   backdrop-filter: blur(15px) saturate(120%);
   -webkit-backdrop-filter: blur(15px) saturate(120%);
   animation: modalUp 0.3s cubic-bezier(0.23, 1.36, 0.62, 1.01);
+
+  /* Centre la modal même si jamais le flex bug */
+  margin: auto;
 }
 
 @keyframes modalUp {

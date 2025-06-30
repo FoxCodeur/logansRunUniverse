@@ -22,6 +22,8 @@ const HomeSectionParallax = () => {
         className="afficheBarillet"
         src={afficheBarillet}
         alt="barillet de revolver avec munitions"
+        width={882}
+        height={656}
       />
       {/* En utilisant LazyLoadImage avec l'effet opacity, vos images
        l'image est chargées de manière différée et s'affiche à mesure que
@@ -32,6 +34,8 @@ const HomeSectionParallax = () => {
           src={afficheBarilletcover}
           alt="six way to die cover"
           loading="lazy"
+          width={530}
+          height={531}
         />
       </Parallax>
     </div>

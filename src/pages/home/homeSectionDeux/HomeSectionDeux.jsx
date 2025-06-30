@@ -40,6 +40,8 @@ const HomeSectionDeux = () => {
             src={ceremonieCarousel}
             alt="Participants masqués flottant lors de la cérémonie du Carousel"
             loading="lazy"
+            width={1134}
+            height={522}
           />
           <figcaption>La cérémonie du Carousel</figcaption>
         </figure>

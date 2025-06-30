@@ -26,6 +26,8 @@ const HomeSectionSept = () => {
               src={whiteCristal}
               alt="cristal de vie incolore"
               loading="lazy" // Cet attribut est utilisé pour activer le chargement paresseux (lazy loading) des images dans les navigateurs qui le prennent en charge. L'idée est de différer le chargement des images jusqu'à ce qu'elles soient visibles à l'écran, améliorant ainsi les performances en réduisant le temps de chargement initial de la page.
+              width={838}
+              height={748}
             />
           </div>
         </div>
@@ -47,6 +49,8 @@ const HomeSectionSept = () => {
               src={yellowCristal}
               alt="cristal de vie phase jaune"
               loading="lazy"
+              width={838}
+              height={748}
             />
           </div>
         </div>
@@ -66,6 +70,8 @@ const HomeSectionSept = () => {
               src={blueCristal}
               alt="cristal de vie phase bleue"
               loading="lazy"
+              width={838}
+              height={748}
             />
           </div>
         </div>
@@ -85,6 +91,8 @@ const HomeSectionSept = () => {
               src={redCristal}
               alt="cristal de vie phase rouge"
               loading="lazy"
+              width={838}
+              height={748}
             />
           </div>
         </div>
@@ -104,12 +112,16 @@ const HomeSectionSept = () => {
               src={redCristal}
               alt="cristal de vie rougle clignotant"
               loading="lazy"
+              width={838}
+              height={748}
             />
             <LazyLoadImage
               className="organic-flower "
               src={blackCristal}
               alt="cristal de vie rougle clignotant"
               loading="lazy"
+              width={838}
+              height={748}
             />
           </div>
         </div>
@@ -129,6 +141,8 @@ const HomeSectionSept = () => {
               src={blackCristal}
               alt="cristal de vie rougle clignotant"
               loading="lazy"
+              width={838}
+              height={748}
             />
           </div>
         </div>

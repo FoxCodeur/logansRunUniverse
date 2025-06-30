@@ -71,6 +71,8 @@ const HomeSectionSix = () => {
               src={maquetteUn}
               alt="c'est l'une des maquettes du dôme qui a été créé pour les besoins du film Logan's run"
               loading="lazy"
+              width={911}
+              height={735}
             />
           </div>
           <div className="cityMaquetBorder">
@@ -79,6 +81,8 @@ const HomeSectionSix = () => {
               src={maquetteDeux}
               alt="c'est l'une des maquettes du dôme qui a été créé pour les besoins du film Logan's run"
               loading="lazy"
+              width={911}
+              height={735}
             />
           </div>
         </div>

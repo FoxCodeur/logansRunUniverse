@@ -55,12 +55,16 @@ const HomeSectionQuatre = () => {
           src={concept1}
           alt="concept de logo titre francisé l'age de cristal version cercle rouge"
           loading="lazy"
+          width={692}
+          height={443}
         />
         <LazyLoadImage
           className="conceptartWidth"
           src={concept2}
           alt="concept de logo titre francisé l'age de cristal version cristal rouge"
           loading="lazy"
+          width={692}
+          height={443}
         />
       </div>
     </section>

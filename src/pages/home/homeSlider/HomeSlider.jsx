@@ -14,6 +14,8 @@ const HomeSlider = () => {
             src={loganBirthUn}
             alt=""
             loading="lazy"
+            width={940}
+            height={200}
           />
         </div>
         <div>
@@ -22,6 +24,8 @@ const HomeSlider = () => {
             src={loganBirthDeux}
             alt=""
             loading="lazy"
+            width={940}
+            height={200}
           />
         </div>
       </div>

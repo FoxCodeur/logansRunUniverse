@@ -14,6 +14,8 @@ const HomeWaveNav = () => {
           src={loganSphere}
           alt="sphere avec inscription Logan run"
           loading="lazy" // Cet attribut est utilisé pour activer le chargement paresseux (lazy loading) des images dans les navigateurs qui le prennent en charge. L'idée est de différer le chargement des images jusqu'à ce qu'elles soient visibles à l'écran, améliorant ainsi les performances en réduisant le temps de chargement initial de la page.
+          width={727}
+          height={651}
         />
       </div>
 

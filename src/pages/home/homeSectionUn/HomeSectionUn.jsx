@@ -58,6 +58,8 @@ const HomeSectionUn = () => {
             className="nouvelleEdition"
             src={nouvelleEdition}
             alt="nouvelle édition du roman Logan's run"
+            width={440}
+            height={677}
           />
         </div>
       </div>

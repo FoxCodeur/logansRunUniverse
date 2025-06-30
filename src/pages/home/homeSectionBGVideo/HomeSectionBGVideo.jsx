@@ -7,13 +7,16 @@ import starring2 from "@/assets/images/images-générales/starring2.webp";
 import starring3 from "@/assets/images/images-générales/starring3.webp";
 import starring4 from "@/assets/images/images-générales/starring4.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import useIsMobile from "@/hooks/useIsMobile"; // <-- AJOUT de l'import du hook
+
 const HomeSectionBGVideo = () => {
+  const isMobile = useIsMobile(); // <-- UTILISATION du hook
+
+  if (isMobile) return null; // <-- Ne rien rendre du tout sur mobile
+
   return (
     <>
       <div className="d-flex starrings">
-        {/* En utilisant LazyLoadImage avec l'effet opacity, vos images
-       l'image est chargées de manière différée et s'affiche à mesure que
-      l'on scrolle. */}
         <LazyLoadImage
           className="starring"
           src={starring}

@@ -2,15 +2,21 @@
   position: fixed;
   z-index: 2000;
   inset: 0;
+  width: 100vw;
+  height: 100vh;
   background: rgba(30, 30, 60, 0.37);
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(4px); // effet glassy sur l'overlay
+  backdrop-filter: blur(4px);
+  /* Pour certains navigateurs mobiles, forcer le plein écran */
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .modal-content {
   position: relative;
+  box-sizing: border-box;
   background: rgba(255, 255, 255, 0.92);
   border-radius: 1.3rem;
   padding: 2.5rem 1.5rem 1.7rem 1.5rem;
@@ -60,5 +66,19 @@
   &:hover {
     color: #5a189a;
     transform: scale(1.15) rotate(8deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .modal-content {
+    width: 98vw;
+    max-width: 98vw;
+    min-width: 0;
+    padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+    border-radius: 0.9rem;
+  }
+  .modal-close {
+    top: 1rem;
+    font-size: 2rem;
   }
 }

@@ -315,7 +315,7 @@
     "image": "/assets/images/portfolioProjects/LogansProject.webp",
     "summary": "Le projet Logan's Run Universe est une application web dédiée à l’univers de « Logan’s Run ». Ce fansite propose une expérience immersive permettant aux passionnés de (re)découvrir l’histoire, les personnages, les lieux emblématiques et les anecdotes de la saga. L’objectif principal était de créer un site interactif, esthétique et responsive, mettant en valeur les contenus tout en facilitant la navigation pour les utilisateurs.",
     "details": {
-      "objectif": "Objectif du projet.",
+      "objectif": "Créer une application web immersive dédiée à l’univers de « Logan’s Run », permettant aux fans de (re)découvrir l’histoire, les personnages et les lieux emblématiques de la saga. L’objectif est de proposer un site interactif, moderne et responsive qui met en valeur les contenus tout en facilitant la navigation, avec une expérience utilisateur optimisée sur tous les supports et une gestion centralisée des données grâce à React Context.",
       "travail": [
         "Conception de la structure du site (arborescence, wireframes)",
         "Création de pages thématiques sur l’univers de Logan’s Run (histoire, personnages, lieux, etc.)",

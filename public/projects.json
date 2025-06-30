@@ -14,7 +14,7 @@
       ],
       "code": "",
       "demo": "",
-      "deliverable": "Présentation du projet 2"
+      "deliverable": ""
     },
     "technologies": {
       "javascript": false,
@@ -46,7 +46,7 @@
       ],
       "code": "https://github.com/FoxCodeur/booki-starter-code",
       "demo": "https://foxcodeur.github.io/booki-starter-code/",
-      "deliverable": "Livrable à venir"
+      "deliverable": ""
     },
     "technologies": {
       "javascript": false,
@@ -79,7 +79,7 @@
       ],
       "code": "https://github.com/FoxCodeur/OhMyFood",
       "demo": "https://foxcodeur.github.io/OhMyFood/",
-      "deliverable": "Livrable à venir"
+      "deliverable": ""
     },
     "technologies": {
       "javascript": false,
@@ -112,7 +112,7 @@
       ],
       "code": "https://github.com/FoxCodeur/print-it",
       "demo": "https://foxcodeur.github.io/print-it/",
-      "deliverable": "Livrable à venir"
+      "deliverable": ""
     },
     "technologies": {
       "javascript": true,
@@ -146,7 +146,7 @@
       ],
       "code": "https://github.com/FoxCodeur/Portfolio-architecte-sophie-bluel",
       "demo": "",
-      "deliverable": "Livrable à venir"
+      "deliverable": ""
     },
     "technologies": {
       "javascript": true,
@@ -181,7 +181,7 @@
       ],
       "code": "https://github.com/FoxCodeur/kasa",
       "demo": "https://kasa-gold.vercel.app/",
-      "deliverable": "Livrable à venir"
+      "deliverable": ""
     },
     "technologies": {
       "javascript": false,
@@ -214,7 +214,7 @@
       ],
       "code": "https://github.com/FoxCodeur/ninacarducci.github.io",
       "demo": "https://foxcodeur.github.io/ninacarducci.github.io/",
-      "deliverable": "Livrable à venir"
+      "deliverable": ""
     },
     "technologies": {
       "javascript": false,
@@ -252,7 +252,7 @@
       ],
       "code": "https://github.com/FoxCodeur/Debuggez-une-application-React.JS",
       "demo": "",
-      "deliverable": "Livrable à venir"
+      "deliverable": ""
     },
     "technologies": {
       "javascript": false,
@@ -291,7 +291,7 @@
       ],
       "code": "https://github.com/FoxCodeur/ArgentBank-Frontend/tree/feature/landing-page",
       "demo": "",
-      "deliverable": "Livrable à venir"
+      "deliverable": ""
     },
     "technologies": {
       "javascript": false,
@@ -332,7 +332,7 @@
       ],
       "code": "https://github.com/FoxCodeur/logansRunUniverse",
       "demo": "https://logans-run-universe.vercel.app/portfolio",
-      "deliverable": "Livrable à venir"
+      "deliverable": ""
     },
     "technologies": {
       "javascript": false,
@@ -358,14 +358,14 @@
     "image": "/assets/images/portfolioProjects/LeCombattantProject.webp",
     "summary": "Ce projet est une adaptation numérique de l’expérience du livre-jeu, où le lecteur devient acteur de l’aventure. L’application, réalisée en React, propose une interface immersive permettant de parcourir un récit à embranchements, de faire des choix et d’en découvrir les conséquences en temps réel.",
     "details": {
-      "objectif": "Objectif du projet.",
+      "objectif": "Concevoir une adaptation numérique fidèle et immersive du livre-jeu « Le Combattant de l'Autoroute » permettant à l’utilisateur de vivre l’aventure de façon interactive. L’application vise à reproduire l’expérience de lecture à embranchements, en offrant une interface dynamique pour effectuer des choix, suivre l’évolution du récit et découvrir des fins multiples, tout en garantissant une navigation fluide et un design moderne accessible sur tous les supports.",
       "travail": [
         "Étape 1 réalisée",
         "Étape 2 réalisée"
       ],
-      "code": "#",
-      "demo": "#",
-      "deliverable": "Livrable à venir"
+      "code": "https://github.com/FoxCodeur/le-combattant-de-l-autoroute",
+      "demo": "https://le-combattant-de-l-autoroute.vercel.app/",
+      "deliverable": ""
     },
     "technologies": {
       "javascript": false,

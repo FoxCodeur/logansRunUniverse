@@ -1,16 +1,17 @@
+// Overlay : couche sombre qui recouvre la page et centre la modale
 .modal-overlay {
-  position: fixed;
-  z-index: 2000;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  min-height: 100vh;
-  background: rgba(30, 30, 60, 0.37);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  backdrop-filter: blur(4px);
-  overscroll-behavior: contain; // Ajouté
+  position: fixed; // Reste fixé par-dessus la page
+  z-index: 2000; // S'affiche au-dessus de tout
+  inset: 0; // Occupe tout l'écran (top/right/bottom/left = 0)
+  width: 100vw; // Largeur totale de la fenêtre
+  height: 100vh; // Hauteur totale de la fenêtre
+  min-height: 100vh; // Hauteur minimale (sécurité pour petits écrans)
+  background: rgba(30, 30, 60, 0.37); // Fond sombre semi-transparent
+  display: flex; // Permet le centrage du contenu
+  align-items: center; // Centre verticalement
+  justify-content: center; // Centre horizontalement
+  backdrop-filter: blur(4px); // Floute l'arrière-plan (effet glass)
+  overscroll-behavior: contain; // Bloque le scroll de fond sur mobile
 
   // Support moderne pour mobile (viewport dynamique)
   @supports (height: 100dvh) {
@@ -19,25 +20,28 @@
   }
 }
 
+// Fenêtre principale de la modale
 .modal-content {
   position: relative;
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.92);
-  border-radius: 1.3rem;
-  padding: 2.5rem 1.5rem 1.7rem 1.5rem;
+  background: rgba(255, 255, 255, 0.92); // Fond blanc légèrement transparent
+  border-radius: 1.3rem; // Coins arrondis
+  padding: 2.5rem 1.5rem 1.7rem 1.5rem; // Espace interne (haut, côtés, bas)
   box-shadow:
     0 12px 40px 0 rgba(80, 90, 210, 0.13),
-    0 2.5px 12px rgba(0, 0, 0, 0.09);
-  max-width: 480px;
-  width: 96vw;
-  max-height: 88vh;
-  overflow-y: auto;
-  border: 1.5px solid rgba(130, 160, 255, 0.16);
-  backdrop-filter: blur(15px) saturate(120%);
+    // Ombre colorée principale
+    0 2.5px 12px rgba(0, 0, 0, 0.09); // Ombre secondaire
+  max-width: 480px; // Largeur max
+  width: 96vw; // Presque toute la largeur sur mobile
+  max-height: 88vh; // Hauteur max (évite de dépasser l'écran)
+  overflow-y: auto; // Scroll interne si besoin
+  border: 1.5px solid rgba(130, 160, 255, 0.16); // Liseré discret
+  backdrop-filter: blur(15px) saturate(120%); // Effet verre renforcé
   -webkit-backdrop-filter: blur(15px) saturate(120%);
-  animation: modalUp 0.3s cubic-bezier(0.23, 1.36, 0.62, 1.01);
+  animation: modalUp 0.3s cubic-bezier(0.23, 1.36, 0.62, 1.01); // Animation d’apparition
 }
 
+// Animation d’apparition : la modale "monte" et apparaît en fondu
 @keyframes modalUp {
   from {
     transform: translateY(80px) scale(0.97);
@@ -49,27 +53,29 @@
   }
 }
 
+// Bouton pour fermer la modale (croix en haut à droite)
 .modal-close {
   position: sticky;
   top: 2rem;
   left: 1rem;
-  float: right;
+  float: right; // Aligne à droite
   margin-left: auto;
   display: block;
-  background: transparent;
-  border: none;
-  font-size: 2.2rem;
-  color: #7f9cf5;
+  background: transparent; // Pas de fond
+  border: none; // Pas de bordure
+  font-size: 2.2rem; // Grande croix
+  color: #7f9cf5; // Couleur principale
   cursor: pointer;
   line-height: 1;
   z-index: 10;
   padding: 0;
   transition:
     color 0.18s,
-    transform 0.17s;
+    // Transition douce sur la couleur
+    transform 0.17s; // Transition sur la taille/rotation
 
   &:hover {
-    color: #5a189a;
-    transform: scale(1.15) rotate(8deg);
+    color: #5a189a; // Devient plus foncé au survol
+    transform: scale(1.15) rotate(8deg); // Effet visuel au survol
   }
 }

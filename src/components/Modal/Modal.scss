@@ -1,28 +1,23 @@
 .modal-overlay {
   position: fixed;
-  z-index: 2000;
   inset: 0;
+  z-index: 2000;
   width: 100vw;
-  min-height: 100svh; /* viewport réel, évite le hors-champ mobile */
+  height: 100svh;
   background: rgba(30, 30, 60, 0.37);
+  backdrop-filter: blur(4px);
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 5vh 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(4px);
-
-  /* Ajoute un léger padding pour éviter le collage sur le haut/bas en mobile */
-  padding: 4vw 0 4vw 0;
-
-  /* Sécurité pour les encoches (iPhone) */
-  padding-top: max(4vw, env(safe-area-inset-top));
-  padding-bottom: max(4vw, env(safe-area-inset-bottom));
-  box-sizing: border-box;
 }
 
 .modal-content {
   position: relative;
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.97);
   border-radius: 1.3rem;
   padding: 2.5rem 1.5rem 1.7rem 1.5rem;
   box-shadow:
@@ -30,34 +25,19 @@
     0 2.5px 12px rgba(0, 0, 0, 0.09);
   max-width: 480px;
   width: 96vw;
-  max-height: 88vh;
+  max-height: 90vh;
   overflow-y: auto;
   border: 1.5px solid rgba(130, 160, 255, 0.16);
   backdrop-filter: blur(15px) saturate(120%);
   -webkit-backdrop-filter: blur(15px) saturate(120%);
   animation: modalUp 0.3s cubic-bezier(0.23, 1.36, 0.62, 1.01);
-
-  /* Centre la modal même si jamais le flex bug */
   margin: auto;
 }
 
-@keyframes modalUp {
-  from {
-    transform: translateY(80px) scale(0.97);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-}
-
 .modal-close {
-  position: sticky;
-  top: 2rem;
-  left: 1rem;
-  float: right;
-  margin-left: auto;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
   display: block;
   background: transparent;
   border: none;
@@ -78,26 +58,48 @@
 }
 
 @media (max-width: 600px) {
-  .modal-overlay {
-    align-items: flex-end; /* Place la modal en bas */
-    justify-content: center;
-    padding-bottom: 6vw; /* Espace avec le bas */
-    padding-top: 0; /* Plus de padding haut */
-    min-height: 100dvh;
-    box-sizing: border-box;
-    overflow-y: auto;
-  }
   .modal-content {
     width: 98vw;
     max-width: 98vw;
-    min-width: 0;
+    max-height: 76vh;
     padding: 1.2rem 0.5rem 1.2rem 0.5rem;
-    border-radius: 1.1rem 1.1rem 0.9rem 0.9rem; /* coins arrondis sauf en bas */
-    margin: 0 auto;
-    max-height: 90vh; /* Permet de scroller si trop haut */
+    border-radius: 0.9rem;
+    overflow-y: auto;
   }
   .modal-close {
-    top: 1rem;
     font-size: 2rem;
+    top: 1rem;
+    right: 1rem;
   }
+}
+
+@keyframes modalUp {
+  from {
+    transform: translateY(80px) scale(0.97);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.modal-project-header {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1.4rem;
+}
+.modal-project-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 0.7rem;
+  box-shadow: 0 2px 8px rgba(80, 90, 210, 0.05);
+}
+.modal-project-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #362f6c;
+  margin: 0;
 }

@@ -1,74 +1,68 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useCallback } from "react";
 import { createPortal } from "react-dom";
 import PropTypes from "prop-types";
 import "./Modal.scss";
 
-/**
- * Détection stricte du mobile :
- * - Vérifie la présence de fonctionnalités tactiles (touch events ou points tactiles)
- * - Vérifie que la largeur de l'écran est <= 600px
- * - Analyse le user agent pour ne retenir que Android/iPhone/iPod (exclut tablettes)
- * (N'utilise pas de propriété dépréciée)
- */
+// Détection stricte du mobile (optimisée)
 const isStrictMobile = () => {
   const isTouch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
   const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
   const ua = navigator.userAgent || "";
-  // Exclut les tablettes Android, ne garde que les smartphones Android/iPhone/iPod
+  // Exclut tablettes Android, conserve smartphones Android/iPhone/iPod
   const isMobileUA = /android(?!.*tablet)|iphone|ipod/i.test(ua);
   return isTouch && isSmallScreen && isMobileUA;
 };
 
-/**
- * Composant Modal :
- * - Affiche une fenêtre modale superposée au reste de l'interface
- * - Gère le scroll du body et l'animation d'apparition selon le device
- * - Ferme la modale sur clic overlay ou bouton croix
- */
 const Modal = ({ children, onClose }) => {
   const modalRef = useRef(null);
   const [noAnim, setNoAnim] = useState(false);
 
+  // Effet pour empêcher le scroll du body et gérer le focus
   useEffect(() => {
-    // Si mobile strict, désactive l'animation d'apparition
-    if (isStrictMobile()) setNoAnim(true);
-
-    // Empêche le scroll du body quand la modale est ouverte
     document.body.classList.add("modal-open");
     document.body.style.overflow = "hidden";
 
-    // Sur mobile strict, force le scroll en haut pour s'assurer que la modale est bien visible
-    let interval;
-    if (isStrictMobile()) {
-      let count = 0;
-      const maxTries = 8;
-      interval = setInterval(() => {
-        window.scrollTo(0, 0);
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-        if (modalRef.current) {
-          modalRef.current.scrollIntoView({ block: "start", behavior: "auto" });
-        }
-        count++;
-        if (count >= maxTries) clearInterval(interval);
-      }, 50);
-    }
-
-    // Nettoyage à la fermeture de la modale
     return () => {
-      if (interval) clearInterval(interval);
       document.body.classList.remove("modal-open");
       document.body.style.overflow = "";
     };
   }, []);
 
-  // Affiche la modale en utilisant un portail React dans le body
+  // Effet pour désactiver l'animation sur mobile strict + scroll to top
+  useEffect(() => {
+    if (!isStrictMobile()) return;
+
+    setNoAnim(true);
+
+    // Scroll to top et s'assure que la modale est visible, même clavier ouvert
+    let tries = 0;
+    const maxTries = 8;
+    const scrollInterval = setInterval(() => {
+      window.scrollTo(0, 0);
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      modalRef.current?.scrollIntoView({ block: "start", behavior: "auto" });
+      tries++;
+      if (tries >= maxTries) clearInterval(scrollInterval);
+    }, 50);
+
+    return () => clearInterval(scrollInterval);
+  }, []);
+
+  // Gestion du clic overlay pour fermeture
+  const handleOverlayClick = useCallback(() => {
+    onClose();
+  }, [onClose]);
+
+  // Empêche la propagation du clic à l'overlay
+  const stopPropagation = useCallback((e) => e.stopPropagation(), []);
+
   return createPortal(
-    <div className="modal-overlay" onClick={onClose}>
+    <div className="modal-overlay" onClick={handleOverlayClick}>
       <div
         ref={modalRef}
         className={`modal-content${noAnim ? " modal-content--no-anim" : ""}`}
-        onClick={(e) => e.stopPropagation()} // Empêche la fermeture si on clique dans la modale
+        onClick={stopPropagation}
         role="dialog"
         aria-modal="true"
         tabIndex={-1}

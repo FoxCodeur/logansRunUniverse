@@ -1,23 +1,16 @@
-// Overlay : couche sombre qui recouvre la page et centre la modale
+@use "@/styles/mixins" as *;
+
 .modal-overlay {
-  position: fixed; // Reste fixé par-dessus la page
+  position: fixed;
   z-index: 2000; // S'affiche au-dessus de tout
   inset: 0; // Occupe tout l'écran (top/right/bottom/left = 0)
   width: 100vw; // Largeur totale de la fenêtre
   height: 100vh; // Hauteur totale de la fenêtre
   min-height: 100vh; // Hauteur minimale (sécurité pour petits écrans)
   background: rgba(30, 30, 60, 0.37); // Fond sombre semi-transparent
-  display: flex; // Permet le centrage du contenu
-  align-items: center; // Centre verticalement
-  justify-content: center; // Centre horizontalement
+  @include flex-center;
   backdrop-filter: blur(4px); // Floute l'arrière-plan (effet glass)
   overscroll-behavior: contain; // Bloque le scroll de fond sur mobile
-
-  // Support moderne pour mobile (viewport dynamique)
-  @supports (height: 100dvh) {
-    height: 100dvh;
-    min-height: 100dvh;
-  }
 }
 
 // Fenêtre principale de la modale
@@ -35,8 +28,8 @@
   width: 96vw; // Presque toute la largeur sur mobile
   max-height: 88vh; // Hauteur max (évite de dépasser l'écran)
   overflow-y: auto; // Scroll interne si besoin
-  border: 1.5px solid rgba(130, 160, 255, 0.16); // Liseré discret
-  backdrop-filter: blur(15px) saturate(120%); // Effet verre renforcé
+  border: 1.5px solid rgba(130, 160, 255, 0.16);
+  backdrop-filter: blur(15px) saturate(120%);
   -webkit-backdrop-filter: blur(15px) saturate(120%);
   animation: modalUp 0.3s cubic-bezier(0.23, 1.36, 0.62, 1.01); // Animation d’apparition
 }

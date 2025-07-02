@@ -136,8 +136,8 @@ const routesConfig = [
   { path: "/", element: Home, exact: true },
   { path: "/lexique", element: Lexique },
   { path: "/timelines", element: Timeline },
-  { path: "games", element: Games },
-  { path: "portfolio", element: Portfolio },
+  { path: "/games", element: Games },
+  { path: "/portfolio", element: Portfolio },
   { path: "*", element: ErrorPage }, // Capture toutes les routes non définies
   // ------------------------------A----------------------------------------------
   { path: "les-acteurs-du-film", element: Acteurs },

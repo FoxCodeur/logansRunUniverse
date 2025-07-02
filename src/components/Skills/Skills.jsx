@@ -1,5 +1,6 @@
 import React from "react";
 import SkillCard from "../SkillCard/SkillCard";
+// Importation des icônes pour chaque compétence via react-icons
 import {
   SiJavascript,
   SiReact,
@@ -17,9 +18,10 @@ import {
 import { DiGithubAlt } from "react-icons/di";
 import "./Skills.scss";
 
+// Tableau des compétences à afficher
 const skills = [
   {
-    icon: <SiJavascript color="#F7DF1E" />,
+    icon: <SiJavascript color="#F7DF1E" />, // Icône JS avec couleur officielle
     title: "JavaScript",
     description: "Dynamic scripting language for web development.",
   },
@@ -29,14 +31,12 @@ const skills = [
     description: "Modern library for building user interfaces.",
   },
   {
-    // React Context avec une couleur différente (#21A1F3)
-    icon: <SiReact color="#21A1F3" />,
+    icon: <SiReact color="#21A1F3" />, // React Context, couleur différente pour distinguer
     title: "React Context",
     description: "Système de gestion d’état global pour React.",
   },
   {
-    // Redux avec une couleur différente (#764ABC est la couleur officielle Redux)
-    icon: <SiRedux color="#764ABC" />,
+    icon: <SiRedux color="#764ABC" />, // Redux, couleur officielle
     title: "Redux",
     description: "Gestion centralisée de l’état des applications React.",
   },
@@ -56,7 +56,7 @@ const skills = [
     description: "CSS pre-processor with advanced features.",
   },
   {
-    icon: <DiGithubAlt className="github-icon" color="#fff" />,
+    icon: <DiGithubAlt className="github-icon" color="#fff" />, // Icône GitHub
     title: "GitHub",
     description: "Platform for version control and collaboration.",
   },
@@ -92,13 +92,16 @@ const skills = [
   },
 ];
 
+// Composant principal Skills
 const Skills = () => (
   <section className="skills-section">
+    {/* Titre de la section */}
     <h2>Compétences</h2>
+    {/* Liste des compétences, rendue via SkillCard pour chaque élément */}
     <div className="skills-list">
       {skills.map((skill, idx) => (
         <SkillCard
-          key={idx}
+          key={idx} // Clé unique pour chaque carte (ici l'index du tableau)
           icon={skill.icon}
           title={skill.title}
           description={skill.description}
